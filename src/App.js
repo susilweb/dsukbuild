@@ -143,6 +143,8 @@ import SupplyChainImplementation from "./SupplyChainImplementation";
 import CustomerServiceImplementation from "./CustomerServiceImplementation";
 import StartGuideThree from "./StartGuideThree";
 import PdfSupplyChainDownload from "./PdfSupplyChainDownload";
+import FieldServicesImplementation from "./FieldServicesImplementation";
+import MarketingImplementation from "./MarketingImplementation";
 const App = () => {
   return (
     <>
@@ -682,6 +684,16 @@ const App = () => {
           path="/guides/download/Pdf-d365-supply-chain-management/"
           component={PdfSupplyChainDownload}
         />
+        <Route 
+          exact 
+          path="/dynamics-365-field-service-implementation/" 
+          component={FieldServicesImplementation} 
+          />
+          <Route 
+          exact 
+          path="/dynamics-365-marketing-implementation/" 
+          component={MarketingImplementation} 
+          />
         <Route exact path="/404" component={Error404} />
         <Redirect to="/404" component={Error404} />
         <Home />

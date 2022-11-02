@@ -17,10 +17,10 @@ const StartGuide = () => {
 
     emailjs
       .sendForm(
-        "service_caieyr7",
-        "template_6bkh7jy",
+        "service_4voumj7",
+        "template_68k24ku",
         e.target,
-        "AqRGHUvLru9UkjZoA"
+        "mJ38M6WTmU7KRrtuZ"
       )
       .then((res) => {
         history.push("/thank-you-for-registration/");

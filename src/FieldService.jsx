@@ -384,7 +384,7 @@ const FieldService = () => {
                     experience by implementing D365 Field Service.
                   </p>
                   <div className="action-content">
-                    <Link data-bs-toggle="modal" to="#exampleModal">
+                    <Link  to="/dynamics-365-field-service-implementation/">
                       Get Started
                     </Link>
                   </div>
