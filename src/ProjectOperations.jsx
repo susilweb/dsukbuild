@@ -377,7 +377,7 @@ const ProjectOperations = () => {
                     your project operations seamlessly.
                   </p>
                   <div className="action-content">
-                    <NavLink data-bs-toggle="modal" to="#exampleModal">
+                    <NavLink  to="/dynamics-365-project-operations-implementation/">
                       Get Started
                     </NavLink>
                   </div>

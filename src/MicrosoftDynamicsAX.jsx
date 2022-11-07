@@ -117,19 +117,20 @@ const MicrosoftDynamicsAX = () => {
 
       <section>
         <div className="container">
-          <header className="section-header">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+            <header className="section-header">
             <h2>
               Dynamics
               <br />
               AX Capabilities
             </h2>
             <p>
-              Microsoft Dynamics AX (Axapta) can help you maximize capabilities,
-              manage collateral's and by-products, comply with legal
-              obligations, meet changing customer demands, and serve to
-              continuous improvements in processes.
+            Microsoft Dynamics AX (Axapta) can help you manage your by-products and collateral, comply with legal obligations, meet changing customer demands, and improve your processes. 
             </p>
           </header>
+            </div>
+          </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -477,18 +478,20 @@ const MicrosoftDynamicsAX = () => {
 
       <section className="Solution-business-why mar-back">
         <div className="container">
-          <header className="section-header">
-            <h2>
-              Benefits Of Using
-              <br />
-              Dynamics AX
-            </h2>
-            <p>
-              If you have an old version of your Dynamics AX , don't be left
-              behind. Complete the migration and accelerate the process while
-              minimizing risks.
-            </p>
-          </header>
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+                <header className="section-header">
+                <h2>
+                  Benefits Of Using
+                  <br />
+                  Dynamics AX
+                </h2>
+                <p>
+                Streamline your financial operations and lead your business towards growth and easy scalability while implementing Dynamics AX. Check out some of the benefits to understand how it can help you achieve maximised profitability.  
+                </p>
+              </header>
+            </div>
+          </div>
           <div className="row pdd1">
             <div className="col-lg-4 col-md-6">
               <div className="why-solution-wrapper why-solution-wrapper-1">
@@ -596,15 +599,59 @@ const MicrosoftDynamicsAX = () => {
       </section>
       <section className="solution-faq faq">
         <div className="container">
-          <header className="section-header">
+          <div className="row justify-content-center">
+          <div className="col-lg-8">
+            <header className="section-header">
             <h2>Dynamics AX Recent Update</h2>
             <p>
               Microsoft Dynamics AX is now available with its latest update that
               offers a lot of extended benefits and features for the users.
             </p>
+              </header>
+            </div>
+          </div>
+          <div className="row">
+           
+            <div className="col-lg-4">
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Modern Interface</h3>
+                  <p>The latest interface of the tool is modern and is even more simpler in looks as well as use. Thus, a lot of time and money is saved as the organizations do not have to invest in training of the employees for the the tool. The interface is easy to understand so that the employees can go through it to understand it and just a minor knowledge can help them in starting with the operations too.</p>
+                  </div>
+                </div>
+            </div>
+            <div className="col-lg-4">
+            <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Productivity Tools</h3>
+                  <p>The latest updated tool can once again integrate semalessly with Office 365 applications and this time it is loaded with even more productivity tools to help the users in operating different functions in an even smoother way. The integration of the option Workplaces has made the integration of several applications even better.</p>
+                  </div>
+                </div>
+            </div>
+            <div className="col-lg-4">
+            <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Cortana Integration</h3>
+                  <p>The integration of Cortana feature has simplified tasks even better. The users can make use of voice command to get several tasks done. Thus, it allows the users to do two tasks together at the same time that can help in saving a lot of time and effort. With all such features and benefits, surely, Microsoft Dynamics AX is going to transform the way business organizations operate these days to have a better future ahead.</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="solution-faq faq">
+        <div className="container">
+         <div className="row justify-content-center">
+          <div className="col-lg-8">
+          <header className="section-header">
+            <h2>Have You Got
+Questions <br /> About Dynamics AX?</h2>
+<p>Click through to our FAQ for the best answers!</p>
           </header>
-          <div className="row justify-content-center mar-top-7">
-            <div className="col-lg-7">
+          </div>
+         </div>
+         <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
               <div className="accordion accordion-flush" id="faqlist1">
                 <div className="accordion-item">
                   <h3 className="accordion-header">
@@ -614,7 +661,7 @@ const MicrosoftDynamicsAX = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-1"
                     >
-                      Modern Interface
+                      What is Microsoft Dynamics AX used for?
                     </button>
                   </h3>
                   <div
@@ -623,16 +670,7 @@ const MicrosoftDynamicsAX = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>
-                        The latest interface of the tool is modern and is even
-                        more simpler in looks as well as use. Thus, a lot of
-                        time and money is saved as the organizations do not have
-                        to invest in training of the employees for the the tool.
-                        The interface is easy to understand so that the
-                        employees can go through it to understand it and just a
-                        minor knowledge can help them in starting with the
-                        operations too.{" "}
-                      </p>
+                      <p>MS Dynamics AX is an ERP (Enterprise Resource Planning) solution capable of streamlining the finances and operations of a business with full efficiency and effectiveness. It helps businesses manage almost all critical operations, organise them, and automate the recurring and manual tasks.</p>
                     </div>
                   </div>
                 </div>
@@ -644,7 +682,7 @@ const MicrosoftDynamicsAX = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
                     >
-                      Productivity Tools
+                      Is Microsoft Dynamics AX still available? 
                     </button>
                   </h3>
                   <div
@@ -653,15 +691,8 @@ const MicrosoftDynamicsAX = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>
-                        The latest updated tool can once again integrate
-                        semalessly with Office 365 applications and this time it
-                        is loaded with even more productivity tools to help the
-                        users in operating different functions in an even
-                        smoother way. The integration of the option Workplaces
-                        has made the integration of several applications even
-                        better.
-                      </p>
+                      <p>No, Dynamics AX is not available for new installation or implementation, but Microsoft still provides its support and upgrade services to some versions only. If you want to avail the latest capabilities to streamline your finances, you can go for <NavLink to="/products/microsoft-dynamics-365-finance/">Microsoft Dynamics 365 Finance</NavLink>, a cloud-based application for small, medium, and large organisations.</p>
+        
                     </div>
                   </div>
                 </div>
@@ -673,7 +704,7 @@ const MicrosoftDynamicsAX = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
                     >
-                      Cortana Integration
+                     Is Dynamics 365 the same as AX?
                     </button>
                   </h3>
                   <div
@@ -682,16 +713,93 @@ const MicrosoftDynamicsAX = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
+                      <p>No, <NavLink to="/products/microsoft-dynamics-365/">Dynamics 365</NavLink> is an all-in-one cloud-based business management solution capable of streamlining the entire operations of all departments, including finance, inventory, distribution, customer service, and supply chain. where MS Dynamics AX is a desktop-based <NavLink to="/products/microsoft-dynamics-erp/">ERP solution</NavLink> capable of managing financial operations only.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                      Is Microsoft Dynamics AX free?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>The cost of Microsoft Dynamics AX implementation depends on various factors, like the complexity of the system, the amount of data, the kind of deployment, the number of integrations, the type of customizations, and much more. However, the average cost of a Microsoft Dynamics AX implementation is £4000.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >
+                     What is Dynamics AX called now?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
                       <p>
-                        The integration of Cortana feature has simplified tasks
-                        even better. The users can make use of voice command to
-                        get several tasks done. Thus, it allows the users to do
-                        two tasks together at the same time that can help in
-                        saving a lot of time and effort. With all such features
-                        and benefits, surely, Microsoft Dynamics AX is going to
-                        transform the way business organizations operate these
-                        days to have a better future ahead.
+                      Dynamics AX has gone through a number of updates and upgrades. After the first update, Dynamics AX becomes <NavLink to="/products/microsoft-dynamics-365-finance-operations/">Microsoft Dynamics Finance and Operations</NavLink>. It was a powerful and complete package to deal with operations, supply chain management, and financial processes. Later, Microsoft understands the urge to separate this single solution into two separate applications: Microsoft Dynamics 365 Finance and <NavLink to="/products/dynamics-365-supply-chain-management/">Microsoft Dynamics 365 Supply Chain Management</NavLink>. 
                       </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-6"
+                    >
+                     What is the difference between Microsoft Dynamics NAV and AX?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-6"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>The basis for the difference between these two applications is that <NavLink to="/products/microsoft-dynamics-nav/">Dynamics NAV</NavLink> is an overall business management solution with few capabilities of CRM, whereas Dynamics is a complete ERP to control and supervise financial operations of an enterprise.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-7"
+                    >
+                     Who uses Microsoft Dynamics AX? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-7"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Generally, Microsoft Dynamics AX is used in such industries with a need to supervise and control financial transactions only. There can be two kinds of users: one for small companies with basic requirements, and another for such companies with complex financial transactions, irrespective of their size and type.</p>
                     </div>
                   </div>
                 </div>

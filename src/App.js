@@ -145,6 +145,9 @@ import StartGuideThree from "./StartGuideThree";
 import PdfSupplyChainDownload from "./PdfSupplyChainDownload";
 import FieldServicesImplementation from "./FieldServicesImplementation";
 import MarketingImplementation from "./MarketingImplementation";
+import ProjectOperationImplementation from "./ProjectOperationImplementation";
+import HumanResourceImplementation from "./HumanResourceImplementation";
+import EmailGpToBc from "./EmailGpToBc";
 const App = () => {
   return (
     <>
@@ -693,6 +696,21 @@ const App = () => {
           exact 
           path="/dynamics-365-marketing-implementation/" 
           component={MarketingImplementation} 
+          />
+          <Route 
+          exact 
+          path="/dynamics-365-project-operations-implementation/" 
+          component={ProjectOperationImplementation} 
+          />
+          <Route 
+          exact 
+          path="/dynamics-365-human-resources-implementation/" 
+          component={HumanResourceImplementation} 
+          />
+          <Route 
+          exact 
+          path="/email-gp-to-bc/" 
+          component={EmailGpToBc} 
           />
         <Route exact path="/404" component={Error404} />
         <Redirect to="/404" component={Error404} />

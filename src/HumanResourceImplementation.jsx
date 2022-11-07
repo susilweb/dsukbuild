@@ -8,15 +8,15 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import { FreeMode, Navigation, Thumbs, Autoplay } from "swiper";
-const SupplyChainImplementation = () => {
+const HumanResourceImplementation = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <>
       <Helmet>
-      <title>Dynamics 365 Supply Chain Management Implementation | Dynamics Square</title>
-<meta name="description" content="Bring agility, optimise resources, and build a resilient supply chain through Dynamics 365 Supply Chain Management implementation."/>
+      <title>Dynamics 365 Human Resources Implementation Partener UK</title>
+<meta name="description" content="Manage your entire workforce, onboard right talent, and transform employee experiences through the implementing Dynamics 365 Human Resources today!"/>
 <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/d365-supply-chain-management-implementation/" />
+<link rel="canonical" href="https://www.dynamicssquare.co.uk/dynamics-365-human-resources-implementation/" />
 <meta property="og:locale" content="en_GB" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
@@ -24,10 +24,10 @@ const SupplyChainImplementation = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1">
               <h1>
-              Dynamics 365  <br />  Supply Chain Management Implementation 
+              Dynamics 365  <br />  Human Resources Implementation 
               </h1>
               <p>
-              Bring agility, optimise resources, and build a resilient supply chain through implementing Dynamics 365 Supply Chain Management.<br /><br /><strong>Learn how Dynamics 365 SCM can help you drive business continuity while enhancing revenue.</strong>
+              Manage your Entire Workforce, onboard right talent, and revolutionise employee experiences while driving smoother human resource practices through implementing Dynamics 365 Human Resource. <br /><br /><strong>Learn how Dynamics 365 Human Resources implementation can help you improve your organizational agility while streamlining entire HR operations from recruitment to administration.</strong>
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -43,8 +43,8 @@ const SupplyChainImplementation = () => {
             </div>
             <div className="col-lg-6">
               <img
-                src="/assets/img/Supplychain banner.png"
-                alt="Supplychain Implementation banner"
+                src="/assets/img/Human-Resource-banner.png"
+                alt="Human-Resource-banner"
               />
             </div>
           </div>
@@ -56,10 +56,8 @@ const SupplyChainImplementation = () => {
           <div className="row justify-content-center">
             <div className="col-lg-9">
             <header className="section-header">
-            <h2>How Dynamic Supply Chain Management implementation can help you build a resilient supply chain system?</h2>
-            <p>
-            Dynamics 365 Supply Chain Management is an end-to-end ERP solution to build a full-proof supply chain system while eliminating redundancies and ensuring a smooth distribution system. It comes with embedded AI, ML, Big Data, Mixed Realty, and IoT technologies, which offer an intelligent platform to connect various departments, including warehouse, inventory, distribution, procurement, manufacturing, and logistics, to streamline the entire supply chain with improved customer satisfaction.
-            </p>
+            <h2>How can Dynamic 365 Human Resources can help you accelerate recruitment process with enhanced employee engagement?</h2>
+            <p>Dynamics 365 Human Resource is a powerful business solution that can help you run more efficient human resource operations while encouraging your entire workforce to be more efficient and productive. It enables you to hire the right talent with limited resources and engage the dedicated workforce with the organisation for its betterment and easy scalability. It comes with various powerful functions, including employee development, personnel management, self-service portals, benefits management, compensation, absence management, employee management, and self-service portals, to let you manage the employee lifecycle efficiently.</p>
           </header>
             </div>
           </div>
@@ -77,7 +75,7 @@ const SupplyChainImplementation = () => {
                         aria-expanded="false"
                         aria-controls="fin1"
                       >
-                        <span>Enhanced Operational Efficiency</span>
+                        <span>Unified Data Management</span>
                       </button>
                     </h3>
                     <div
@@ -87,7 +85,7 @@ const SupplyChainImplementation = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                     <p><NavLink to="/products/dynamics-365-supply-chain-management/">D365 Supply Chain Management</NavLink> is a cutting-edge SCM software that lifts your business and may expand your operations faster while performing more efficiently. It manages the entire supply chain processes, including collaboration, cost savings, improved delivery standards, and exponential growth, with ease.</p>
+                     <p><NavLink to="/products/dynamics-365-human-resources/">Dynamics 365 Human Resources </NavLink> is a practical solution that displays all employees' centralised data, regardless of location, on a single screen. The unified data allows users to utilise embedded analytics and other BI tools to help you make informed and correct decisions whenever needed.</p>
                       </div>
                     </div>
                   </div>
@@ -103,7 +101,7 @@ const SupplyChainImplementation = () => {
                         aria-controls="fin2"
                       >
                       
-                        <span>Boost Revenue</span>
+                        <span>Automate Attendance Tracking</span>
                       </button>
                     </h3>
                     <div
@@ -113,7 +111,7 @@ const SupplyChainImplementation = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      <p>Dynamics SCM can streamline your supply chain, improve communication, and enable collaboration between your team members to help you reduce costs, improve efficiencies, and ultimately boost your revenue.</p>
+                      <p>One of the crucial tasks for HR management is to manage the attendance, leave, and compensation of employees without any errors. If you are doing it manually or using a legacy system, you must be well versed in the errors you encounter at the end of each month. Don't you worry, Dynamics 365 Human Resources has got you covered by offering an advanced solution that will track and record all such data while focusing on employee productivity.</p>
                       </div>
                     </div>
                   </div>
@@ -129,7 +127,7 @@ const SupplyChainImplementation = () => {
                         aria-controls="fin5"
                       >
                        
-                        <span>Synchronized Departments</span>
+                        <span>Understanding Employee Needs</span>
                       </button>
                     </h3>
                     <div
@@ -139,7 +137,7 @@ const SupplyChainImplementation = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                     <p>Dynamics Supply Chain Management implementation enables businesses to link all the departments and share the data efficiently with one another for constant business flow to get the maximum output from limited resources.</p>
+                     <p>You will agree with me when I say that employees' needs are subject to change with time. With D365 Human Resource, you can easily understand the changing needs of the employees by performing and recording forms or small tasks regularly. Also, you can address the individual concerns by providing the required resources or resolving the respective issues on time.</p>
                       </div>
                     </div>
                   </div>
@@ -155,7 +153,7 @@ const SupplyChainImplementation = () => {
                         aria-controls="fin6"
                       >
                      
-                        <span>Advanced Data Insights</span>
+                        <span>Simplify the Recruitment Process</span>
                       </button>
                     </h3>
                     <div
@@ -165,7 +163,7 @@ const SupplyChainImplementation = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                     <p>A supply chain consists of several operations, checkpoints, and milestones where the data must be updated in real-time for maximum operational efficiency. The in-built advanced data insights keep track of all actions and let the users take informed decisions proactively.</p>
+                     <p>A recruitment process consists of a number of complex milestones, which must be cleared for a smooth recruitment practice. D365 HR simplifies the whole process, starting from finding a candidate that suits the requirements to retaining them for a long-term plan. It collects data for each milestone, stores it on the portal, and shows it to the concerned person. It lets the organisation keep track of each successful milestone covered.</p>
                       </div>
                     </div>
                   </div>
@@ -187,7 +185,7 @@ const SupplyChainImplementation = () => {
                         aria-expanded="false"
                         aria-controls="fin3"
                       >
-                        <span>Optimize Supply Chain</span>
+                        <span>Hire and Retain the Best Talent</span>
                       </button>
                     </h3>
                     <div
@@ -197,7 +195,7 @@ const SupplyChainImplementation = () => {
                       data-bs-parent="#accnewasd"
                     >
                       <div className="accordion-body">
-                      <p>There is always a room for improvement in every business. This powerful application comes with process optimization that enables the users to optimize the existing operations and prepare the system for data and demand forecasting.</p>
+                      <p>The growth of a company depends on the right choice of talent. When the right employee is hired, it directly leads to the growth of the organisation as well as the employee. As per the specific selection criteria, Dynamics 365 HR enables the recruitment team to shortlist the candidate, record the data, and share the profile with the concerned person, who decides whether the candidate is good to go for the next round or not.</p>
                       </div>
                     </div>
                   </div>
@@ -212,7 +210,7 @@ const SupplyChainImplementation = () => {
                         aria-expanded="false"
                         aria-controls="fin4"
                       >
-                        <span>Leverage Automation</span>
+                        <span>Optimise HR Policies</span>
                       </button>
                     </h3>
                     <div
@@ -222,7 +220,7 @@ const SupplyChainImplementation = () => {
                       data-bs-parent="#accnewasd"
                     >
                       <div className="accordion-body">
-                      Most of the recurring and manual processes can be automated to optimise workforce productivity with minimal effort. The automation in this application helps you reduce downtime, improve profit margins, leverage the power of IoT, and improve operational efficiency.
+                     <p>D365 Human Resources employs cutting-edge technology such as AI, BI, and IoT to assist you in developing new policies for a more sustainable candidate experience, as well as optimising existing policies where there is room for improvement. It not only optimises HR policies, but many of the admin-level policies to create an employee-centric environment.</p>
                       </div>
                     </div>
                   </div>
@@ -237,7 +235,7 @@ const SupplyChainImplementation = () => {
                         aria-expanded="false"
                         aria-controls="fin7"
                       >
-                        <span>Maximised ROI</span>
+                        <span>Improve Employee Experiences</span>
                       </button>
                     </h3>
                     <div
@@ -247,7 +245,7 @@ const SupplyChainImplementation = () => {
                       data-bs-parent="#accnewasd"
                     >
                       <div className="accordion-body">
-                        <p>Dynamics 365 Supply Chain Management controls the set of activities that ensure the efficient and effective flow of goods and services from suppliers to end customers. This is an effective solution that can assist you in reducing inventory costs, improving customer service, and supporting communication.</p>
+                        <p>The organisation must try to provide a liveable and pleasant experience to all employees so that they stay engaged with the company, resulting in a high employee retention rate and low resignation rate. <NavLink to="/products/microsoft-dynamics-365/">Dynamics 365</NavLink> provides a platform consisting of all data and necessary information with the flexibility to access self-service human resource tools and resolve simple queries without bothering anyone. </p>
                       </div>
                     </div>
                   </div>
@@ -262,7 +260,7 @@ const SupplyChainImplementation = () => {
                         aria-expanded="false"
                         aria-controls="fin8"
                       >
-                        <span>Flexible with Customizations</span>
+                        <span>Utilize Workforce Insights</span>
                       </button>
                     </h3>
                     <div
@@ -272,7 +270,7 @@ const SupplyChainImplementation = () => {
                       data-bs-parent="#accnewasd"
                     >
                       <div className="accordion-body">
-                        <p>Customization and integration make a solution adaptable to all changing business needs as per market and customer demand. D365 SCM is flexible with unique customizations to perform specific business operations, enabling more focus on growth and scalability rather than being consumed with core operations.</p>
+                        <p>Dynamics 365 Human Resources is a cloud-based solution that comes with real-time workforce insights. It comes with embedded analytics that tracks all data related to the human workforce, with the option of Power BI integration to visualise as well as utilise the data efficiently. Based on this knowledge, the HR team can conduct surveys to determine the exact needs of the employees and provide them with all positivity.</p>
                       </div>
                     </div>
                   </div>
@@ -288,8 +286,8 @@ const SupplyChainImplementation = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Avail Full support for your business beyond implementation!</h3>
-                <p>Join hands with a hassle-free D365 SCM implementation partner today and avail support beyond it.</p>
+                <h3>Avail Continuous Support for your Business Beyond Implementation!</h3>
+                <p>JJoin hands with a cost-effective D365 Human Resources implementation partner today and avail support beyond it.</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link
                     data-bs-toggle="modal"
@@ -317,8 +315,8 @@ const SupplyChainImplementation = () => {
             <div className="col-lg-6">
               <div className="box-6">
                 <div className="box-6-top-head">
-                  <h2>Our Simple yet Powerful D365 SCM Implementation Methodology </h2>
-                  <p>We opt for Microsoft's certified implementation methodology only to know the existing system of the organisation and its requirements too. We analyse in such a way that our supply chain implementation professional guarantees a successful and secure process. </p>
+                  <h2>Our Simple yet Powerful D365 Human Resources Implementation Methodology</h2>
+                  <p>Microsoft has a certified implementation methodology that we use to understand your existing legacy system. With this process, we can guarantee you a successful, secure, and transparent process.</p>
                 </div>
                 <div className="box-6-bottom">
                   <div className="posi-bottm">
@@ -336,31 +334,31 @@ const SupplyChainImplementation = () => {
                       <SwiperSlide>
                         <div className="box-6-bottom">
                           <h4>Analysis Phase</h4>
-                          <p>In order to better understand the current processes of the organization and predict future requirements, our team will begin preparing the FRD (Functional Requirement Document).</p>
+                          <p>Our team will begin work on preparing the FRD (Functional Requirement Document) in order to gain an understanding of the organization's current processes as well as to predict any future requirements.</p>
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="box-6-bottom">
                           <h4>Design Phase</h4>
-                          <p>Based on the details you supplied, our staff will generate a GAP-FIT document that details what you require. The paper will identify the regular components that are already covered by FIT as well as any adjustments you need that aren't yet covered by GAP. We can determine the common configurations and integrations you require as well as any conceivable add-ons with the aid of this information.</p>
+                          <p>Based on the specifications you've provided, our team will examine your present needs and create a GAP-FIT document that defines what you require. We will identify the items that are standard and already available under FIT, and we will list the modifications you require that are not yet available under GAP. This document will assist us in determining the typical integrations and configurations you require, as well as any potential add-ons.</p>
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="box-6-bottom">
                           <h4>Development Phase</h4>
-                          <p>In this phase, our team will try to first understand your company's specific needs in order to develop a custom solution that will help you attain the goals you've set for maximum growth and profitability. The personalised Dynamics 365 supply chain management solution would help you understand your business needs and how to furnish them too.</p>
+                          <p>In this stage of the project, our team will develop a Dynamics 365 Human Resources solution that is personalized and caters to your company specifically. This will help you reach new levels of growth and profitability.</p>
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="box-6-bottom">
                           <h4>Deployment Phase</h4>
-                          <p>In this phase, we put the system on servers for user testing and to see if it meets the GAP-FIT and FRD requirements. If not, we'll make more changes until it provides the right solution for the business.</p>
+                          <p>By deploying the system on servers, we are able to provide users with a test version of the system. This also allows us to test whether the system has been built according to the GAP-FIT and FRD. If not, we will make further changes to ensure that we are providing an ideal solution for the business.</p>
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="box-6-bottom">
                           <h4>Post Go-Live Support</h4>
-                          <p>This is the last phase of whole process. In this, we will make the system live so that your team can utilize the advance capabilities for your business growth.</p>
+                          <p>In the last phase, we make the system live so your team can start working on it with full efficiency and productivity. Our team will be there to help you with the transition and to ensure that everything runs smoothly.</p>
                         </div>
                       </SwiperSlide>
                     </Swiper>
@@ -463,8 +461,8 @@ const SupplyChainImplementation = () => {
           <div className="row justify-content-center">
             <div className="col-md-9">
             <header className="section-header">
-            <h2>Why Choose Dynamics Square as Your Trusted Dynamics 365 Supply Chain Management Implementation Partner?</h2>
-            <p>Before the start of the implementation process, our sole motto is to understand your unique business operations, explore future needs, and then offer a tailored business solution. We believe in full customer satisfaction and building unbreakable trust with our customers (a major reason for being successful for the last 11 years).</p>
+            <h2>Why Choose Dynamics Square as Your Trusted Dynamics 365 Human Resources Implementation Partner?</h2>
+            <p>At the beginning of every project, our goal is to learn about your company's specific operations, get an idea of your future needs, and offer a custom-made solution. We're dedicated to customer satisfaction and developing trust between us and our clients - which has been a big part of our success over the past 11 years.</p>
           </header>
             </div>
           </div>
@@ -477,7 +475,7 @@ const SupplyChainImplementation = () => {
                   Professionals
                   </h3>
                   <div className="overlay">
-                    <p>We have a team of certified professionals with years of experience in providing <NavLink to="/our-services/dynamics-365-implementation-services/">implementation</NavLink>, <NavLink to="/our-services/dynamics-365-upgrade-services/">upgrade</NavLink>, and <NavLink to="/our-services/dynamics-365-support-services/">support services</NavLink> to businesses like yours.</p>
+                    <p>We're here to help you take your business to the next level with our team of certified professionals. We have years of experience in providing implementation, upgrade, and support services to businesses like yours, so you can rest assured that you're in good hands.</p>
                   </div>
                 </div>
               </div>
@@ -491,7 +489,7 @@ const SupplyChainImplementation = () => {
                     Pricing
                   </h3>
                   <div className="overlay">
-                    <p>We have competitive and effective pricing for all our services irrespective of the business type and size to help you get most out of your investment.  </p>
+                    <p>We work hard to provide you with competitive and cost-effective pricing for all of our services so that you feel confident and good about the money you're spending with us.</p>
                   </div>
                 </div>
               </div>
@@ -505,7 +503,7 @@ const SupplyChainImplementation = () => {
                   Expertise
                   </h3>
                   <div className="overlay">
-                    <p>Our D365 supply chain consultants have years of experience and extensive knowledge to resolve the simple as well as complex issues in the given deadline.</p>
+                    <p>OWe have experts with extensive knowledge and experience in different industries who can cater to all types and sizes of businesses</p>
                   </div>
                 </div>
               </div>
@@ -519,7 +517,7 @@ const SupplyChainImplementation = () => {
                     Implementation
                   </h3>
                   <div className="overlay">
-                    <p>Our fast, unique, and smooth Dynamics 365 Supply Chain Management implementation strategy works best for the business development without depending upon the complexity of the market to let you run business efficiently.</p>
+                    <p>Our Dynamics 365 Human Resources implementation process is quick, unique, and efficient - perfect for businesses who want to avoid the complexities that come with other methods. You can rely on us to keep your operations running smoothly without any unnecessary stress or complications.</p>
                   </div>
                 </div>
               </div>
@@ -532,7 +530,7 @@ const SupplyChainImplementation = () => {
                   Customer Support
                   </h3>
                   <div className="overlay">
-                    <p>Our dedicated <NavLink to="/our-services/dynamics-365-support-services">D365 support</NavLink> team is always available to help you in a time of need without any time, region, or language barriers to help you rise above the limits.</p>
+                    <p>Our professional team of experts is available 24/7 to help you with whatever you need, no matter what time it is, where you are, or what language you speak. We're here to help you break through any barriers that might be holding you back.</p>
                   </div>
                 </div>
               </div>
@@ -545,7 +543,7 @@ const SupplyChainImplementation = () => {
                   Satisfaction
                   </h3>
                   <div className="overlay">
-                    <p>We promise to never stop fighting until you're one-hundred percent satisfied with the support and services we've provided. It's not going to be an easy journey, but we'll be with you every step of the way - that's a promise. </p>
+                    <p>We will continue working diligently until you are completely satisfied with the support and services we have provided. The process may not be easy, but we give you our word that we will see it through.</p>
                   </div>
                 </div>
               </div>
@@ -553,41 +551,48 @@ const SupplyChainImplementation = () => {
           </div>
         </div>
       </section>
-
       <section id="pricing" className="pricing">
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-9">
-            <header className="section-header">
-            <h2>Dynamics 365 <br /> Supply Chain Management Pricing</h2>
-            <p>
-              Build a consistent and flexible supply chain by our Dynamics 365
-              Supply Chain Management Packages
-            </p>
+         <div className="row justify-content-center">
+          <div className="col-lg-8">
+          <header className="section-header">
+            <h2>Dynamics 365 Human Resources pricing</h2>
           </header>
-            </div>
           </div>
+         </div>
           <div className="row gy-4 p-9 justify-content-center">
-            <div className="col-lg-6">
+            <div className="col-lg-5 col-md-6">
               <div className="box box-22">
                 <h3>
-                  Dynamics 365
-                  <br />
-                  Supply Chain Management
+                Dynamics 365 Human Resources
                 </h3>
                 <div className="price">
-                  <sup>£</sup>135.70<span>Per-User/Per Month</span>
+                  <sup>£</sup>90.50<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
-                    Build Resilience with an Agile Supply Chain with Dynamics
-                    365. Enhance Customer Service. Drive Business Sales. Manage
-                    Topline Revenue. Market Smarter. Services: Cloud-Based CRM,
-                    Customer Support, Automate Sales, Marketing Features.
+                  Includes full application capabilities
                   </li>
                 </ul>
               </div>
             </div>
+            <div className="col-lg-5 col-md-6">
+              <div className="box box-22">
+                <h3>
+                Dynamics 365 Human Resources Self-Service
+                </h3>
+                <div className="price">
+                  <sup>£</sup>3<span>Per-User/Per Month</span>
+                </div>
+                <ul>
+                  <li className="text-center">
+                  Employee and manager self-service capabilities
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+
             <div className="col-lg-12 col-md-12">
             <p className="text-center" style={{padding:'50px 0px 0px 0px'}}><b>Looking for Customised Pricing as per your business requirements?</b></p>
               <div className="price-btn price-btnasd d-flex justify-content-center">
@@ -603,6 +608,8 @@ const SupplyChainImplementation = () => {
           </div>
         </div>
       </section>
+
+      
 
       <section className="call-to-action-center hero-4">
         <div className="container">
@@ -630,7 +637,7 @@ const SupplyChainImplementation = () => {
         <div className="container">
           <header className="section-header">
             <h2>
-            Most searched Dynamics 365 <br /> Supply Chain Implementation FAQs</h2>
+            Most searched Dynamics 365 <br /> Human Resources  Implementation FAQs</h2>
             <p>Click to explore the best answer!</p>
           </header>
           <div className="row justify-content-center mar-top-7">
@@ -644,7 +651,7 @@ const SupplyChainImplementation = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-1"
                     >
-                     What's next after submitting my contact details? 
+                     What's my role in the entire implementation project?
                     </button>
                   </h3>
                   <div
@@ -653,7 +660,7 @@ const SupplyChainImplementation = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>One of our consultants will call you after you've submitted your information to find out more about your business. The Phase 1 Discovery Call refers to this initial discussion. Everything will be documented, a functional requirements document (FRD) will be made, a FIT-GAP analysis will be carried out, and then the implementation phase will start. We'll have another Discovery Call if necessary with one of our experienced functional consultants. </p>
+                      <p>Your sole responsibility will be to provide your Dynamics 365 installation partner with correct information about your present processes and anticipated future needs so that we may create the ideal D365 Project Operations implementation solution for you. Additionally, for a flawless and easy deployment, you must be cooperative throughout the process.</p>
                     </div>
                   </div>
                 </div>
@@ -665,7 +672,7 @@ const SupplyChainImplementation = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
                     >
-                     What is the accurate cost of D365 Supply Chain Management implementation? 
+                     Does Dynamics Square provide training? 
                     </button>
                   </h3>
                   <div
@@ -674,7 +681,7 @@ const SupplyChainImplementation = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                     <p>Several variables, including time and complexity, will affect implementation costs. Please give us a call or use the contact form on our website if you'd like an exact price for the implementation procedure. </p>
+                     <p>We provide free comprehensive training to users so they can get the most out of the new solution. This not only includes learning about all the features and capabilities, but also understanding the fundamental capabilities to recognise present and future needs for Phase 2 implementation (if necessary).</p>
                     </div>
                   </div>
                 </div>
@@ -686,7 +693,7 @@ const SupplyChainImplementation = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
                     >
-                     What's my role in the entire implementation project?
+                    What's next after submitting my contact details?
                     </button>
                   </h3>
                   <div
@@ -695,7 +702,7 @@ const SupplyChainImplementation = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>We need your help to build the best Dynamics 365 Supply Chain Management implementation strategy possible. Your responsibility will be to provide your Dynamics 365 implementation partner with accurate information about the procedures that are in place today and any future requirements. Additionally, for a flawless and easy deployment, it is essential that you be cooperative throughout the process. </p>
+                      <p>Following the submission of your information, one of our experts will contact you to conduct a Phase 1 Discovery Call in which they will learn more about your company's history, current needs, and potential future requirements. The implementation phase will begin after we have finished documenting everything, creating a FRD, and running a FIT-GAP analysis. In the event that it is necessary, we set up another Discovery Call with one of our knowledgeable functional consultants to address the issues.</p>
                     </div>
                   </div>
                 </div>
@@ -707,7 +714,7 @@ const SupplyChainImplementation = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
                     >
-                    How long will it take to implement the project successfully?
+                   What is the accurate cost of D365 Human Resources implementation? 
                     </button>
                   </h3>
                   <div
@@ -716,7 +723,7 @@ const SupplyChainImplementation = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    <p>There is no one-size-fits-all answer when it comes to how long it will take to implement a solution like Dynamics 365 Finance and Operations or SCM. The timeframe depends on a number of factors, such as the number of processes, the complexity of operations, integrations, and customizations. Without knowing more about your specific business and its needs, it's impossible to provide a more accurate estimate.</p>
+                    <p>The exact cost of implementation is determined by a number of factors, just as time. To receive a precise price for the implementation process, you may just phone us and complete the Contact Form.</p>
                     </div>
                   </div>
                 </div>
@@ -728,7 +735,7 @@ const SupplyChainImplementation = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-5"
                     >
-                    Does Dynamics Square provide training?
+                  How long will it take to implement the project successfully? 
                     </button>
                   </h3>
                   <div
@@ -737,7 +744,7 @@ const SupplyChainImplementation = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Yes, we provide free training to users after providing the respected service. Our training will help users like you to understand the core features, and capabilities of this powerful solution. Also, we will help you understand the effectiveness of this software so that you can customize it in future too.</p>
+                      <p>Without fully comprehending the business and its needs, neither we nor anyone else can provide you a precise timeline for implementing a solution. The time is determined by a number of elements, such as the quantity of processes, the complexity of operations, integrations, and customizations. </p>
                       <p><b>See Also -</b></p>
                       <ul>
                         <li><NavLink to="/dynamics-365-finance-implementation/">Dynamics 365 Finance Implementation</NavLink></li>
@@ -756,4 +763,4 @@ const SupplyChainImplementation = () => {
   );
 };
 
-export default SupplyChainImplementation;
+export default HumanResourceImplementation;

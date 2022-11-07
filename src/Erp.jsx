@@ -17,49 +17,6 @@ const Erp = () => {
           href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-erp/"
         />
         <meta property="og:locale" content="en_GB" />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Microsoft Dynamics ERP | Enterprise Grade ERP Solution"
-        />
-        <meta
-          property="og:description"
-          content="Simplify and manage your enterprise practices by an Integrated Microsoft Dynamics ERP Solution. Request a free demo from our ERP expert today."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-erp/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:secure_url" content="" />
-        <meta property="og:image:width" content="1025" />
-        <meta property="og:image:height" content="587" />
-        <meta property="og:image:alt" content="commerce" />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Microsoft Dynamics ERP | Enterprise Grade ERP Solution"
-        />
-        <meta
-          name="twitter:description"
-          content="Simplify and manage your enterprise practices by an Integrated Microsoft Dynamics ERP Solution. Request a free demo from our ERP expert today."
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="3 minutes" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -115,7 +72,7 @@ const Erp = () => {
                   their continuously growing processes. Upgrading the Microsoft
                   ERP system helps enterprises to trigger their operational
                   practices by connecting and bringing processes, people, and
-                  systems together. Dynamics 365 ERP comes with built-in
+                  systems together. <NavLink to="/products/microsoft-dynamics-365/">Dynamics 365</NavLink> ERP comes with built-in
                   intelligence and adaptability for process optimization that
                   helps brands to innovate, drive, and scale.
                 </p>
@@ -465,6 +422,185 @@ const Erp = () => {
                   <NavLink to="/products/microsoft-dynamics-gp/">
                     Learn More
                   </NavLink>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="solution-faq faq">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+            <header className="section-header">
+            <h2>Have you got <br /> questions about Microsoft Dynamics ERP?</h2>
+            <p>Click through to our FAQ for the best answers!</p>
+          </header>
+            </div>
+          </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >
+                    What is the difference between ERP and CRM?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      ERP is known as "Enterprise Resource Planning," which can manage and streamline business operations to boost efficiency and productivity in a business. CRM is known as Customer Relationship Management capable to streamline all customer interactions and provides a superior experience to all customers.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                     What is Microsoft Dynamics ERP?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Microsoft Dynamics ERP is an enterprise resource management application capable of connecting almost all departments of a business and streamlining all operations for efficient business practices. It provides a centrally managed platform where all users of the organisation can interact, communicate, and share data in real-time without any restrictions. MS Dynamics ERP can successfully connect the supply chain, finance, operations, commerce, manufacturing, human resources, and reporting.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >
+                     What are the major ERP solutions from Microsoft?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      Microsoft possesses various ERP solutions built to deal with specific business operations. These solutions are given below:</p>
+                      <ul>
+                        <li>Microsoft Dynamics GP : Accounting software.</li>
+                        <li>Microsoft Dynamics NAV : An ERP solution for SMBs. </li>
+                        <li>Microsoft Dynamics SL : Business management solution.</li>
+                        <li><NavLink to="/products/microsoft-dynamics-ax/">Microsoft Dynamics AX</NavLink> : For finance management </li>
+                        <li><NavLink to="/products/microsoft-dynamics-365-finance/">Microsoft Dynamics 365 Finance</NavLink> : Microsoft Dynamics 365 Finance</li>
+                        <li><NavLink to="/products/dynamics-365-business-central/">Microsoft Dynamics 365 Business Central</NavLink> : All-in-one business management</li>
+
+                      </ul>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                      State some benefits of Microsoft Dynamics ERP.
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      MS Dynamics ERP offers a number of benefits to businesses, helping them grow in terms of revenue and customers. It offers many benefits, including better insights, scalability, adaptability, seamless data reporting, improved efficiency, high revenue, and ease of customization as per changing business needs.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >
+                     What are the top features of Microsoft Dynamics ERP?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>When it comes to features, Dynamics ERP has a number of advanced functions and capabilities to supercharge the growth with enhanced productivity and efficiency. Some of the features are: customisable dashboards, personalised reports, adaptable with add-ons, showing real-time analytics, and much more. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-6"
+                    >
+                    What are the top industries that are actively using Microsoft Dynamics ERP? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-6"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Businesses are using ERP solutions to smooth their business operations while following simplified methods. Almost all industries are using this solution, but some are totally dependent on it, including distribution, manufacturing, wholesale, construction, healthcare, transport, logistics, and food and beverage. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-7"
+                    >
+                    How much does Microsoft ERP implementation cost, and how much time will it take? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-7"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>When it comes to stating the exact time and cost of Microsoft ERP implementation, no one can give you accurate data as these two things depend on various factors, like the complexity of the system, server deployment, amount of data transfer, number of integrations, and type of customization.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

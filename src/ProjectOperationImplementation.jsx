@@ -8,26 +8,29 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import { FreeMode, Navigation, Thumbs, Autoplay } from "swiper";
-const SupplyChainImplementation = () => {
+const ProjectOperationImplementation = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <>
       <Helmet>
-      <title>Dynamics 365 Supply Chain Management Implementation | Dynamics Square</title>
-<meta name="description" content="Bring agility, optimise resources, and build a resilient supply chain through Dynamics 365 Supply Chain Management implementation."/>
+      <title>Dynamics 365 Project Operations Implementation | Dynamics Square</title>
+<meta name="description" content="Avail Project Automation, optimize resources, and drive project success with increased profitability through the Dynamics 365 Project Operations implementing today!"/>
 <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/d365-supply-chain-management-implementation/" />
+<link rel="canonical" href="https://www.dynamicssquare.co.uk/dynamics-365-project-operations-implementation/" />
 <meta property="og:locale" content="en_GB" />
+
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1">
               <h1>
-              Dynamics 365  <br />  Supply Chain Management Implementation 
+                Dynamics 365 <br />
+                Project Operations <br /> Implementation 
               </h1>
               <p>
-              Bring agility, optimise resources, and build a resilient supply chain through implementing Dynamics 365 Supply Chain Management.<br /><br /><strong>Learn how Dynamics 365 SCM can help you drive business continuity while enhancing revenue.</strong>
+              Avail Project Automation, optimize resources, and drive project success with increased profitability through the implementation of Dynamics 365 Project Operations.
+              <br /><br /><b>Learn how Dynamics 365 Project Operations implementation can help you build a customer-centric environment to manage a prospect from sales to delivery.</b>
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -43,8 +46,8 @@ const SupplyChainImplementation = () => {
             </div>
             <div className="col-lg-6">
               <img
-                src="/assets/img/Supplychain banner.png"
-                alt="Supplychain Implementation banner"
+                src="/assets/img/FieldServicebanner.png"
+                alt="Field-implementation-banner"
               />
             </div>
           </div>
@@ -56,10 +59,8 @@ const SupplyChainImplementation = () => {
           <div className="row justify-content-center">
             <div className="col-lg-9">
             <header className="section-header">
-            <h2>How Dynamic Supply Chain Management implementation can help you build a resilient supply chain system?</h2>
-            <p>
-            Dynamics 365 Supply Chain Management is an end-to-end ERP solution to build a full-proof supply chain system while eliminating redundancies and ensuring a smooth distribution system. It comes with embedded AI, ML, Big Data, Mixed Realty, and IoT technologies, which offer an intelligent platform to connect various departments, including warehouse, inventory, distribution, procurement, manufacturing, and logistics, to streamline the entire supply chain with improved customer satisfaction.
-            </p>
+            <h2>How can Dynamic 365 Project Operations can help you accelerate project deliveries while assuring optimum quality?</h2>
+            <p>Dynamics 365 Project Operations is an end-to-end business solution to help you streamline all projects while ensuring seamless deliveries and maximising growth. It provides an intuitive centralised dashboard to connect Sales, Invoicing, Resources, Planning, and Delivery to drive team collaboration with increased visibility for each project. The successful Dynamics 365 Project Operations implementation would help you track quotes, project costs, resources, cost consumption, and revenue in order to provide an exceptional customer experience while unlocking the doors to greater growth and profitability.</p>
           </header>
             </div>
           </div>
@@ -77,7 +78,7 @@ const SupplyChainImplementation = () => {
                         aria-expanded="false"
                         aria-controls="fin1"
                       >
-                        <span>Enhanced Operational Efficiency</span>
+                        <span>Delivering Projects with High Margins</span>
                       </button>
                     </h3>
                     <div
@@ -87,7 +88,7 @@ const SupplyChainImplementation = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                     <p><NavLink to="/products/dynamics-365-supply-chain-management/">D365 Supply Chain Management</NavLink> is a cutting-edge SCM software that lifts your business and may expand your operations faster while performing more efficiently. It manages the entire supply chain processes, including collaboration, cost savings, improved delivery standards, and exponential growth, with ease.</p>
+                        <p><NavLink to="/products/dynamics-365-project-operations/">Dynamics 365 Project Operations</NavLink> provides a unified platform to connect and collaborate while providing a transparent and concise view of each project's status in real-time. From providing a quote to finally delivering the project, D365 Project Operations supervises everything, including pricing, resourcing, testing, and delivery. Also, it optimises the existing processes, operations, and resources to become more profitable within limited boundaries.</p>
                       </div>
                     </div>
                   </div>
@@ -102,8 +103,7 @@ const SupplyChainImplementation = () => {
                         aria-expanded="false"
                         aria-controls="fin2"
                       >
-                      
-                        <span>Boost Revenue</span>
+                        <span>Encourage Team Collaboration</span>
                       </button>
                     </h3>
                     <div
@@ -112,9 +112,7 @@ const SupplyChainImplementation = () => {
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnew"
                     >
-                      <div className="accordion-body">
-                      <p>Dynamics SCM can streamline your supply chain, improve communication, and enable collaboration between your team members to help you reduce costs, improve efficiencies, and ultimately boost your revenue.</p>
-                      </div>
+                      <div className="accordion-body"><p>Dynamics 365 Project Operations is a cloud-based application that allows you to manage any operation from any location at any time. The seamless team collaboration lets the team communicate together, share insights, and make decisions for the assured success of a project. It lets the team supervise any process in real-time and make data-driven decisions whenever needed, resulting in more efficiency with enhanced productivity.</p></div>
                     </div>
                   </div>
                   <hr />
@@ -128,8 +126,7 @@ const SupplyChainImplementation = () => {
                         aria-expanded="false"
                         aria-controls="fin5"
                       >
-                       
-                        <span>Synchronized Departments</span>
+                        <span>Stay Connected</span>
                       </button>
                     </h3>
                     <div
@@ -139,7 +136,7 @@ const SupplyChainImplementation = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                     <p>Dynamics Supply Chain Management implementation enables businesses to link all the departments and share the data efficiently with one another for constant business flow to get the maximum output from limited resources.</p>
+                     <p>D365 Project Operations is a versatile platform that can be accessed from any computer or mobile device and enables team collaboration. It makes use of the capabilities of contemporary technologies like AI, ML, Mixed Realty, and IoT because it is a cloud-based application.</p>
                       </div>
                     </div>
                   </div>
@@ -154,8 +151,7 @@ const SupplyChainImplementation = () => {
                         aria-expanded="false"
                         aria-controls="fin6"
                       >
-                     
-                        <span>Advanced Data Insights</span>
+                        <span>Easy Business Growth</span>
                       </button>
                     </h3>
                     <div
@@ -165,7 +161,7 @@ const SupplyChainImplementation = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                     <p>A supply chain consists of several operations, checkpoints, and milestones where the data must be updated in real-time for maximum operational efficiency. The in-built advanced data insights keep track of all actions and let the users take informed decisions proactively.</p>
+                     <p>Successful project management is the key to easy business growth, even when resources are limited. D365 Project Operations lets users successfully manage multiple projects with real-time status tracking of projects to streamline the operations while allocating the right resources to the right project.</p>
                       </div>
                     </div>
                   </div>
@@ -187,7 +183,7 @@ const SupplyChainImplementation = () => {
                         aria-expanded="false"
                         aria-controls="fin3"
                       >
-                        <span>Optimize Supply Chain</span>
+                        <span>Accurate Resource Planning</span>
                       </button>
                     </h3>
                     <div
@@ -197,7 +193,7 @@ const SupplyChainImplementation = () => {
                       data-bs-parent="#accnewasd"
                     >
                       <div className="accordion-body">
-                      <p>There is always a room for improvement in every business. This powerful application comes with process optimization that enables the users to optimize the existing operations and prepare the system for data and demand forecasting.</p>
+                    <p>Utilising resources properly and accurately leads to easy profitability and maximised revenue. This is a powerful solution that enables the team to plan a project using needed resources. It also makes it easy for the users to make estimates, create invoicing, allocate resources, track resource consumption, and much more.</p>
                       </div>
                     </div>
                   </div>
@@ -212,7 +208,7 @@ const SupplyChainImplementation = () => {
                         aria-expanded="false"
                         aria-controls="fin4"
                       >
-                        <span>Leverage Automation</span>
+                        <span>Forecast Profitability</span>
                       </button>
                     </h3>
                     <div
@@ -222,7 +218,7 @@ const SupplyChainImplementation = () => {
                       data-bs-parent="#accnewasd"
                     >
                       <div className="accordion-body">
-                      Most of the recurring and manual processes can be automated to optimise workforce productivity with minimal effort. The automation in this application helps you reduce downtime, improve profit margins, leverage the power of IoT, and improve operational efficiency.
+                      <p>Dynamics 365 Project Operations comes with built-in technologies including AI, BI, and IoT to help users predict the profitability of a project before acquiring it. Even after acquiring, it shows the budget, true vitals, and data to give an estimate of the profit from a particular project. Even so, users can modify the budget and allocated resources to get the desired results.</p>
                       </div>
                     </div>
                   </div>
@@ -237,7 +233,7 @@ const SupplyChainImplementation = () => {
                         aria-expanded="false"
                         aria-controls="fin7"
                       >
-                        <span>Maximised ROI</span>
+                        <span>Expense Management</span>
                       </button>
                     </h3>
                     <div
@@ -247,7 +243,7 @@ const SupplyChainImplementation = () => {
                       data-bs-parent="#accnewasd"
                     >
                       <div className="accordion-body">
-                        <p>Dynamics 365 Supply Chain Management controls the set of activities that ensure the efficient and effective flow of goods and services from suppliers to end customers. This is an effective solution that can assist you in reducing inventory costs, improving customer service, and supporting communication.</p>
+                     <p>Expense management is one of the critical tasks of a project, which should be managed precisely to get more with fewer time and resources. D365 Project Operations records each activity of the project, whether it belongs to the expense or resources. Due to proper tracking of a project, the invoicing or billing becomes smooth and accurate.</p>
                       </div>
                     </div>
                   </div>
@@ -262,7 +258,7 @@ const SupplyChainImplementation = () => {
                         aria-expanded="false"
                         aria-controls="fin8"
                       >
-                        <span>Flexible with Customizations</span>
+                        <span>Adaptable with customisation </span>
                       </button>
                     </h3>
                     <div
@@ -272,7 +268,7 @@ const SupplyChainImplementation = () => {
                       data-bs-parent="#accnewasd"
                     >
                       <div className="accordion-body">
-                        <p>Customization and integration make a solution adaptable to all changing business needs as per market and customer demand. D365 SCM is flexible with unique customizations to perform specific business operations, enabling more focus on growth and scalability rather than being consumed with core operations.</p>
+                     <p>Customization and integration make a solution adaptable to all changing business needs as per market and customer demand.<NavLink to="/products/microsoft-dynamics-365/">D365</NavLink> Project Operations is flexible with unique customizations to perform specific business operations, enabling more focus on growth and scalability rather than being consumed with core operations. </p>
                       </div>
                     </div>
                   </div>
@@ -288,15 +284,15 @@ const SupplyChainImplementation = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Avail Full support for your business beyond implementation!</h3>
-                <p>Join hands with a hassle-free D365 SCM implementation partner today and avail support beyond it.</p>
+                <h3>Avail Continuous Support for your Business Beyond Implementation!</h3>
+                <p>Join hands with a cost-effective D365 Project Operations implementation partner today and avail support beyond it.</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link
                     data-bs-toggle="modal"
                     to="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Get Started Now!</span>
+                    <span>Get Started Now</span>
                   </Link>
                 </div>
               </div>
@@ -317,8 +313,8 @@ const SupplyChainImplementation = () => {
             <div className="col-lg-6">
               <div className="box-6">
                 <div className="box-6-top-head">
-                  <h2>Our Simple yet Powerful D365 SCM Implementation Methodology </h2>
-                  <p>We opt for Microsoft's certified implementation methodology only to know the existing system of the organisation and its requirements too. We analyse in such a way that our supply chain implementation professional guarantees a successful and secure process. </p>
+                  <h2>Our Simple yet Powerful D365 Project Operations Implementation Methodology</h2>
+                  <p>We evaluate your current existing system using the Microsoft certified implementation approach to give you a successful, safe, and open method.</p>
                 </div>
                 <div className="box-6-bottom">
                   <div className="posi-bottm">
@@ -336,31 +332,31 @@ const SupplyChainImplementation = () => {
                       <SwiperSlide>
                         <div className="box-6-bottom">
                           <h4>Analysis Phase</h4>
-                          <p>In order to better understand the current processes of the organization and predict future requirements, our team will begin preparing the FRD (Functional Requirement Document).</p>
+                          <p>Our team will begin working on the FRD (Functional Requirement Document) in order to comprehend the organization's current processes, as well as anticipate future requirements.</p>
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="box-6-bottom">
                           <h4>Design Phase</h4>
-                          <p>Based on the details you supplied, our staff will generate a GAP-FIT document that details what you require. The paper will identify the regular components that are already covered by FIT as well as any adjustments you need that aren't yet covered by GAP. We can determine the common configurations and integrations you require as well as any conceivable add-ons with the aid of this information.</p>
+                          <p>Our team will analyse your current requirements and build a GAP-FIT document based on given functional requirements. The standard requirements can be named as FIT and the customised requirements can be known as GAP. In this, we specify the necessary, standard, add-on configurations and integration needs.</p>
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="box-6-bottom">
                           <h4>Development Phase</h4>
-                          <p>In this phase, our team will try to first understand your company's specific needs in order to develop a custom solution that will help you attain the goals you've set for maximum growth and profitability. The personalised Dynamics 365 supply chain management solution would help you understand your business needs and how to furnish them too.</p>
+                          <p>Our team is dedicated to creating a Dynamics 365 Project Operations solution that is tailored to your specific needs. We want to help you achieve maximum growth and profitability by providing you with a solution that is easy to use and understand.</p>
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="box-6-bottom">
                           <h4>Deployment Phase</h4>
-                          <p>In this phase, we put the system on servers for user testing and to see if it meets the GAP-FIT and FRD requirements. If not, we'll make more changes until it provides the right solution for the business.</p>
+                          <p>We deploy the system on your servers, whether cloud or on-premise for testing purpose and to see if it meets the requirements of GAP-FIT and FRD. If it does not, we will make changes to ensure that it is an ideal solution for the business.</p>
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="box-6-bottom">
                           <h4>Post Go-Live Support</h4>
-                          <p>This is the last phase of whole process. In this, we will make the system live so that your team can utilize the advance capabilities for your business growth.</p>
+                          <p>In the last phase, we make the system live so your team can start working on it with full efficiency and productivity.</p>
                         </div>
                       </SwiperSlide>
                     </Swiper>
@@ -461,10 +457,12 @@ const SupplyChainImplementation = () => {
       <section className="Solution-business-why mar-back">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-9">
+            <div className="col-md-8">
             <header className="section-header">
-            <h2>Why Choose Dynamics Square as Your Trusted Dynamics 365 Supply Chain Management Implementation Partner?</h2>
-            <p>Before the start of the implementation process, our sole motto is to understand your unique business operations, explore future needs, and then offer a tailored business solution. We believe in full customer satisfaction and building unbreakable trust with our customers (a major reason for being successful for the last 11 years).</p>
+            <h2>
+            Why Choose Dynamics Square as Your Trusted Dynamics 365 Project Operations Implementation Partner? 
+            </h2>
+            <p>Our primary focus before we begin working on any project is to understand your business's unique operations inside and out. This allows us to explore and predict any future needs you may have so that we can offer a tailored business solution - because we know that no two businesses are alike. We believe in customer satisfaction above all else and strive to build trust with our clients which is why we've been successful for the past 11 years.</p>
           </header>
             </div>
           </div>
@@ -491,7 +489,7 @@ const SupplyChainImplementation = () => {
                     Pricing
                   </h3>
                   <div className="overlay">
-                    <p>We have competitive and effective pricing for all our services irrespective of the business type and size to help you get most out of your investment.  </p>
+                    <p>We offer competitive and cost-effective pricing for all services to help you make the most of your investment.</p>
                   </div>
                 </div>
               </div>
@@ -505,7 +503,7 @@ const SupplyChainImplementation = () => {
                   Expertise
                   </h3>
                   <div className="overlay">
-                    <p>Our D365 supply chain consultants have years of experience and extensive knowledge to resolve the simple as well as complex issues in the given deadline.</p>
+                    <p>We have a team of highly qualified and experienced professionals who cater to all industries, irrespective of their type and size. With extensive knowledge and experience in different domains, our team is equipped to handle all your industry-specific needs. Trust us to give you the best results, every time.</p>
                   </div>
                 </div>
               </div>
@@ -519,7 +517,7 @@ const SupplyChainImplementation = () => {
                     Implementation
                   </h3>
                   <div className="overlay">
-                    <p>Our fast, unique, and smooth Dynamics 365 Supply Chain Management implementation strategy works best for the business development without depending upon the complexity of the market to let you run business efficiently.</p>
+                    <p>We have a quick and easy Dynamics 365 Project Operations implementation process that won't get in the way of your business' efficiency. Our process is unique and streamlined, so you can focus on running your business without worrying about the complexities of our process. </p>
                   </div>
                 </div>
               </div>
@@ -532,7 +530,7 @@ const SupplyChainImplementation = () => {
                   Customer Support
                   </h3>
                   <div className="overlay">
-                    <p>Our dedicated <NavLink to="/our-services/dynamics-365-support-services">D365 support</NavLink> team is always available to help you in a time of need without any time, region, or language barriers to help you rise above the limits.</p>
+                    <p>Our team is available 24/7 to help you with any issues you may have, no matter where you are or what language you speak. We want to help you reach your full potential and exceed your expectations.</p>
                   </div>
                 </div>
               </div>
@@ -545,7 +543,7 @@ const SupplyChainImplementation = () => {
                   Satisfaction
                   </h3>
                   <div className="overlay">
-                    <p>We promise to never stop fighting until you're one-hundred percent satisfied with the support and services we've provided. It's not going to be an easy journey, but we'll be with you every step of the way - that's a promise. </p>
+                    <p>We promise to never stop until you're completely satisfied with the support and services we've provided. We know the process won't be easy, but we'll be with you every step of the way.</p>
                   </div>
                 </div>
               </div>
@@ -557,39 +555,36 @@ const SupplyChainImplementation = () => {
       <section id="pricing" className="pricing">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-9">
-            <header className="section-header">
-            <h2>Dynamics 365 <br /> Supply Chain Management Pricing</h2>
-            <p>
-              Build a consistent and flexible supply chain by our Dynamics 365
-              Supply Chain Management Packages
-            </p>
-          </header>
+            <div class="col-lg-9">
+              <header className="section-header">
+                <h2>Dynamics 365 Project Operations Pricing</h2>
+                <p>
+                  Find Dynamics 365 Project Operations plans and pricing to
+                  choose the applications that are right for your business
+                  needs.
+                </p>
+              </header>
             </div>
           </div>
+
           <div className="row gy-4 p-9 justify-content-center">
             <div className="col-lg-6">
               <div className="box box-22">
-                <h3>
-                  Dynamics 365
-                  <br />
-                  Supply Chain Management
-                </h3>
+                <h3>Dynamics 365 Project Operations</h3>
                 <div className="price">
-                  <sup>£</sup>135.70<span>Per-User/Per Month</span>
+                  <sup>£</sup>90.50<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
-                    Build Resilience with an Agile Supply Chain with Dynamics
-                    365. Enhance Customer Service. Drive Business Sales. Manage
-                    Topline Revenue. Market Smarter. Services: Cloud-Based CRM,
-                    Customer Support, Automate Sales, Marketing Features.
+                    Get the visibility, collaboration, and agility needed to
+                    drive success across your project-centric business.
                   </li>
                 </ul>
               </div>
             </div>
+
             <div className="col-lg-12 col-md-12">
-            <p className="text-center" style={{padding:'50px 0px 0px 0px'}}><b>Looking for Customised Pricing as per your business requirements?</b></p>
+            <p className="text-center" style={{padding:'50px 0px 0px 0px'}}><b> Looking for Customized Pricing as per your business requirements? </b></p>
               <div className="price-btn price-btnasd d-flex justify-content-center">
                 <NavLink
                   data-bs-toggle="modal"
@@ -610,7 +605,7 @@ const SupplyChainImplementation = () => {
             <div className="col-lg-8">
               <div className="call-to-action-content">
                 <h3>Start Today and Upgrade Later</h3>
-                <p>Being a flexible <NavLink to="/products/microsoft-dynamics-erp/">ERP solution</NavLink>, you can easily increase its capabilities based on your business growth and changing modern needs. You can start today with the current requirements and upgrade the system later.</p>
+                <p>Being a flexible <NavLink to="/products/microsoft-dynamics-erp/">ERP solution</NavLink>,  you can easily increase its capabilities based on your business growth and changing modern needs. You can start today with the current requirements and upgrade the system later.</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link
                     data-bs-toggle="modal"
@@ -630,8 +625,11 @@ const SupplyChainImplementation = () => {
         <div className="container">
           <header className="section-header">
             <h2>
-            Most searched Dynamics 365 <br /> Supply Chain Implementation FAQs</h2>
-            <p>Click to explore the best answer!</p>
+              Have you got questions 
+              <br />
+              about Project Operations Implementation?
+            </h2>
+            <p>Click through to our FAQ for the best answers!</p>
           </header>
           <div className="row justify-content-center mar-top-7">
             <div className="col-lg-8">
@@ -644,7 +642,7 @@ const SupplyChainImplementation = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-1"
                     >
-                     What's next after submitting my contact details? 
+                      What's my role in the entire implementation project? 
                     </button>
                   </h3>
                   <div
@@ -653,7 +651,7 @@ const SupplyChainImplementation = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>One of our consultants will call you after you've submitted your information to find out more about your business. The Phase 1 Discovery Call refers to this initial discussion. Everything will be documented, a functional requirements document (FRD) will be made, a FIT-GAP analysis will be carried out, and then the implementation phase will start. We'll have another Discovery Call if necessary with one of our experienced functional consultants. </p>
+                      <p>The only thing you need to do in order for us to develop a proper D365 Project Operations implementation solution for you is to provide accurate information to your Dynamics 365 installation partner about your current procedures and future needs. You also need to cooperate throughout the process to make sure the deployment is smooth and hassle-free.</p>
                     </div>
                   </div>
                 </div>
@@ -665,7 +663,7 @@ const SupplyChainImplementation = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
                     >
-                     What is the accurate cost of D365 Supply Chain Management implementation? 
+                      Does Dynamics Square provide training?
                     </button>
                   </h3>
                   <div
@@ -674,7 +672,7 @@ const SupplyChainImplementation = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                     <p>Several variables, including time and complexity, will affect implementation costs. Please give us a call or use the contact form on our website if you'd like an exact price for the implementation procedure. </p>
+                     <p>We provide complimentary training courses to help users understand how to use the system's features, capabilities, and functions. In these sessions, we will also teach you the basics of the system so that you can have a better understanding of your current needs and be able to anticipate future needs for the installation process (Phase 2 implementation).</p>
                     </div>
                   </div>
                 </div>
@@ -686,7 +684,7 @@ const SupplyChainImplementation = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
                     >
-                     What's my role in the entire implementation project?
+                      How much will it actually cost to deploy D365 Project Operations?
                     </button>
                   </h3>
                   <div
@@ -695,7 +693,7 @@ const SupplyChainImplementation = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>We need your help to build the best Dynamics 365 Supply Chain Management implementation strategy possible. Your responsibility will be to provide your Dynamics 365 implementation partner with accurate information about the procedures that are in place today and any future requirements. Additionally, for a flawless and easy deployment, it is essential that you be cooperative throughout the process. </p>
+                      <p>A few factors that will affect the cost of implementation are time and the number of people working on the project. To get an accurate price quote for the implementation process, please give us a call or fill out the contact form on our website.</p>
                     </div>
                   </div>
                 </div>
@@ -706,9 +704,7 @@ const SupplyChainImplementation = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
-                    >
-                    How long will it take to implement the project successfully?
-                    </button>
+                    >How long will it take to successfully implement the project?</button>
                   </h3>
                   <div
                     id="faq-content-4"
@@ -716,7 +712,7 @@ const SupplyChainImplementation = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    <p>There is no one-size-fits-all answer when it comes to how long it will take to implement a solution like Dynamics 365 Finance and Operations or SCM. The timeframe depends on a number of factors, such as the number of processes, the complexity of operations, integrations, and customizations. Without knowing more about your specific business and its needs, it's impossible to provide a more accurate estimate.</p>
+                    <p>To provide an adequate and accurate timeline for implementing a solution, it is essential that we have a clear understanding of the business and its needs. The time required is contingent upon various factors, such as the number of processes, the complexity of operations, integrations, and customizations.</p>
                     </div>
                   </div>
                 </div>
@@ -728,7 +724,7 @@ const SupplyChainImplementation = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-5"
                     >
-                    Does Dynamics Square provide training?
+                     What's next after submitting my contact details? 
                     </button>
                   </h3>
                   <div
@@ -737,8 +733,8 @@ const SupplyChainImplementation = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Yes, we provide free training to users after providing the respected service. Our training will help users like you to understand the core features, and capabilities of this powerful solution. Also, we will help you understand the effectiveness of this software so that you can customize it in future too.</p>
-                      <p><b>See Also -</b></p>
+                      <p>Our team will call you to get a better understanding of your company, current needs, and what potential needs might arise in the future. This is what we like to call the Phase 1 Discovery Call - a chance for us to ask questions and for you to get to know us better too. Everything will be documented so that we can move forward with creating a FRD, conducting a FIT-GAP analysis, and beginning the implementation phase. If necessary, another Discovery Call will be scheduled with one of our highly qualified functional consultants to answer any additional questions.</p>
+                      <p><b>See Also -  </b></p>
                       <ul>
                         <li><NavLink to="/dynamics-365-finance-implementation/">Dynamics 365 Finance Implementation</NavLink></li>
                         <li><NavLink to="/power-bi-implementation/">Power BI Implementation</NavLink></li>
@@ -756,4 +752,4 @@ const SupplyChainImplementation = () => {
   );
 };
 
-export default SupplyChainImplementation;
+export default ProjectOperationImplementation;

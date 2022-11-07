@@ -8,7 +8,7 @@ import { useHistory, useLocation } from "react-router-dom";
 
 const StartGuide = () => {
   const history = useHistory();
-
+  const currentUrl = window.location.href;
   const [display, setDisplay] = useState("dspn");
 
   function sendEmail(e) {
@@ -454,6 +454,7 @@ const StartGuide = () => {
                       name="name"
                       required
                     />
+                     <input type="hidden" name="url" value={currentUrl} />
                   </div>
 
                   <div className="mb-3">
@@ -462,7 +463,7 @@ const StartGuide = () => {
                       className="form-control"
                       placeholder="* Work Email"
                       name="email"
-                      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                      pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
                       required
                     />
                   </div>

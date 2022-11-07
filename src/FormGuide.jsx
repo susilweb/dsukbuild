@@ -59,7 +59,7 @@ const FormGuide = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="* Full Name"
+                      placeholder="*Full Name"
                       name="name"
                       required
                     />
@@ -72,7 +72,7 @@ const FormGuide = () => {
                       className="form-control"
                       placeholder="* Work Email"
                       name="email"
-                      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                      pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!gmail)(?!yahoo.com)(?!yahoo)(?!hotmail.com)(?!hotmail)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
                       required
                     />
                   </div>
@@ -80,7 +80,7 @@ const FormGuide = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="* Company Name"
+                      placeholder="*Company Name"
                       name="company_name"
                     />
                   </div>
@@ -88,7 +88,7 @@ const FormGuide = () => {
                     <input
                       type="tel"
                       className="form-control"
-                      placeholder="* Phone Number"
+                      placeholder="*Phone Number"
                       name="phone"
                       pattern="^\d{10,13}$"
                     />
