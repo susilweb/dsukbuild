@@ -23,48 +23,7 @@ const SupplyChainManagement = () => {
         />
         <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Dynamics 365 Supply Chain Management | Dynamics Square"
-        />
-        <meta
-          property="og:description"
-          content="Dynamics 365 Supply Chain management helps organizations simplify, streamline, and accelerate their supply chain practices just to produce, drive, and scale high."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/products/dynamics-365-supply-chain-management/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:secure_url" content="" />
-        <meta property="og:image:width" content="1058" />
-        <meta property="og:image:height" content="786" />
-        <meta property="og:image:alt" content="Accelerate Time to Market" />
-        <meta property="og:image:type" content="image/jpeg" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Dynamics 365 Supply Chain Management | Dynamics Square"
-        />
-        <meta
-          name="twitter:description"
-          content="Dynamics 365 Supply Chain management helps organizations simplify, streamline, and accelerate their supply chain practices just to produce, drive, and scale high."
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="6 minutes" />
+        
       </Helmet>
 
       <ModalVideo
@@ -211,10 +170,7 @@ const SupplyChainManagement = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Drive omnichannel inventory with real-time access,
-                        automate your logistics and warehousing processes,
-                        simplify your procurement management, and estimate
-                        accurate landed costs with D365 Supply Chain Management.
+                      Dynamics 365 inventory management feature lets you drive omnichannel inventory with real-time access and automate your logistics and warehousing processes at ease. Also, it lets you simplify your procurement management, and estimate accurate landed costs with D365 Supply Chain Management with the seamless integration of <NavLink to="/products/dynamics-365-business-central/">Dynamics 365 Business Central</NavLink> Warehouse Management. 
                       </div>
                     </div>
                   </div>
@@ -252,8 +208,7 @@ const SupplyChainManagement = () => {
                         Bring agility and scalability in your manufacturing
                         processes, minimize errors, and drive business
                         continuity even in remote locations by implementing
-                        Dynamics Supply Chain module embedded with AI, IoT, and
-                        Mixed Reality.
+                        Dynamics Supply Chain module embedded with <NavLink to="/products/microsoft-dynamics-365-ai/">AI</NavLink>, <NavLink to="/products/azure-iot-internet-of-things/">IoT</NavLink>, and <NavLink to="/microsoft-dynamics-365-mixed-reality/">Mixed Reality</NavLink>.
                       </div>
                     </div>
                   </div>
@@ -366,10 +321,7 @@ const SupplyChainManagement = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                          With Microsoft 365 Supply Chain Management, turn your
-                          supply chain and logistics data into predictive
-                          analytics to make informed decisions and drive
-                          strategic planning for better revenue outcomes.{" "}
+                        Avail the Dynamics 365 Supply Chain insights and turn your supply chain and logistics data into predictive analytics to make informed decisions and drive strategic planning for better revenue outcomes. {" "}
                         </p>
                       </div>
                     </div>
@@ -505,8 +457,7 @@ const SupplyChainManagement = () => {
           <header className="section-header">
             <h2>Dynamics 365 Supply Chain Management Pricing</h2>
             <p>
-              Build a consistent and flexible supply chain by our Dynamics 365
-              Supply Chain Management Packages
+            Check out the flexible, cost-effective, and effective Dynamic 365 Supply Chain Management Pricing.
             </p>
           </header>
           <div className="row gy-4 p-9">
@@ -535,12 +486,12 @@ const SupplyChainManagement = () => {
                   Supply Chain Management
                 </h3>
                 <div className="price">
-                  <sup>£</sup>135.70<span>Per-User/Per Month</span>
+                  £135.70<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
-                    Build Resilience with an Agile Supply Chain with Dynamics
-                    365. Enhance Customer Service. Drive Business Sales. Manage
+                    Build Resilience with an Agile Supply Chain with <NavLink to="/products/microsoft-dynamics-365/">Dynamics
+                    365</NavLink>. Enhance Customer Service. Drive Business Sales. Manage
                     Topline Revenue. Market Smarter. Services: Cloud-Based CRM,
                     Customer Support, Automate Sales, Marketing Features.
                   </li>
@@ -579,13 +530,99 @@ const SupplyChainManagement = () => {
           </div>
         </div>
       </section>
+
+      <section className="new-style-bg">
+        <div className="container">
+           <div className="row justify-content-center">
+            <div className="col-lg-8">
+            <header className="section-header">
+            <h2>
+            Dynamics 365 Supply Chain Management Modules 
+            </h2>
+            <p>Dynamics 365 Supply Chain Management modules offer seamless features and capabilities to help you streamline the entire supply chain while maximising revenue by utilising existing resources. Some of the modules are:</p>
+          </header>
+            </div>
+            </div>                   
+          <div className="row g-5">
+            <div className="col-lg-6">
+            <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Asset Management</h3>
+                  <p>
+                  Dynamics 365 SCM effectively manages all the assets, irrespective of the purpose, including maintaining, operating, selling, and developing. Also, it allows the organisation to track and record all products precisely without any errors.
+                  </p>
+                </div>
+              </div>
+
+              <div className="style-grid-1">
+                
+                <div className="style-grid-content">
+                  <h3>Product information management</h3>
+                  <p>
+                  Product information management (PIM) is the process of organising and sharing product data across an organization, from initial conception to final sale. By maintaining a shared product definition, businesses can better manage configurations of a product to fit within specific processes. This module can automate and streamline these tasks to improve efficiency and support business growth.
+                  </p>
+                </div>
+              </div>
+              
+            
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Inventory management</h3>
+                  <p>
+                  This is a practical module that offers efficient inventory management to all organisations, whether small or large. This module collects and records all inventory and helps organisations eliminate restrictions on shipment by providing real-time insights.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              
+
+              <div className="style-grid-1">
+                
+                <div className="style-grid-content">
+                  <h3>Warehouse management</h3>
+                  <p>
+                  Warehouse management in D365 SCM lets the organisation supervise all operations related to the warehouse. It comes integrated with other departments, like <NavLink to="/industries/microsoft-cloud-for-manufacturing/">manufacturing</NavLink>, transportation, quality control, sales, transfer, purchase, and returns, to streamline and connect all departments for better data flow. 
+                  </p>
+                </div>
+              </div>
+
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Transportation management</h3>
+                  <p>
+                  D365 Supply Chain Management manages all the transportation communications with accurate tracking of data. It supervises all transport transactions, whether they are moving out or coming in the organisation.
+                  </p>
+                </div>
+              </div>
+
+              <div className="style-grid-1">
+                
+                <div className="style-grid-content">
+                  <h3>Rebate management</h3>
+                  <p>
+                  The rebate management module is designed to help businesses create contracts or agreements with end customers to make the entire transaction legal and valid. This allowed the businesses to calculate rebates, deductions, and royalties on each deal more effectively. Also, it centralises all of the data so that you can create, review, and process all transactions more efficiently.
+                  </p>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-12">
+              <p>The Dw365 Supply Chain Management possess more useful modules, including Master planning, Inventory visibility, Retail headquarter management, Production control, Procurement and sourcing, Service management, Cost allocation, Sales and marketing, Questionnaire, Project management and accounting, Vendor collaboration, Time and attendance, <NavLink to="/products/microsoft-dynamics-365-mixed-reality/">Mixed Reality integration</NavLink>, Self-service portal, Distributed hybrid topology, Scale Unit Manager, Rebate management, Face recognition, and IoT Intelligence. </p>
+            </div>
+          </div>
+        </div>
+      </section>  
+      
       <section className="call-to-action-center hero-4">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
                 <h3>Create an intelligent and adaptable supply chain</h3>
-                <p>Discuss your business requirement with us, we can suggest a highly customized solution for your Business.</p>
+                <p>Contact us to discuss your current business needs so that we can help you get a personalised solution for your business for more growth and revenue.</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <NavLink
                     data-bs-toggle="modal"
@@ -602,14 +639,7 @@ const SupplyChainManagement = () => {
       </section>
       <section className="solution-faq faq">
         <div className="container">
-          <header className="section-header">
-            <h2>
-              Have you got
-              <br />
-              questions about D365 Supply Chain Management? 
-            </h2>
-            <p>Click through to our FAQ for the best answers!</p>
-          </header>
+         
           <div className="row justify-content-center mar-top-7">
             <div className="col-lg-8">
               <div className="accordion accordion-flush" id="faqlist1">
@@ -630,21 +660,7 @@ const SupplyChainManagement = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      Dynamics 365 Supply Chain Management is an all-in-one
-                      package to simplify and transform the supply chain
-                      practices for small to medium scale businesses. Dynamics
-                      Supply Chain module empowers your supply chain workforce
-                      with not just planning and logistics capabilities, even it
-                      enables to gain predictive insights and other real-time
-                      connectivity across supply chain operations including
-                      production, planning, warehousing, and transportation
-                      management to boost operational efficiency while
-                      maximizing profitability and scalability.
-                      <br />
-                      <br />
-                      To know more about how D365 Supply Chain Management
-                      solutions can help to improve and maximize your supply
-                      chain efficiency, Dynamics Square can help.
+                    Dynamics 365 Supply Chain Management is an excellent tool for small to medium businesses who want to improve their supply chain practices. The Dynamics Supply Chain module gives your workforce the ability to not only plan and logistically arrange things, but also to get predictive insights in real-time about different aspects of the supply chain including production, planning, warehousing, and transportation management. This increased operational efficiency will result in greater profitability and scalability for your business. 
                     </div>
                   </div>
                 </div>
@@ -743,11 +759,7 @@ const SupplyChainManagement = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      Dynamics 365 Supply Chain Management comes with several
-                      business-driven features that help to manage the entire
-                      supply chain practices with real-time data-driven
-                      capability. Here is the list of D365 Supply Chain
-                      Management features:
+                    Some of the key features of Dynamics 365 Supply Chain Management software include its business-driven abilities that help manage the entire supply chain process with real-time data. This data can help drive more efficient and accurate decision-making for your company. Other notable features of D365 Supply Chain Management software include:
                       <br />
                       <br />
                       <ul>
@@ -765,12 +777,7 @@ const SupplyChainManagement = () => {
                         <li>Transportation Management</li>
                         <li>Warehouse Management</li>
                       </ul>
-                      <br />
-                      <br />
-                      Depending on your key business requirement, you would
-                      require customized features for your business. Dynamics
-                      Square can develop and implement highly customized supply
-                      chain solutions for your business.
+                      
                     </div>
                   </div>
                 </div>
@@ -791,21 +798,11 @@ const SupplyChainManagement = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      When you can automate your data and streamline your
-                      practices while reducing costs and eliminating data
-                      redundancies, it can help you bring a smoother flow across
-                      your supply chain processes. <br />
+                    When you can automate your data and streamline your practices while reducing costs and eliminating data redundancies, it can help you bring a smoother flow across your supply chain processes.<br />
                       <br />
-                      D365 Supply Chain Management can help your enterprise to
-                      bring real-time data efficiency across your supply chain
-                      pipeline from managing inventories, to warehousing, to
-                      logistics management, procurement to service, and
-                      transportation management. <br />
+                      D365 Supply Chain Management can help your enterprise to bring real-time data efficiency across your supply chain pipeline from managing inventories, to warehousing, to logistics management, procurement to service, and transportation management.<br />
                       <br />
-                      Since Dynamics 365 Supply Chain eliminates your manual
-                      efforts and enables access to real-time data and analytics
-                      to make informed decisions. Hence, it helps businesses to
-                      drive smarter.
+                      Since it eliminates your manual efforts and enables access to D365 Supply Chain Management insights in real-time to make informed data-driven decisions. Hence, it helps businesses to drive smarter. 
                     </div>
                   </div>
                 </div>

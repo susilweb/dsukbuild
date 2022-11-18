@@ -148,6 +148,7 @@ import MarketingImplementation from "./MarketingImplementation";
 import ProjectOperationImplementation from "./ProjectOperationImplementation";
 import HumanResourceImplementation from "./HumanResourceImplementation";
 import EmailGpToBc from "./EmailGpToBc";
+import EmailAxToFinacnce from "./EmailAxToFinacnce";
 const App = () => {
   return (
     <>
@@ -656,62 +657,63 @@ const App = () => {
           path="/guides/download/Pdf-guide-finance/"
           component={PdfFinanaceDownload}
         />
-         <Route
+        <Route
           exact
           path="/dynamics-365-sales-implementation/"
           component={ImplementationSales}
         />
-           <Route
+        <Route
           exact
           path="/guides/download/Pdf-dynamics-crm/"
           component={PdfCRMDownload}
         />
-           <Route
-          exact
-          path="/ebook/dynamics-crm/"
-          component={StartGuideTwo}
-        />
-           <Route
+        <Route exact path="/ebook/dynamics-crm/" component={StartGuideTwo} />
+        <Route
           exact
           path="/d365-supply-chain-management-implementation/"
           component={SupplyChainImplementation}
         />
-           <Route
+        <Route
           exact
           path="/dynamics-365-customer-service-implementation/"
           component={CustomerServiceImplementation}
         />
-        <Route exact path="/ebook/d365-supply-chain-management/" component={StartGuideThree} />
+        <Route
+          exact
+          path="/ebook/d365-supply-chain-management/"
+          component={StartGuideThree}
+        />
         <Route
           exact
           path="/guides/download/Pdf-d365-supply-chain-management/"
           component={PdfSupplyChainDownload}
         />
-        <Route 
-          exact 
-          path="/dynamics-365-field-service-implementation/" 
-          component={FieldServicesImplementation} 
-          />
-          <Route 
-          exact 
-          path="/dynamics-365-marketing-implementation/" 
-          component={MarketingImplementation} 
-          />
-          <Route 
-          exact 
-          path="/dynamics-365-project-operations-implementation/" 
-          component={ProjectOperationImplementation} 
-          />
-          <Route 
-          exact 
-          path="/dynamics-365-human-resources-implementation/" 
-          component={HumanResourceImplementation} 
-          />
-          <Route 
-          exact 
-          path="/email-gp-to-bc/" 
-          component={EmailGpToBc} 
-          />
+        <Route
+          exact
+          path="/dynamics-365-field-service-implementation/"
+          component={FieldServicesImplementation}
+        />
+        <Route
+          exact
+          path="/dynamics-365-marketing-implementation/"
+          component={MarketingImplementation}
+        />
+        <Route
+          exact
+          path="/dynamics-365-project-operations-implementation/"
+          component={ProjectOperationImplementation}
+        />
+        <Route
+          exact
+          path="/dynamics-365-human-resources-implementation/"
+          component={HumanResourceImplementation}
+        />
+        <Route exact path="/email-gp-to-bc/" component={EmailGpToBc} />
+        <Route
+          exact
+          path="/email-ax-to-finance/"
+          component={EmailAxToFinacnce}
+        />
         <Route exact path="/404" component={Error404} />
         <Redirect to="/404" component={Error404} />
         <Home />

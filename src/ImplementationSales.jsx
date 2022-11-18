@@ -34,7 +34,7 @@ const ImplementationSales = () => {
               Dynamics 365 <br /> Sales Implementation
               </h1>
               <p>
-              Bring sales, empower team, increase revenue, and simplify your existing financial processes through implementing Dynamics 365 Sales.<br /><br /><b>Learn how Dynamics 365 Sales can uplift your business.</b>
+              Bring sales, empower team, increase revenue, and simplify your existing sales processes through implementing Dynamics 365 Sales.<br /><br /><b>Learn how Dynamics 365 Sales can uplift your business.</b>
               </p>
               <div>
                 <div className="text-center text-lg-start">

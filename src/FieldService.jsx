@@ -247,7 +247,7 @@ const FieldService = () => {
                 <h2>Microsoft Dynamics 365 Field Service Features</h2>
                 <h3>
                   How Dynamics 365 Field Service Helps to Boost Your Field
-                  Service Performance?
+                  Service Performance
                 </h3>
               </div>
               <div className="m-o-t m-o-t-b">
@@ -366,8 +366,7 @@ const FieldService = () => {
               <div className="side-heading">
                 <h2>Dynamics 365 Field Service</h2>
                 <p>
-                  Drive connected and seamless field experience to impact
-                  overall growth rate and scalability.
+                Enhance your field service experience and strengthen communication between executives through D365 Field Service implementation. 
                 </p>
               </div>
               <div className="busine_service_bottom-right">
@@ -452,7 +451,7 @@ const FieldService = () => {
               <div className="box box-22">
                 <h3>Dynamics 365 Field Service</h3>
                 <div className="price">
-                  <sup>£</sup>71.60<span>Per-User/Per Month</span>
+                  £71.60<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">

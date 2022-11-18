@@ -24,8 +24,9 @@ const Footer = () => {
     pathname === "/emailer-power-bi/" ||
     pathname === "/email-dynamics365-crm/" ||
     pathname === "/email-mtd-compliant/" ||
-    pathname === "/subscribe-updates/" || 
-    pathname === "/email-gp-to-bc/"
+    pathname === "/subscribe-updates/" ||
+    pathname === "/email-gp-to-bc/" ||
+    pathname === "/email-ax-to-finance/"
   ) {
     //setStyle("dspn");
     return null;
@@ -37,10 +38,10 @@ const Footer = () => {
 
     emailjs
       .sendForm(
-        "service_p9e4s2i",
-        "template_own8zg4",
+        "service_x0eo9w8",
+        "template_e2eswsj",
         e.target,
-        "JZAkUF2t_OOtPtKmy"
+        "xIFtTfBj6NR498Plv"
       )
       .then((res) => {
         history.push("/thank-you/");
@@ -140,19 +141,12 @@ const Footer = () => {
                     />
                     <label className="form-check-label" htmlFor="exampleCheck1">
                       I agree to the
-                      <NavLink
-                        to="/privacy-policy/"
-  
-                        target="_blank"
-                      >
+                      <NavLink to="/privacy-policy/" target="_blank">
                         {" "}
                         Privacy Policy{" "}
                       </NavLink>
                       and
-                      <NavLink
-                        to="/terms-of-use/"
-                        target="_blank"
-                      >
+                      <NavLink to="/terms-of-use/" target="_blank">
                         {" "}
                         Terms of Service{" "}
                       </NavLink>
@@ -469,7 +463,7 @@ const Footer = () => {
             <div className="footer-extra-link">
               <NavLink to="/terms-of-use/">Terms of Use </NavLink>
               <NavLink to="/cookie-policy/">| Cookie </NavLink>
-              <NavLink to="/sitemap.xml">| Sitemap</NavLink>
+              {/* <NavLink to="/sitemap.xml">| Sitemap</NavLink> */}
             </div>
           </div>
         </div>

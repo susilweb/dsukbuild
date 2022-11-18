@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import { ExternalLink } from "react-external-link";
 
 const UpgradeServices = () => {
   return (
@@ -12,7 +13,7 @@ const UpgradeServices = () => {
         </title>
         <meta
           name="description"
-          content="Upgrade your system capabilities, process flow, adapt operational change through our highly integrated Dynamics 365 upgrade services."
+          content="Upgrade your system capabilities, process flow, adapt operational change through our highly integrated Dynamics 365 upgrade services. We have extensive experience in helping businesses upgrade their systems."
         />
         <link
           rel="canonical"
@@ -20,48 +21,7 @@ const UpgradeServices = () => {
         />
         <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Dynamics 365 Upgrade Service Partner | Trusted by 250+ Clients"
-        />
-        <meta
-          property="og:description"
-          content="Upgrade your system capabilities, process flow, adapt operational change through our highly integrated Dynamics 365 upgrade services."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/our-services/dynamics-365-upgrade-services/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:secure_url" content="" />
-        <meta property="og:image:width" content="1024" />
-        <meta property="og:image:height" content="617" />
-        <meta property="og:image:alt" content="contact-form-image" />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Dynamics 365 Upgrade Service Partner | Trusted by 250+ Clients"
-        />
-        <meta
-          name="twitter:description"
-          content="Upgrade your system capabilities, process flow, adapt operational change through our highly integrated Dynamics 365 upgrade services."
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="3 minutes" />
+        
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -309,8 +269,7 @@ const UpgradeServices = () => {
                       <div className="accordion-body">
                         Comprising extensive expertise along with years of
                         proficiency, we are an authorized gold partner for
-                        Microsoft products and services. From seamless Dynamics
-                        365 implementation to upgrade and support, we take care
+                        Microsoft products and services. From seamless <NavLink to="/our-services/dynamics-365-implementation-services/">Dynamics 365 implementation</NavLink> to upgrade and support, we take care
                         of your entire system needs. Embedded with experts,
                         advanced methodologies, and a secure data migration
                         skill set, we can implement a highly productive and
@@ -381,8 +340,7 @@ const UpgradeServices = () => {
                       <div className="accordion-body">
                         We drive and ensure strategic data migration when you
                         come up to upgrade to Dynamics 365. Whether your need
-                        arises to upgrade to Business Central or NAV to Business
-                        Central upgrade, we can ensure secure and reliable data
+                        arises to upgrade to Business Central or <ExternalLink href="https://www.dynamicssquare.co.uk/blog/migrate-nav-to-business-central/">NAV to Business Central migration</ExternalLink>, we can ensure secure and reliable data
                         migration. Our Dynamics 365 data migration services are
                         designed that comprise customized, step-by-step, and
                         secure data migration from your existing system to the
@@ -424,8 +382,8 @@ const UpgradeServices = () => {
                       data-bs-parent="#acc"
                     >
                       <div className="accordion-body">
-                        Since Dynamics NAV has been transformed with Dynamics
-                        365 Business Central and Dynamics AX has been
+                        Since <NavLink to="/products/microsoft-dynamics-nav/">Dynamics NAV</NavLink> has been transformed with <NavLink to="/products/dynamics-365-business-central/">Dynamics
+                        365 Business Central</NavLink> and Dynamics AX has been
                         transformed with Dynamics 365 Finance & Supply Chain,
                         our experts can ensure seamless upgrade depending on
                         your core business needs, process optimization, and

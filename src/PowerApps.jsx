@@ -12,10 +12,10 @@ const PowerApps = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Microsoft Power Apps | Build Business Applications</title>
+        <title>Microsoft Power Apps: Build Business Applications | Dynamics Square</title>
         <meta
           name="description"
-          content="Build low-code applications, drive swiftness and modernize processes across your organization without compromising quality and speed with Microsoft Power Apps."
+          content="Microsoft Power Apps can let you build low-code apps and drive swiftness across the core operations of the business. Dive-in to know more about it. "
         />
         <link
           rel="canonical"
@@ -153,7 +153,7 @@ const PowerApps = () => {
                         Power Apps enable the employees to create applications
                         that are well featured with advanced functionalities to
                         offer a professional look to the applications.The
-                        platform includes AI (Artificial Intelligence)
+                        platform includes AI (<NavLink to="/products/microsoft-dynamics-365-ai/">Artificial Intelligence</NavLink>)
                         components that are pre-built-in order to offer features
                         and specifications to the applications that are high-end
                         so that they offer a professional look and experience.
@@ -473,7 +473,7 @@ const PowerApps = () => {
                   or run unlimited apps.
                 </p>
                 <div className="price">
-                  <sup>£</sup>3.80<span>Per-User/App/Per Month</span>
+                  £3.80<span>Per-User/App/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -493,7 +493,7 @@ const PowerApps = () => {
                   or run unlimited apps.
                 </p>
                 <div className="price">
-                  <sup>£</sup>3.80<span>Per-User/Per Month</span>
+                  £3.80<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -512,7 +512,7 @@ const PowerApps = () => {
                   user runs an app during a monthly period.
                 </p>
                 <div className="price">
-                  <sup>£</sup>7.45<span>Per Active User/App/Month1</span>
+                  £7.45<span>Per Active User/App/Month1</span>
                 </div>
                 <ul>
                   <li>

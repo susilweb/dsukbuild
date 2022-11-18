@@ -201,8 +201,9 @@ const HumanResource = () => {
               
             <h2>Microsoft Dynamics 365 Human Resources Features</h2>
               <h3>
-                How does Microsoft Dynamics 365 Human Resources help to Elevate
-                Your Financial Capabilities?
+              Streamline your entire Human Resource operations with D365 Human ResourcesUplift Your Resourcing Capabilities with Dynamics Square
+
+
               </h3>
             </div>
               
@@ -314,7 +315,7 @@ const HumanResource = () => {
               <div className="side-heading">
                 <h2>Dynamics 365 Human Resources Service</h2>
                 <p>
-                Uplift Your Resourcing Capabilities with Dynamics Square
+                Boost your human resource capabilities and enhance employee engagement while availing our top-notch services 
                 </p>
               </div>
               <div className="busine_service_bottom-right">
@@ -327,8 +328,7 @@ const HumanResource = () => {
                 <div className="card_new_content">
                   <h3>Implementation</h3>
                   <p>
-                    Improve and accelerate your human resource processes by
-                    implementing Dynamics 365 Human Resources.
+                  Drive smoother human resourcing practices by Dynamics 365 Human Resources implementation. 
                   </p>
                   <div className="action-content">
                     <NavLink data-bs-toggle="modal" to="#exampleModal">
@@ -347,8 +347,7 @@ const HumanResource = () => {
                 <div className="card_new_content">
                   <h3>Upgrade</h3>
                   <p>
-                    Configure your system with advanced human resource
-                    capabilities to upgrade your resource optimization.
+                  Update or upgrade your system with advanced human resource capabilities with Dynamics Square. 
                   </p>
                   <div className="action-content">
                     <NavLink data-bs-toggle="modal" to="#exampleModal">
@@ -367,8 +366,7 @@ const HumanResource = () => {
                 <div className="card_new_content">
                   <h3>Support</h3>
                   <p>
-                    Keep optimizing your resources and drive a smoother flow in
-                    your organization with our <NavLink to="/our-services/dynamics-365-support-services/">Dynamics 365 support services</NavLink>.
+                  Maximise your resource utilization and optimize your existing resources with our simple yet powerful <NavLink to="/our-services/dynamics-365-support-services/">Dynamics 365 support services</NavLink>.
                   </p>
                   <div className="action-content">
                     <NavLink data-bs-toggle="modal" to="#exampleModal">
@@ -408,6 +406,7 @@ const HumanResource = () => {
           <div className="col-lg-8">
           <header className="section-header">
             <h2>Dynamics 365 Human Resources pricing</h2>
+            <p>Check out the latest Human Resource pricing and choose the most suitable package as per your needs.</p>
           </header>
           </div>
          </div>
@@ -418,7 +417,7 @@ const HumanResource = () => {
                 Dynamics 365 Human Resources
                 </h3>
                 <div className="price">
-                  <sup>£</sup>90.50<span>Per-User/Per Month</span>
+                  £90.50<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -433,7 +432,7 @@ const HumanResource = () => {
                 Dynamics 365 Human Resources Self-Service
                 </h3>
                 <div className="price">
-                  <sup>£</sup>3<span>Per-User/Per Month</span>
+                  £3<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -453,6 +452,143 @@ const HumanResource = () => {
                 >
                   <span>Get Started Now</span>
                 </NavLink>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="solution-faq faq">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <header className="section-header">
+                <h2>Have you got <br /> questions about Dynamics 365 Finance?</h2>
+                <p>Click through to our FAQ for the best answers!</p>
+              </header>
+            </div>
+          </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >
+                      What is the Dynamics 365 HR system? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      D365 Human Resource is an employee management solution built to empower HR people and drive improved employee engagement practices. It is a powerful solution that improves organisational agility, provides actionable insights, and accelerates recruitment, among other benefits.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                      Is Dynamics 365 Human Resources free? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      No, D365 Human Resources isn't free. You can, however, take advantage of a free 30-day trial period.You can get the trial by following the <NavLink to="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</NavLink> page. And, when it comes to D365 Human Resource pricing and licensing, you can check out the pricing section available above. 
+                      </p>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >
+                      What are the top features of D365 Human Resources?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      This is a powerful application that offers immense features and capabilities to all users, including, empowering employees, optimising current processes, pushing employees for their personal development, and optimising HR policies for a more engaging employee experience. 
+                      </p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                      What is the cost of D365 Human Resource Implementation? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      The cost of implementation is not fixed because the cost of a business solution depends on the complexity of the business and its changing requirements. If you want to get an accurate quote for the cost of this application so that you can get started working with it, contact the certified <NavLink to="/dynamics-365-human-resources-implementation/">D365 Human Resource Implementation Partner</NavLink>. 
+                      </p>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >
+                      How much time will it take to implement D365 HR? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      The implementation time varies from business to business. With the individualised demands and increased need for customisation, it would not be right to give you exact data. However, you can contact a certified gold support partner like <NavLink to="/">Dynamics Square</NavLink> to discuss your needs. Once our expert consultants understand your needs, we will give you an estimate of the time and cost of the entire process. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+               
               </div>
             </div>
           </div>

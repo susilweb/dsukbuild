@@ -28,51 +28,7 @@ const ProfessionalService = () => {
         />
         <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Microsoft Dynamics 365 For Professional Services | Dynamics Square"
-        />
-        <meta
-          property="og:description"
-          content="Dynamics 365 for professional services: streamline and efficiently manage your professional services from end-to-end administration to project automation to financial management, and more."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/industries/professional-services/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:secure_url" content="" />
-        <meta property="og:image:width" content="790" />
-        <meta property="og:image:height" content="470" />
-        <meta
-          property="og:image:alt"
-          content="Dynamics 365 for professional services"
-        />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Microsoft Dynamics 365 For Professional Services | Dynamics Square"
-        />
-        <meta
-          name="twitter:description"
-          content="Dynamics 365 for professional services: streamline and efficiently manage your professional services from end-to-end administration to project automation to financial management, and more."
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="5 minutes" />
+       
       </Helmet>
       <ModalVideo
         channel="youtube"
@@ -120,7 +76,7 @@ const ProfessionalService = () => {
                 with Dynamics 365
               </h2>
               <p>
-              Enable project automation, budget control, time management, accuracy in reports and invoices, resource management, warehouse management and more by implementing Dynamics 365 for Professional Services. At Dynamics Square, we have experts to help boost your operational efficiency and transform your professional services by upgrading your system with Microsoft Dynamics 365 solutions.</p>
+              Enable project automation, budget control, time management, accuracy in reports and invoices, resource management, warehouse management and more by implementing Dynamics 365 for Professional Services. At Dynamics Square, we have experts to help boost your operational efficiency and transform your professional services by upgrading your system with <NavLink to="/products/microsoft-dynamics-365/">Microsoft Dynamics 365 solutions</NavLink>.</p>
             </header>
           </div>
         </section>
@@ -153,7 +109,7 @@ const ProfessionalService = () => {
                     </div>
                     <div className="cintent-right">
                       <p>
-                        With an all-in-one integrated ERP solution, enterprises
+                        With an all-in-one integrated <NavLink to="/products/microsoft-dynamics-erp/">ERP solution</NavLink>, enterprises
                         can manage their day-to-day tasks with data automation,
                         simplify their decision-making process with AI-based
                         reports & key analytics in real-time.

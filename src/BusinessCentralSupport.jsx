@@ -12,34 +12,14 @@ const BusinessCentralSupport = () => {
 <link rel="canonical" href="https://www.dynamicssquare.co.uk/dynamics-365-business-central-support/" />
 <meta property="og:locale" content="en_GB" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Dynamics 365 Business Central Support Partner UK | Dynamics Square" />
-<meta property="og:description" content="Get flexible Microsoft Dynamics 365 Business Central Support Packages that we have designed specifically for small and medium sized businesses (SMBs)." />
-<meta property="og:url" content="https://www.dynamicssquare.co.uk/dynamics-365-business-central-support/" />
-<meta property="og:site_name" content="Dynamics Square" />
-<meta property="article:publisher" content="https://www.facebook.com/dynamicssquareuk" />
-<meta property="article:author" content="https://www.facebook.com/vickygururani" />
-<meta property="fb:app_id" content="2007906422699147" />
-<meta property="og:image" content="https://www.dynamicssquare.co.uk/assets/img/Dynamics-365-Finance-Banner-1.svg" />
-<meta property="og:image:secure_url" content=" " />
-<meta property="og:image:width" content="1024" />
-<meta property="og:image:height" content="586" />
-<meta property="og:image:alt" content="business-central-support-banner" />
-<meta property="og:image:type" content="image/png" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Dynamics 365 Business Central Support Partner UK | Dynamics Square" />
-<meta name="twitter:description" content="Get flexible Microsoft Dynamics 365 Business Central Support Packages that we have designed specifically for small and medium sized businesses (SMBs)." />
-<meta name="twitter:site" content="@dsquare_uk" />
-<meta name="twitter:creator" content="@dsquare_uk" />
-<meta name="twitter:image" content=" " />
-<meta name="twitter:label1" content="Time to read" />
-<meta name="twitter:data1" content="3 minutes" />
+
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
-              Microsoft Dynamics 365 Business Central Support 
+              Dynamics 365 Business Central Support 
               </h1>
               <p>
               Are you struggling to find the right Microsoft Dynamics partner? Get the UK's leading Dynamics 365 Business Central Support Partner onboard for an efficient and effortless experience. 
@@ -72,8 +52,8 @@ const BusinessCentralSupport = () => {
             <div className="col-lg-9">
             <header className="section-header">
             <h2>Efficient Dynamics 365 <br /> Business Central Support Services</h2>
-            <p>Streamline your business management efforts with a dedicated Dynamics 365 support partner and let Dynamics 365 work for rapid business growth and easy scalability. With a dedicated team of experts, we can get your business back on track with minimal resources and high profitability.</p>
-            <p>Transform the organisation's customer experience, process management, employee management, and data sharing for business optimisation with the right Business Central partner.</p>
+            <p>Streamline your business management efforts with a dedicated Microsoft Business Central support partner and let Dynamics 365 work for rapid business growth and easy scalability. With a dedicated team of experts, we can get your business back on track with minimal resources and high profitability.</p>
+            <p>Transform the organisation's customer experience, process management, employee management, and data sharing for business optimisation with the right <NavLink to="/products/dynamics-365-business-central/">Business Central partner</NavLink>.</p>
             <p></p>
           </header>
             </div>
@@ -88,7 +68,7 @@ const BusinessCentralSupport = () => {
               <div className="commen-rit-info commen-rit-info-1">
                 <p>As a certified Microsoft gold partner, we aim to provide seamless and dedicated support to all SMBs with 99% satisfaction. We focus on streamlining hectic operations, better results, maximum growth, and easy scalability.</p>
                 <p>We help businesses improve processes, efficient planning, easy data analysis, collaboration with different departments, centralized data processing, and real-time data reporting using cloud computing and artificial intelligence.</p>
-                <p>At Dynamics Square, we are committed to providing highly embedded <NavLink to="/products/dynamics-365-business-central/">Business Central</NavLink> support for all businesses, irrespective of the industry and specific business requirements.</p>
+                <p>At Dynamics Square, we are committed to providing highly embedded Business Central support for all businesses, irrespective of the industry and specific business requirements.</p>
                 <p>Our support proactively analyses the error, evaluates the situation, predicts the outcomes, and provides the business with a sustainable solution.</p>
                 <p>Whether you require <NavLink to="/dynamics-365-business-central-upgrade/">upgradation</NavLink>, <NavLink to="/dynamics-365-business-central-implementation/">implementation</NavLink>, or customization services, our team is available to resolve all kinds of errors on time for a seamless and improved business process.</p>
 

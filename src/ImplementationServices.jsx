@@ -25,48 +25,7 @@ const ImplementationServices = () => {
         />
         <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Dynamics 365 Implementation Services Partner"
-        />
-        <meta
-          property="og:description"
-          content="Dynamics Square is known for providing Dynamics 365 implementation services worldwide. Our ERP & CRM implementations plans are backed by solid processes, methodologies, and experience."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/our-services/dynamics-365-implementation-services/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:secure_url" content="" />
-        <meta property="og:image:width" content="1186" />
-        <meta property="og:image:height" content="710" />
-        <meta property="og:image:alt" content="Dynamics 365 implementation" />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Dynamics 365 Implementation Services Partner"
-        />
-        <meta
-          name="twitter:description"
-          content="Dynamics Square is known for providing Dynamics 365 implementation services worldwide. Our ERP & CRM implementations plans are backed by solid processes, methodologies, and experience."
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="4 minutes" />
+        
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -118,9 +77,7 @@ const ImplementationServices = () => {
                 <p>
                   To ensure a successful implementation comprises choosing a
                   domain-specific solution, modernized methodologies, and a
-                  trustworthy implementation partner embedded with the high-end
-                  understanding, right skill set, and ability to deliver within
-                  eligible time-frame and cost.
+                  trustworthy Dynamics 365 implementation partner embedded with the high-end understanding, right skill set, and ability to deliver within eligible time-frame and cost.
                 </p>
               </header>
             </div>
@@ -142,7 +99,7 @@ const ImplementationServices = () => {
             <div className="col-lg-6 align-self-center">
               <div className="side-heading-custom-01">
                 <h2>
-                  Microsoft Dynamics
+                  Microsoft Dynamics 365
                   <br />
                   Implementation Partner
                 </h2>
@@ -314,7 +271,7 @@ const ImplementationServices = () => {
                     Bring acceleration in your service part comprising customer
                     management, field service, and remote assist. We implement
                     highly configured, connected, and integrated solutions
-                    simplified with AI, IoT, and Machine Learning capabilities.
+                    simplified with AI, IoT, and <NavLink to="/products/microsoft-azure/">Machine Learning capabilities</NavLink>.
                   </p>
                 </div>
               </div>

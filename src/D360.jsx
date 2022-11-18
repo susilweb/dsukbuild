@@ -364,6 +364,91 @@ const D360 = () => {
           </div>
         </div>
       </section>
+      <section className="new-style-bg">
+        <div className="container">
+           <div className="row justify-content-center">
+            <div className="col-lg-8">
+            <header className="section-header">
+            <h2>
+            Microsoft Dynamics 365 Suite </h2>
+            <p>Optimise processes, drive business continuity, and enable your business for digital transformation while eliminating redundancies using the most advanced business applications of the Microsoft Dynamics 365 suite: </p>
+          </header>
+            </div>
+            </div>                   
+          <div className="row g-5">
+            <div className="col-lg-6">
+            <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Business Central</h3>
+                  <p>
+                  <NavLink to="/products/dynamics-365-business-central/">Business Central</NavLink>: Revolutionise your business management methods, optimise resources, and avail real-time decision making for more profitability and scalability. 
+                  </p>
+                </div>
+              </div>
+
+              <div className="style-grid-1">
+                
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Sales</h3>
+                  <p>
+                  <NavLink to="/products/microsoft-dynamics-365-sales/">D365 for Sales</NavLink>: Bring more sales, build strong relationships, and simplify your customer journey while getting more revenue and closing deals faster.
+                  </p>
+                </div>
+              </div>
+              
+            
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Finance</h3>
+                  <p>
+                  <NavLink to="/products/microsoft-dynamics-365-finance/">D365 Finance</NavLink>: Strengthen financial health, supervise global operations, and drive agility to streamline all financial practises for a better ROI. 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              
+
+              <div className="style-grid-1">
+                
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Supply Chain Management </h3>
+                  <p>
+                  <NavLink to="/products/dynamics-365-supply-chain-management/">D365 Supply Chain</NavLink>: Modernise your end-to-end supply chain operations, get real-time visibility, and enable strategic decision-making using embedded AI, IoT, and ML.
+                  </p>
+                </div>
+              </div>
+
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Field Service</h3>
+                  <p>
+                  <NavLink to="/products/microsoft-dynamics-365-field-service/">D365 Field Service</NavLink>: Empower team collaboration, optimise field operations, and deliver a seamless service experience while offering exceptional customer engagement.
+                  </p>
+                </div>
+              </div>
+
+              <div className="style-grid-1">
+                
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Marketing</h3>
+                  <p>
+                  <NavLink to="/products/microsoft-dynamics-365-marketing/">D365 for Marketing</NavLink>: Utilise marketing automation tools, allow multichannel marketing activities, and build a personalised journey to win customers and their loyalty.
+                  </p>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-12">
+              <p>Microsoft Dynamics 365 offers more business management tools to aid you with all business operations like, Microsoft Dynamics 365 Customer Service, Microsoft Dynamics Customer Engagement, Dynamics 365 Commerce, Dynamics 365 Project Operations, and Microsoft Dynamics 365 Human Resources.</p>
+             
+            </div>
+          </div>
+        </div>
+      </section> 
+
       <section className="Solution-business-whys">
         <div className="container">
         <header className="section-header">
@@ -381,7 +466,7 @@ const D360 = () => {
               </div>
               <br />
               <div className="text-center m-o-t new-btn-nn">
-                  <ExternalLink href="https://www.dynamicssquare.co.uk//blog/perfect-guide-for-microsoft-dynamics-365-pricing-and-licensing/"
+                  <ExternalLink href="https://www.dynamicssquare.co.uk/blog/dynamics-365-pricing-and-licensing/"
                     className="btn-get-started scrollto" target="_blank" rel=""
                   >
                     <span>Dynamics 365 Pricing & Licensing Guide </span>
@@ -398,9 +483,9 @@ const D360 = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Get Free Dynamics 365 Consultation!</h3>
+                <h3>Utilize Dynamics 365 Capabilities Now!</h3>
                 <p>
-                Looking to implement Microsoft Dynamics 365 Business Application?
+                Let Dynamics Square be your reliable Microsoft Dynamics 365 Gold partner as we improve your business by offering you the right custom-built Dynamics 365 solutions to fit with your business needs.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link
@@ -408,7 +493,7 @@ const D360 = () => {
                     to="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
+                    <span>Get Dynamics 365 Today!</span>
                   </Link>
                 </div>
               </div>
@@ -744,7 +829,7 @@ const D360 = () => {
             <h2>
             Get Dynamics 365 Services With Dynamics Square
             </h2>
-            <p>As a Microsoft Gold Certified Partner, we provide you with a seamless experience in upgrading or implementing Dynamics 365 without disturbing your existing work process. </p>
+            <p>As a Microsoft Gold Certified Partner UK, we provide you with a seamless experience in upgrading or implementing Dynamics 365 without disturbing your existing work process. </p>
           </header>
           <div className="row">
             <div className="col-lg-4">

@@ -162,11 +162,7 @@
   <lastmod>2022-07-11T10:52:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/why-choose-microsoft-dynamics-365-business-central/</loc>
-  <lastmod>2022-07-11T10:52:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+
 <url>
   <loc>https://www.dynamicssquare.co.uk/10-reasons-to-choose-dynamics-365/</loc>
   <lastmod>2022-07-11T10:52:31+00:00</lastmod>
@@ -290,11 +286,7 @@
   <lastmod>2022-07-11T10:52:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/azure-iot-edge</loc>
-  <lastmod>2022-07-11T10:52:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+
 <url>
   <loc>https://www.dynamicssquare.co.uk/products/microsoft-power-platform/</loc>
   <lastmod>2022-07-11T10:52:31+00:00</lastmod>
@@ -452,11 +444,7 @@
   <lastmod>2022-07-11T10:52:31+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/products/microsoft-office-365/</loc>
-  <lastmod>2022-07-11T10:52:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+
 <url>
   <loc>https://www.dynamicssquare.co.uk/products/microsoft-dynamics-sharepoint/</loc>
   <lastmod>2022-07-11T10:52:31+00:00</lastmod>
@@ -570,11 +558,6 @@
   <priority>0.64</priority>
 </url>
 
-<url>
-  <loc>https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-business-central/</loc>
-  <lastmod>2022-07-11T10:52:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
 
 <url>
   <loc>https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/advantages-capabilities/</loc>
@@ -623,13 +606,6 @@
   <priority>0.51</priority>
 </url>
 
-<url>
-  <loc>https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-business-central</loc>
-  <lastmod>2022-07-11T10:52:31+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-
-
 
 <url>
   <loc>https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-retail/</loc>
@@ -637,22 +613,13 @@
   <priority>0.51</priority>
 </url>
 
-<url>
-  <loc>https://www.dynamicssquare.co.uk/products/microsoft-azure</loc>
-  <lastmod>2022-07-11T10:52:31+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
 
 <url>
   <loc>https://www.dynamicssquare.co.uk/location/microsoft-dynamics-partner-bristol/</loc>
   <lastmod>2022-07-11T10:52:31+00:00</lastmod>
   <priority>0.33</priority>
 </url>
-<url>
-  <loc>https://www.dynamicssquare.co.uk/microsoft-dynamics-365-finance-operations/</loc>
-  <lastmod>2022-07-11T10:52:31+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
+
 
 <url>
   <loc>https://www.dynamicssquare.co.uk/why-choose-microsoft-dynamics-365-business-central</loc>
@@ -661,21 +628,47 @@
 </url>
 
 <url>
-  <loc>https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365/mixed-reality/</loc>
-  <lastmod>2022-07-11T10:52:31+00:00</lastmod>
-  <priority>0.26</priority>
-</url>
-<url>
   <loc>https://www.dynamicssquare.co.uk/power-bi-implementation/</loc>
   <lastmod>2022-07-11T10:52:31+00:00</lastmod>
   <priority>0.26</priority>
 </url>
+
 <url>
-  <loc>https://www.dynamicssquare.co.uk/products/microsoft-power-platform/power-automate/</loc>
+  <loc>https://www.dynamicssquare.co.uk/dynamics-365-human-resources-implementation/</loc>
   <lastmod>2022-07-11T10:52:31+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 
+<url>
+  <loc>https://www.dynamicssquare.co.uk/dynamics-365-marketing-implementation/</loc>
+  <lastmod>2022-07-11T10:52:31+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://www.dynamicssquare.co.uk/dynamics-365-project-operations-implementation/</loc>
+  <lastmod>2022-07-11T10:52:31+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://www.dynamicssquare.co.uk/dynamics-365-field-service-implementation/</loc>
+  <lastmod>2022-07-11T10:52:31+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://www.dynamicssquare.co.uk/dynamics-365-customer-service-implementation/</loc>
+  <lastmod>2022-07-11T10:52:31+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://www.dynamicssquare.co.uk/dynamics-365-sales-implementation/</loc>
+  <lastmod>2022-07-11T10:52:31+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://www.dynamicssquare.co.uk/d365-supply-chain-management-implementation/</loc>
+  <lastmod>2022-07-11T10:52:31+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
 
 
 </urlset>

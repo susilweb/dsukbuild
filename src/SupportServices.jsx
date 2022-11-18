@@ -20,48 +20,7 @@ const SupportServices = () => {
         />
         <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Microsoft Dynamics 365 Support & Services Partner | Dynamics Square"
-        />
-        <meta
-          property="og:description"
-          content="Drive continuity in your processes and ensure a sustainable approach with our seamless Dynamics 365 Support Services. Continuous monitoring of your system and processes can help to attain lifelong success."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/our-services/dynamics-365-support-services/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:secure_url" content="" />
-        <meta property="og:image:width" content="1024" />
-        <meta property="og:image:height" content="617" />
-        <meta property="og:image:alt" content="contact-form-image" />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Microsoft Dynamics 365 Support & Services Partner | Dynamics Square"
-        />
-        <meta
-          name="twitter:description"
-          content="Drive continuity in your processes and ensure a sustainable approach with our seamless Dynamics 365 Support Services. Continuous monitoring of your system and processes can help to attain lifelong success."
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="7 minutes" />
+        
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -148,7 +107,7 @@ const SupportServices = () => {
             <p>
               Drive innovative and strategic approach through your business
               premises with intelligent connected processes, data insights, and
-              adaptive Dynamics 365 CRM & ERP solutions.
+              adaptive <NavLink to="/products/microsoft-dynamics-crm/">Dynamics 365 CRM</NavLink> & <NavLink to="/products/microsoft-dynamics-erp/">ERP solutions</NavLink>.
             </p>
           </header>
           <div className="row p-lg-6">
@@ -328,7 +287,7 @@ const SupportServices = () => {
                   <p>
                     Nothing remains static, neither your process flow nor the
                     enhancement (as continuous upgrades are made by Microsoft in
-                    a timely manner) in Dynamics 365 products. Thereby, we are
+                    a timely manner) in <NavLink to="/products/microsoft-dynamics-365/">Dynamics 365 products</NavLink>. Thereby, we are
                     here to take responsibility for your account management
                     part. We help to stay updated with the latest developments
                     or system updates to support not just your existing
@@ -346,7 +305,7 @@ const SupportServices = () => {
                   <p>
                     Defining your upgraded processes or potential changes, we
                     can help to extend your system functionalities. One of the
-                    popular products of Dynamics 365 is Business Central which
+                    popular products of Dynamics 365 is <NavLink to="/products/dynamics-365-business-central/">Business Central</NavLink> which
                     is upgraded very frequently to support frequent changes or
                     challenges that come across. So, we can update your system
                     with the latest or required add-ons to cope with your lying
@@ -535,7 +494,7 @@ const SupportServices = () => {
                     cost-effective rates. Enterprises can avail of our Dynamics
                     365 Support Services at 40% less cost than other Microsoft
                     Partners. To know your pricing, connect and avail of our
-                    Dynamics 365 Consulting services, we can reveal the best
+                    <NavLink to="/">Dynamics 365 Consulting services</NavLink>, we can reveal the best
                     quote for you.
                   </p>
                 </div>

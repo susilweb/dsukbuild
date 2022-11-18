@@ -26,51 +26,7 @@ const Manufacturing = () => {
         />
         <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Microsoft Cloud for Manufacturing | Dynamics Square"
-        />
-        <meta
-          property="og:description"
-          content="By implementing Microsoft Cloud for Manufacturing, you can uncover new manufacturing capabilities to effectively connect your employees, workflow, processes, drive transparency, profitability, and agility."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/industries/microsoft-cloud-for-manufacturing/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:secure_url" content="" />
-        <meta property="og:image:width" content="1024" />
-        <meta property="og:image:height" content="586" />
-        <meta
-          property="og:image:alt"
-          content="Cloud-For-Manufacturing-banner"
-        />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Microsoft Cloud for Manufacturing | Dynamics Square"
-        />
-        <meta
-          name="twitter:description"
-          content="By implementing Microsoft Cloud for Manufacturing, you can uncover new manufacturing capabilities to effectively connect your employees, workflow, processes, drive transparency, profitability, and agility."
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="3 minutes" />
+        
       </Helmet>
       <ModalVideo
         channel="youtube"
@@ -174,9 +130,9 @@ const Manufacturing = () => {
                     </div>
                     <div className="cintent-right">
                       <p>
-                        Connect across your digital channels including Dynamics
-                        365, Microsoft 365, Microsoft Teams, Power Platforms,
-                        HoloLens 2, and Microsoft Azure with Microsoft Cloud
+                        Connect across your digital channels including <NavLink to="/products/microsoft-dynamics-365/">Dynamics
+                        365</NavLink>, Microsoft 365, Microsoft Teams, <NavLink to="/products/microsoft-power-platform/">Power Platforms</NavLink>,
+                        HoloLens 2, and <NavLink to="/products/microsoft-azure/">Microsoft Azure</NavLink> with Microsoft Cloud
                         Manufacturing to drive a highly innovative, productive,
                         and customer-driven experience.
                       </p>

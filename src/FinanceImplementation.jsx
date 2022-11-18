@@ -14,7 +14,7 @@ const FinanceImplementation = () => {
     <>
       <Helmet>
       <title>Dynamics 365 Finance Implementation Partner UK</title>
-<meta name="description" content="Experience the power of Enterprise Grade ERP Platform Dynamics 365 Finance Implementation. Get Dynamics 365 Finance &amp; Operations Implementation packages."/>
+<meta name="description" content="Dynamics 365 Finance Implementation is an enterprise-grade ERP platform that helps businesses manage their finances and operations more efficiently. Get in touch Today!"/>
 <link rel="canonical" href="https://www.dynamicssquare.co.uk/dynamics-365-finance-implementation/" />
 <meta property="og:locale" content="en_GB" />
       </Helmet>
@@ -560,6 +560,7 @@ const FinanceImplementation = () => {
                     automation and accuracy wrapped with a simplified process to
                     effectively manage your global payments, taxes, and more.
                   </p>
+                  <p>See Also: <NavLink to="/d365-supply-chain-management-implementation/">Dynamics 365 Supply Chain Implementation</NavLink></p>
                 </div>
               </div>
             </div>

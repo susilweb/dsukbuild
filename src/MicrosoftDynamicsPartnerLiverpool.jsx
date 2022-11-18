@@ -6,33 +6,13 @@ const MicrosoftDynamicsPartnerLiverpool = () => {
   return (
     <>
       <Helmet>
-      <title>Microsoft Dynamics Partner Liverpool, UK | Dynamics Square</title>
-<meta name="description" content="Dynamics Square is Microsoft Dynamics Partner in Liverpool, helping businesses to get the best Dynamics 365 implementation, upgrade and support services."/>
+      <title>Microsoft Dynamics Gold Partner Liverpool, UK | Dynamics Square</title>
+<meta name="description" content="Looking for a Microsoft Dynamics partner in Liverpool? Dynamics Square is helping businesses to get the best Dynamics 365 implementation, upgrade and support services."/>
 <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
 <link rel="canonical" href="https://www.dynamicssquare.co.uk/location/microsoft-dynamics-partner-liverpool/" />
 <meta property="og:locale" content="en_GB" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Microsoft Dynamics Partner Liverpool, UK | Dynamics Square" />
-<meta property="og:description" content="Dynamics Square is Microsoft Dynamics Partner in Liverpool, helping businesses to get the best Dynamics 365 implementation, upgrade and support services." />
-<meta property="og:url" content="https://www.dynamicssquare.co.uk/location/microsoft-dynamics-partner-liverpool/" />
-<meta property="og:site_name" content="Dynamics Square" />
-<meta property="article:publisher" content="https://www.facebook.com/dynamicssquareuk" />
-<meta property="article:author" content="https://www.facebook.com/vickygururani" />
-<meta property="fb:app_id" content="2007906422699147" />
-<meta property="og:image" content="https://www.dynamicssquare.co.uk/assets/img/Microsoft-Dynamics-Partner-Liverpool.png" />
-<meta property="og:image:secure_url" content=" " />
-<meta property="og:image:width" content="768" />
-<meta property="og:image:height" content="501" />
-<meta property="og:image:alt" content="Microsoft Dynamics Partner Liverpool" />
-<meta property="og:image:type" content="image/png" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Microsoft Dynamics Partner Liverpool, UK | Dynamics Square" />
-<meta name="twitter:description" content="Dynamics Square is Microsoft Dynamics Partner in Liverpool, helping businesses to get the best Dynamics 365 implementation, upgrade and support services." />
-<meta name="twitter:site" content="@dsquare_uk" />
-<meta name="twitter:creator" content="@dsquare_uk" />
-<meta name="twitter:image" content=" " />
-<meta name="twitter:label1" content="Time to read" />
-<meta name="twitter:data1" content="4 minutes" />
+
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -44,8 +24,7 @@ const MicrosoftDynamicsPartnerLiverpool = () => {
                 Partner Liverpool
               </h1>
               <p>
-                We are experienced Microsoft Gold Partners based in Liverpool,
-                UK.
+              We are a Microsoft Gold Partner based in Liverpool, UK. We have extensive experience in helping businesses get the most out of Microsoft products and services. We can help you with anything from Microsoft Dynamics product selection and deployment to training and support.
               </p>
             </div>
             <div className="col-lg-6 align-self-center">
@@ -66,8 +45,7 @@ const MicrosoftDynamicsPartnerLiverpool = () => {
                 <h2>Microsoft Gold Partner in Liverpool</h2>
 
                 <p>
-                  Looking for a trustworthy Microsoft Dynamics Partner in
-                  Liverpool? Let Dynamics Square- A certified Microsoft Dynamics
+                  Looking for a trustworthy <NavLink to="/">Microsoft Dynamics Partner in Liverpool</NavLink>? Let Dynamics Square- A certified Microsoft Dynamics
                   Gold Partner in Liverpool, UK, help your business drive
                   growth, scale productivity, and future assured sustainability
                   with our high-tech, growth-driven business solutions.
@@ -118,9 +96,7 @@ const MicrosoftDynamicsPartnerLiverpool = () => {
               We Offer
             </h2>
             <p>
-              Depending On Your Specific Business Domain And Industry Context,
-              Your System Requirement May Vary. Here Is What We Offer In Terms
-              Of Microsoft Dynamics 365 Solutions:
+            Depending on your specific business domain and industry context, your system requirements may vary. Here is a comprehensive list of Microsoft Dynamics 365 solutions that we offer:
             </p>
           </header>
           <div className="row p-lg-6">
@@ -148,16 +124,8 @@ const MicrosoftDynamicsPartnerLiverpool = () => {
                     >
                       <div className="accordion-body">
                         <p>
-                          We focus on meeting all of your business requirements;
-                          thus, Dynamics 365 Business Central is a critical ERP
-                          for successfully managing your business processes.
-                          Sales & marketing, finance, purchase, supply chain,
-                          warehouse, project operation, services, manufacturing,
-                          and distribution are a few of the business processes
-                          that the Business Central can assist streamline and
-                          simplify. We can be your Business Central partner in
-                          Liverpool if you require professional support managing
-                          your business operations.
+                        Here at our company, we focus on meeting all of your business requirements. We know that <NavLink to="/products/dynamics-365-business-central/">Microsoft Business Central</NavLink> is a critical ERP for successfully managing your business processes; sales & marketing, finance, purchase, supply chain, warehouse, project operation, services, manufacturing, and distribution are just a few of the many processes that the Business Central can help streamline and simplify. If you're based in Liverpool and require professional support managing your business operations, we can be your Business Central partner.
+
                         </p>
                       </div>
                     </div>
@@ -304,7 +272,7 @@ const MicrosoftDynamicsPartnerLiverpool = () => {
                           operations, customers, sales, finance, etc. In that
                           case, we can help with a proven Business Analytics
                           tool, Power BI, which was naturally a part of Power
-                          Platforms; we have a team of Power BI experts in
+                          Platforms; we have a team of <NavLink to="/products/microsoft-power-bi/">Power BI help</NavLink> experts in
                           Liverpool, and we can boost your reporting and
                           analytics skills.You can contact us if you're having
                           problems selecting which solution is the best fit for
@@ -392,10 +360,9 @@ const MicrosoftDynamicsPartnerLiverpool = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Connect to Our Experts</h3>
+                <h3>Talk to Our Experts</h3>
                 <p>
-                  Willing to improve your system's functional navigation,
-                  connect with us to get expert advice.
+                If you're looking to improve the functionality of your system's navigation, our experts can provide you with the advice you need. Contact us today to get started.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link

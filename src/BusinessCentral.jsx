@@ -33,60 +33,7 @@ const BusinessCentral = () => {
         />
         <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Dynamics 365 Business Central" />
-        <meta
-          property="og:description"
-          content="Dynamics 365 Business Central is a unified modern ERP system that allows you to manage sales, finance, operations, projects, people, and accounts all under one roof."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:secure_url" content="" />
-        <meta property="og:image:width" content="1024" />
-        <meta property="og:image:height" content="597" />
-        <meta property="og:image:alt" content="Dynamics 365 Business Central" />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Dynamics 365 Business Central" />
-        <meta
-          name="twitter:description"
-          content="Manage your end-to-end business processes and drive business growth with our Microsoft Dynamics 365 Business Central implementations packages."
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="9 minutes" />
-        <script type="application/ld+json">{`
-              "@context":"https://schema.org/",
-              "@type":"SoftwareApplication",
-              "aggregateRating":
-              {
-              "@type":"AggregateRating",
-              "bestRating":5,
-              "ratingCount":224,
-              "ratingValue":4.3,
-              "worstRating":0
-              },
-              "applicationCategory":"BusinessApplication",
-              "applicationSubCategory":
-              ["Business Management Software","Distribution Software","Business Performance Management Software","ERP Systems","Accounting Software","Financial Reporting Software","Project Management Software"],
-              "description":"Microsoft Dynamics 365 Business Central is a comprehensive business management solution designed for small to medium-sized businesses. The software provides features for financial forecasting, supply chain optimization and project planning along with other useful features like advanced analytics, social collaboration tools and more.",
-              "name":"Dynamics 365 Business Central",
-              "image": "https://www.dynamicssquare.co.uk/assets/img/Dynamics-365-Business-Central.png"
-`}</script>
+        
       </Helmet>
 
       <ModalVideo
@@ -2748,8 +2695,7 @@ const BusinessCentral = () => {
                         <div className="call_to_action-left">
                           <h3>Dynamics NAV to Business Central Upgrade!</h3>
                           <p>
-                            Are you looking to upgrade from Dynamics NAV to
-                            Dynamics 365 BC?
+                          Upgrade your existing Dynamics NAV to Business Central and Maximise your Business Profitability
                           </p>
                           <div className="new-btn new-btn-nn">
                             <NavLink
@@ -2927,8 +2873,7 @@ const BusinessCentral = () => {
           <header className="section-header">
             <h2>Dynamics 365 Business Central Pricing & Licensing</h2>
             <p>
-              Explore D365 Business Central Pricing for Team Members, Essentials
-              & Premium Plans
+            Checkout the latest Dynamics 365 Business Central Pricing and capabilities of Essential, Premium, and Team Members plans. 
             </p>
           </header>
           <div className="row gy-4">
@@ -2940,7 +2885,7 @@ const BusinessCentral = () => {
                   Essentials
                 </h3>
                 <div className="price">
-                  <sup>£</sup>52.80<span>Per-User/Per Month</span>
+                  £52.80<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -2972,7 +2917,7 @@ const BusinessCentral = () => {
                   Premium
                 </h3>
                 <div className="price">
-                  <sup>£</sup>75.40<span>Per-User/Per Month</span>
+                  £75.40<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -3013,7 +2958,7 @@ const BusinessCentral = () => {
                   Team Members
                 </h3>
                 <div className="price">
-                  <sup>£</sup>6<span>Per-User/Per Month</span>
+                  £6<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -3051,6 +2996,22 @@ const BusinessCentral = () => {
           </div>
         </div>
       </section>
+      <section>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <header className="section-header">
+                <h2>
+                Why do I need Dynamics Square? 
+                </h2>
+                <p>
+                You will need Dynamics Square for a successful, cost-effective, timely, and efficient Microsoft Dynamics 365 Business Central implementation so that you can lead your business towards instant growth while embracing performance. 
+                </p>
+              </header>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="call-to-action-center hero-4">
         <div className="container">
           <div className="row justify-content-center">
@@ -3058,8 +3019,7 @@ const BusinessCentral = () => {
               <div className="call-to-action-content">
                 <h3>Dynamics 365 Business Central Implementation</h3>
                 <p>
-                  Maximize your business potentials and overcome business
-                  challenges by implementing Dynamics 365 Business Central
+                Enhance your business performance and accelerate business potentials through implementing Dynamics 365 Business Central.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <NavLink
@@ -3239,6 +3199,48 @@ const BusinessCentral = () => {
                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-8"
+                    >
+                      Is there any training available to understand Business Central? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-8"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Microsoft Dynamics 365 Business Central comes with a simple, easy-to understand user interface and provides a smooth experience to all users, whether administrators or operators. There might be a need for training to understand the workings of added integrations, customizations, and add-ons. In such a case, you can avail yourself of the learning and training provided by your Business Central implementation partner, and they will guide you along the right path. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-9"
+                    >
+                      Can I customise Business Central? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-9"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Yes, Business Central is totally customisable as per your unique business and its changing needs. Irrespective of the industry, business type, and size, you can customise this powerful application to simplify your business operations. In short, customizations are the path to more productivity and easy business growth.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
                     >
                       What industries can Dynamics 365 Business Central Support?
@@ -3283,7 +3285,7 @@ const BusinessCentral = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        Dynamics 365 Business Central pricing goes as per your
+                        <NavLink to="/dynamics-365-business-central-pricing-licensing/">Dynamics 365 Business Central pricing</NavLink> goes as per your
                         specific business processes. You can choose out of the
                         given licensing options:
                       </p>
@@ -3337,8 +3339,8 @@ const BusinessCentral = () => {
                         your requirement with them.
                       </p>
                       <p>
-                        Initially, you can start with Microsoft Business Central
-                        Trial at no cost for 30 days. After your trial period,
+                        Initially, you can start with Microsoft <ExternalLink href="https://www.dynamicssquare.co.uk/blog/how-to-avail-the-dynamics-365-business-central-trial/"  target="_self">Business Central
+                        Trial</ExternalLink> at no cost for 30 days. After your trial period,
                         if you find Business Central - a suitable deal for your
                         business, you can continue by availing any of the given
                         licensing suited to your budget and requirements.

@@ -20,48 +20,6 @@ const Commerce = () => {
         />
         <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Dynamics 365 Commerce | Retail ERP Solution"
-        />
-        <meta
-          property="og:description"
-          content="Unify your back-office, in-store, and digital experience by empowering your system with our exclusive Microsoft Dynamics 365 Commerce packages."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-commerce/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:secure_url" content="" />
-        <meta property="og:image:width" content="1606" />
-        <meta property="og:image:height" content="904" />
-        <meta property="og:image:alt" content="dynamics 365 commerce" />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Dynamics 365 Commerce | Retail ERP Solution"
-        />
-        <meta
-          name="twitter:description"
-          content="Unify your back-office, in-store, and digital experience by empowering your system with our exclusive Microsoft Dynamics 365 Commerce packages."
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="2 minutes" />
       </Helmet>
       <ModalVideo
         channel="youtube"
@@ -407,7 +365,7 @@ const Commerce = () => {
               <div className="side-heading">
                 <h2>Dynamics 365 Commerce Services</h2>
                 <p>
-                  Strategically Work Towards Fulfilling Your Commerce Services.
+                Avail rapid, safe, and sustainable services from a Microsoft certified partner: Dynamics Square 
                 </p>
               </div>
               <div className="busine_service_bottom-right">
@@ -420,8 +378,7 @@ const Commerce = () => {
                 <div className="card_new_content">
                   <h3>Implementation</h3>
                   <p>
-                    Drive unified, effective, and efficient commerce strategies
-                    once you implement Dynamics 365 Commerce.
+                  Turn your running commerce into a profit-making machine by optimising existing processes after implementing D365 Commerce. 
                   </p>
                   <div className="action-content">
                     <Link data-bs-toggle="modal" to="#exampleModal">
@@ -440,8 +397,7 @@ const Commerce = () => {
                 <div className="card_new_content">
                   <h3>Upgrade</h3>
                   <p>
-                    Align your business processes as per your specific business
-                    practices with Dynamics 365 Commerce upgrade.
+                  Boost your business operations for more profitability and easy scalability by eavailing seamless Dynamics 365 Commerce upgrade services. 
                   </p>
                   <div className="action-content">
                     <Link data-bs-toggle="modal" to="#exampleModal">
@@ -460,8 +416,7 @@ const Commerce = () => {
                 <div className="card_new_content">
                   <h3>Support</h3>
                   <p>
-                    Eliminate process interruption and drive continuity with our
-                    optimal Dynamics 365 upgrade services.
+                  Reduce the chances of errors and run processes without interruptions with our optimal Dynamics 365 upgrade services. 
                   </p>
                   <div className="action-content">
                     <Link data-bs-toggle="modal" to="#exampleModal">
@@ -502,13 +457,14 @@ const Commerce = () => {
         <div className="container">
           <header className="section-header">
             <h2>Dynamics 365 Commerce pricing</h2>
+            <p>Below, check out the most efficient D365 Commerce pricing for this powerful business application.</p>
           </header>
           <div className="row gy-4 p-9 justify-content-center">
             <div className="col-lg-6 col-md-6">
               <div className="box box-22">
                 <h3>Dynamics 365 Commerce</h3>
                 <div className="price">
-                  <sup>£</sup>135.70<span>Per-User/Per Month</span>
+                  £135.70<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -522,7 +478,7 @@ const Commerce = () => {
               <div className="box box-22">
                 <h3>E-Commerce Add-In for Dynamics 365 Commerce</h3>
                 <div className="price">
-                  <sup>£</sup>3,016.40<span>Per-User/Per Month</span>
+                  £3,016.40<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -646,9 +602,115 @@ const Commerce = () => {
                         name to what this system is capable of doing. Dynamics
                         365 commerce contains features such as e-commerce and
                         back office control, among others.{" "}
+                      
+                        See Also - <NavLink to="/products/microsoft-dynamics-365-sales/">Dynamics 365 Sales Professional</NavLink> | 
+                        <NavLink to="/products/dynamics-365-project-operations/">Dynamics 365 Project and Operations</NavLink>
                       </p>
                     </div>
                   </div>
+                  
+                  
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                      What are the top benefits of D365 Commerce? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      The Dynamics 365 Commerce platform provides numerous benefits to users, including cloud-based features, simplified customer engagement, increased customer loyalty, business-specific flexibility, adaptability to modern business requirements, and an easy-to-use user interface.{" "}                     
+                </p>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >
+                      What are some important capabilities of D365 Commerce? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      It has numerous capabilities that can assist you in providing a more functional customer experience. It offers capabilities including centralised data, smart operations, good customer engagement, an adaptable platform, and much more. 
+                      </p>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-6"
+                    >
+                      Are integrations allowed with this business application?  
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-6"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      Yes, you can integrate the desired apps, whether native or third-party, with Dynamics 365 Commerce. However, you will need to contact your support partner to build the required application that understands your requirements and works accordingly. 
+                      </p>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-7"
+                    >
+                      What is the cost of a Dynamics 365 Commerce implementation?   
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-7"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      D365 Commerce implementation isn't fixed. It varies from business to business. One of the critical factors that determines the cost of implementation is the complexity of the solution and the business requirements. To get an accurate estimate, you need to contact a Microsoft-certified gold partner like Dynamics Square.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  
                 </div>
               </div>
             </div>

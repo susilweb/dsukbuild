@@ -178,7 +178,7 @@ const CustomFooter = () => {
             <div className="footer-extra-link">
               <NavLink to="/terms-of-use/">Terms of Use </NavLink>
               <NavLink to="/cookie-policy/">| Cookie </NavLink>
-              <NavLink to="/sitemap_index.xml">| Sitemap</NavLink>
+              {/* <NavLink to="/sitemap_index.xml">| Sitemap</NavLink> */}
             </div>
           </div>
         </div>

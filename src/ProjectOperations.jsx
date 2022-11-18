@@ -10,10 +10,10 @@ const ProjectOperations = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Dynamics 365 Project Operations | Dynamics Square</title>
+        <title>Dynamics 365 Project Operations Partner UK</title>
         <meta
           name="description"
-          content="Dynamics 365 Apps- Microsoft Dynamics 365 Project Operations"
+          content="Dynamics 365 Apps- Bring Agility, Improve Transparency, and Streamline Your Projects through implementing Dynamics 365 Project Operations"
         />
         <link
           rel="canonical"
@@ -249,7 +249,7 @@ const ProjectOperations = () => {
                 <h2>Microsoft Dynamics 365 Project Operations Features</h2>
                 <h3>
                   Streamline your Project Operations & Accelerate Delivery with
-                  D365 Project Operations?
+                  D365 Project Operations
                 </h3>
               </div>
             </div>
@@ -358,9 +358,7 @@ const ProjectOperations = () => {
               <div className="side-heading">
                 <h2>Dynamics 365 Project Operations</h2>
                 <p>
-                  We offer a full range of services to support you on your
-                  Dynamics journey including implementation, upgrade and
-                  support.
+                Avail a range of hassle-free implementation, upgrade, and support services to boost your project operations. 
                 </p>
               </div>
               <div className="busine_service_bottom-right">
@@ -373,8 +371,7 @@ const ProjectOperations = () => {
                 <div className="card_new_content">
                   <h3>Implementation</h3>
                   <p>
-                    Implementing Microsoft Project solutions can help to manage
-                    your project operations seamlessly.
+                  Manage your project seamlessly while leveraging the Dynamics 365 Project Service implementation service. 
                   </p>
                   <div className="action-content">
                     <NavLink  to="/dynamics-365-project-operations-implementation/">
@@ -393,8 +390,7 @@ const ProjectOperations = () => {
                 <div className="card_new_content">
                   <h3>Upgrade</h3>
                   <p>
-                    Bring agility across your project operations with our
-                    improved and highly optimized support system.
+                  Bring agility and build robust project operations with our enhanced and highly recommended support system. 
                   </p>
                   <div className="action-content">
                     <NavLink data-bs-toggle="modal" to="#exampleModal">
@@ -413,8 +409,7 @@ const ProjectOperations = () => {
                 <div className="card_new_content">
                   <h3>Support</h3>
                   <p>
-                    Drive project-centric approach across your business by
-                    upgrading Dynamics 365 Project Operations.
+                  Get instant support to drive a project-centric approach across your business operations with the D365 Project Operations Support Service. 
                   </p>
                   <div className="action-content">
                     <NavLink data-bs-toggle="modal" to="#exampleModal">
@@ -447,7 +442,7 @@ const ProjectOperations = () => {
               <div className="box box-22">
                 <h3>Dynamics 365 Project Operations</h3>
                 <div className="price">
-                  <sup>£</sup>90.50<span>Per-User/Per Month</span>
+                  £90.50<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -477,10 +472,9 @@ const ProjectOperations = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Connect & Discuss with Our Experts</h3>
+                <h3>Connect & Talk with Our Experts</h3>
                 <p>
-                  Connect and reveal a healthy deal for your business to improve
-                  business processes and maximize business capabilities.
+                To enhance business operations and fully utilize business capabilities, connect and reveal a favorable deal for your company.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <NavLink

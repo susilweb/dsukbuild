@@ -58,7 +58,7 @@ const Finance = () => {
           name="twitter:image"
           content="https://www.dynamicssquare.co.uk/assets/img/Dynamics-365-Finance-Banner.png"
         />
-       
+
       </Helmet>
 
       <ModalVideo
@@ -109,12 +109,12 @@ const Finance = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
-            <header className="section-header">
-            <h2>What is dynamics 365 Finance?</h2>
-            <p>
-            Microsoft Dynamics 365 Finance is an enterprise-grade ERP software solution that helps organizations achieve financial accuracy and transparency. Implementing Dynamics 365 Finance enables you to track and monitor your financial operations in real-time, predict financial outcomes, and manage global risks to drive agility while maximizing growth in your business. 
-            </p>
-          </header>
+              <header className="section-header">
+                <h2>What is dynamics 365 Finance?</h2>
+                <p>
+                  Microsoft Dynamics 365 Finance is an enterprise-grade ERP software solution that helps organizations achieve financial accuracy and transparency. Implementing Dynamics 365 Finance enables you to track and monitor your financial operations in real-time, predict financial outcomes, and manage global risks to drive agility while maximizing growth in your business.
+                </p>
+              </header>
             </div>
           </div>
           <div className="row p-lg-6">
@@ -471,7 +471,7 @@ const Finance = () => {
                   </p>
                   <div className="action-content">
                     <NavLink data-bs-toggle="modal"
-                    to="#exampleModal">
+                      to="#exampleModal">
                       Get Started
                     </NavLink>
                   </div>
@@ -492,7 +492,7 @@ const Finance = () => {
                   </p>
                   <div className="action-content">
                     <NavLink data-bs-toggle="modal"
-                    to="#exampleModal">
+                      to="#exampleModal">
                       Get Started
                     </NavLink>
                   </div>
@@ -507,9 +507,7 @@ const Finance = () => {
           <header className="section-header">
             <h2>Dynamics 365 Finance Pricing</h2>
             <p>
-              Automate your financial operations, improve decision making, bring
-              strategic impact on your finance, and minimize global financial
-              complexities & risks with dynamics 365 finance.
+              Dynamics 365 Finance implementation can help automate your financial operations, improve your decision-making using data, minimize global financial complexities, and bring strategic impact on your financial system.
             </p>
           </header>
           <div className="row gy-4 p-9">
@@ -534,7 +532,7 @@ const Finance = () => {
               <div className="box box-22">
                 <h3>Dynamics 365 Finance</h3>
                 <div className="price">
-                  <sup>£</sup>135.70<span>Per-User/Per Month</span>
+                  £135.70<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -583,9 +581,7 @@ const Finance = () => {
               <div className="call-to-action-content">
                 <h3>Looking to implement Microsoft Dynamics 365 Finance?</h3>
                 <p>
-                  If you're new to Dynamics 365 Finance, already using it and
-                  have a challenge, or are looking for a new support partner.
-                  Talk to our experts.
+                  Are you new to Dynamics 365 Finance, or recently moved to it, or having a problem with it, or looking to change D365 support partner? Connect with our experts, today.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <NavLink
@@ -605,10 +601,10 @@ const Finance = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
-            <header className="section-header">
-            <h2>Have you got <br /> questions about Dynamics 365 Finance?</h2>
-            <p>Click through to our FAQ for the best answers!</p>
-          </header>
+              <header className="section-header">
+                <h2>Have you got <br /> questions about Dynamics 365 Finance?</h2>
+                <p>Click through to our FAQ for the best answers!</p>
+              </header>
             </div>
           </div>
           <div className="row justify-content-center mar-top-7">
@@ -667,24 +663,19 @@ const Finance = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        Microsoft Dynamics 365 Finance is a modern finance
-                        management tool to simplify your finance practices while
-                        reducing manual efforts, data redundancies, and
-                        mitigating the risk of uncertainties. D365 Finance
-                        solution is designed to support modern enterprises
-                        seeking to simply their finance operations to drive
-                        profitability and efficiency.
+                        Microsoft Dynamics 365 Finance is a cutting-edge finance management tool that will streamline your finance practices, reduce manual efforts, data redundancies, and mitigate the risk of uncertainties. The D365 Finance solution is designed to support modern enterprises that are seeking to simplify their finance operations and drive profitability and efficiency.
                       </p>
                       <p>Here are the core features list:</p>
                       <ol>
-                        <li>General Ledger</li>
                         <li>Accounts Payable</li>
                         <li>Accounts Receivable</li>
-                        <li>Cash &amp; Bank Management</li>
+                        <li>General Ledger </li>
                         <li>Tax Management</li>
-                        <li>Credit &amp; Collections</li>
-                        <li>Budgeting</li>
+                        <li>Tax Management</li>
+                        <li>Cash & Bank Management</li>
+                        <li>Credit & Collections</li>
                         <li>Fixed Assets</li>
+                        <li>Budgeting</li>
                         <li>Cost Accounting</li>
                         <li>Electronic Invoicing</li>
                       </ol>
@@ -831,7 +822,7 @@ const Finance = () => {
                     <div className="accordion-body">
                       It could be a smart decision when it comes to Dynamics 365
                       Finance licensing. Users can avail of its licensing for
-                      130 pounds (approx.) for First Dynamics 365 App and
+                      130 pounds (approx.) for First <NavLink to="/products/microsoft-dynamics-365/">Dynamics 365</NavLink> App and
                       further, for Subsequent qualifying Dynamics 365 Finance
                       app, it could cost you 21 pounds per users/per month
                       (approx.)
@@ -878,14 +869,14 @@ const Finance = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
-            <header className="section-header">
-            <h2>Explore Our Recent Blogs & Resources</h2>
-            <p>
-              Whether you are a start-up, an SMB, or an enterprise, the Dynamics
-              Square blog is the best place to get inspired and learn more about
-              Microsoft Business Applications.
-            </p>
-          </header>
+              <header className="section-header">
+                <h2>Explore Our Recent Blogs & Resources</h2>
+                <p>
+                  Whether you are a start-up, an SMB, or an enterprise, the Dynamics
+                  Square blog is the best place to get inspired and learn more about
+                  Microsoft Business Applications.
+                </p>
+              </header>
             </div>
           </div>
           <div className="row top-2 gx-5">
@@ -989,7 +980,7 @@ const Finance = () => {
           </div>
         </div>
       </section>
-      
+
     </>
   );
 };

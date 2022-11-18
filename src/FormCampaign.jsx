@@ -15,10 +15,10 @@ const FormCampaign = () => {
 
     emailjs
       .sendForm(
-        "service_s5buvhl",
-        "template_rutby6n",
+        "service_rb24nny",
+        "template_mv5gkb4",
         e.target,
-        "LvW2gMtZd1FL0qnvG"
+        "rkNd-nNe8gDdNeZT5"
       )
       .then((res) => {
         //console.log(res);

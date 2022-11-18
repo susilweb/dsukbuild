@@ -6,10 +6,10 @@ const MicrosoftDynamicsAX = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Microsoft Dynamics AX Support Partner | Dynamics Square UK</title>
+        <title>Microsoft Dynamics AX Support Partner UK</title>
         <link rel="canonical" href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-ax/" />
         <meta name="description"
-          content="Looking for Microsoft Dynamics AX support partner? Rely on Dynamics Square - trusted by over a 250+ customers in the UK. Contact us today to see how we can help you get the most out of your investment in AX!"
+          content="Looking for Microsoft Dynamics AX support partner in UK? Dynamics Square - trusted by over a 250+ clients in the UK. Contact us today to see how we can help you get the most out of your investment in AX!"
         />
       </Helmet>
       <section className="Solution-banner hero-1 hero">

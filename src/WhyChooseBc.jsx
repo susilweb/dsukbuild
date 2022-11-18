@@ -53,19 +53,11 @@ const WhyChooseBc = () => {
                   <NavLink to="/products/dynamics-365-business-central/">
                     Microsoft Dynamics 365 Business Central{" "}
                   </NavLink>
-                  is a cloud based, unified business management solution that
-                  empowers enterprises to transform their entry level accounting
-                  software or legacy Enterprise Resource Planning (ERP) system
-                  to a comprehensive solution to manage critical business
-                  functions, including finance, operations, sales, and customer
-                  service.
+                  is a cloud-based, unified business management solution that helps enterprises transform their entry-level accounting software or legacy Enterprise Resource Planning (ERP) system into a comprehensive solution to manage critical business functions. This includes finance, operations, sales, and customer service. With Microsoft Dynamics 365 Business Central, businesses can tap into the power of the cloud to streamline their operations, improve customer service, and boost sales.
                   <br />
                   <br />
                   <b>
-                    Business Central is a proven solution that has successfully
-                    served over 160,000 customers and millions of users
-                    worldwide, assisting them streamlining their processes,
-                    improve customer relations, and enable growth.
+                  Business Central is a tried-and-true solution that has helped over 160,000 customers and millions of users worldwide streamline their processes, improve customer relations, and enable growth.
                   </b>
                 </p>
               </header>
@@ -189,8 +181,7 @@ const WhyChooseBc = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Moreover, Business Central leverages the intelligence of
-                        Microsoft Power BI (Business Intelligence) to ensure
+                        Moreover, Business Central leverages the intelligence of <NavLink to="/products/microsoft-power-bi/"> Microsoft Power BI</NavLink> (Business Intelligence) to ensure
                         in-depth organizational reporting, enabling businesses
                         to:
                         <br />
@@ -496,6 +487,9 @@ const WhyChooseBc = () => {
                         business requirements enabling users to easily
                         re-arrange fields, re-name groups, and re-locate
                         elements.
+
+                        See Also - <NavLink to="/dynamics-365-business-central-upgrade/">Dynamics 365 Business Central Upgrade</NavLink> | <NavLink to="/dynamics-365-business-central-support/">
+Business Central Support</NavLink> | 
                       </div>
                     </div>
                   </div>

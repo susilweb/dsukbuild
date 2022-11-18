@@ -15,10 +15,10 @@ const Form = () => {
 
     emailjs
       .sendForm(
-        "service_p9e4s2i",
-        "template_own8zg4",
+        "service_x0eo9w8",
+        "template_e2eswsj",
         e.target,
-        "JZAkUF2t_OOtPtKmy"
+        "xIFtTfBj6NR498Plv"
       )
       .then((res) => {
         //console.log(res);
