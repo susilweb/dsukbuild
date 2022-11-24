@@ -7,12 +7,11 @@ const MicrosoftDynamicsPartnerLiverpool = () => {
     <>
       <Helmet>
       <title>Microsoft Dynamics Partner Bristol, UK </title>
-<meta name="description" content="Dynamics Square is Microsoft Dynamics partner in Bristol, UK serving quality assured ERP and CRM solutions with high-end support. Book free consultation today."/>
-<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/location/microsoft-dynamics-partner-bristol/" />
-<meta property="og:locale" content="en_GB" />
-<meta property="og:type" content="article" />
-
+      <meta name="description" content="Dynamics Square is Microsoft Dynamics partner in Bristol, UK serving quality assured ERP and CRM solutions with high-end support. Book free consultation today."/>
+      <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+      <link rel="canonical" href="https://www.dynamicssquare.co.uk/location/microsoft-dynamics-partner-bristol/" />
+      <meta property="og:locale" content="en_GB" />
+      <meta property="og:type" content="article" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

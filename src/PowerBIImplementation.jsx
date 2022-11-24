@@ -7,7 +7,6 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import { FreeMode, Navigation, Thumbs ,Autoplay } from "swiper";
-
 const PowerBIImplementation = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (

@@ -87,7 +87,7 @@ const Home = () => {
               <h1 data-aos="fade-up">
               UK's Trusted <br /> Microsoft Gold Partner
               </h1>
-              <p>Simplify your end-to-end business processes to maximize ROI, agility, and growth with Microsoft cloud technology. Book a free demo today.</p>
+              <p>Simplify your end-to-end business processes to maximize ROI, agility, and growth with Microsoft cloud technology.</p>
               <div>
                 <div className="text-center text-lg-start btn-welcome">
                   <Link
@@ -95,7 +95,7 @@ const Home = () => {
                     to="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
+                    <span>Book A Free Demo Today</span>
                   </Link>
                 </div>
                 <div className="bnner_inline_images">

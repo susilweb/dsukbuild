@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { NavLink } from "react-router-dom";
 
 const Career = () => {
   return (
@@ -196,21 +197,25 @@ const Career = () => {
               <p>90% of Employees on Glassdoor Recommend Dynamics Square</p>
             </div>
             <div className="row  justify-content-center">
-              <div className="col-lg-10">
-                <div className="row nn-od">
-                  <div className="col-lg-6">
+              <div className="col-lg-9">
+                <div className="row nn-od justify-content-center">
+                  {/* <div className="col-lg-6">
                     <div className="leftinf">
                       <h4>Browse our open positions.</h4>
-                      <a href="#" className="btn btn-lg  bt-cust112">
-                        See all open positions
-                      </a>
+                      <NavLink
+                    data-bs-toggle="modal"
+                    to="#exampleModal"
+                    className="btn btn-lg  bt-cust112"
+                  >
+                    <span>Apply Now</span>
+                  </NavLink>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="col-lg-6">
-                    <div className="rightinf">
-                      <span>Or send us Your CV at:</span>
-                      <a href="mailto:info@dynamicssquare.com">
-                        info@dynamicssquare.com
+                    <div className="rightinfa text-center">
+                      <span>Send us your CV at: </span> <br />
+                      <a href="mailto:info@dynamicssquare.co.uk">
+                        info@dynamicssquare.co.uk
                       </a>
                     </div>
                   </div>

@@ -149,6 +149,7 @@ import ProjectOperationImplementation from "./ProjectOperationImplementation";
 import HumanResourceImplementation from "./HumanResourceImplementation";
 import EmailGpToBc from "./EmailGpToBc";
 import EmailAxToFinacnce from "./EmailAxToFinacnce";
+import PowerBiSupport from "./PowerBiSupport";
 const App = () => {
   return (
     <>
@@ -714,6 +715,7 @@ const App = () => {
           path="/email-ax-to-finance/"
           component={EmailAxToFinacnce}
         />
+         <Route exact path="/power-bi-support/" component={PowerBiSupport} />
         <Route exact path="/404" component={Error404} />
         <Redirect to="/404" component={Error404} />
         <Home />

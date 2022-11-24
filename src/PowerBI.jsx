@@ -406,7 +406,7 @@ const PowerBI = () => {
                     business needs. Contact our Power Expert Now.
                   </p>
                   <div className="action-content">
-                    <NavLink data-bs-toggle="modal" to="#exampleModal">
+                    <NavLink  to="/power-bi-support/">
                       Get Started
                     </NavLink>
                   </div>

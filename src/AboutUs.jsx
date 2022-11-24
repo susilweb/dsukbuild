@@ -254,18 +254,18 @@ const AboutUs = () => {
               <div className="col-lg-4">
                 <div className="team-memb">
                   <div className="tem-mem-pic">
-                    <img src="/assets/img/manish-goyal.png" alt="manish-goyal" />
+                  <ExternalLink href="https://www.linkedin.com/in/manish-g-74854a44"><img src="/assets/img/manish-goyal.png" alt="manish-goyal" /></ExternalLink>
                   </div>
                   <div className="tem-mem-info">
                     <h4>Manish Goyal</h4>
                     <span>Co-Founder</span>
                     <p>"Helping companies with Digital Transformation using innovative Microsoft cloud technology"</p>
                   </div>
-                  {/* <div class="social">
+                   <div class="social">
                     <ExternalLink href="https://www.linkedin.com/in/manish-g-74854a44">
-                      <i class="bi bi-linkedin"></i>
+                      <i class="bi bi-linkedin" style={{fontSize:'26px'}}></i>
                       </ExternalLink>
-                    </div> */}
+                    </div> 
                 </div>
               </div>
               <div className="col-lg-4">
