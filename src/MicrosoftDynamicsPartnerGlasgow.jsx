@@ -7,32 +7,12 @@ const MicrosoftDynamicsPartnerGlasgow = () => {
     <>
       <Helmet>
       <title>Microsoft Dynamics Partner Glasgow, UK | Dynamics Square</title>
-<meta name="description" content="Dynamics Square is Microsoft Dynamics Partner in Glasgow. We help Glasgow-based businesses to grow strong and fast by implementing Microsoft Dynamics Applications."/>
+<meta name="description" content="Looking for a trusted Microsoft Dynamics partner in Glasgow? We help businesses take advantage of Microsoft Dynamics' powerful suite of tools. Contact us today!"/>
 <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
 <link rel="canonical" href="https://www.dynamicssquare.co.uk/location/microsoft-dynamics-partner-glasgow/" />
 <meta property="og:locale" content="en_GB" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Microsoft Dynamics Partner Glasgow, UK | Dynamics Square" />
-<meta property="og:description" content="Dynamics Square is Microsoft Dynamics Partner in Glasgow. We help Glasgow-based businesses to grow strong and fast by implementing Microsoft Dynamics Applications." />
-<meta property="og:url" content="https://www.dynamicssquare.co.uk/location/microsoft-dynamics-partner-glasgow/" />
-<meta property="og:site_name" content="Dynamics Square" />
-<meta property="article:publisher" content="https://www.facebook.com/dynamicssquareuk" />
-<meta property="article:author" content="https://www.facebook.com/vickygururani" />
-<meta property="fb:app_id" content="2007906422699147" />
-<meta property="og:image" content="https://www.dynamicssquare.co.uk/assets/img/Microsoft-Dynamics-Partner-Glasgow.png" />
-<meta property="og:image:secure_url" content=" " />
-<meta property="og:image:width" content="768" />
-<meta property="og:image:height" content="501" />
-<meta property="og:image:alt" content="Microsoft Dynamics Partner Glasgow" />
-<meta property="og:image:type" content="image/png" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Microsoft Dynamics Partner Glasgow, UK | Dynamics Square" />
-<meta name="twitter:description" content="Dynamics Square is Microsoft Dynamics Partner in Glasgow. We help Glasgow-based businesses to grow strong and fast by implementing Microsoft Dynamics Applications." />
-<meta name="twitter:site" content="@dsquare_uk" />
-<meta name="twitter:creator" content="@dsquare_uk" />
-<meta name="twitter:image" content=" " />
-<meta name="twitter:label1" content="Time to read" />
-<meta name="twitter:data1" content="4 minutes" />
+
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -44,7 +24,7 @@ const MicrosoftDynamicsPartnerGlasgow = () => {
                 Partner Glasgow
               </h1>
               <p>
-                We are experienced Microsoft Gold Partners based in Glasgow, UK.
+              Get cloud solution for SMBs. We are experienced and trusted Microsoft Gold Partners based in Glasgow, Scotland, UK.
               </p>
             </div>
             <div className="col-lg-6 align-self-center">
@@ -62,16 +42,13 @@ const MicrosoftDynamicsPartnerGlasgow = () => {
           <div className="row pad9x">
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info">
-                <h2>Microsoft Gold Partner in Leeds</h2>
+                <h2>Microsoft Gold Partner in Glasgow</h2>
 
                 <p>
-                  Are you looking for experts in Microsoft Dynamics partner
-                  Glasgow based out? End your search with Dynamics Square. We at
-                  Dynamics Square are a certified{" "}
-                  <NavLink to="/" target="_blank">
+                Looking for a Microsoft Dynamics partner Glasgow-based expert? Dynamics Square will put an end to your quest. Dynamics Square is a <NavLink to="/" target="_blank">
                     Microsoft Gold Partner in Glasgow
-                  </NavLink>
-                  .
+                  </NavLink>.
+                 
                 </p>
                 <p>
                   We offer high-quality Dynamics 365 business solutions like
@@ -87,11 +64,9 @@ const MicrosoftDynamicsPartnerGlasgow = () => {
                 </p>
                 <p>
                   We are the people's choice to implement business solutions in
-                  your business and for the sectors looking for a{" "}
-                  <NavLink to="/" target="_blank">
-                    Dynamics 365 consultant in Glasgow
-                  </NavLink>
-                  .
+                  your business and for the sectors looking for a Dynamics 365 consultant in Glasgow.
+                  
+                  
                 </p>
                 <p>
                   Let's look at how we can streamline your business operations
@@ -119,13 +94,10 @@ const MicrosoftDynamicsPartnerGlasgow = () => {
             <h2>
               Your Trusted Microsoft Dynamics
               <br />
-              Partner in Leeds
+              Partner in Glasgow
             </h2>
             <p>
-              Dynamics Square is known for its commitment to increasing
-              productivity, profitability, efficiency, team communication, and
-              maintaining top customer relationship management for businesses
-              with highly optimized Microsoft Business apps.
+            With highly optimised Microsoft Business programmes, Dynamics Square is recognised for its devotion to enhancing productivity, profitability, efficiency, team collaboration, and maintaining top customer relationship management for organisations.
             </p>
           </header>
           <div className="row p-lg-6">
@@ -471,7 +443,7 @@ const MicrosoftDynamicsPartnerGlasgow = () => {
       <section className="bg-shape">
         <div className="container">
           <header className="section-header">
-            <h2>Why Dynamics Square?</h2>
+            <h2>Why should you choose Dynamics Square?</h2>
           </header>
           <div className="row pad9x">
             <div className="col-lg-6 align-self-center">
@@ -510,10 +482,7 @@ const MicrosoftDynamicsPartnerGlasgow = () => {
             <div className="col-lg-12 text-center p-5">
               <p>
                 <b>
-                  We can assist you with tailoring your business processes to
-                  meet your unique requirements. We may either make an ideal new
-                  solution for you or adapt something already provided out of
-                  the box.
+                We can help you modify your company procedures to match your specific needs. We may either create an amazing new solution for you or adapt something that is already available out of the box.
                 </b>
               </p>
             </div>

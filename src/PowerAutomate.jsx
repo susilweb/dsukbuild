@@ -18,11 +18,52 @@ const PowerAutomate = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/products/microsoft-power-automate/"
+          href="https://www.dynamicssquare.co.uk/products/microsoft-power-automate/"
         />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
-        
+        <meta
+          property="og:title"
+          content="Microsoft Power Automate | Workflow Automation Tool"
+        />
+        <meta
+          property="og:description"
+          content="Power Automate offers the ability to easily create workflows directly in your applications with a no-code approach that connects to hundreds of popular"
+        />
+        <meta
+          property="og:url"
+          content="https://www.dynamicssquare.co.uk/products/microsoft-power-automate/"
+        />
+        <meta property="og:site_name" content="Dynamics Square" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/dynamicssquareuk"
+        />
+        <meta
+          property="article:author"
+          content="https://www.facebook.com/vickygururani"
+        />
+        <meta property="fb:app_id" content="2007906422699147" />
+        <meta property="og:image" content="" />
+        <meta property="og:image:secure_url" content="" />
+        <meta property="og:image:width" content="768" />
+        <meta property="og:image:height" content="450" />
+        <meta property="og:image:alt" content="power automate" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Microsoft Power Automate | Workflow Automation Tool"
+        />
+        <meta
+          name="twitter:description"
+          content="Power Automate offers the ability to easily create workflows directly in your applications with a no-code approach that connects to hundreds of popular"
+        />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:creator" content="@dsquare_uk" />
+        <meta name="twitter:image" content="" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="4 minutes" />
       </Helmet>
       <ModalVideo
         channel="youtube"
@@ -441,64 +482,55 @@ const PowerAutomate = () => {
           <header className="section-header">
             <h2>Power Automate Pricing</h2>
             <p>
-            Best for businesses that want predictable licensing with per user or per flow plans
+              Explore Power Automate Plans, Costs, And Availability To Start
+              Creating Workflows
             </p>
           </header>
           <div className="row gy-4 p-9">
             <div className="col-lg-4">
-              <div className="box box-99">
-                <h3>Subscription Plans</h3>
-                <p>
-                License by user
-                </p>
-                <span className="cs-colo">Per user plan</span>
+              <div className="box box-66">
+                <h3>Licence by user</h3>
+                <p>Per user plan</p>
                 <div className="price">
-                  <sup>$</sup>15<span>Per-User/Month</span>
+                  <sup>£</sup>11.30<span>Per-User/Per Month</span>
                 </div>
-                <p className="small-tt">
-                Allow individual users to automate cloud apps, services, and data with digital process automation (DPA). This plan allows users to create and run unlimited flows.
-                </p>
-                <ul>
-                  <li>Cloud flows (DPA)</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-lg-4">
-              <div className="box box-99">
-                <h3>Subscription Plans</h3>
-                <p>
-                License by user
-                </p>
-                <span className="cs-colo">Per user plan with attended RPA</span>
-                <div className="price">
-                  <sup>$</sup>40<span>Per-User/Month</span>
-                </div>
-                <p className="small-tt">
-                Allow same capabilities as the base user plan, plus the ability to automate legacy apps on a desktop via robotic process automation (RPA) in attended mode.
-                </p>
-                <ul>
-                  <li>Cloud flows (DPA)</li>
-                  <li>Desktop flows (RPA) in attended mode</li>
-                  <li>5,000 AI Builder credits/month</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-lg-4">
-              <div className="box box-99">
-                <h3>Subscription Plans</h3>
-                <p>
-                License by flow
-                </p>
-                <span className="cs-colo">Per flow plan</span>
-                <div className="price">
-                  <sup>$</sup>100<span>Per Active User/App/Month minimum 5 flows(1,2)</span>
-                </div>
-                <p className="small-tt">Allow unlimited users within an organization to run digital process automation (DPA) from the same flow.</p>
                 <ul>
                   <li>
-                  Cloud flows (DPA)
+                    Allow individual users to analyse their processes and create
+                    unlimited cloud flows based on their unique needs.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="col-lg-4">
+              <div className="box box-66">
+                <h3>Licence by user</h3>
+                <p>Per user plan with attended RPA</p>
+                <div className="price">
+                  <sup>£</sup>30.20<span>Per-User/Per Month</span>
+                </div>
+                <ul>
+                  <li>
+                    Allow individual users to analyse their processes and create
+                    unlimited cloud flows, plus automate legacy applications
+                    through robotic process automation (RPA) and AI.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="col-lg-4">
+              <div className="box box-66">
+                <h3>License by flow</h3>
+                <p>Per flow plan</p>
+                <div className="price">
+                  <sup>£</sup>75.40<span>For Five Flows/Month</span>
+                </div>
+                <ul>
+                  <li>
+                    Implement cloud flows with reserved capacity for unlimited
+                    users across your organisation.
                   </li>
                 </ul>
               </div>
@@ -511,7 +543,7 @@ const PowerAutomate = () => {
                   to="#exampleModal"
                   className="btn-get-red"
                 >
-                  <span>Get Power Apps Now</span>
+                  <span>Get Power Automate Now</span>
                 </NavLink>
               </div>
             </div>

@@ -7,18 +7,62 @@ const AzureMachineLearning = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Azure Machine Learning | Dynamics Square</title>
+        <title>Azure Machine Learning | Cloud Intelligent Solutions</title>
         <meta
           name="description"
-          content="Develop and deploy enterprise-level Machine Learning Models accurately and instantly to support your process optimization and critical business practices."
+          content="Azure Machine Learning (ML) is designed to build and deploy business-critical and enterprise-grade accurate and efficient Machine Learning models faster and at scale."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/products/azure-machine-learning/"
+          href="https://www.dynamicssquare.co.uk/products/azure-machine-learning/"
         />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
-        
+        <meta
+          property="og:title"
+          content="Azure Machine Learning | Cloud Intelligent Solutions"
+        />
+        <meta
+          property="og:description"
+          content="Azure Machine Learning (ML) is designed to build and deploy business-critical and enterprise-grade accurate and efficient Machine Learning models faster and at scale."
+        />
+        <meta
+          property="og:url"
+          content="https://www.dynamicssquare.co.uk/products/azure-machine-learning/"
+        />
+        <meta property="og:site_name" content="Dynamics Square" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/dynamicssquareuk"
+        />
+        <meta
+          property="article:author"
+          content="https://www.facebook.com/vickygururani"
+        />
+        <meta property="fb:app_id" content="2007906422699147" />
+        <meta property="og:image" content="" />
+        <meta property="og:image:secure_url" content="" />
+        <meta property="og:image:width" content="1024" />
+        <meta property="og:image:height" content="586" />
+        <meta
+          property="og:image:alt"
+          content="azure-machine-learning--feature"
+        />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Azure Machine Learning | Cloud Intelligent Solutions"
+        />
+        <meta
+          name="twitter:description"
+          content="Azure Machine Learning (ML) is designed to build and deploy business-critical and enterprise-grade accurate and efficient Machine Learning models faster and at scale."
+        />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:creator" content="@dsquare_uk" />
+        <meta name="twitter:image" content="" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="2 minutes" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -29,7 +73,10 @@ const AzureMachineLearning = () => {
                 Machine Learning
               </h1>
               <p>
-              Deploy Machine Learning Models quickly and effortlessly, faster time to market, streamline Machine Learning models deployment and management practices with Azure Machine Learning.
+                Build and deploy enterprise-grade machine learning models
+                rapidly to accelerate time to value while streamlining your
+                deployment and management practices for thousands of Machine
+                Learning Models.
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -55,22 +102,29 @@ const AzureMachineLearning = () => {
 
       <section>
         <div className="container">
-              <div className="row justify-content-center">
-                  <div className="col-lg-9 col-md-9">
-                      <header className="section-header">
-                      <h2>What Is Azure Machine Learning?</h2>
-                      <p>Develop and deploy enterprise-level Machine Learning Models accurately and instantly to support your process optimization and critical business practices. Accelerate your model deployment with Azure Machine Learning Services, scale your MLOps (Machine Learning Operations), optimize operational efficiency, and your operational costing while enabling high end-security to ensure uninterrupted and efficient business flow.</p>
-                      </header>
-                  </div>
-              </div>
-              <div className="row justify-content-center">
-                  <div className="col-lg-9 col-md-9">
-                      <header className="section-header">
-                      <h2>Azure Machine Learning Benefits</h2>
-                      <p>With Azure Machine Learning solutions, enable your deployment team to seamlessly prepare data sets, efficiently develop Machine Learning models, bring innovation in your critical business practices wrapped with enterprise-grade security and reliability. Streamline your entire Machine Leaning models deployment whether on-premises, on-cloud, or at <NavLink to="/products/azure-iot-edge/">Azure IoT Edge</NavLink>.</p>
-                      </header>
-                  </div>
-              </div>
+          <header className="section-header">
+            <h2>What is Azure Machine Learning?</h2>
+            <p>
+              Azure Machine Learning Service is designed to build and deploy
+              business-critical and enterprise-grade accurate and efficient
+              Machine Learning models faster and at scale. It helps to maximize
+              your time to value speedy model development, scale your
+              operational efficiency with Machine Learning operations (MLOPs),
+              enable enterprise-grade security, and optimize & manage costing to
+              drive business-critical processes smoothly and efficiently.
+            </p>
+            <br /> <br />
+            <h2>Azure Machine Learning Benefits</h2>
+            <p>
+              Strengthen your business capabilities by empowering your
+              development team or data analysts to prepare data sets, develop &
+              train ML models, innovate on a highly secured & reliable platform
+              with Azure Machine Learning solutions. With Machine Learning on
+              Azure, enterprises can automate their end-to-end Machine Learning
+              practices, streamline their ML models deployed whether
+              on-premises, at Azure IoT Edge, or multi-cloud environments.
+            </p>
+          </header>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -91,7 +145,7 @@ const AzureMachineLearning = () => {
                             alt="icons-machine-learning_Automated-Machine-Learning"
                           />
                         </div>
-                        <span>Streamlined & Automated ML</span>
+                        <span>Automated Machine Learning</span>
                       </button>
                     </h3>
                     <div
@@ -101,7 +155,9 @@ const AzureMachineLearning = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Develop efficient ML models instantly to ensure effective analysis, predictions, and forecasting. With the help of model interpretability, understand the process flow of models' development.
+                        Create accurate models faster to drive regression,
+                        analysis, and predictions. Understand the process of
+                        models development leveraging model interpretability.
                       </div>
                     </div>
                   </div>
@@ -122,7 +178,7 @@ const AzureMachineLearning = () => {
                             alt="icons-machine-learning_Easy-to-Use-Functionality"
                           />
                         </div>
-                        <span>Seamless Functionality</span>
+                        <span>Easy-to-Use Functionality</span>
                       </button>
                     </h3>
                     <div
@@ -132,7 +188,9 @@ const AzureMachineLearning = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Leveraging drag-and-drop and seamless features, enable smoother data transformation, streamlined model training, and easy-to-use data or process evaluation.
+                        Drive simplified data transformation, ensure model
+                        training, and perform a seamless evaluation with
+                        drag-and-drop or easy-to-use functionality.
                       </div>
                     </div>
                   </div>
@@ -153,7 +211,7 @@ const AzureMachineLearning = () => {
                             alt="icons-machine-learning_High-End-Security"
                           />
                         </div>
-                        <span>Enterprise-Grade Security</span>
+                        <span>High-End Security</span>
                       </button>
                     </h3>
                     <div
@@ -163,7 +221,10 @@ const AzureMachineLearning = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Build and deploy highly secured ML models when you implement Machine Learning on Azure. In terms of security features, it includes network isolation, private IPs, resource control, etc.
+                        Securely build and deploy ML models comprising the
+                        security features including network isolation,
+                        end-to-end use of private IPs, role-based access &
+                        resource control, and more.
                       </div>
                     </div>
                   </div>
@@ -191,7 +252,7 @@ const AzureMachineLearning = () => {
                             alt="icons-machine-learning_Seamless-Integration"
                           />
                         </div>
-                        <span>Simplified Integration</span>
+                        <span>Seamless Integration</span>
                       </button>
                     </h3>
                     <div
@@ -201,7 +262,11 @@ const AzureMachineLearning = () => {
                       data-bs-parent="#accneww"
                     >
                       <div className="accordion-body">
-                      By leveraging built-in integration along with other simplified integration such as <NavLink to="/products/microsoft-power-bi/">Power BI</NavLink>, Azure Data Lake, Azure Synapse Analytics, and Azure Cognitive research, etc., boost your production line and impact growth strategy.
+                        Boost the production line by leveraging built-in
+                        integration as well as other seamless integration with
+                        Power BI, Azure Synapse Analytics, Azure Data Lake,
+                        Azure Data Bricks, Azure Cognitive research, Azure
+                        Security Centre, and more.
                       </div>
                     </div>
                   </div>
@@ -222,7 +287,7 @@ const AzureMachineLearning = () => {
                             alt="icons-machine-learning_Hybrid-Multi-Cloud-Support"
                           />
                         </div>
-                        <span>Multi-Network Support</span>
+                        <span>Hybrid & Multi-Cloud Support</span>
                       </button>
                     </h3>
                     <div
@@ -232,7 +297,9 @@ const AzureMachineLearning = () => {
                       data-bs-parent="#accneww"
                     >
                       <div className="accordion-body">
-                      Ensure customized workflow by deploying your Machine Learning Models whether on-premises, multi-cloud equipped environment, or Azure IoT Edge.
+                        Deploy and run your Machine Learning models either on
+                        existing open-source on-premise systems, at Azure IoT
+                        edge, or even multi-cloud environments.
                       </div>
                     </div>
                   </div>
@@ -246,49 +313,56 @@ const AzureMachineLearning = () => {
       <section className="Solution-business-why">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 align-self-center">
+            <div className="col-lg-5 align-self-center">
               
             <div className="wy-sultion-left-head">
             <h2>Azure Machine Learning Features</h2>
             <h3>
-            How Azure Machine Learning Can Improve Your Operational Efficiency & Production Line
+                            How Azure Machine Learning Can Help & Support Your End-to-End
+                            Machine Learning?
                           </h3>
             </div>
-            
               
               
-              
+              <div className="m-o-t m-o-t-b">
+                <NavLink to="#about" className="btn-get-started scrollto">
+                  <span>Know More</span>
+                </NavLink>
+              </div>
               {/* <div className="downlad_guid">
                         <NavLink to="#">
                         <span>Download Microsoft Guide</span>
                         </NavLink>
                      </div> */}
             </div>
-            <div className="col-lg-1"></div>
             <div className="col-lg-7">
               <div className="row gx-4">
                 <div className="col-lg-6">
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Develop & Train
+                        Build & Train
                         <br />
-                      ML Models
+                        Model Faster
                       </h3>
                       <div className="overlay">
                         <p>
-                        Leveraging Studio development enables accessing and utilizing integrated tools along with optimal support for frameworks and libraries.
+                          Leveraging Studio development enables to access and
+                          leverage integrated tools along with optimal support
+                          for frameworks and libraries.
                         </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Operational  <br />
-                      Efficiency
+                        Operationalize <br />
+                        at Scale
                       </h3>
                       <div className="overlay">
                         <p>
-                        Boost your operational efficiency by leveraging single-click functionality while deploying and managing your ML models. With effective utilization of MLOps, govern, manage, and scale your deployed models.
+                          Bring single-click efficiency while deploying your ML
+                          models. Seamlessly manage and govern your deployed
+                          models with efficient use of MLOps.
                         </p>
                       </div>
                     </div>
@@ -298,25 +372,31 @@ const AzureMachineLearning = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Scalable
+                        Ensure Worthwhile
                         <br />
                         ML Solutions
                       </h3>
                       <div className="overlay">
                         <p>
-                        With built-in AI algorithms, monitor & control your data flow, enable operational transparency, track & debug errors in your ML models, drive accuracy while deploying ML models, and more.
+                          Understand your data flow leveraging efficient AI
+                          capabilities, bring transparency in your operational
+                          processes, debug model errors, and ensure model
+                          accuracy for responsible ML solutions.
                         </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Streamline
+                        Manage
                         <br />
                         Your Workloads
                       </h3>
                       <div className="overlay">
                         <p>
-                        By leveraging built-in global compliances and governance, run your entire ML workloads anywhere. Ensure implementing your Machine Learning innovations in a highly secured hybrid environment.
+                          Innovate and drive on a highly secured hybrid
+                          platform. Effectively run all your ML workloads
+                          anywhere while following the built-in global
+                          compliance and governance.
                         </p>
                       </div>
                     </div>
@@ -331,12 +411,12 @@ const AzureMachineLearning = () => {
       <section className="call-to-action-center hero-4">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-7">
+            <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Connect for Expert Solution</h3>
+                <h3>Connect & Talk with Experts</h3>
                 <p>
-                Let's connect to understand and reveal your business potentials and expansion capabilities
-with Azure Machine Learning Solutions.
+                  Let's connect & discuss your business potentials and how Azure
+                  ML solutions could be a proven milestone for your enterprise.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <NavLink

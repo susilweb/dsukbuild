@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
-
+import FooterHide from "./FooterHide";
 const ThankYouEmailSubscriber = () => {
   const reloadCount = sessionStorage.getItem("reloadCount");
   if (reloadCount < 2) {
@@ -13,12 +13,12 @@ const ThankYouEmailSubscriber = () => {
   return (
     <>
       <Helmet>
-      <title>Email Subscriber - Dynamics Square</title>
+      <title>Email Subscriber | Dynamics Square</title>
 <meta name="description" content="Stay connected for newest insights and updates."/>
-<link rel="canonical" href="https://www.dynamicssquare.com/thank-you/email-subscriber/" />
-<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://www.dynamicssquare.co.uk/thank-you/email-subscriber/" />
+<meta property="og:locale" content="en_GB" />
       </Helmet>
-      <section className="Solution-banner hero-1 hero custom-pd-4">
+      <section className="Solution-banner">
         <div className="container">
           <div className="row justify-content-center ">
             <div className="col-lg-7 align-self-center text-center custom0004">
@@ -35,6 +35,8 @@ const ThankYouEmailSubscriber = () => {
           </div>
         </div>
       </section>
+
+      <FooterHide />
     </>
   );
 };

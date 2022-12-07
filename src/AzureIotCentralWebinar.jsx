@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import Form from "./Form";
 
 const AzureIotCentralWebinar = () => {
   return (
@@ -10,12 +9,11 @@ const AzureIotCentralWebinar = () => {
         <title>Azure IoT Central Webinar | Transform Your Business With IoT</title>
 <meta name="description" content="Register for Azure IoT Central webinar in collaboration with Microsoft. Learn how companies can leverage IoT solutions to boost their business growth at scale."/>
 
-<link rel="canonical" href="https://www.dynamicssquare.com/webinars/azure-iot-central/" />
+<link rel="canonical" href="https://www.dynamicssquare.co.uk/webinars/azure-iot-central/" />
         <meta
           name="description"
           content="Need Microsoft Dynamics 365 CRM and ERP services? Scale-up your business productivity by implementing Dynamics 365 apps from D365 partner Dynamics Square."
         />
-        <meta property="og:locale" content="en_US" />
         <meta content="" name="keywords" />
       </Helmet>
       <section className="hero-1 hero webinar-banner-top">
@@ -35,9 +33,10 @@ const AzureIotCentralWebinar = () => {
               </div>
             </div>
             <div className="col-lg-5">
-            <div className="busine_service_bottom-left common-side-form">
-                <Form />
-              </div>
+              <img
+                src="/assets/img/Group1601.png"
+                alt="upgrade-service-banner"
+              />
             </div>
           </div>
         </div>
@@ -236,11 +235,12 @@ const AzureIotCentralWebinar = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-5 align-content-center">
+            <div className="col-lg-5">
               <div className="right">
-              <div className="busine_service_bottom-left common-side-form">
-                <Form />
-              </div>
+                <img
+                  src="/assets/img/Group1601.png"
+                  alt="upgrade-service-banner"
+                />
               </div>
             </div>
           </div>

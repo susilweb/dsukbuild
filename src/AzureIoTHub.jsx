@@ -7,17 +7,59 @@ const AzureIoTHub = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>What is Azure IoT Hub? | Dynamics Square</title>
+        <title>Azure IoT Hub | Cloud-Hosted IoT Solutions</title>
         <meta
           name="description"
-          content="With Azure IoT Hub, deploy your IoT applications enabling two-way communication embedded with high-end security and capability to monitor &amp; control your IoT workspace with a 360-degree view."
+          content="Control, manage, and secure your IoT workspace in real-time to drive streamlined IoT workload all through by implementing Azure IoT Hub. ​"
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/products/azure-iot-hub/"
+          href="https://www.dynamicssquare.co.uk/products/azure-iot-hub/"
         />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
+        <meta
+          property="og:title"
+          content="Azure IoT Hub | Cloud-Hosted IoT Solutions"
+        />
+        <meta
+          property="og:description"
+          content="Control, manage, and secure your IoT workspace in real-time to drive streamlined IoT workload all through by implementing Azure IoT Hub. ​"
+        />
+        <meta
+          property="og:url"
+          content="https://www.dynamicssquare.co.uk/products/azure-iot-hub/"
+        />
+        <meta property="og:site_name" content="Dynamics Square" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/dynamicssquareuk"
+        />
+        <meta
+          property="article:author"
+          content="https://www.facebook.com/vickygururani"
+        />
+        <meta property="fb:app_id" content="2007906422699147" />
+        <meta property="og:image" content="" />
+        <meta property="og:image:secure_url" content="" />
+        <meta property="og:image:width" content="1024" />
+        <meta property="og:image:height" content="586" />
+        <meta property="og:image:alt" content="azure-iot-hub-banner" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Azure IoT Hub | Cloud-Hosted IoT Solutions"
+        />
+        <meta
+          name="twitter:description"
+          content="Control, manage, and secure your IoT workspace in real-time to drive streamlined IoT workload all through by implementing Azure IoT Hub. ​"
+        />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:creator" content="@dsquare_uk" />
+        <meta name="twitter:image" content="" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="4 minutes" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -27,7 +69,10 @@ const AzureIoTHub = () => {
                 Azure IoT Hub
               </h1>
               <p>
-              With Azure IoT Hub, deploy your IoT applications enabling two-way communication embedded with high-end security and capability to monitor & control your IoT workspace with a 360-degree view.
+                Control, manage, and secure your IoT workspace while ensuring
+                smoother performance of your IoT devices in real-time to drive
+                streamlined IoT 
+                workload all through implementing Azure IoT Hub.
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -53,35 +98,47 @@ const AzureIoTHub = () => {
 
       <section className="azur-ott-wr">
         <div className="container">
-        <div className="row justify-content-center">
-            <div className="col-lg-8 col-md-8">
-            <header className="section-header">
+          <header className="section-header">
             <h2>What is Azure IoT Hub?</h2>
             <p>
-            Azure IoT Hub is referred to as a scalable managed service embedded with a bidirectional messaging hub hosted on the cloud. It allows you to build highly secure and reliable communication between hosted IoT applications and configured equipment. Enterprises can connect millions of devices configured with specific solutions to monitor devices and represent device performance reading on the app dashboard.
+              Azure IoT Hub is a highly secured and scalable managed service
+              hosted on the cloud. It acts as a bidirectional messaging hub
+              to ensure reliable communication between IoT applications
+              and connected devices.It allows connecting any device and
+              a multitude of devices along with their solutions can be connected
+              seamlessly to track device performance and demonstrate the same on
+              your custom-built app dashboard.
             </p>
           </header>
-            </div>
-          </div>
-
           <div className="row azurott">
             <div className="col-lg-6 align-self-center">
               <div className="azurleft">
                 <p>
-                Enable seamless connection, securely host your IoT devices, and enable two-way communication between your IoT-hosted devices and Azure cloud. By Deploying Azure IoT Hub, start monitoring your devices, for instance, how they perform, control them by leveraging real-time notifications from the cloud to your IoT connected equipment or devices, etc.
+                  Seamlessly connect, monitor, and control millions of your IoT
+                  devices. Drive two-way communication between your IoT devices
+                  and Azure cloud to track your device performance by sending
+                  real-time notifications and commands from your cloud network
+                  to your IoT-connected assets or devices.
                 </p>
                 <ul>
                   <li>
-                  Seamlessly configure your existing system or devices with Azure cloud to enjoy smoother flow across your IoT hub.
+                    Experts at Dynamics Square helps enterprises to ensure
+                    seamless integration between their existing or new devices
+                    with Azure cloud.
                   </li>
                   <li>
-                  Streamline your process flow, enable real-time monitoring, and proactively manage your equipment when configured with Azure services.
+                    To streamline your enterprise practices, the IoT hub can
+                    seamlessly be configured or integrated with your other Azure
+                    services.
                   </li>
                   <li>
-                  Stay updated with your device information as every IoT hub is configured with the ability of an identity registry to store your device information and permitted modules.
+                    Every IoT hub comes with an identity registry that stores
+                    and keeps device information along with permitted modules.
                   </li>
                   <li>
-                  To ensure secured and reliable authentication between your IoT Hub and connected devices, businesses can opt whether for SAS-based authentication or X.509 certification authentication.
+                    For secured authentication between IoT hub and devices, it
+                    allows you whether to choose SAS token-based authentication
+                    or X.509 certificate authentication.
                   </li>
                 </ul>
               </div>
@@ -104,7 +161,7 @@ const AzureIoTHub = () => {
             <div className="col-lg-5 align-self-center">
             <div className="wy-sultion-left-head">
               <h2>Azure IoT Hub Features</h2>
-              <h3>How building Own IoT Hub Can Improve Your IoT connected experience?</h3>
+              <h3>How Azure IoT Hub Helps to Drive Hybrid IoT Apps Experience?</h3>
               </div>
             </div>
             <div className="col-lg-7">
@@ -119,18 +176,24 @@ const AzureIoTHub = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                        Leveraging Azure IoT Hub, enterprises can connect their millions of IoT devices to support their millions of business events that happen every second to impact and effectively manage their entire IoT workload.
+                          IoT hub is designed and can be scaled to support your
+                          millions of connected devices to run millions of
+                          business events per second helping to manage and drive
+                          your IoT workload.
                         </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Vast Messaging <br />
-                      Hub
+                        Support Diversified <br />
+                        Messaging
                       </h3>
                       <div className="overlay">
                         <p>
-                        Effortlessly control your IoT devices over the cloud and enable your system to leverage diverse messaging patterns whether device-to-cloud telemetry, data uploading from devices, or request-reply method.
+                          It allows your system to support several messaging
+                          patterns from device-to-cloud telemetry, uploading
+                          data or files from devices to request-reply methods to
+                          control your IoT devices over a cloud network.
                         </p>
                       </div>
                     </div>
@@ -140,25 +203,31 @@ const AzureIoTHub = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Seamless Configuration & 
+                        Seamless Integrated
                         <br />
-                        Integration
+                        Experience
                       </h3>
                       <div className="overlay">
                         <p>
-                        Boost your system capabilities by seamlessly integrating your IoT apps with Azure services. Such services include Azure Event Grid, Azure Logic Apps, Azure Machine Learning, and Azure Stream analytics.
+                          Integrate your IoT apps with other Azure services such
+                          as Azure Event Grid, Azure Logic Apps, Azure Machine
+                          Learning, and Azure Stream Analytics to drive
+                          end-to-end connected solutions.
                         </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Real-Time Device 
+                        Track & Monitor
                         <br />
-                        Monitoring
+                        Devices
                       </h3>
                       <div className="overlay">
                         <p>
-                        Track and monitor your devices and stay updated with real-time status starting from the device creations to connections to device failure to bring and drive smoother IoT workflow.
+                          Continuously monitor your device to track device
+                          status from device creations to device connections and
+                          device failures to ensure uninterrupted and smoother
+                          IoT workflow in your organization.
                         </p>
                       </div>
                     </div>
@@ -176,8 +245,9 @@ const AzureIoTHub = () => {
               <div className="call-to-action-content">
                 <h3>Talk to Our Consultants</h3>
                 <p>
-                Come and connect with us, let's discuss to reveal the best-in-class yet a revenue-generating solution for your business.
-
+                  We are here to listen to your pain points and reveal the
+                  solution that could be an efficient and profitable deal for
+                  your business.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link
@@ -224,7 +294,25 @@ const AzureIoTHub = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    Azure IoT Hub is referred to as a cloud-managed service designed to drive centralized messaging between your IoT-connected equipment and IoT applications. Azure IoT Hub allows you to create a connection for millions of devices altogether over a secured and reliable network. With Azure IoT solutions, you can connect, monitor, and control your devices in real-time and provide an early solution to either prevent downtime or to provide early maintenance before any sort of downtime. To know more, contact us today, we can help you serve the right information and implement the right solution configured for your business.
+                      Azure IoT hub is a managed cloud service supports
+                      centralized messaging between IoT applications and
+                      attached assets or devices. Enterprises can connect
+                      millions of devices simultaneously while ensuring security
+                      and reliability. It allows connecting almost all the
+                      devices to your Azure IoT hub.
+                      <br />
+                      <br />
+                      With Azure IoT, you can connect, monitor, and control your
+                      IoT devices and stay updated with real-time device data,
+                      status, or analytics leveraging a single unified
+                      dashboard.
+                      <br />
+                      <br />
+                      To know more about how Azure IoT works, connect with
+                      experts at Dynamics Square, we can help you to understand
+                      its capability, and implementing Azure IoT solutions to
+                      help your enterprise to manage and streamline your IoT
+                      workflow.
                     </div>
                   </div>
                 </div>
@@ -246,7 +334,20 @@ const AzureIoTHub = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    Azure IoT hub is referred to as an IoT solution that enables organizations to connect and monitor millions of devices parallelly. This PaaS-based solution is designed to drive bi-directional communication between your IoT configured devices and the Microsoft Azure cloud. <p>On the other hand, <NavLink to="/products/azure-iot-central/">Azure IoT Central</NavLink>  is equipped with a SaaS (software-as-a-service) configuration that enables you to create multiple custom IoT applications leveraging its in-built standard templates.</p> <p>To understand in-depth or which one could be a suitable solution for your business, connect and discuss with our experts today</p>
+                      Azure IoT hub is a PaaS (Platform-as-a-service) based IoT
+                      solution to seamlessly connect, manage, and control a
+                      multitude of devices simultaneously. Azure IoT Hub allows
+                      bidirectional communication between the Azure cloud and
+                      IoT devices. It’s a highly secure, reliable, and flexible
+                      platform to connect and drive secure IoT workload across
+                      your enterprise.
+                      <br />
+                      <br />
+                      Azure IoT Central is a SaaS-based solution to connect and
+                      monitor the device performance with real-time flexibility.
+                      Azure IoT central is quite similar to Azure IoT Hub that
+                      allows access to a set of standard templates to develop
+                      efficient IoT applications.
                     </div>
                   </div>
                 </div>
@@ -267,7 +368,12 @@ const AzureIoTHub = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    For limited usage, you can utilize the free edition of the IoT hub whereby you can register and connect up to 500 devices to ensure transmitting 8000 messages or notifications/per day. To carry out the requirement above this, you are suggested to go with the premium plan. For further information or know your Azure IoT investment as per your customized needs, contact us today, we can offer your highly cost-effective solution for your business.
+                      IoT hub free edition comes with limited usage. It allows
+                      enterprises to register up to 500 IoT devices with the
+                      flexibility to transmit up to a limit of 8000 messages/per
+                      day. If your requirement crosses this limit, you need to
+                      go with a paid plan. If you have any sort of queries in
+                      this regard, talk to us, we can help.
                     </div>
                   </div>
                 </div>
@@ -288,7 +394,26 @@ const AzureIoTHub = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    SLA (Service Level Agreement) is designed and available for Microsoft online services. It comprises huge information related to Microsoft Azure IoT Hub, for instance, Microsoft's commitment to its services, provisioning service, device registration, and more. For in-depth information, contact Dynamics Square Team, we can help with the required information.
+                      SLA refers to Service Level Agreement also a part of
+                      Microsoft volume licensing agreement created for Microsoft
+                      online service.
+                      <br />
+                      <br />
+                      For Azure IoT Hub, Microsoft commits that 99% time of the
+                      time deployed IoT Hubs would be able to manage
+                      communication or send and receive messages from the
+                      registered devices.
+                      <br />
+                      <br />
+                      For Azure IoT Hub Device Provisioning Service, Microsoft
+                      commits that at least 99% of the time deployed providing
+                      services would be leveraged to receive provisioning
+                      requests and register the related devices to an IoT Hub.
+                      <br />
+                      <br />
+                      To know complete information about SLA for Azure IoT Hub,
+                      connect with us, experts at Dynamics Square can help you
+                      to understand in-depth or required to your business.
                     </div>
                   </div>
                 </div>
@@ -310,16 +435,31 @@ const AzureIoTHub = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    Considering your specific domain practices and process optimization, your IoT solution requirement could be different. So, let's understand which one could be a suitable subscription plan for your business: 
+                      Depending on your unique requirement, your requirement may
+                      go different. So, let's drive a difference to understand
+                      your requirement.
                       <br />
                       <br />
-                      If you are setting up your IoT environment for the very first time, you can implement IoT Hub Basic Tier. 
+                      When you plan to deploy an IoT environment, you can start
+                      with IoT Hub Basic tier initially.
                       <br />
                       <br />
-                      If you require advanced configuration in-built with bi-directional communication, high-end security, and per-device authentication, you are required to implement IoT Hub Standard.
+                      Since IoT Hub comes with the property of bidirectional
+                      communication and if you want to deploy your IoT hub with
+                      foundational security embedded with per-device
+                      authentication along with optimal device support and
+                      seamless upgrade opportunity, IoT Hub Standard could be a
+                      smarter choice for you. This plan also comprises device
+                      management and Azure IoT Edge support.
                       <br />
                       <br />
-                      If your requirement reaches to manage big data or web data indigestion, Azure event hubs could be a fruitful IoT solution for your organization.
+                      Azure Event Hubs could be a suitable deal for those
+                      dealing and willing to manage big-data or web data
+                      ingestion.
+                      <br />
+                      <br />
+                      Moreover, if you need more clarification on this, contact
+                      Dynamics Square, we can help.
                     </div>
                   </div>
                 </div>

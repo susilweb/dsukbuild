@@ -8,18 +8,59 @@ const AzureIoTEdge = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>What is Azure IoT Edge? Benefits, Consultation, Features & Pricing</title>
+        <title>Azure IoT Edge | Cloud Intelligent Solutions</title>
         <meta
           name="description"
-          content="What Is Azure IoT Edge? Check out Benefits, Consultation, Features &amp; Pricing. Enable cloud intelligence locally on IoT edge devices to remotely monitor devices and manage cloud-native workloads."
+          content="With Azure IoT Edge, optimize your device performance, measure your equipment to prevent downtime, enable your devices to respond promptly."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/products/azure-iot-edge/"
+          href="https://www.dynamicssquare.co.uk/products/azure-iot-edge/"
         />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
-        
+        <meta
+          property="og:title"
+          content="Azure IoT Edge | Cloud Intelligent Solutions"
+        />
+        <meta
+          property="og:description"
+          content="With Azure IoT Edge, optimize your device performance, measure your equipment to prevent downtime, enable your devices to respond promptly."
+        />
+        <meta
+          property="og:url"
+          content="https://www.dynamicssquare.co.uk/products/azure-iot-edge/"
+        />
+        <meta property="og:site_name" content="Dynamics Square" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/dynamicssquareuk"
+        />
+        <meta
+          property="article:author"
+          content="https://www.facebook.com/vickygururani"
+        />
+        <meta property="fb:app_id" content="2007906422699147" />
+        <meta property="og:image" content="" />
+        <meta property="og:image:secure_url" content="" />
+        <meta property="og:image:width" content="1024" />
+        <meta property="og:image:height" content="586" />
+        <meta property="og:image:alt" content="azure-iot-edge-banner" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Azure IoT Edge | Cloud Intelligent Solutions"
+        />
+        <meta
+          name="twitter:description"
+          content="With Azure IoT Edge, optimize your device performance, measure your equipment to prevent downtime, enable your devices to respond promptly."
+        />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:creator" content="@dsquare_uk" />
+        <meta name="twitter:image" content="" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="2 minutes" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -29,7 +70,10 @@ const AzureIoTEdge = () => {
                 Azure IoT Edge
               </h1>
               <p>
-              Enable cloud intelligence locally on IoT edge devices to remotely monitor devices and manage cloud-native workloads. Optimize cloud investment, faster your devices' performance on local change, and bring an offline operational efficiency.
+                Deploy cloud intelligence on IoT edge devices to monitor devices
+                remotely at scale while reducing IoT solution costs and enabling
+                offline operational efficiency to ensure seamless Cloud
+                Intelligence.
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -58,12 +102,23 @@ const AzureIoTEdge = () => {
           <header className="section-header">
             <h2>What is Azure IoT Edge?</h2>
             <p>
-            Azure IoT Edge is referred to as a cloud AI solution remotely configured <NavLink to="/microsoft-dynamics-365-cloud-vs-on-premise/">on-premises</NavLink> to securely deploy and manage your cloud-native workloads on your locally implemented IoT Edge. Deployment of IoT Edge devices enables enterprises to optimize the locally connected environment, track equipment performance while preventing system failure, and reduce equipment downtime.
+              Azure IoT Edge is a cloud intelligent solution deployed
+              on-premises that enables you to remotely deploy the cloud-based
+              workloads on your IoT devices to optimize IoT connected
+              environment, reduce system downtime, get performance data in
+              real-time to prevent system failure, or track the devices or
+              equipment performance.
             </p>
             <br /> <br />
             <h2>Azure IoT Edge Benefits</h2>
             <p>
-            Streamline and manage your operational data deployed locally on Azure cloud. Manage your remotely configured and cloud-native workloads efficiently and enable execution directly on your locally hosted IoT Edge devices. Azure IoT Edge enables enterprises to measure and optimize device equipment and prevent system downtime while strengthening your device performance to respond faster when any sort of local change is applied along with maximized potentials and efficiency of the operating device.
+              Eliminate data silos and streamline operational data at scale
+              using Azure cloud. Securely deploy and manage your cloud-equipped
+              workloads with remote efficiency and run the execution directly on
+              IoT devices. With Azure IoT Edge, optimize your device
+              performance, measure your equipment to prevent downtime, enable
+              your devices to respond promptly in case of local changes made,
+              and enable them to be operated with extended capability.
             </p>
           </header>
           <div className="row p-lg-6">
@@ -86,7 +141,7 @@ const AzureIoTEdge = () => {
                             alt="icons_Smoother-Data-Intelligence"
                           />
                         </div>
-                        <span>Drive Data Intelligence</span>
+                        <span>Smoother Data Intelligence</span>
                       </button>
                     </h3>
                     <div
@@ -96,7 +151,10 @@ const AzureIoTEdge = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Develop and deploy cloud AI models securely and remotely, run them on-premises to optimize and predict device performance, measure cloud spending, and ensure improved data intelligence.
+                        Deploy AI models built securely on the cloud and run
+                        them on-premises to optimize data, device performance,
+                        and cloud spend to ensure a smoother data-intelligence
+                        experience.
                       </div>
                     </div>
                   </div>
@@ -117,7 +175,7 @@ const AzureIoTEdge = () => {
                             alt="icons_Real-time-Data-analysis"
                           />
                         </div>
-                        <span>Real-Time Monitoring & Contral</span>
+                        <span>Real-time Data analysis</span>
                       </button>
                     </h3>
                     <div
@@ -127,7 +185,9 @@ const AzureIoTEdge = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Empower your devices to respond quickly in real-time when deployed locally on your devices. Azure IoT Edge enables businesses to get notified and receive messages in real-time and data processing using on-premises systems.
+                        Enable your devices to react or respond in real-time.
+                        With Azure IoT Edge, get notifications in real-time and
+                        process the data leveraging on-premises systems.
                       </div>
                     </div>
                   </div>
@@ -155,7 +215,7 @@ const AzureIoTEdge = () => {
                             alt="icons_Monitor-Device-Health-Performance"
                           />
                         </div>
-                        <span>Reduce Equipment Down-Time</span>
+                        <span>Monitor Device Health & Performance</span>
                       </button>
                     </h3>
                     <div
@@ -165,7 +225,11 @@ const AzureIoTEdge = () => {
                       data-bs-parent="#accneww"
                     >
                       <div className="accordion-body">
-                      Remotely monitor and control your IoT Edge devices when integrated with a tool like 'Azure Monitor tool'. Leverage in-built metrics and visual analytics to ensure seamless tracking for equipment and IoT Edge application performance.
+                        Remotely track and monitor your IoT Edge devices at
+                        scale by integrating with the 'Azure Monitor tool'. With
+                        the help of Built-in-metrics and powerful
+                        visualizations, monitor your device health and your IoT
+                        Edge applications' performance.
                       </div>
                     </div>
                   </div>
@@ -186,7 +250,7 @@ const AzureIoTEdge = () => {
                             alt="icons_Seamless-Data-Operation"
                           />
                         </div>
-                        <span>Extended IoT Capabilities</span>
+                        <span>Seamless Data Operation</span>
                       </button>
                     </h3>
                     <div
@@ -196,7 +260,11 @@ const AzureIoTEdge = () => {
                       data-bs-parent="#accneww"
                     >
                       <div className="accordion-body">
-                      Ensure maximized efficiency of your Edge devices even while being in offline mode. Deploying Azure IoT Edge enables your devices with seamless data automation and synchronization with real-time operational efficiency.
+                        Securely operate and manage your Edge devices even when
+                        they are in offline mode. Azure IoT Edge facilitates
+                        your devices with automation wherein data gets
+                        synchronized in real-time that ensures seamless data
+                        operation.
                       </div>
                     </div>
                   </div>
@@ -225,22 +293,29 @@ const AzureIoTEdge = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Standard Hardware
+                        Certified IoT <br />
+                        Edge Hardware
                       </h3>
                       <div className="overlay">
                         <p>
-                        Azure IoT Edge is configured with certified and standard quality hardware that ensures seamless compatibility with Windows and Linux devices. Such compatibility helps to support container engines.
+                          Azure IoT Edge comes with certified IoT Edge hardware
+                          that allows seamless compatibility with Linux and
+                          windows-based devices that ensures supporting
+                          container engines.
                         </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
                         Improved <br />
-                        Execution
+                        Runtime
                       </h3>
                       <div className="overlay">
                         <p>
-                        Since Azure IoT Edge is a built-in free and open-source coded platform and is available under MIT license. Thereby, it allows developers to have more control in terms of customization and configuration.
+                          Designed with free and open-source code and comes
+                          under the MIT license that enables code flexibility
+                          and provides more control to customize your code
+                          according to a specific workflow.
                         </p>
                       </div>
                     </div>
@@ -250,25 +325,30 @@ const AzureIoTEdge = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Efficient-End 
+                        Efficient
                         <br />
                         Modules
                       </h3>
                       <div className="overlay">
                         <p>
-                        Leveraging Docker-compatible containers enabled by <NavLink to="/products/microsoft-azure/">Microsoft Azure Services</NavLink>, you can write and implement your own business logic supporting your standard yet customized process modules.
+                          Create and drive your business logic at scale with
+                          Docker-compatible containers provided by Azure
+                          services or authorized Microsoft partners.
                         </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Easy-to-Use
+                        Seamless Cloud
                         <br />
                         Interface
                       </h3>
                       <div className="overlay">
                         <p>
-                        With easy-to-use and seamless interface navigation, create, manage, and control your cloud-based workloads remotely to ensure effortless process optimization, production control, and more.
+                          Azure IoT Edge provides a seamless cloud interface to
+                          remotely and securely manage your workloads from the
+                          cloud and deploy the same while eliminating the need
+                          of touching the devices physically.
                         </p>
                       </div>
                     </div>
@@ -287,8 +367,8 @@ const AzureIoTEdge = () => {
               <div className="call-to-action-content">
                 <h3>Talk to Our Azure IoT Edge Experts</h3>
                 <p>
-                Allow us to understand your business flow and reveal the cloud intelligence solution
-for your business to support and improve your operational efficiency.
+                  Connect to know how you can implement cloud intelligence in
+                  your business through Azure IoT Edge and drive excellence.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <NavLink

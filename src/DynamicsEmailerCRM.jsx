@@ -3,6 +3,10 @@ import { Helmet } from "react-helmet";
 import FooterHide from "./FooterHide";
 import FormCampaign from "./FormCampaign";
 const DynamicsEmailerCRM = () => {
+  const liststyle={
+
+    marginBottom: '10px',
+  }
   return (
     <>
       <Helmet>
@@ -22,21 +26,17 @@ const DynamicsEmailerCRM = () => {
       </Helmet>
 
       <section
-        className="Solution-banner hero-1 hero"
+        className="Solution-banner"
         style={{ overflow: "hidden" }}
       >
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center nav-to">
               <h1>
-              Provide value to delight customers with every interaction
+              Provide Value to Delight Customers With Every Interaction
               </h1>
               <p>
-                We help organizations to deepen their customer relationships,
-                empower their sales and marketing teams with built-in
-                intelligence to assure data analysis, and efficiently manage
-                campaigns using Microsoft Dynamics 365 Customer Engagement
-                (CRM).
+              We assist your business in enhancing customer interactions and empowering your team to boost sales and ROI with a robust, feature-rich CRM - <span style={{color:'#ee3442'}}>Dynamics 365 Customer Engagement</span>.
               </p>
               <p>
                 <b>
@@ -44,53 +44,13 @@ const DynamicsEmailerCRM = () => {
                 </b>
               </p>
               <div className="row">
-                <div className="col-lg-6">
-                  <div className="ineer-div">
-                    <div className="left">
-                      <i class="bi bi-check2-all"></i>
-                    </div>
-                    <div className="right">
-                      <p>
-                        Build Customer Relationships: Store, access, and
-                        streamline your customers' data.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="ineer-div">
-                    <div className="left">
-                      <i class="bi bi-check2-all"></i>
-                    </div>
-                    <div className="right">
-                      <p>
-                        Drive Predictive Approach: Leverage data analytics
-                        capabilities to analyze customer data.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="ineer-div">
-                    <div className="left">
-                      <i class="bi bi-check2-all"></i>
-                    </div>
-                    <div className="right">
-                      <p>
-                        Remain Productive: Enable enterprises to access
-                        customers' data anywhere using any device.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="ineer-div">
-                    <div className="left">
-                      <i class="bi bi-check2-all"></i>
-                    </div>
-                    <div className="right">
-                      <p>
-                        Drive Personalized Experienced: Understand & serve
-                        customers a personalized solution as per need.
-                      </p>
-                    </div>
-                  </div>
+                <div className="col-lg-12">
+                  <ul>
+                    <li style={liststyle}><b>Build Customer Relationships:</b> Store, access, and streamline your customers' data.</li>
+                    <li style={liststyle}><b>Drive Predictive Approach</b>: Leverage data analytics capabilities to analyze customer data.</li>
+                    <li style={liststyle}><b>Remain Productive</b>: Enable enterprises to access customers' data anywhere using any device.</li>
+                    <li style={liststyle}><b>Drive Personalized Experienced</b>: Understand & serve customers a personalized solution as per need.</li>
+                  </ul>
                 </div>
               </div>
             </div>

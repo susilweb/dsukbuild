@@ -6,20 +6,23 @@ const ScmCloudvsonPremise = () => {
   return (
     <>
       <Helmet>
-      <title>Dynamics 365 SCM - Cloud vs On-premise</title>
-<meta name="description" content="Dynamics 365 SCM (Supply Chain Management) aka Dynamics 365 Operations can help you build an agile, connected and resilient supply chain, which is critical"/>
-<link rel="canonical" href="https://www.dynamicssquare.com/dynamics-365-scm-cloud-vs-on-premise/" />
-<meta property="og:locale" content="en_US" />
+      <title>Dynamics 365 SCM – Cloud vs On-premise | Dynamics Square</title>
+<meta name="description" content="Dynamics 365 Supply Chain Management (SCM) aka Dynamics 365 Operations can help you build an agile, connected and resilient supply chain, which is critical"/>
+<link rel="canonical" href="https://www.dynamicssquare.co.uk/dynamics-365-scm-cloud-vs-on-premise/" />
+<meta property="og:locale" content="en_GB" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
-              Dynamics 365 SCM - Cloud vs On-premise
+                Dynamics 365 SCM
+                <br />
+                Cloud vs On-Premise
               </h1>
               <p>
-                <NavLink to="/products/dynamics-365-supply-chain-management/">Dynamics 365 Supply Chain Management</NavLink> (SCM) aka Dynamics 365 Operations can help you build an agile, connected and resilient
+                Dynamics 365 Supply Chain Management (SCM) aka Dynamics 365
+                Operations can help you build an agile, connected and resilient
                 supply chain, which is critical for business. It leverages
                 predictive insights from AI and the Internet of Things (IoT) to
                 help you streamline the production of your products, their
@@ -53,8 +56,8 @@ const ScmCloudvsonPremise = () => {
       <section>
         <div className="container">
           <header className="section-header">
-            <h3 className="text-center">Quick Comparative Review</h3>
-         
+            <h3 className="text-center">Features</h3>
+            <p className="text-center">Quick Comparative Review</p>
           </header>
           <div className="row">
             <div className="col-lg-12">
@@ -83,7 +86,7 @@ const ScmCloudvsonPremise = () => {
                     </tr>
                     <tr>
                       <td>&nbsp;</td>
-                      <td>Cost accounting content pack for <NavLink to="/products/microsoft-power-bi/">Power BI</NavLink></td>
+                      <td>Cost accounting content pack for Power BI</td>
                       <td>Yes</td>
                       <td>No</td>
                     </tr>
@@ -446,7 +449,8 @@ const ScmCloudvsonPremise = () => {
                   advisable to get in touch with a leading provider of Microsoft
                   Dynamics 365 Supply Chain Management service for an expert
                   opinion. Dynamics Square is one such reliable partner that
-                  possess proficiency in <NavLink to="/products/microsoft-dynamics-365">Microsoft Dynamics 365</NavLink> for businesses and can recommend which installation best suits your business
+                  possess proficiency in Microsoft Dynamics 365 for businesses
+                  and can recommend which installation best suits your business
                   requirement.
                 </p>
               </div>

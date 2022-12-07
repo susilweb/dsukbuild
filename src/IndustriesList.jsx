@@ -9,16 +9,50 @@ const IndustriesList = () => {
         <title>Industries | Dynamics Square</title>
         <meta
           name="description"
-          content="Power the growth of your industry by implementing Dynamics 365 Business applications. Our Dynamics 365 experts have the expertise to assist you..."
+          content="Power the growth of your industry by implementing Dynamics 365 Business applications. Our Dynamics 365 experts have the expertise to assist you in any"
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/industries/"
+          href="https://www.dynamicssquare.co.uk/industries/"
         />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Industries | Dynamics Square" />
-        
+        <meta
+          property="og:description"
+          content="Power the growth of your industry by implementing Dynamics 365 Business applications. Our Dynamics 365 experts have the expertise to assist you in any"
+        />
+        <meta
+          property="og:url"
+          content="https://www.dynamicssquare.co.uk/industries/"
+        />
+        <meta property="og:site_name" content="Dynamics Square" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/dynamicssquareuk"
+        />
+        <meta
+          property="article:author"
+          content="https://www.facebook.com/vickygururani"
+        />
+        <meta property="fb:app_id" content="2007906422699147" />
+        <meta property="og:image" content="" />
+        <meta property="og:image:secure_url" content="" />
+        <meta property="og:image:width" content="500" />
+        <meta property="og:image:height" content="500" />
+        <meta property="og:image:alt" content="DS Favicon" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Industries | Dynamics Square" />
+        <meta
+          name="twitter:description"
+          content="Power the growth of your industry by implementing Dynamics 365 Business applications. Our Dynamics 365 experts have the expertise to assist you in any"
+        />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:creator" content="@dsquare_uk" />
+        <meta name="twitter:image" content="" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="Less than a minute" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

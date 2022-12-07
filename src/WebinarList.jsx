@@ -8,21 +8,41 @@ const WebinarList = () => {
   return (
     <>
       <Helmet>
-      <title>Microsoft Dynamics 365 Webinars - Dynamics Square</title>
-<meta name="description" content="In this webinar you&#039;re going to learn all about Power BI through live demo! Power BI is a tool that allows accounting and finance managers and professionals."/>
+      <title>Dynamics Square Webinars | Dynamics Square</title>
+<meta name="description" content="Check out our new webinar on Azure IoT Central (A complete SaaS-based Solution) to understand how to make your IoT project more accessible and how modern"/>
 <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
-<link rel="canonical" href="https://www.dynamicssquare.com/webinars/" />
-<meta property="og:locale" content="en_us" />
+<link rel="canonical" href="https://www.dynamicssquare.co.uk/webinars/" />
+<meta property="og:locale" content="en_GB" />
 <meta property="og:type" content="article" />
-
+<meta property="og:title" content="Dynamics Square Webinars | Dynamics Square" />
+<meta property="og:description" content="Check out our new webinar on Azure IoT Central (A complete SaaS-based Solution) to understand how to make your IoT project more accessible and how modern" />
+<meta property="og:url" content="https://www.dynamicssquare.co.uk/webinars/" />
+<meta property="og:site_name" content="Dynamics Square" />
+<meta property="article:publisher" content="https://www.facebook.com/dynamicssquareuk" />
+<meta property="article:author" content="https://www.facebook.com/vickygururani" />
+<meta property="fb:app_id" content="2007906422699147" />
+<meta property="og:image" content=" " />
+<meta property="og:image:secure_url" content="https://www.dynamicssquare.co.uk/assets/img/case-icons-list.png" />
+<meta property="og:image:width" content="1281" />
+<meta property="og:image:height" content="721" />
+<meta property="og:image:alt" content="iot_youtube thumbnail" />
+<meta property="og:image:type" content="image/png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Dynamics Square Webinars | Dynamics Square" />
+<meta name="twitter:description" content="Check out our new webinar on Azure IoT Central (A complete SaaS-based Solution) to understand how to make your IoT project more accessible and how modern" />
+<meta name="twitter:site" content="@dsquare_uk" />
+<meta name="twitter:creator" content="@dsquare_uk" />
+<meta name="twitter:image" content=" " />
+<meta name="twitter:label1" content="Time to read" />
+<meta name="twitter:data1" content="1 minute" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
-              <h1>Dynamics 365 Webinars</h1>
+              <h1>Webinars</h1>
               <p>
-              Watch our latest webinars to learn how Microsoft Business Applications is transforming businesses at scale. 
+              Learn more on how you can leverage Microsoft Dynamics 365 for your business needs.
               </p>
               {/* <div>
                 <div className="text-center text-lg-start">
@@ -112,7 +132,7 @@ const WebinarList = () => {
                           <h5 className="card-title">
                             <ExternalLink href="https://youtu.be/AzXqHqEoocY" traget="_blank">Azure IoT Webinar</ExternalLink>
                           </h5>
-                          <p>In collaboration with Microsoft, watch our webinar on Azure IoT Central (A complete SaaS-based Solution) to understand how to make your IoT project more accessible and how modern manufacturers can leverage IoT with improved efficiency along with reduced complexity, time, and cost investment.</p>
+                          <p>Checkout our webinar on Azure IoT and how it will help transform your business digitally.</p>
                           <div class="btn-003 btn-009"><ExternalLink class="btn btn-sm btn-danger" href="https://youtu.be/AzXqHqEoocY" traget="_blank">Watch Now</ExternalLink></div>
                         </div>
                       </div>

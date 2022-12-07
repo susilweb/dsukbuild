@@ -585,6 +585,42 @@ const Header = () => {
                                     </a>
                                   </div>
                                 </div>
+                                <div className="col-md-4">
+                                  <div className="list-itmes-maga-menu">
+                                    <a href="/products/microsoft-dynamics-erp/">
+                                      <div className="pic">
+                                        <img
+                                          src="/assets/img/menu-icons/ERP.png"
+                                          alt="GP"
+                                        />
+                                      </div>
+                                      <div className="content">
+                                        <span>Dynamics ERP</span>
+                                        <p>
+                                        Streamline Entire Business Management with Ease
+                                        </p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div className="col-md-4">
+                                  <div className="list-itmes-maga-menu">
+                                    <a href="/products/microsoft-dynamics-365-finance-operations/">
+                                      <div className="pic">
+                                        <img
+                                          src="/assets/img/menu-icons/F&Q.png"
+                                          alt="GP"
+                                        />
+                                      </div>
+                                      <div className="content">
+                                        <span>Dynamics F&O</span>
+                                        <p>
+                                        Accelerate your Finance and Inventory more Efficiently
+                                        </p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -612,7 +648,7 @@ const Header = () => {
                                 </div>
                                 <div className="col-md-4">
                                   <div className="list-itmes-maga-menu">
-                                    <a href="/products/microsoft-dynamics-365/mixed-reality/">
+                                    <a href="/products/microsoft-dynamics-365-mixed-reality/">
                                       <div className="pic">
                                         <img
                                           src="/assets/img/menu-icons/mixed-Reality-icons.svg"
@@ -788,9 +824,9 @@ const Header = () => {
                   <ul>
                     <li>
                       <ExternalLink
-                        href="https://www.dynamicssquare.com/blog/"
-                        rel=""
                         target="_self"
+                        href="https://www.dynamicssquare.co.uk/blog/"
+                        rel=""
                       >
                         Blog
                       </ExternalLink>
@@ -817,11 +853,12 @@ const Header = () => {
                 </li>
                 <li>
                   <ExternalLink
-                    target="_self"
                     className="getstarted custtss"
-                    href="tel:+12818990865"
+                    href="tel:+442071932502"
+                    target="_self"
                   >
-                    <i className="bi bi-telephone-fill"></i> +1 281 899 0865
+                    <i className="bi bi-telephone-fill"></i> &nbsp;&nbsp;0207
+                    193 2502
                   </ExternalLink>
                 </li>
               </ul>
@@ -1024,7 +1061,7 @@ const Header = () => {
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/products/microsoft-dynamics-365/mixed-reality/">
+                                    <a href="/products/microsoft-dynamics-365-mixed-reality/">
                                       Mixed Reality
                                     </a>
                                   </li>
@@ -1035,53 +1072,6 @@ const Header = () => {
                                   </li>
                                 </ul>
                               </li>
-                              {/* <li>
-                                <a href="#">
-                                  <span>Must Read</span>
-                                </a>
-                              </li>
-
-                              <li>
-                                <a href="/microsoft-dynamics-365-cloud-vs-on-premise/">
-                                  Cloud vs On-premise Comparison
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/d365-business-central-vs-d365-finance/">
-                                  Business Central vs Finance
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/why-choose-microsoft-dynamics-365-business-central/">
-                                  Why Choose D365 Business Central?
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/10-reasons-to-choose-dynamics-365/">
-                                  Why Migrate to Dynamics 365?
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/advantages-capabilities/">
-                                  Business Central - Advantages & Capabilities
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/dynamics-365-finance-operations-vs-sap-erp/">
-                                  Dynamics 365 Finance & Operations vs SAP ERP
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/dynamics-365-business-central-vs-sap-business-one/">
-                                  Dynamics 365 Business Central vs SAP Business
-                                  One
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/dynamics-365-business-central-vs-netsuite">
-                                  Dynamics 365 Business Central vs. NetSuite
-                                </a>
-                              </li> */}
                             </ul>
                           </div>
                         </div>
@@ -1253,7 +1243,7 @@ const Header = () => {
                             <ul>
                               <li>
                                 <ExternalLink
-                                  href="https://www.dynamicssquare.com/blog/"
+                                  href="https://www.dynamicssquare.co.uk/blog/"
                                   target="_self"
                                   rel=""
                                 >
@@ -1263,13 +1253,13 @@ const Header = () => {
                               <li>
                                 <a href="/ebook/">eBook</a>
                               </li>
-
                               <li>
                                 <a href="/case-studies/">Case Studies</a>
                               </li>
                               <li>
-                      <a href=" /guides/">Guides</a>
-                    </li>
+                                <a href=" /guides/">Guides</a>
+                              </li>
+
                               <li>
                                 <a href="/webinars/">Webinars</a>
                               </li>

@@ -18,11 +18,53 @@ const WhyUs = () => {
         </title>
         <meta
           name="description"
-          content="Why Dynamics Square? Because, we&#039;re Microsoft Gold Partner in the USA helping businesses to scale up their processes through Microsoft ERP &amp; CRM software solutions."
+          content="Learn more about why Dynamics Square is your trustworthy Microsoft Dynamics Partner in the UK, London so that you can take most challenging business decisions with confidence."
         />
-        <link rel="canonical" href="https://www.dynamicssquare.com/why-us/" />
-        <meta property="og:locale" content="en_US" />
+        <link rel="canonical" href="https://www.dynamicssquare.co.uk/why-us/" />
+        <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
+        <meta
+          property="og:title"
+          content="Why Dynamics Square | Your Trusted Microsoft Partner in UK"
+        />
+        <meta
+          property="og:description"
+          content="Learn more about why Dynamics Square is your trustworthy Microsoft Dynamics Partner in the UK, London so that you can take most challenging business decisions with confidence."
+        />
+        <meta
+          property="og:url"
+          content="https://www.dynamicssquare.co.uk/why-us/"
+        />
+        <meta property="og:site_name" content="Dynamics Square" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/dynamicssquareuk"
+        />
+        <meta
+          property="article:author"
+          content="https://www.facebook.com/vickygururani"
+        />
+        <meta property="fb:app_id" content="2007906422699147" />
+        <meta property="og:image" content="" />
+        <meta property="og:image:secure_url" content="" />
+        <meta property="og:image:width" content="570" />
+        <meta property="og:image:height" content="340" />
+        <meta property="og:image:alt" content="image2" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Why Dynamics Square | Your Trusted Microsoft Partner in UK"
+        />
+        <meta
+          name="twitter:description"
+          content="Learn more about why Dynamics Square is your trustworthy Microsoft Dynamics Partner in the UK, London so that you can take most challenging business decisions with confidence."
+        />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:creator" content="@dsquare_uk" />
+        <meta name="twitter:image" content="" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="2 minutes" />
       </Helmet>
       <main>
         <section className="Solution-banner hero-1 hero about-banner">
@@ -54,25 +96,26 @@ const WhyUs = () => {
                 <div className="domain-expertise-left domain-expertise-left-1">
                   <div className="title-header">
                     <h3>
-                      Best Dynamics 365 Business Central & Dynamics NAV Partner
+                      You deserve the full return on each dollar you invest in
+                      your business solutions.
                     </h3>
                   </div>
 
                   <div className="domain-Expertise-list domain-Expertise-list-p">
-                    <p>
-                      You deserve the full return on each dollar you invest in
-                      your business solutions at{" "}
-                      <NavLink to="/">Dynamics Square</NavLink>, our job is to
-                      act as your trusted partner, using our expert product
-                      knowledge and industry understanding to help you get the
-                      most out of your software systems.
-                    </p>
-                    <p>
-                      We've worked on hundreds of projects around the world,
-                      helping our clients find enterprise software solutions
-                      that push the boundaries of modern technology to solve
-                      problems and provide a positive ROI.
-                    </p>
+                    <ul>
+                      <li>
+                        At Dynamics Square, our job is to act as your trusted
+                        partner, using our expert product knowledge and industry
+                        understanding to help you get the most out of your
+                        software systems.
+                      </li>
+                      <li>
+                        We've worked on hundreds of projects around the world,
+                        helping our clients find enterprise software solutions
+                        that push the boundaries of modern technology to solve
+                        problems and provide a positive ROI.
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -317,7 +360,7 @@ const WhyUs = () => {
                   <div className="swiper-wrapper align-items-center">
                     <Swiper
                       autoplay={{
-                        delay: 4000,
+                        delay: 2000,
                         disableOnInteraction: false,
                       }}
                       breakpoints={{
@@ -354,9 +397,9 @@ const WhyUs = () => {
                       <SwiperSlide>
                         <div className="swiper-slide">
                           <img
-                            src="/assets/img/clients/JVEquip_logo.png"
+                            src="/assets/img/clients/client-1.png"
                             className="img-fluid"
-                            alt="JVEquip_logo"
+                            alt=""
                           />
                         </div>
                       </SwiperSlide>
@@ -364,18 +407,18 @@ const WhyUs = () => {
                         {" "}
                         <div className="swiper-slide">
                           <img
-                            src="/assets/img/clients/Spectra-Aluminum-logo-new.png"
+                            src="/assets/img/clients/client-2.png"
                             className="img-fluid"
-                            alt="Spectra-Aluminum-logo"
+                            alt=""
                           />
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="swiper-slide">
                           <img
-                            src="/assets/img/clients/MexiLand_logos.png"
+                            src="/assets/img/clients/client-3.png"
                             className="img-fluid"
-                            alt="MexiLand_logos"
+                            alt=""
                           />
                         </div>
                       </SwiperSlide>
@@ -383,27 +426,27 @@ const WhyUs = () => {
                         {" "}
                         <div className="swiper-slide">
                           <img
-                            src="/assets/img/clients/VidPro_logo.png"
+                            src="/assets/img/clients/client-4.png"
                             className="img-fluid"
-                            alt="VidPro_logo"
+                            alt=""
                           />
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="swiper-slide">
                           <img
-                            src="/assets/img/clients/PLASP-LOGO.png"
+                            src="/assets/img/clients/client-5.png"
                             className="img-fluid"
-                            alt="PLASP-LOGO"
+                            alt=""
                           />
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="swiper-slide">
                           <img
-                            src="/assets/img/clients/SOS-MANUFACTURING-LOGO.png"
+                            src="/assets/img/clients/client-4.png"
                             className="img-fluid"
-                            alt="SOS-MANUFACTURING-LOGO"
+                            alt=""
                           />
                         </div>
                       </SwiperSlide>

@@ -1,24 +1,69 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import { ExternalLink } from "react-external-link";
 
 const MicrosoftDynamicsCrm = () => {
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Microsoft Dynamics CRM Solutions Partner | Dynamics Square</title>
+        <title>Microsoft Dynamics CRM | A Complete CRM Solution</title>
         <meta
           name="description"
-          content="Need trusted Microsoft Dynamics CRM partner for any solutions? We will help you in streamling your overall sales process, building customer relationships and improving customer service."
+          content="Microsoft Dynamics CRM is a complete CRM solution that can help your business grow by increasing sales, strengthening customer relationships, nurturing leads, and resolving customer support concerns."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/products/microsoft-dynamics-crm/"
+          href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-crm/"
         />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
-        
+        <meta
+          property="og:title"
+          content="Microsoft Dynamics CRM | Customer Relationship Management"
+        />
+        <meta
+          property="og:description"
+          content="Microsoft Dynamics CRM is a complete CRM solution that can help your business grow by increasing sales, strengthening customer relationships, nurturing leads, and resolving customer support concerns."
+        />
+        <meta
+          property="og:url"
+          content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-crm/"
+        />
+        <meta property="og:site_name" content="Dynamics Square" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/dynamicssquareuk"
+        />
+        <meta
+          property="article:author"
+          content="https://www.facebook.com/vickygururani"
+        />
+        <meta property="fb:app_id" content="2007906422699147" />
+        <meta property="og:image" content="" />
+        <meta property="og:image:secure_url" content="" />
+        <meta property="og:image:width" content="1024" />
+        <meta property="og:image:height" content="586" />
+        <meta
+          property="og:image:alt"
+          content="microsoft dynamics crm dashboard"
+        />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Microsoft Dynamics CRM | Customer Relationship Management"
+        />
+        <meta
+          name="twitter:description"
+          content="Microsoft Dynamics CRM helps optimize your sales practices, drive omnichannel experience, and streamline your customer support system. Get Dynamics CRM today."
+        />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:creator" content="@dsquare_uk" />
+        <meta name="twitter:image" content="" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="3 minutes" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -27,12 +72,10 @@ const MicrosoftDynamicsCrm = () => {
               <h1>
                 Microsoft <br /> Dynamics CRM
               </h1>
-            
-            <div className="col-lg-9 mobile-1">
               <p>
-              Enhance Your Customer Experience & Maximize Business Outcomes with Microsoft Dynamics 365 CRM
+                Improve & Drive Surpassing Customer Experience with Microsoft
+                Dynamics CRM
               </p>
-              </div>
               <div>
                 <div className="text-center text-lg-start">
                   <NavLink
@@ -58,53 +101,45 @@ const MicrosoftDynamicsCrm = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-            <div className="row justify-content-center">
-                <div className="col-lg-8 col-md-8">
-                    <header className="section-header">
-                    <h2> What Is Microsoft Dynamics CRM?</h2>
-                    <p>Microsoft Dynamics CRM is an all-in-one customer management solution whereby enterprises can manage and streamline their business flow from sales & marketing to customer service to delivery part. By implementing Dynamics CRM, enterprises can drive successful customer engagement campaigns, improve their sales activities, and ensure desired profitability.</p>
-                    </header>
-                </div>
-              </div>
+            <header className="section-header">
+            <h2>
+            What Is Microsoft Dynamics CRM?
+            </h2>
+            <p>Microsoft Dynamics CRM (currently known as <NavLink to="/products/dynamics-365-customer-engagement/">Dynamics 365 Customer Engagement</NavLink>) is a customer relationship management software which enables businesses to streamline their processes from sales & marketing to service divisions to customers and delivery. Implementing Microsoft's CRM solution can help brands to strengthen their customer relationship as well as support customer retention. Enterprises can bring process automation and data centralization that enables transformation throughout the organizational flow.</p>
+            </header>
             </div>
           </div>
         </div>
       </section>
       <section className="busine_service_bottom custom001">
         <div className="container">
-          <div className="row ">
+          <div className="row">
             <div className="col-lg-6 align-self-center">
              <img src="/assets/img/CRM banner.png" alt="CRM banner" />
             </div>
-            <div className="col-lg-5 align-self-center">
+            <div className="col-lg-6 align-self-center">
               <div className="side-heading">
                 <h2>
-                Worthwhile Reasons for Choosing Dynamics 365 CRM Solutions 
+                Why Choose Microsoft Dynamics CRM?
                 </h2>
               </div>
               <div className="custom002">
-                <p>Microsoft Dynamics CRM is an all-in-one customer management solution whereby enterprises can manage and streamline their business flow from sales & marketing to customer service to delivery part. By implementing Dynamics CRM, enterprises can drive successful customer engagement campaigns, improve their sales activities, and ensure desired profitability. </p>
+                <p>If you want to enable sales & service automation, efficiently connect & engage customers, and improve your customer anticipations, choose Microsoft Dynamics CRM solution. With the help of Dynamics CRM you can leverage AI efficiency and IoT connected data-driven practices, streamline your enterprise practices, build & sustain customer relationships, increase productivity, and impact your revenue model.</p>
+                <p>With the help of Dynamics CRM, you can seamlessly align your sales & marketing, improve team collaboration, and ensure the success of your digital campaigns. Moreover, you can automate data, streamline tasks, understand your customers’ behavior, elevate sales level, and bring transparency in your entire sales process with real-time efficiency to maximize your growth potentials.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-         <section className="new-bg">
+      <section>
         <div className="container">
-          
+          <header className="section-header">
+            <h2>
+            Microsoft Dynamics CRM Benefits
+            </h2>
+          </header>
           <div className="row p-lg-6">
-            <div className="col-lg-6 align-self-center">
-              <div className="side-heding-new">
-                <h3>
-                America's Leading Microsoft Dynamics CRM Partner
-                </h3>
-                <p>
-                Being a Microsoft Gold Partner, our team will ensure to efficiently manage your sales processes, enable omnichannel efficiency, and drive improved customer support model through <NavLink to="/products/microsoft-dynamics-365">Microsoft Dynamics 365</NavLink> CRM.
-                </p>
-              </div>
-            </div>
-
             <div className="col-lg-6">
               <div className="finace-acc">
                 <div className="accordion" id="accnew">
@@ -114,87 +149,115 @@ const MicrosoftDynamicsCrm = () => {
                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#fin5"
+                        data-bs-target="#fin1"
                         aria-expanded="false"
-                        aria-controls="fin5"
+                        aria-controls="fin1"
                       >
-                        <div className="wr-ins">
+                        <div className="wr-in">
                           <img
-                            src="/assets/img/Seamless-Sales-and-Marketing.svg"
-                            alt="Sales & Marketing4"
+                            src="/assets/img/icons_simplify-marketing.svg"
+                            alt="icons_simplify-marketing"
                           />
                         </div>
-                        <span>Seamless Sales & Marketing</span>
+                        <span>Simplify Sales & Marketing</span>
                       </button>
                     </h3>
                     <div
-                      id="fin5"
+                      id="fin1"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Dynamics CRM empowers brands to ease and streamline their sales and marketing practices while reducing costs and embracing efficiency. With this standalone solution, brands can eliminate the redundant efforts and bring transparency across their sales and customer management practices to accelerate fostering leads, make better decisions, and adapt quickly.
+                        Dynamics CRM empowers brands to ease and streamline
+                        their sales and marketing practices while reducing costs
+                        and embracing efficiency. With this standalone solution,
+                        brands can eliminate the redundant efforts and bring
+                        transparency across their sales and customer management
+                        practices to accelerate fostering leads, make better
+                        decisions, and adapt quickly.
                       </div>
                     </div>
                   </div>
+                  <hr />
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
                       <button
                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#fin6"
+                        data-bs-target="#fin2"
                         aria-expanded="false"
-                        aria-controls="fin6"
+                        aria-controls="fin2"
                       >
-                        <div className="wr-ins">
+                        <div className="wr-in">
                           <img
-                            src="/assets/img/Improved-Sales.svg"
-                            alt="sales"
+                            src="/assets/img/icons_maximise-sales.svg"
+                            alt="icons_maximise-sales"
                           />
                         </div>
-                        <span>Improved Sales</span>
+                        <span>Maximize Sales</span>
                       </button>
                     </h3>
                     <div
-                      id="fin6"
+                      id="fin2"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Microsoft Dynamics 365 CRM enables enterprises to automate their sales data and streamline their sales tasks while giving real-time insights into sales reports, customer activity & engagement, and other key analytics helping to make instant decisions and support the sales cycle to close deals faster. All such things help to maximize sales levels.
+                        Microsoft Dynamics 365 CRM enables enterprises to
+                        automate their sales data and streamline their sales
+                        tasks while giving real-time insights into sales
+                        reports, customer activity & engagement, and other key
+                        analytics helping to make instant decisions and support
+                        the sales cycle to close deals faster. All such things
+                        help to maximize sales levels.
                       </div>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="finace-acc">
+                <hr className="mob-disp" />
+                <div className="accordion" id="accnew">
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
                       <button
                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#fin7"
+                        data-bs-target="#fin3"
                         aria-expanded="false"
-                        aria-controls="fin7"
+                        aria-controls="fin3"
                       >
-                        <div className="wr-ins">
+                        <div className="wr-in">
                           <img
-                            src="/assets/img/Build-and-Retain-Customers.svg"
-                            alt="Retain Customers"
+                            src="/assets/img/icons_customer-relation.svg"
+                            alt="icons_customer-relation"
                           />
                         </div>
-                        <span>Build & Retain Customers</span>
+                        <span>Build Sustainable Customer Relationships</span>
                       </button>
                     </h3>
                     <div
-                      id="fin7"
+                      id="fin3"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      MS Dynamics CRM empowers your sales managers and salespeople to connect, engage, and serve their customers in real-time leveraging custom AI reports and key actionable data. With several modernized Dynamics CRM features, strengthen your sales team’s capability to manage customers seamlessly and retain them with a long-lasting impact.
+                        When it comes to leveraging Dynamics CRM features, it
+                        allows salespeople and sales managers to focus more on
+                        connecting and engaging customers as well as supporting
+                        them in real-time. With MS Dynamics CRM, enterprises can
+                        eliminate their manual data processing efforts and data
+                        repetition practices. Thereby, they can focus more on
+                        developing and strengthening their customer
+                        relationships.
                       </div>
                     </div>
                   </div>
@@ -205,15 +268,15 @@ const MicrosoftDynamicsCrm = () => {
         </div>
       </section>
 
-
       <section className="call-to-action-center hero-4">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-7">
+            <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Talk About Your Requirement Today</h3>
+                <h3>Connect With Our Experts Today</h3>
                 <p>
-                Let's have a fruitful discussion to reveal your actual business requirement fulfilling your pain areas and supporting your growth strategy.
+                  Let's talk about your pain areas and drive your system health
+                  check to know your current system requirements.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <NavLink
@@ -238,19 +301,25 @@ const MicrosoftDynamicsCrm = () => {
             </h2>
           </header>
           <div className="row pad9x rever-1">
-            <div className="col-lg-6 align-self-center">
+            <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pic">
                 <img
-                  src="/assets/img/Sales-banner.png"
+                  src="/assets/img/dynamics-365-sales.png"
                   alt="dynamics-365-sales"
                 />
               </div>
             </div>
-           
-            <div className="col-lg-6 align-self-center">
+            <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
                 <h3>Dynamics 365 for Sales</h3>
-                <p>Strengthen your business capabilities, bring transparency in your sales activities, and enlarge your customer experience by engaging and serving them whenever and wherever they are in need. Build and drive improved yet sustainable customer relationships to close more deals faster while enabling your users to quickly adapt to the system and start working toward fulfilling the sales objectives.</p>
+                <p>
+                  Maximize your sales capabilities by bringing transparency and
+                  efficiency throughout your sales practices. Engage with your
+                  customers wherever they are in real-time, build sustainable
+                  customer relationships to impact or accelerate your sales.
+                  Streamline your sales data, collaborate with your team
+                  seamlessly, empower your workforce to adapt quickly.
+                </p>
                 <div className="cltt-actt">
                   <NavLink to="/products/microsoft-dynamics-365-sales/">
                     Learn More
@@ -264,7 +333,15 @@ const MicrosoftDynamicsCrm = () => {
             <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
                 <h3>Dynamics 365 for Customer Service</h3>
-                <p>Seamlessly connect your customers, ensure timely fulfillment, and support them with the anticipated solution in real-time. Using high-end Dynamics CRM features wrapped with AI sales insights combined with IoT connected devices, key customer data, and other sales analytics; proactively track & manage your customers and respond to them or fix their issues in real-time.</p>
+                <p>
+                  Support your customers with real-time efficiency and serve
+                  them a personalized experience. Empower your team to
+                  collaborate and drive optimal experiences with highly embedded
+                  tools to respond to your customers. Proactively manage your
+                  customers' issues and fix them <NavLink target="_blank" to="/products/microsoft-dynamics-365-ai/">leveraging AI insights</NavLink> & IoT
+                  connected devices as well as provide optimal support to your
+                  customers.
+                </p>
                 <div className="cltt-actt">
                   <NavLink to="/products/microsoft-dynamics-365-customer-service/">
                     Learn More
@@ -272,11 +349,10 @@ const MicrosoftDynamicsCrm = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-1"></div>
-            <div className="col-lg-6 align-self-center">
+            <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pic">
                 <img
-                  src="/assets/img/Customer-Service.png"
+                  src="/assets/img/dynamics-for-customer-service.png"
                   alt="dynamics-for-customer-service"
                 />
               </div>
@@ -284,19 +360,20 @@ const MicrosoftDynamicsCrm = () => {
           </div>
 
           <div className="row pad9x rever-1">
-            <div className="col-lg-6 align-self-center">
+            <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pic">
                 <img
-                  src="/assets/img/marketing-banner-crm.png"
+                  src="/assets/img/Project-Service-Automation.png"
                   alt="Project-Service-Automation"
                 />
               </div>
             </div>
-           
-            <div className="col-lg-6 align-self-center">
+            <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
-                <h3>Dynamics 365 for Field Service</h3>
-                <p>Enable your field service executives to collaborate and serve their customers in real-time leveraging AI insights and connected experience. MS Dynamics CRM empowers your field executive to accelerate their performance with the help of Microsoft's CRM solutions. With this advanced CRM configuration, enterprises can enable their workforce to deliver high-end customer solutions or instant technical support. </p>
+                <h3>Dynamics 365 for Marketing</h3>
+                <p>
+                Microsoft Dynamics Marketing enables your marketing team to easily plan and execute campaigns using the power of Excel and Power BI. With this tool, you can measure campaign performance across channels from start to finish, engage customers one-to-one, build your sales pipeline, and demonstrate the impact of your marketing investments in real-time. This tool is essential for any marketing team that wants to bring their vision to life and see the results of their efforts in an easy-to-understand format.
+                </p>
                 <div className="cltt-actt">
                   <NavLink to="/products/microsoft-dynamics-365-marketing/">
                     Learn More
@@ -309,8 +386,10 @@ const MicrosoftDynamicsCrm = () => {
           <div className="row pad9x">
             <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
-                <h3>Dynamics 365 Project Service Automation</h3>
-                <p>Bring collaboration in your end-to-end processes and drive integrated experience comprising sales management, resource utilization, project management, financial management, and more. By ensuring effective use of this functionality, enterprises can drive seamless project automation, close more deals faster, accelerate their project delivery, and enhance their revenues.</p>
+                <h3>Dynamics 365 Project Operations</h3>
+                <p>
+                Manage your sales, resource utilization, project management, and financial flow leveraging a single integrated app to close more deals, faster the project delivery, and drive maximized outcomes. To enhance your system capabilities and drive innovation throughout their project management process, enterprises can integrate their project service automation with their existing tools.
+                </p>
                 <div className="cltt-actt">
                   <NavLink to="/products/dynamics-365-project-operations/">
                     Learn More
@@ -318,13 +397,263 @@ const MicrosoftDynamicsCrm = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-1"></div>
-            <div className="col-lg-6 align-self-center">
+            <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pic">
                 <img
-                  src="/assets/img/project-operation-banner-crm.png"
+                  src="/assets/img/Project-Service-Automation (1).png"
                   alt="Project-Service-Automation"
                 />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="solution-faq faq">
+        <div className="container">
+         <div className="row justify-content-center">
+          <div className="col-lg-7"> <header className="section-header">
+            <h2>Have you got questions about Microsoft Dynamics CRM?</h2>
+            <p>Click through to our FAQ for the best answers!</p>
+          </header></div>
+         </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >
+                      What is Microsoft Dynamics CRM used for?  
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      Microsoft Dynamics CRM (Customer Relationship Management) is a powerful application capable of managing and streamlining customer relationships, tracking marketing campaigns, measuring sales, managing leads, and providing a seamless experience to deliver action-oriented decisions.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                     Is Dynamics 365 a CRM or ERP? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      Microsoft Dynamics 365 is an all-in-one solution for all business needs, whether CRM or ERP (Enterprise Relationship Management). It contains 12 applications of ERP and CRM software that aid businesses in rapid growth and scalability.
+                       </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >
+                     Is Microsoft Dynamics CRM free?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      Four applications are available under Dynamics 365 CRM, i.e., <NavLink to="/products/microsoft-dynamics-365-sales/">Dynamics 365 Sales</NavLink>, <NavLink to="/products/microsoft-dynamics-365-customer-service/">Dynamics 365 Customer Service</NavLink>, <NavLink to="/products/microsoft-dynamics-365-field-service/">Dynamics 365 Field Service</NavLink>, and Microsoft D365 Project Service Automation. A user can get a 30-day free license to use all the features and understand the functions better before purchasing it.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                      What are the main areas in Dynamics CRM?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Dynamics CRM covers various areas of marketing and helps with business sales and customer retention. The top three regions of D365 CRM include Sales, Marketing, and Service. This is a complete application for overall sales and service management.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >
+                    What is Dynamics CRM known for in 2022?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Microsoft is very conscious of updating the features and capabilities of an existing application to deal with modern ways of business. Formerly, the CRM solution by Microsoft was known as Dynamics CRM, but after a significant update, it has evolved into Microsoft Dynamics 365 CRM.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-6"
+                    >
+                      Does Microsoft Dynamics CRM work on the web?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-6"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>MS D365 CRM can work on web and mobile platforms with cloud deployment. Users can manage and supervise the sales process from anywhere and anytime using an internet connection.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-7"
+                    >
+                      What is Microsoft Dynamics CRM online? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-7"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Microsoft Dynamics CRM offers two deployment options to all on-premises and cloud users. The cloud deployment provides CRM online using <NavLink to="/products/microsoft-azure/">Microsoft Azure</NavLink> (Microsoft's cloud storage service), where users can deploy the servers online and access the data in real-time.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-8"
+                    >
+                      Does Microsoft Dynamics 365 CRM support customizations? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-8"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Yes, it supports customizations per specific business requirements of the organization. You will need the right <NavLink to="/our-services/dynamics-365-implementation-services/">Dynamics 365 implementation partner</NavLink> to successfully implement the application without errors.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-9"
+                    >
+                     Does Microsoft Dynamics 365 CRM support integrations? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-9"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Yes, this application does support native and third-party integrations. You can easily integrate Excel and Outlook apps to make the workflow smoother. If you need any integration as per your business type, you can <NavLink to="https://www.dynamicssquare.co.uk/contact-us/">contact Dynamics Square</NavLink>.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-10"
+                    >
+                      Is it easy to implement Microsoft Dynamics 365 CRM for any business?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-10"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Dynamics 365 CRM is a flexible tool that can be customized based on specific business requirements and industry types. Being adaptive, it provides seamless features to all businesses, irrespective of their industry. Generally, growing industries opt for this powerful application as the performance can be increased or decreased using the cloud anytime.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-11"
+                    >
+                      Does industry-specific application are available with Microsoft Dynamics CRM?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-11"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>All applications per their specific industry type are available in Microsoft Marketplace. You can easily search for and implement them to boost your business operations.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

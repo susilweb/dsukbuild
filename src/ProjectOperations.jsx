@@ -10,17 +10,16 @@ const ProjectOperations = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Dynamics 365 Project Operations - Dynamics Square</title>
+        <title>Dynamics 365 Project Operations Partner UK</title>
         <meta
           name="description"
-          content="Automate &amp; Simplify Your Project Operations with Agility and Transparency with Dynamics 365 Project Operations."
+          content="Dynamics 365 Apps- Bring Agility, Improve Transparency, and Streamline Your Projects through implementing Dynamics 365 Project Operations"
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/products/dynamics-365-project-operations/"
+          href="https://www.dynamicssquare.co.uk/products/dynamics-365-project-operations/"
         />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="article" />
+        <meta property="og:locale" content="en_GB" />
       </Helmet>
       <ModalVideo
         channel="youtube"
@@ -36,10 +35,11 @@ const ProjectOperations = () => {
               <h1>
                 Dynamics 365
                 <br />
-                 Project Operations
+                Project Operations
               </h1>
               <p>
-              Automate & Simplify Your Project Operations with Agility and Transparency with Dynamics 365 Project Operations.
+                Bring Agility, Improve Transparency, and Streamline Your
+                Projects with Dynamics 365 Project Operations
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -54,26 +54,40 @@ const ProjectOperations = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img src="/assets/img/project-operation-banner.png" alt="project-operation-banner" />
+              <img
+                src="/assets/img/project-operation-banner.png"
+                alt="images"
+              />
             </div>
           </div>
         </div>
       </section>
 
       <section>
-      <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-9 col-md-9">
-            <header className="section-header">
-              <h2>
-              What is dynamics 365 Project Operations?
-              </h2>
-              <p><b>Strengthen your team's capability, maximize your resource utilization, and faster your project delivery by implementing Dynamics 365 Project Operations.</b></p><br />
-              <p>Bring a smoother flow across your project operation practices from sales, resource optimization to project automation, and streamline the delivery part by upgrading your system functionality with Dynamics 365 Project Operations. Enterprises can seamlessly drive team collaboration, roll out a strategic approach in their operations, and can accelerate their project delivery within the desired budget.</p>
-            </header>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div class="col-lg-9">
+              <header className="section-header">
+                <h2>What is dynamics 365 Project Operations?</h2>
+                <p>
+                  <b>
+                    Empower your team to drive visibility and agility to ensure
+                    on-time project delivery within budget all through Dynamics
+                    365 Project Operations.
+                  </b>
+                </p>
+                <br />
+                <p>
+                  Connect your project operations from sales, resourcing, and
+                  financing to project management by effectively leveraging
+                  Dynamics 365 Project Operations. A single unified app helps to
+                  bring your team together to drive collaboration, faster your
+                  project delivery, and maximize your growth potentials.
+                </p>
+              </header>
+            </div>
           </div>
-        </div>
-         
+
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -104,7 +118,10 @@ const ProjectOperations = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Bring automation in your project execution and enable everyone working on the project to get real-time updates related to project planning, organizing, and execution to ensure productive flow.</p>
+                        Enable project automation to allow people involved from
+                        the top level to executive level to stay updated with
+                        the real-time status of the project to plan and execute
+                        the project accordingly.
                       </div>
                     </div>
                   </div>
@@ -135,7 +152,10 @@ const ProjectOperations = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Implement a strategic approach wherein involve the right people in the right project or task, maximize your resource utilization, and drive efficient results while ensuring on-time completion and delivery.</p>
+                        Elevate your project delivery model by aligning the
+                        right talent to the right project impacting the overall
+                        project development cycle while ensuring the quality of
+                        the project and fulfilling deadlines.
                       </div>
                     </div>
                   </div>
@@ -145,7 +165,7 @@ const ProjectOperations = () => {
 
             <div className="col-lg-6">
               <div className="finace-acc">
-              <hr className="mob-disp" />
+                <hr className="mob-disp" />
                 <div className="accordion" id="accnews">
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
@@ -173,7 +193,10 @@ const ProjectOperations = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                       <p>Accelerate your financial operations and bring seamless flow from project costing, budgeting, invoicing, revenue recognition to compliance management, and more with improved financial visibility.</p>
+                        Simplify your finance from project costing, budgeting,
+                        invoicing & billing, revenue recognition, and compliance
+                        management while enabling visibility into every project
+                        status.
                       </div>
                     </div>
                   </div>
@@ -204,7 +227,10 @@ const ProjectOperations = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                       <p>Automate and transform your data flow with real-time accessibility by the people assigned for the specific project. With <NavLink to="/products/microsoft-dynamics-365-finance/">Dynamics Finance</NavLink>, faster project delivery with quality assurance practices.</p>
+                        Streamline your data to be accessed and utilized by
+                        everyone involved in the project to accelerate project
+                        delivery, drive quality assurance, and attain project
+                        success.
                       </div>
                     </div>
                   </div>
@@ -219,11 +245,12 @@ const ProjectOperations = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-5 align-self-center">
-            <div className="wy-sultion-left-head">
-              <h2>Microsoft Dynamics 365 Project Operations Features</h2>
-              <h3>
-              Simplify & Accelerate Your Project Operations Flow with Dynamics 365 Project Operations.
-              </h3>
+              <div className="wy-sultion-left-head">
+                <h2>Microsoft Dynamics 365 Project Operations Features</h2>
+                <h3>
+                  Streamline your Project Operations & Accelerate Delivery with
+                  D365 Project Operations
+                </h3>
               </div>
             </div>
             <div className="col-lg-7">
@@ -237,7 +264,9 @@ const ProjectOperations = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                        From administration to operations to delivery part, ensure that you are assigning the right workforce to the right project at the right time with the help of D365 Project Operations.
+                          With Dynamics 365 Project Service Automation, assign
+                          the right people to the right project leveraging
+                          skill-matching, scheduling, and resourcing insights.
                         </p>
                       </div>
                     </div>
@@ -248,7 +277,9 @@ const ProjectOperations = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                        Speed up your process flow by leveraging built-in functionalities of <NavLink to="/microsoft-dynamics-365-project-service/">Dynamics 365 Project Service Automation</NavLink> including Kanban boards, Gantt charts, and many more.
+                          Make effective use of inbuilt Microsoft Project
+                          Management capabilities such as Kanban boards, Gantt
+                          charts, etc. to faster the Project delivery.
                         </p>
                       </div>
                     </div>
@@ -263,7 +294,9 @@ const ProjectOperations = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                        Automate your project financials including project accounting, budgeting, and global financial reporting compliances to drive scalability across global locations.
+                          Streamline your project financials from project
+                          accounting, budgeting to ensuring global financial
+                          reporting standards compliance.
                         </p>
                       </div>
                     </div>
@@ -274,7 +307,9 @@ const ProjectOperations = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                        Seamlessly manage and submit time, expenses, etc. and streamline your operational cycle while improving your process flow capabilities in terms of workflow submissions, approvals, and reporting efficiencies.
+                          Effortlessly submit time and expenses, automate the
+                          entire workflow, and improve your submissions,
+                          approvals, and reporting capabilities.
                         </p>
                       </div>
                     </div>
@@ -285,7 +320,7 @@ const ProjectOperations = () => {
           </div>
         </div>
       </section>
-      
+
       <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
@@ -303,7 +338,10 @@ const ProjectOperations = () => {
                         to="#javascript:void(0)"
                         onClick={() => setOpen(true)}
                       >
-                        <img src="/assets/img/Video-Video-Project-Operation.png" />
+                        <img
+                          src="/assets/img/Video-Video-Project-Operation.png"
+                          alt="Project-Operation"
+                        />
                         <span className="cente-icns">
                           <img
                             src="/assets/img/play_icons.svg"
@@ -318,9 +356,9 @@ const ProjectOperations = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="side-heading">
-                <h2>Dynamics 365 Project Operations Services</h2>
+                <h2>Dynamics 365 Project Operations</h2>
                 <p>
-                We offer a full range of services to support you on your Dynamics journey including implementation, upgrade and support.
+                Avail a range of hassle-free implementation, upgrade, and support services to boost your project operations. 
                 </p>
               </div>
               <div className="busine_service_bottom-right">
@@ -333,10 +371,10 @@ const ProjectOperations = () => {
                 <div className="card_new_content">
                   <h3>Implementation</h3>
                   <p>
-                  Implementing Microsoft Project solutions can help to manage your project operations seamlessly.
+                  Manage your project seamlessly while leveraging the Dynamics 365 Project Service implementation service. 
                   </p>
                   <div className="action-content">
-                    <NavLink data-bs-toggle="modal" to="#exampleModal">
+                    <NavLink  to="/dynamics-365-project-operations-implementation/">
                       Get Started
                     </NavLink>
                   </div>
@@ -352,7 +390,7 @@ const ProjectOperations = () => {
                 <div className="card_new_content">
                   <h3>Upgrade</h3>
                   <p>
-                  Bring agility across your project operations with our improved and highly optimized support system.
+                  Bring agility and build robust project operations with our enhanced and highly recommended support system. 
                   </p>
                   <div className="action-content">
                     <NavLink data-bs-toggle="modal" to="#exampleModal">
@@ -371,7 +409,7 @@ const ProjectOperations = () => {
                 <div className="card_new_content">
                   <h3>Support</h3>
                   <p>
-                  Drive a project-centric approach across your business by upgrading Dynamics 365 Project Operations.
+                  Get instant support to drive a project-centric approach across your business operations with the D365 Project Operations Support Service. 
                   </p>
                   <div className="action-content">
                     <NavLink data-bs-toggle="modal" to="#exampleModal">
@@ -387,29 +425,29 @@ const ProjectOperations = () => {
       <section id="pricing" className="pricing">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8 col-md-8">
+            <div class="col-lg-9">
               <header className="section-header">
                 <h2>Dynamics 365 Project Operations Pricing</h2>
                 <p>
-                  Find Dynamics 365 Project Operations plans and pricing to choose
-                  the applications that are right for your business needs.
+                  Find Dynamics 365 Project Operations plans and pricing to
+                  choose the applications that are right for your business
+                  needs.
                 </p>
               </header>
             </div>
           </div>
-         
+
           <div className="row gy-4 p-9 justify-content-center">
             <div className="col-lg-6">
               <div className="box box-22">
-                <h3>
-              Pricing Plan
-                </h3>
+                <h3>Dynamics 365 Project Operations</h3>
                 <div className="price">
-                  <sup>$</sup>120<span>Per-User/Month</span>
+                  £90.50<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
-                  Get the visibility, collaboration, and agility needed to drive success across your project-centric business.
+                    Get the visibility, collaboration, and agility needed to
+                    drive success across your project-centric business.
                   </li>
                 </ul>
               </div>
@@ -434,9 +472,9 @@ const ProjectOperations = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Connect & Discuss with Our Experts</h3>
+                <h3>Connect & Talk with Our Experts</h3>
                 <p>
-                Connect and reveal a healthy deal for your business to improve business processes and maximize business capabilities.
+                To enhance business operations and fully utilize business capabilities, connect and reveal a favorable deal for your company.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <NavLink
@@ -452,17 +490,245 @@ const ProjectOperations = () => {
           </div>
         </div>
       </section>
+      <section className="solution-faq faq">
+        <div className="container">
+          <header className="section-header">
+            <h2>
+              Have you got
+              <br />
+              questions about Project Operations?
+            </h2>
+            <p>Click through to our FAQ for the best answers!</p>
+          </header>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                      What is Project Operations in Dynamics 365?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Microsoft Dynamics 365 Project Operations is an ERP (Enterprise Resource Planning) solution capable of managing and streamlining projects effortlessly. It comes with many extensive capabilities, including team collaboration, opportunity management, project planning, resource management, customer billing, and expense management.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >
+                     Does Microsoft Project Operation integrate with Business Central?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Microsoft Dynamics Project Operations is a powerful application to seamlessly manage operations with full productivity and efficiency. However, organisations can integrate it with <NavLink to="/products/dynamics-365-business-central/">Business Central</NavLink> or other native integrations to enhance the features for smooth operations. There are a few more modules that can be integrated without any restrictions, such as Human Resources, Sales, Marketing, Customer Service, and more.</p>
+                    </div>
+                  </div>
+                </div>
 
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >
+                     How do I install Project Operations in Dynamics 365?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>When installing project operations in <NavLink to="/products/microsoft-dynamics-365/"></NavLink> , there are several installation options available. You have two options to start the installation:</p>
+                      <ul>
+                        <li>Using the existing CDS environment</li>
+                        <li>Using a new CDS environment</li>
+                      </ul>
+                      <p>You must have access to Power Platform Administrator and a Project Operations licence to install project operations in a new environment.</p>
+                      <p>In case, you have to create a new CDS environment using the Power Platform admin.</p>
+                      <p>In the case of an existing CDS, you must have access to a <NavLink to="/products/microsoft-power-platform/">Power Platform</NavLink> Administrator with a licence for Project Operations. Using <NavLink to="/products/microsoft-power-bi/">Power BI</NavLink>, you have to locate the environment using the Power Platform admin center.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                     What are the core modules in Dynamics 365 Project Operations? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>There are a few core modules which are: Contract Management, Sales, Project Management, Resource Management, Team Collaboration, Finance Management, and Time and Expense Management. These are the modules that let users seamlessly manage an entire project in an organisation for easy growth.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >
+                     What is the price of D365 Project Operations? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Microsoft doesn't sell its business management solutions directly to customers. You have to search for and collaborate with a reliable support partner like Dynamics Square for any kind of update, <NavLink to="/our-services/dynamics-365-upgrade-services/">upgrade</NavLink>, or <NavLink to="/our-services/dynamics-365-implementation-services">implementation</NavLink> service for your business. The pricing for D365 Project Operations is entirely dependent on your company's needs and the type of deployment. The standard cloud deployment pricing is £90.50 per user/month and is also available on Microsoft's website. On-premises deployment always comes with customised pricing, and it depends on business to business.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-6"
+                    >
+                     Can D365 Project Operations help businesses boost sales and enhance revenue? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-6"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>D365 Project Operations helps users to increase transparency across different processes and departments and to provide accurate data insights using advanced technologies like <NavLink to="/products/microsoft-dynamics-365-ai/">Artificial Intelligence</NavLink>, <NavLink to="/products/azure-machine-learning/">Machine Learning</NavLink>, and Business Intelligence. This helps the users to take actionable decisions in real-time, resulting in improved efficiency and productivity to get more deals.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-7"
+                    >
+                     How to start using Dynamics 365 Project Operations? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-7"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>The first step you have to take is to search for the right support partner for proper implementation of your D365 Project Operations solution as per your business needs. Following that, you must be patient until the implementation is completed, at which point your partner will train you on the solution's functions and features. Once everything is set up, you or your team members can start using the solution at full pace.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-8"
+                    >
+                     What are the core functions of Dynamic 365 Project Operations? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-8"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Project Operations covers a lot of areas of a business, resulting in overall growth of almost all departments. Some of the areas are listed below:</p>
+                      <ul>
+                        <li>Project Planning</li>
+                        <li>Project Sales</li>
+                        <li>Invoicing</li>
+                        <li>Revenue management</li>
+                        <li>Ledger management</li>
+                        <li>Project allocation</li>
+                        <li>Management of project finances</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-9"
+                    >
+                     How does Project Operation work?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-9"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Project Operations works by offering the capabilities to manage and streamline various projects efficiently with minimal errors. It analyses the existing resources, optimises them for optimum productivity, and delivers results to gain maximised revenue using minimum resources.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="blogs-extra">
         <div className="container">
-        <div className="row justify-content-center">
-            <div className="col-lg-8 col-md-8">
+          <div className="row justify-content-center">
+            <div class="col-lg-9">
               <header className="section-header">
                 <h2>Explore Our Recent Blogs & Resources</h2>
-                <p>Whether you are a start-up, an SMB, or an enterprise, the Dynamics Square blog is the best place to get inspired and learn more about Microsoft Business Applications.</p>
+                <p>
+                  Whether you are a start-up, an SMB, or an enterprise, the
+                  Dynamics Square blog is the best place to get inspired and
+                  learn more about Microsoft Business Applications.
+                </p>
               </header>
             </div>
           </div>
+
           <div className="row top-2 gx-5">
             <Blog />
             <div className="col-lg-6">
@@ -530,144 +796,7 @@ const ProjectOperations = () => {
           </div>
         </div>
       </section>
-      <section className="solution-faq faq">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8 col-md-8">
-              <header className="section-header">
-              <h2>
-              Have you got
-              <br />
-              questions about Project Operations?
-              </h2>
-                <p>Click through to our FAQ for the best answers!</p>
-              </header>
-            </div>
-          </div>
-          <div className="row justify-content-center mar-top-7">
-            <div className="col-lg-8">
-              <div className="accordion accordion-flush" id="faqlist1">
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-2"
-                    >
-                      What is Project Operations in Dynamics 365?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-2"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                     <p>Microsoft Dynamics 365 Project Operations is designed to connect sales, optimize resources, manage projects, and simplify finances using a single unified application that helps to close deals faster and accelerate project delivery while maximizing the revenue outcomes.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-1"
-                    >
-                      How do I install Project Operations in Dynamics 365?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-1"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                     <p>When it comes to installing project operations in <NavLink to="/products/microsoft-dynamics-365/">Dynamics 365</NavLink>, multiple deployment options come ahead. You can either install Project Operations:</p>
-                      <ul>
-                        <li>To a new CDS environment</li>
-                        <li>To an existing CDS environment</li>
-                      </ul>
-                     <p>In the case of a new CDS environment, you need to have
-                      access to Global or Power Platform Administrator with
-                      licensing of Project Operations. Now, create a new CDS
-                      environment using the Power Platform admin center. The
-                      next step is to select Microsoft Dynamics 365 Project
-                      Operations going through:</p>
-                      <p><b>
-                        Dynamics 365 Apps- Microsoft Dynamics 365 Project
-                        Operations
-                      </b></p>
-                      <p>In the case of an existing CDS environment, you are
-                      required to have access to Global or Power Platform
-                      Administrator with Project Operations licensing. Now, all
-                      you need to locate the environment by going through the
-                      Power Platform admin center. Here, you can install project
-                      operations.Here is the navigation:</p>
-                      <p>Manage Dynamics 365 Apps-Microsoft Dynamics 365 Project
-                      Operations.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-3"
-                    >
-                      Does Project Operations integrate with Dynamics 365
-                      Business Central?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-3"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>Dynamics 365 Project Operations is designed to fulfill a particular purpose. It comprises its sufficient capabilities to streamline and simplify project management. However, you can integrate your Project Operations not just with Business Central even with Microsoft's other products too.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-4"
-                    >
-                      How do I create a project category in Dynamics 365?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-4"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>In Microsoft Dynamics 365, each category works under the category group. Hence, you need to define the group categories first. Thereafter, you can create project categories under the specific group. Now, let's understand how to create a group category first.</p>
-                      <p>To Create Group Category, navigate through:</p>
-                      <p><b>Project Management and Accounting Setup Categories
-                      Category Groups</b></p>
-                      <p>After reaching to Category Group, navigate through clicking 'New', then 'Category group' field, and then select & enter an identifier for the category group.</p>
-                      <p>To Create a project category, navigate through:</p>
-                      <p><b>Project Management and Accounting{" -> "} Setup {" -> "} Categories {" -> "} Project Categories</b></p>
-                      <p>Now, click 'New' once you reach Project Categories.</p>
-                      <p>The last step is to select the identifier of the project category.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    
     </>
   );
 };

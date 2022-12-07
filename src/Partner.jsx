@@ -8,23 +8,56 @@ const Partner = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Our Partners | Dynamics Square</title>
-        <meta name="description" content="Learn about the collaborative work we do with our partners. We create limitless impact in collaboration with industry leaders and innovators. " />
+        <title>Partner | Dynamics Square</title>
+        <meta name="description" content="WMS Express - Dynamics Square" />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/partner/"
+          href="https://www.dynamicssquare.co.uk/partner/"
         />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
-        
+        <meta property="og:title" content="Partner | Dynamics Square" />
+        <meta
+          property="og:description"
+          content="WMS Express - Dynamics Square"
+        />
+        <meta
+          property="og:url"
+          content="https://www.dynamicssquare.co.uk/partner/"
+        />
+        <meta property="og:site_name" content="Dynamics Square" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/dynamicssquareuk"
+        />
+        <meta
+          property="article:author"
+          content="https://www.facebook.com/vickygururani"
+        />
+        <meta property="fb:app_id" content="2007906422699147" />
+        <meta property="og:image" content="" />
+        <meta property="og:image:secure_url" content="" />
+        <meta property="og:image:width" content="644" />
+        <meta property="og:image:height" content="266" />
+        <meta property="og:image:alt" content="p4" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Partner | Dynamics Square" />
+        <meta
+          name="twitter:description"
+          content="WMS Express - Dynamics Square"
+        />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:creator" content="@dsquare_uk" />
+        <meta name="twitter:image" content="" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="1 minute" />
       </Helmet>
       <section className="Solution-banner hero partener-di">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6 mobile-1 text-center">
               <h1>Our Partners</h1>
-              <h2>Build Together. Grow Together.</h2>
-              <span>Our ISV partners are integral to the success of our business model, and we take pride in offering expertly developed IP to integrate with the Microsoft Dynamics ecosystem and help build you the perfect solution for your business needs.</span>
             </div>
           </div>
         </div>
@@ -68,12 +101,7 @@ const Partner = () => {
       <section className="busine_service_bottom custom0001">
         <div className="container">
           <div className="row g-5">
-          <div className="col-lg-6 align-self-center">
-          <div className="side-heading">
-                <h3>
-                The Anveo Group
-                </h3>
-              </div>
+          <div className="col-lg-8 align-self-center">
               <div className="custom002">
                 <p>
                 Anveo is a trade mark of conion media GmbH located in Hamburg, Germany. Conion media GmbH was founded in 2005 to build business software with Microsoft Dynamics NAV.
@@ -101,11 +129,6 @@ const Partner = () => {
             </div>
             <div className="col-lg-1 align-self-center"></div>
             <div className="col-lg-8 align-self-center">
-            <div className="side-heading">
-                <h3>
-                To Increase 
-                </h3>
-              </div>
               <div className="custom002">
                 <p>
                 An Independent Software Vendor (ISV) of Microsoft Dynamics 365 Enterprise and Business Operations solutions. To Increase create software solutions and deliver services that enable companies to innovate as they serve their customers and collaborate with their partners and vendors.
@@ -123,11 +146,6 @@ const Partner = () => {
         <div className="container">
           <div className="row g-5">
           <div className="col-lg-8 align-self-center">
-          <div className="side-heading">
-                <h3>
-                Agiles Workflow
-                </h3>
-              </div>
               <div className="custom002">
                 <p>
                 A Member of the Agiles Group provides certified industry solutions for shipping companies, fresh food and Non-food traders including BI Programs on Microsoft Dynamics NAV. beside from Industry solutions, Agiles deliver the only workflow application that is fully integrated for Microsoft Dynamics NAV.
@@ -154,11 +172,6 @@ const Partner = () => {
             </div>
             <div className="col-lg-1 align-self-center"></div>
             <div className="col-lg-8 align-self-center">
-            <div className="side-heading">
-                <h3>
-                E-Con Solutions
-                </h3>
-              </div>
               <div className="custom002">
                 <p>
                 E-Con Solutions offers nearly 20 years of focused, expert, experience with CPQ for Microsoft Dynamics. Their proven, innovative toolset brings together everyone and everything involved in configuration, from first glance at your offerings through after-sales. More than 300 businesses and 25,000 users in 25 countries use e-Con every day to turn complexity into success.

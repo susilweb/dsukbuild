@@ -109,7 +109,11 @@ const CustomFooter = () => {
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>
-                    <ExternalLink href="/blog/" rel="">
+                    <ExternalLink
+                      href="https://www.dynamicssquare.co.uk/blog/"
+                      rel=""
+                      target="_self"
+                    >
                       Blog
                     </ExternalLink>
                   </li>
@@ -174,7 +178,7 @@ const CustomFooter = () => {
             <div className="footer-extra-link">
               <NavLink to="/terms-of-use/">Terms of Use </NavLink>
               <NavLink to="/cookie-policy/">| Cookie </NavLink>
-              <NavLink to="/sitemap_index.xml">| Sitemap</NavLink>
+              {/* <NavLink to="/sitemap_index.xml">| Sitemap</NavLink> */}
             </div>
           </div>
         </div>

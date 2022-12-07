@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 
 const FooterBtoomSuscriber = () => {
   const [display, setDisplay] = useState("const2");
+  const currentUrl = window.location.href;
   const history = useHistory();
   function sendEmail(e) {
     setDisplay("spinner-border");
@@ -14,10 +15,10 @@ const FooterBtoomSuscriber = () => {
 
     emailjs
       .sendForm(
-        "service_cxxhqoq",
-        "template_601riyc",
+        "service_caieyr7",
+        "template_m86umpi",
         e.target,
-        "7Ae4EIVY__86NsTQD"
+        "AqRGHUvLru9UkjZoA"
       )
       .then((res) => {
         console.log(res);
@@ -40,6 +41,7 @@ const FooterBtoomSuscriber = () => {
               name="name"
               required
             />
+              <input type="hidden" name="url" value={currentUrl} />
           </div>
           <div className="mb-3">
             <input
@@ -47,6 +49,7 @@ const FooterBtoomSuscriber = () => {
               className="form-control"
               placeholder="* Work Email"
               name="email"
+              pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
               required
             />
           </div>

@@ -12,16 +12,16 @@ const PowerApps = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Microsoft Power Apps | Build Business Applications</title>
+        <title>Microsoft Power Apps: Build Business Applications | Dynamics Square</title>
         <meta
           name="description"
-          content="Build low-code applications, drive swiftness and modernize processes across your organization without compromising quality and speed with Microsoft Power Apps."
+          content="Microsoft Power Apps can let you build low-code apps and drive swiftness across the core operations of the business. Dive-in to know more about it. "
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/products/microsoft-power-apps/"
+          href="https://www.dynamicssquare.co.uk/products/microsoft-power-apps/"
         />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
       </Helmet>
       <ModalVideo
@@ -38,7 +38,11 @@ const PowerApps = () => {
               <h1>
                 Microsoft Power Apps
               </h1>
-              <p>Power Apps help you quickly build low-code custom business apps to achieve agility in an increasingly digital world.</p>
+              <p>
+                Build low-code applications, drive swiftness and modernize
+                processes across your organization without compromising quality
+                and speed with Microsoft Power Apps.
+              </p>
               <div>
                 <div className="text-center text-lg-start">
                   <NavLink
@@ -46,7 +50,7 @@ const PowerApps = () => {
                     to="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Get a Demo</span>
+                    <span>Schedule a Demo</span>
                   </NavLink>
                 </div>
               </div>
@@ -64,11 +68,11 @@ const PowerApps = () => {
       <section>
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-9 col-md-9">
+            <div className="col-lg-9">
             <header className="section-header">
-            <h2>What Are Power Apps?</h2>
+            <h2>What are Power Apps?</h2>
             <p>
-            Microsoft designed Power Apps to help modern enterprises effortlessly develop and quickly launch apps via pre-built templates, drag and drop facility, and instant deployment for seizing new business opportunities and reshaping avenues for growth. It is a suite of connectors, services, apps, and data platforms (Microsoft Dataverse) for speedy app deployment. 
+            Microsoft Power Apps is a collection of powerful services, solutions, and data platforms to help you build customised apps for your changing business requirements. These customised apps allow users to turn most of the manual and recurring tasks into automated processes with the flexibility to operate on any device, whether web, mobile, or PC. Power Apps is capable of revolutionising the way of building customised apps rapidly without using code, resulting in low investment and high revenue. 
             </p>
           </header>
             </div>
@@ -103,7 +107,19 @@ const PowerApps = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Power Apps drive business transformations by offering you easy-to-use tools for custom business app development. Using prebuilt tools & templates, your employees can quickly build problem-specific apps.</p>
+                        Power Apps offers easy-to-use tools that allow your team
+                        in developing the best applications in a much faster
+                        way. There are several essential features and tools to
+                        use such as prebuilt templates that help in developing
+                        the right application in a much shorter time. The user
+                        just can develop the required application by customizing
+                        and offering some modifications to the already existing
+                        templates.
+                        <br />
+                        <br />
+                        The platform also enables the users to incorporate new
+                        updates and improvements as and when they are needed in
+                        the application ahead.
                       </div>
                     </div>
                   </div>
@@ -134,7 +150,13 @@ const PowerApps = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>Power Apps enable your employees to innovate quickly for faster results. With inbuilt AI components, your employees can develop well-featured apps with advanced functionalities, that is, apps that look and work like native apps or an app developed via a software developer/app developer.</p>
+                        Power Apps enable the employees to create applications
+                        that are well featured with advanced functionalities to
+                        offer a professional look to the applications.The
+                        platform includes AI (<NavLink to="/products/microsoft-dynamics-365-ai/">Artificial Intelligence</NavLink>)
+                        components that are pre-built-in order to offer features
+                        and specifications to the applications that are high-end
+                        so that they offer a professional look and experience.
                       </div>
                     </div>
                   </div>
@@ -155,7 +177,7 @@ const PowerApps = () => {
                             alt="icons-power-apps_Enhancing-Capabilities"
                           />
                         </div>
-                        <span>Freedom To Innovate</span>
+                        <span>Enhancing Capabilities</span>
                       </button>
                     </h3>
                     <div
@@ -165,7 +187,14 @@ const PowerApps = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Microsoft's Power Apps platform is a great place to help your employees ensure that they are free to develop apps for any purpose/automation-related task in the best possible way.</p>
+                        Making use of the Power Apps Microsoft platform ensures
+                        that you allow your employees the freedom to develop the
+                        applications in the best possible way. There are several
+                        functions and tools to allow the users to integrate
+                        several features and specifications in the applications
+                        to make them super professional. Apart from this, the
+                        platform also enables the users to enhance the
+                        capabilities of the applications from time to time.
                       </div>
                     </div>
                   </div>
@@ -203,7 +232,12 @@ const PowerApps = () => {
                       data-bs-parent="#acccm"
                     >
                       <div className="accordion-body">
-                       <p>Responsive design makes Power Apps ensure that users get an incredible experience when operated from various platforms, browsers, and devices like mobile phones, tablets, desktops, and laptops.</p>
+                        Power Apps ensure that the applications that are getting
+                        developed are perfect for several platforms and devices.
+                        It is due to the responsive design of the applications
+                        attained that the applications designed on this platform
+                        run well on any of the browsers and on devices such as
+                        smartphones as well as tablets.
                       </div>
                     </div>
                   </div>
@@ -224,7 +258,7 @@ const PowerApps = () => {
                             alt="icons-power-apps_Data"
                           />
                         </div>
-                        <span>Data Availability</span>
+                        <span>Data</span>
                       </button>
                     </h3>
                     <div
@@ -234,7 +268,14 @@ const PowerApps = () => {
                       data-bs-parent="#acccm"
                     >
                       <div className="accordion-body">
-                        <p>Business Apps developed via Power Apps use already available data on the data platform (Microsoft Dataverse) or in various online and on-premises data sources for analysis. The custom apps can also extract data from external sources and use them to get the desired result.</p>
+                        The platforms enable the customized applications to make
+                        use of the data already available on the platform for
+                        analysis purposes. The applications can collect such
+                        data from the platform and can use them for the results.
+                        Apart from the data already existing on the platform,
+                        the applications also are offered the capabilities to
+                        extract data from external sources and use them to get
+                        the desired result.
                       </div>
                     </div>
                   </div>
@@ -250,7 +291,7 @@ const PowerApps = () => {
           <div className="row">
             <div className="col-lg-5 align-self-center">
             <div className="wy-sultion-left-head">
-              <h2>Reinvent Your Business with Microsoft Power Apps</h2>
+              <h2>What are Power Apps Features</h2>
               </div>
             </div>
             <div className="col-lg-7">
@@ -259,13 +300,17 @@ const PowerApps = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                      Enable Your People
+                        Enable everyone
                         <br />
-                        to Build Apps
+                        to build apps
                       </h3>
                       <div className="overlay">
                         <p>
-                        Power apps help your business by bringing more efficiency and accuracy to solve business problems with pre-built templates, AI components, and a low code approach. 
+                          Everyone can build apps - from data analysts to
+                          professional software developers. Bring more
+                          efficiency and accuracy to solve business problems
+                          with PowerApps pre-built templates, AI components that
+                          require low code or minimal code.
                         </p>
                       </div>
                     </div>
@@ -277,7 +322,10 @@ const PowerApps = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                        Automatically generate interactive, and responsive business apps using your data. You can customize business entities and tailor the user experience to specific roles using prebuilt designing tools. 
+                          Leverage Power Apps canvas to begin your designing
+                          journey from scratch to professional. Customize every
+                          aspect of your app to optimize for specific tasks and
+                          functions.
                         </p>
                       </div>
                     </div>
@@ -293,7 +341,11 @@ const PowerApps = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                        Leverage Power Apps canvas to begin your designing journey from scratch to professional. Customize every aspect of your business app and optimize it for specific tasks and functions. 
+                          Automatically generate interactive, immersive, and
+                          responsive business applications from your data model
+                          that can run on any device. The drag-and-drop designer
+                          enables your team to customize business entities and
+                          tailor the user experience to specific roles.
                         </p>
                       </div>
                     </div>
@@ -304,7 +356,10 @@ const PowerApps = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                        Take advantage of more than 200 data connectors to integrate data and systems already in use. Extend Power Apps with custom connectors and logic like a professional developer. 
+                          Take advantage of more than 200+ connectors to
+                          integrate data and systems you already use. Extend
+                          Power Apps further as a professional developer with
+                          custom connectors and logic.
                         </p>
                       </div>
                     </div>
@@ -332,7 +387,7 @@ const PowerApps = () => {
                         to="#javascript:void(0)"
                         onClick={() => setOpen(true)}
                       >
-                        <img src="/assets/img/video-ower-apps.png" alt="pics" />
+                        <img src="/assets/img/video-ower-apps.png" alt="Power-apps" />
                         <span className="cente-icns">
                           <img
                             src="/assets/img/play_icons.svg"
@@ -347,8 +402,12 @@ const PowerApps = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="side-heading">
-                <h2>Microsoft Power Apps Services </h2>
-                <p>Integrate a combination of accelerators, data platforms, and our strategic support to modernize your core business applications for advanced growth.</p>
+                <h2>Power Apps Service</h2>
+                <p>
+                  We offer a full range of services to support you on your
+                  Dynamics journey including implementation, upgrade and
+                  support.
+                </p>
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
@@ -359,7 +418,10 @@ const PowerApps = () => {
                 </div>
                 <div className="card_new_content">
                   <h3>Implementation</h3>
-                  <p>Implement business-specific PowerApps solutions by our experts to ensure your needs are met on time and within budget.</p>
+                  <p>
+                    Successfully implement PowerApps solutions by our experts to
+                    ensure your needs are met on time and within budget.
+                  </p>
                   <div className="action-content">
                     <NavLink data-bs-toggle="modal" to="#exampleModal">
                       Get Started
@@ -377,7 +439,10 @@ const PowerApps = () => {
                 </div>
                 <div className="card_new_content">
                   <h3>Support</h3>
-                  <p>Get constant and seamless support from Dynamics Square to help you manage your web and mobile apps.</p>
+                  <p>
+                    Get constant and seamless support from Dynamics Square team
+                    to manage your web and mobile apps.
+                  </p>
                   <div className="action-content">
                     <NavLink data-bs-toggle="modal" to="#exampleModal">
                       Get Started
@@ -391,76 +456,68 @@ const PowerApps = () => {
       </section>
       <section id="pricing" className="pricing">
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-9 col-md-9">
-            <header className="section-header">
+          <header className="section-header">
             <h2>Microsoft Power Apps Pricing</h2>
             <p>
-            Explore Power Apps Subscription Plans & Costs.
+              Explore Power Apps Plans, Costs, And Availability To Start Running
+              Your Business Apps.
             </p>
           </header>
-            </div>
-          </div>
           <div className="row gy-4 p-9">
             <div className="col-lg-4">
-              <div className="box box-99">
-                <h3>Subscription Plans</h3>
-                <p>
-                Best for businesses that want predictable user-based licensing - with the flexibility to license users to run one app at a time or run unlimited apps.
-                </p>
-                <div className="price">
-                  $5<span>Per-User/App/Month</span>
-                </div>
-                <p className="small-tt">
-                Run one app or portal per user, stacking licenses for access to each additional as their needs change.
-                </p>
-                <ul>
-                  <li>
-                  Includes 250 AI Builder service credits per month.<sup>1</sup>
-                  </li>
-                  <li>Requires access to the Microsoft 365 admin center with global administrator or billing administrator roles.</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-lg-4">
-              <div className="box box-99">
-                <h3>Subscription Plans</h3>
+              <div className="box box-44">
+                <h3>Subscription plans</h3>
                 <p>
                   Best for businesses that want predictable user-based licensing
                   with the flexibility to licence users to run one app at a time
                   or run unlimited apps.
                 </p>
                 <div className="price">
-                  $20<span>Per-User/Month</span>
+                  £3.80<span>Per-User/App/Per Month</span>
                 </div>
-                <p className="small-tt">
-                Run unlimited apps and portals per user for one flat monthly rate.
-                </p>
                 <ul>
                   <li>
-                  Includes 500 AI Builder service credits per month.<sup>1</sup>
+                    Run one app or portal per user, stacking licences for access
+                    to each additional as their needs change.
                   </li>
-                  <li>Available to buy now with a credit card.</li>
-                  <li>40% discount available to eligible customers with 2,000+ licenses.3 Contact sales for details.</li>
                 </ul>
               </div>
             </div>
 
             <div className="col-lg-4">
-              <div className="box box-99">
-                <h3>Pay-as-you-go plan</h3>
+              <div className="box box-44">
+                <h3>Subscription plans</h3>
+                <p>
+                  Best for businesses that want predictable user-based licensing
+                  with the flexibility to licence users to run one app at a time
+                  or run unlimited apps.
+                </p>
+                <div className="price">
+                  £3.80<span>Per-User/Per Month</span>
+                </div>
+                <ul>
+                  <li>
+                    Run unlimited apps and portals per user for one flat monthly
+                    rate.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="col-lg-4">
+              <div className="box box-44">
+                <h3>Subscription plans</h3>
                 <p>
                   Best for businesses that want the agility to pay only when a
                   user runs an app during a monthly period.
                 </p>
                 <div className="price">
-                  $10<span>Per Active User/App/Month<sup>2</sup></span>
+                  £7.45<span>Per Active User/App/Month1</span>
                 </div>
-                <p className="small-tt">Use an Azure subscription to pay per user based on the number of unique apps or portals a user runs each month.</p>
                 <ul>
                   <li>
-                  Requires an Azure subscription.
+                    Run one app or portal per user, stacking licences for access
+                    to each additional as their needs change.
                   </li>
                 </ul>
               </div>
@@ -473,7 +530,7 @@ const PowerApps = () => {
                   to="#exampleModal"
                   className="btn-get-red"
                 >
-                  <span>Get Access Now</span>
+                  <span>Get Power Apps Now</span>
                 </NavLink>
               </div>
             </div>
@@ -486,9 +543,10 @@ const PowerApps = () => {
             <div className="col-lg-8">
               <div className="call-to-action-content">
                 <h3>
-                Looking to modernize technology, reimagine processes & transform experiences in a fast-changing world? 
+                  Looking to reduce development costs and improve overall
+                  efficiency?
                 </h3>
-                <p>Talk to experts for a free demo.</p>
+                <p>Talk to our Power Apps experts to schedule a free demo.</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <NavLink
                     data-bs-toggle="modal"
@@ -506,11 +564,9 @@ const PowerApps = () => {
       <section className="solution-faq faq">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-9 col-md-9">
+            <div className="col-lg-8">
             <header className="section-header">
-            <h2>
-            Have you got questions <br /> about Microsoft Power Apps?   
-            </h2>
+            <h2>Have you got <br /> questions about Microsoft Power Apps?</h2>
             <p>Click through to our FAQ for the best answers!</p>
           </header>
             </div>
@@ -526,7 +582,7 @@ const PowerApps = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-1"
                     >
-                     What are the limitations of Power Apps?
+                     Which apps are included in Power Apps? 
                     </button>
                   </h3>
                   <div
@@ -535,7 +591,7 @@ const PowerApps = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>One of the major limitations of Power Apps is that they are not open-source software like other app development platforms. Power Apps is a proprietary platform from Microsoft, meaning, that endless customization isn't possible. Also, the Power Apps are not compatible with external systems and run only on PowerApps App Player.</p>
+                      <p>Power Apps consists of six solutions, which are: AI Builder, Automate Processes, Azure + Power Apps, Build Apps, Connect Data, and Pages. All these solutions have separate motives and can be used for different purposes.</p>
                     </div>
                   </div>
                 </div>
@@ -547,7 +603,7 @@ const PowerApps = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
                     >
-                    What is Power Apps and is it SaaS or PaaS?
+                      What kinds of apps can I build using Power Apps?
                     </button>
                   </h3>
                   <div
@@ -556,7 +612,7 @@ const PowerApps = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>As a platform-as-a-service (PaaS), Power Apps provides a variety of business services. It enables you to build, run, and maintain apps without worrying about building and maintaining a complex infrastructure.</p>
+                      <p>You can rapidly build custom apps to connect your data sources to different <NavLink to="/products/microsoft-power-platform/">Microsoft platforms</NavLink>. These customised apps are based on your business needs and complexity. It allows you to build various kinds of responsive applications that can be operated using the web and mobile.</p>
                     </div>
                   </div>
                 </div>
@@ -568,7 +624,7 @@ const PowerApps = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
                     >
-                      How many rows can Power Apps handle?
+                    Is there any need to learn code to build apps?
                     </button>
                   </h3>
                   <div
@@ -577,7 +633,7 @@ const PowerApps = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>There is a limit of 15,000 rows in a table that Power Apps cannot read. Whenever you create an Excel table, give it a unique name. Install Power Apps Studio and add the Import from Excel data source option.</p>
+                      <p>No, there is no need to learn any kind of code language to build a customised app using Power Apps. It comes with built-in templates and a simple user interface to help you understand the exact requirements and build the app accordingly. It is a kind of drag-and-drop platform where you only need to align the desired functions to get the desired result.</p>
                     </div>
                   </div>
                 </div>
@@ -589,7 +645,7 @@ const PowerApps = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
                     >
-                     Can a Power Apps have multiple data sources?
+                     How much time will it take to build an app using Power Apps?
                     </button>
                   </h3>
                   <div
@@ -598,7 +654,7 @@ const PowerApps = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>With a single app, you have the option of using multiple data sources.</p>
+                      <p>There can be no accurate answer to this question. It totally depends on the complexity of the app and the functions you want in an app. Users can build the required app whenever it is needed and modify it later to meet their changing needs.</p>
                     </div>
                   </div>
                 </div>
@@ -609,9 +665,7 @@ const PowerApps = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-5"
-                    >
-                     What is the difference between PowerApps and Power Platforms?
-                    </button>
+                    >How many apps or services can I connect with Power Apps?</button>
                   </h3>
                   <div
                     id="faq-content-5"
@@ -619,7 +673,7 @@ const PowerApps = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>PowerApps is an application development platform that is part of the broader <NavLink to="/products/microsoft-power-platform/">Microsoft Power Platform</NavLink>, which is built on Azure cloud services. It includes native capabilities for Sales, Service, Field Service, Marketing, and Talent. </p>
+                      <p>You can connect an unlimited number of data sources, apps, and services with Power Apps to make the whole system work together and enhance the growth of the organsation. You can avail yourself of a library of Microsoft Dataverse and connectors to connect various data sources together. Not only data sources, but you can also integrate some other applications too, including Azure, Power Platform, <NavLink to="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</NavLink>, and more native apps. </p>
                     </div>
                   </div>
                 </div>
@@ -631,7 +685,7 @@ const PowerApps = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-6"
                     >
-                     Can I use PowerApps without a license?
+                     What are the top features of Power Apps?
                     </button>
                   </h3>
                   <div
@@ -640,7 +694,7 @@ const PowerApps = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                   <p>Through an Azure subscription, you can run Power Apps pay-as-you-go applications (1 app or 1 portal) without any licenses. You only pay according to how many users use the app in a month.</p>
+                      <p>Power Apps offers numerous features and capabilities to help users efficiently build customised apps using low code. Some of the powerful features are pre-built templates, a drag-and-drop builder, a role based personalised user experience, a built-in website development tool, private submission of information, and much more.</p>
                     </div>
                   </div>
                 </div>
@@ -652,7 +706,7 @@ const PowerApps = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-7"
                     >
-                     Is PowerApps a framework? 
+                     What are the available Power Apps pricing options? 
                     </button>
                   </h3>
                   <div
@@ -661,7 +715,19 @@ const PowerApps = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                     <p>Using canvas apps, developers and makers can add data sets and test custom components with a public preview of the Power Apps component framework.</p>
+                      <p>The Power Apps pricing and licencing is based on two basic plans: subscription or pay-as-you-go. The Subscription Plan is more flexible for businesses, allowing them to offer licences to users based on app usage. The pay-as-you-go Plan is designed for businesses that want to be charged monthly, per user, for the apps they use.</p>
+                      <p><b>There are two per-app plan options available under the subscription plan: </b></p>
+                      <ul>
+                        <li>£3.80 per user/app/month </li>
+                        <li>£15.10 per user/month</li>
+                      </ul>
+                      <p>The pay-as-you-go plan is £7.45 per active user/app/month.</p>
+                      <p><b>See Other Power Platforms: </b></p>
+                      <ul>
+                        <li><NavLink to="/products/microsoft-power-bi/">Power BI</NavLink></li>
+                        <li><NavLink to="/products/microsoft-power-virtual-agents/">Power Virtual Agents</NavLink></li>
+                        <li><NavLink to="/products/microsoft-power-automate/">Power Automate</NavLink></li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -673,8 +739,8 @@ const PowerApps = () => {
 
       <section className="blogs-extra">
         <div className="container">
-        < div className="row justify-content-center">
-            <div className="col-lg-9 col-md-9">
+         <div className="row justify-content-center">
+          <div className="col-lg-8">
           <header className="section-header">
             <h2>
             Explore Our Recent Blogs & Resources
@@ -682,7 +748,7 @@ const PowerApps = () => {
             <p>Whether you are a start-up, an SMB, or an enterprise, the Dynamics Square blog is the best place to get inspired and learn more about Microsoft Business Applications.</p>
           </header>
           </div>
-          </div>
+         </div>
           <div className="row top-2 gx-5">
             <Blog />
             <div className="col-lg-6">

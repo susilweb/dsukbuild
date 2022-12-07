@@ -6,12 +6,33 @@ const FinanceOperations = () => {
   return (
     <>
       <Helmet>
-      <title>Microsoft Dynamics 365 Finance and Operations | ERP Solutions</title>
-<meta name="description" content="A Leading Microsoft Dynamics Partner in USA, specialized in Microsoft Dynamics 365 Finance and Operations. Delivered 250+ projects worldwide."/>
+      <title>Microsoft Dynamics 365 Finance and Operations | ERP Solutions UK</title>
+<meta name="description" content="Consider Dynamics Square as your D365 Finance and operations implementation partner to streamline and enhance your business performance and visibility."/>
 <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
-<link rel="canonical" href="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/" />
-<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-finance-operations/" />
+<meta property="og:locale" content="en_GB" />
 <meta property="og:type" content="article" />
+<meta property="og:title" content="Microsoft Dynamics 365 Finance and Operations | ERP Solutions UK" />
+<meta property="og:description" content="Consider Dynamics Square as your D365 Finance and operations implementation partner to streamline and enhance your business performance and visibility." />
+<meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-finance-operations/" />
+<meta property="og:site_name" content="Dynamics Square" />
+<meta property="article:publisher" content="https://www.facebook.com/dynamicssquareuk" />
+<meta property="article:author" content="https://www.facebook.com/vickygururani" />
+<meta property="fb:app_id" content="2007906422699147" />
+<meta property="og:image" content="https://www.dynamicssquare.co.uk/assets/img/Dynamics-365-Finance-Banner-1.svg" />
+<meta property="og:image:secure_url" content=" " />
+<meta property="og:image:width" content="1186" />
+<meta property="og:image:height" content="710" />
+<meta property="og:image:alt" content="Dynamics 365 implementation" />
+<meta property="og:image:type" content="image/png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Microsoft Dynamics 365 Finance and Operations | ERP Solutions UK" />
+<meta name="twitter:description" content="Consider Dynamics Square as your D365 Finance and operations implementation partner to streamline and enhance your business performance and visibility." />
+<meta name="twitter:site" content="@dsquare_uk" />
+<meta name="twitter:creator" content="@dsquare_uk" />
+<meta name="twitter:image" content=" " />
+<meta name="twitter:label1" content="Time to read" />
+<meta name="twitter:data1" content="4 minutes" />
       </Helmet>
       
       <section className="Solution-banner hero-1 hero">
@@ -22,7 +43,12 @@ const FinanceOperations = () => {
                 Dynamics 365 <br />
                 Finance & Operations
               </h1>
-              <p>Dynamics 365 Finance and Operations is a robust application for large and complex organizations to control their finances, operations, inventory, and more using Cloud.</p>
+              <p>
+                Implementing D365 Finance and Operations is the perfect option
+                for large, complex, or diversified businesses that need to
+                control and streamline their finances, inventory, and more in
+                the cloud.
+              </p>
               <div>
                 <div className="text-center text-lg-start">
                   <NavLink
@@ -38,7 +64,7 @@ const FinanceOperations = () => {
             <div className="col-lg-6 align-self-center">
               <img
                 src="/assets/img/Dynamics-365-Finance-Banner-1.svg"
-                alt="Finance-Banner"
+                alt="Dynamics-365-Finance-Banner"
               />
             </div>
           </div>
@@ -56,25 +82,41 @@ const FinanceOperations = () => {
               </div>
               <div className="custom002">
                 <p>
-                Microsoft Dynamics 365 for Finance and Operations is a part of the Microsoft Dynamics suite that enables people to make informed decisions smartly and quickly through a simple-to-understand user interface, real-time insights, and data intelligence. The D365 Finance and Operations enables the business to transform the ways of delivering proven business logic and redesigning the business process for innovation and sustainability. It makes the business ahead of the competition irrespective of the market fluctuations. Also, it offers the flexibility to grow at their own pace and do business nearly anywhere, anytime.
+                  Microsoft Dynamics 365 for Finance and Operations, Enterprise
+                  edition, is Microsoft's business application for enterprises
+                  that enables people to make smarter decisions quickly through
+                  an intuitive user interface that provides access to real-time
+                  insights and intelligence.D365 Finance and Operations enables
+                  business to transform by delivering proven business logic and
+                  enabling them to redesign their business processes faster so
+                  they can innovate, get quick time to value to stay ahead of
+                  the competition.It gives businesses the flexibility to grow at
+                  their own pace and do business nearly anywhere, anytime.
                 </p>
                 <ul>
                   <li>
                     <strong>MAKE SMARTER DECISIONS</strong>
                     <p>
-                    Centralized financial and business operations enable the businesses to deliver real-time visibility for better and faster decisions. 
+                      Unifying financial and business operations enables
+                      businesses to deliver real-time visibility across their
+                      organization for better and faster decisions.
                     </p>
                   </li>
                   <li>
                     <strong>TRANSFORM BUSINESS FASTER</strong>
                     <p>
-                    It lets the users redesign the processes without hampering the ongoing operations and stay competitive. 
+                      Transforming businesses by easily redesigning processes
+                      without disrupting operations is crucial for organizations
+                      to stay competitive.
                     </p>
                   </li>
                   <li>
                     <strong>GROW AT YOUR PACE</strong>
                     <p>
-                    Organizations grow at their own pace, and Dynamics 365 Finance and Operations help them grow at their business ability and speed. It lets the users redesign the processes without hampering the ongoing operations and stay competitive.
+                      Helping businesses grow at their own pace is about giving
+                      them the choice and flexibility to modernize their
+                      organizations at the pace that works for them with the
+                      ability to do business anywhere, anytime.
                     </p>
                   </li>
                 </ul>
@@ -94,23 +136,55 @@ const FinanceOperations = () => {
           </div>
         </div>
       </section>
-
+      <section className="busine_service_bottom custom05">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 align-self-center">
+              <div className="busine_service_bottom-left custom012">
+                <img
+                  src="/assets/img/microosoft-partner.png"
+                  alt="microosoft-partner.png"
+                />
+              </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <div className="side-heading-custom-01">
+                <h2>
+                Get started with Dynamics 365 for Finance and Operations free trial
+                </h2>
+              </div>
+              <div className="custom-p-001">
+                <p>
+                When it comes to your business, you want the best right? Dynamics 365 for Finance and Operations offers a free trial to explore all the benefits of this intelligent solution designed to control your finances, streamline your processes, and increase decision making.</p>
+                <p>So why not try it out and see how Dynamics 365 Finance and Operations can help your business grow?</p>
+              <div className="text-lg-start">
+                  <NavLink
+                    data-bs-toggle="modal"
+                    to="#exampleModal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Sign up for a free trial today</span>
+                  </NavLink>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section>
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8 col-md-8">
-            <header className="section-header">
+          <header className="section-header">
             <h2>
               Microsoft Dynamics 365
               <br />
               Finance and Operations Features
             </h2>
             <p>
-            Let's Learn, How D365 Finance and Operations Can Help You Make Smarter Decisions, Transform Business Faster, and Grow At Own Pace.
+              Let's Take A Closer Look At How Finance And Operations Can Help
+              You To Take Smarter Decisions, Transform Business Faster, And Grow
+              At Your Pace.
             </p>
           </header>
-            </div>
-          </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -149,21 +223,41 @@ const FinanceOperations = () => {
                           <li>
                             <strong>GENERAL LEDGER</strong>
                             <br />
-                            D365 has flexible options to set up and maintain a general ledger for financial accounting. Also, it shares the data insights using a chart of accounts or currency exchange rates across multiple legal entities and creates flexible journal entries for all account types.
+                            Financial accounting with flexible configuration
+                            options for setup and maintenance of general ledger.
+                            Share data such as chart of accounts or currency
+                            exchange rates across multiple legal entities, and
+                            create flexible journal entries for all account
+                            types. Use Financial period close workspace to track
+                            your financial closing processes across companies,
+                            areas, and people.
                           </li>
                         </ul>
                         <ul>
                           <li>
                             <strong>BUDGET PLANNING</strong>
                             <br />
-                            Manage the organization's budget, including flexible configuration options, instant calculation of available budget funds, budget pooling, and workflows for review and approval, with configurable budget planning using Microsoft Excel.
+                            Manage your organization's budget, including
+                            flexible configuration options, instant calculation
+                            of available budget funds, pooling of budgets, and
+                            budget workflows for review and approval, with
+                            configurable budget planning supporting a flexible
+                            chart of accounts and dimensions, custom-defined
+                            process configurations, workflows, and the use of
+                            Microsoft Excel to create a budget planning
+                            worksheets.
                           </li>
                           <li>
                             <strong>
                               FINANCIAL REPORTING
                               <br />
                             </strong>
-                            Financial statements enable a custom reporting structure and mapping of ledger accounts to the reporting structures. It contains the balance sheet, income statement, and cash flow statement with legal and international accounting standards.
+                            Financial statements enable a custom reporting
+                            structure and mapping of ledger accounts or
+                            dimensions to the reporting structures, and to
+                            comply with legal requirements and international
+                            accounting standards. They include balance sheet,
+                            income statement, and cash flow statement.
                           </li>
                         </ul>
                       </div>
@@ -194,25 +288,48 @@ const FinanceOperations = () => {
                     >
                       <div className="accordion-body">
                         <p>
-                        The <NavLink to="/products/dynamics-365-supply-chain-management/">Supply Chain Management</NavLink>  features let the users connect sales and purchase with logistics, production, and warehouse to offer visibility to the whole supply chain process. Also, manages the subsidiary organizations with inter-company capabilities.
+                          Connect sales and purchasing processes with logistics,
+                          production, and warehouse management to provide
+                          visibility and management throughout the supply chain.
+                          Manage distributed organizations with inter-company
+                          and multi-site capabilities.
                         </p>
                         <ul>
                           <li>
                             <strong>VENDOR COLLABORATION</strong>
                             <p>
-                            It collaborates with the vendor and organization's needs as per customer demands. The <NavLink to="/products/microsoft-dynamics-365-finance/">Dynamics 365 Finance</NavLink> and Operations allows the vendor to manage invoices, purchase orders, and other inventory information. 
+                              Streamline vendor collaboration to respond to
+                              business needs and customer demands. Dynamics 365
+                              for Finance and Operations enables vendors to work
+                              with purchase order, invoice, and consignment
+                              inventory information. Vendors can review, accept
+                              and reject purchase orders, review the status of
+                              invoices and online payment. Users can create
+                              purchase order invoices and upload invoice
+                              documents to a portal.
                             </p>
                           </li>
                           <li>
                             <strong>INVENTORY MANAGEMENT</strong>
                             <p>
-                            The Inventory Management features made product tracking straightforward. It can track the product with inventory dimensions, warehouse data, batch number, and serial number.
+                              Track items by inventory dimensions, including
+                              site, warehouse, pallet, location, batch, and
+                              serial number. Take advantage of multiple
+                              inventory control systems and inventory valuation
+                              methods including first in/ first out, last in/
+                              first out, standard cost, moving, and weighted
+                              average.
                             </p>
                           </li>
                           <li>
                             <strong>MULTI-SITE WAREHOUSE MANAGEMENT</strong>
                             <p>
-                            It manages material handling within and outside warehouses. With the use of advanced inbound algorithms using multiple zones and replenishment strategies, this feature makes the whole warehouse management effortless.
+                              Manage storage locations and material handling
+                              within warehouses. Apply advanced inbound
+                              algorithms using multiple warehouse zones and
+                              replenishment strategies. Optimize picking with a
+                              choice of picking methods. Track inventory on hand
+                              per warehouse.
                             </p>
                           </li>
                         </ul>
@@ -251,25 +368,49 @@ const FinanceOperations = () => {
                     >
                       <div className="accordion-body">
                         <p>
-                        The Microsoft Dynamics 365 for Finance and Operations delivers accurate insights at all levels of the organization to support innovation, speed response to changing constraints, and customer satisfaction. It supports integration with existing systems, lowering the total cost of ownership, and future-proofing the investment through continuous delivery of innovation.
+                          Designed for ease of implementation and adoption,
+                          Microsoft Dynamics 365 for Finance and Operations
+                          delivers insights at all levels of the organization to
+                          support innovation, speeds response to changing
+                          constraints, and improves quality and customer
+                          satisfaction. Microsoft Dynamics supports integration
+                          with existing systems, lowering your total cost of
+                          ownership and future-proofing your investment through
+                          continuous delivery of new innovation.
                         </p>
                         <ul>
                           <li>
                             <strong>MATERIAL AND CAPACITY PLANNING</strong>
                             <p>
-                            The Dynamics 365 Finance and Operations optimizes materials' production, material planning, forecasting, and scheduling. Also, it enables the users to calculate ATP (available-to-promise) and CTP (Capable-to-promise) deliveries.
+                              Optimize production and materials planning,
+                              forecasting, and scheduling. Simultaneously
+                              schedule materials and capacity. Calculate
+                              available-to-promise (ATP) and capable-to-promise
+                              (CTP) deliveries.
                             </p>
                           </li>
                           <li>
                             <strong>PRODUCTION SCHEDULING</strong>
                             <p>
-                            The Dynamics 365 Finance and Operations is compatible with finite and infinite scheduling, with current or previous dates. It instantly reschedules the jobs and simulates alternatives by dragging Gantt chart items.
+                              Use finite or infinite scheduling, forward and
+                              backward from various dates. Quickly (re)schedule
+                              jobs and simulate alternatives by dragging Gantt
+                              chart items. Resolve scheduling overloads by
+                              reassigning operations to alternate work centers.
+                              Optimize scheduling across the organization with a
+                              unified resource model and scheduling engine.
                             </p>
                           </li>
                           <li>
                             <strong>DEMAND FORECASTING</strong>
                             <p>
-                            Demand Forecasting is a powerful feature that enables organizations to forecast the historical data leveraging the power of Azure Machine. It adjusts the forecasts using Excel and imports the required data.
+                              Demand Forecasting is a lightweight, yet powerful
+                              tool that enables organizations to forecast based
+                              on historical data, leverage the power of Azure
+                              Machine Learning, adjust the forecasts using
+                              Microsoft Excel, and import the values into
+                              Microsoft Dynamics 365 for Finance and Operations
+                              forecast models.
                             </p>
                           </li>
                         </ul>
@@ -303,19 +444,37 @@ const FinanceOperations = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                        <p>The Dynamics 365 Finance and Operations provides various services to aid the finance and operations processes. Cloud services, workspace management, and process management provide an adaptable environment to consume the services.</p>
                         <ul>
                           <li>
                             <strong>CLOUD SERVICE</strong>
-                            <p>Microsoft Dynamics 365 Finance and Operations helps the professional to manage business growth, improve organizational productivity, and deliver a unified customer experience to speed up the business.</p>
+                            <p>
+                              Microsoft Dynamics 365 helps IT professionals
+                              manage business growth, mitigate risk, improve
+                              organizational productivity, and deliver amazing
+                              customer experiences through tools that improve
+                              the speed of doing business.
+                            </p>
                           </li>
                           <li>
                             <strong>MOBILITY</strong>
-                            <p>This helps the business mobilize the business processes with a mobile app and web portal for easy accessibility. Also, it enables the employees to work anytime and from anywhere, keeping the business running 24/7.</p>
+                            <p>
+                              The Dynamics 365 for Finance and Operations mobile
+                              app empowers your organization to mobilize your
+                              business processes. Enable employees to perform
+                              work anytime, anywhere to keep your customers
+                              happy, increase productivity, and drive business
+                              profitability.
+                            </p>
                           </li>
                           <li>
                             <strong>WORKSPACE</strong>
-                            <p>The Dynamics 365 for Finance and Operations is a powerful workspace whether the user is a data operator or the director of the business. It lets you connect the people with the required data to make better decisions.</p>
+                            <p>
+                              D365 for Finance and Operations provides powerful
+                              user and role-based work-spaces
+                              <br />
+                              that connects your people with data and processes
+                              to make better decisions.
+                            </p>
                           </li>
                         </ul>
                         <p>
@@ -324,46 +483,10 @@ const FinanceOperations = () => {
                             <br />
                             <br />
                           </strong>
-                          Add, integrate, and customize the Microsoft Dynamics 365 Finance and Operation with the features:
+                          Start with D365&nbsp; Finance and Operations, then add
+                          more Dynamics 365 modules as you grow.
                         </p>
-                        <ul>
-                          <li>
-                            <NavLink
-                              to="/products/microsoft-dynamics-365-sales/"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              Dynamics 365 for Sales
-                            </NavLink>
-                          </li>
-                          <li>
-                            <NavLink
-                              to="/products/microsoft-dynamics-365-customer-service/"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              Dynamics 365 for Customer Service Automation
-                            </NavLink>
-                          </li>
-                          <li>
-                            <NavLink
-                              to="/products/dynamics-365-project-operations/"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              Dynamics 365 for Project Service Automation
-                            </NavLink>
-                          </li>
-                          <li>
-                            <NavLink
-                              to="/products/microsoft-dynamics-365-field-service/"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              Dynamics 365 for Field Service Automation
-                            </NavLink>
-                          </li>
-                        </ul>
+  
                       </div>
                     </div>
                   </div>
@@ -373,17 +496,591 @@ const FinanceOperations = () => {
           </div>
         </div>
       </section>
+      
+      <section className="busine_service_bottom custom05">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-7">
+              <div className="side-heading-custom-01">
+                <h2>
+                Microsoft Dynamics 365 for Finance and Operations: What's New?
+                </h2>
+              </div>
+              <div className="custom-p-001">
+                <p>D365 F&O has come a long way from a simple accounting software known as IBM Axapta to a powerful ERP application as Dynamics 365 Finance and Operations. But, the modern ways of doing business require more capabilities to deal with changing requirements using minimal resources.</p>
+                <p>Microsoft recognises its importance and has split D365 F&O into two separate applications, <NavLink to="/products/microsoft-dynamics-365-finance/">Dynamics 365 Finance</NavLink> and <NavLink to="/products/dynamics-365-supply-chain-management/">Dynamics 365 Supply Chain Management</NavLink>.</p>
+                <p>Nonetheless, most customers, business owners, and consultants are familiar with it as a whole; Finance and Operations (D365 F&O).</p>
+                <p>As of October 2022, the latest version of Dynamics 365 for Finance is 10.0.29. 
+The latest version includes several new features and improvements that make it a powerful tool for businesses:</p>
+                <ul>
+                  <li>Time zone for importing bank statements using Electronic reporting (ER)</li>
+                  <li>Import addresses from the State Address Register (GAR)</li>
+                  <li>Ability to print payment advice for vendor payments with a status of Approved</li>
+                  <li>Increase the length of fixed asset names to 150 characters.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="pricing" className="pricing">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9 col-md-9 col-sm-9">
+            <header className="section-header">
+            <h2>
+            Dynamics 365 Finance and Operations Licensing & Pricing
+            </h2>
+            <p>
+            The Microsoft Dynamics 365 Finance and Operations platform offers users a unique and excellent value proposition. By allowing users to choose and subscribe to the most relevant applications to their business needs, users can maximize their investment in <NavLink to="/products/microsoft-dynamics-365/">Dynamics 365</NavLink> and get the most out of the platform.<br />When it comes to licensing for Microsoft Dynamics 365 Finance and Operations, there are four different user licenses to choose from - full user, operations activity, team member, and device licenses.
+            </p>
+          </header>
+            </div>
+          </div>
+          <div className="row gy-4 p-9">
+          <div className="col-lg-3">
+              <div className="box box-22">
+                <h3>Team Member <br /> License</h3>
+                <div className="price">
+                  <sup>£</sup>7<span>Per-User/Per Month</span>
+                </div>
+                <ul>
+                  <li className="text-center" style={{fontSize:'14px'}}>
+                  This license is designed for users who don't require full access to all functions but still need to be able to view and analyze data & carry out minor tasks.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="box box-22">
+                <h3>Operations <br />Activity License</h3>
+                <div className="price">
+                  <sup>£</sup>45<span>Per-User/Per Month</span>
+                </div>
+                <ul>
+                  <li className="text-center" style={{fontSize:'14px'}}>
+                  This license is designed for users who need to perform tasks within the platform, such as creating and approving sales orders or invoices.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="col-lg-3">
+              <div className="box box-22">
+                <h3>
+                Full User <br /> License
+                </h3>
+                <div className="price">
+                  <sup>£</sup>60<span>Per-User/Per Month</span>
+                </div>
+                <ul>
+                  <li className="text-center" style={{fontSize:'14px'}}>
+                  As the name implies, this license gives users full access to all features and functionality in Dynamics 365 Finance & Operations. 
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="col-lg-3">
+              <div className="box box-22">
+                <h3>Device <br /> License</h3>
+                <div className="price">
+                  <sup>£</sup>67<span>Per-User/Per Month</span>
+                </div>
+                <ul>
+                  <li className="text-center" style={{fontSize:'14px'}}>
+                  This provides businesses with a cost-effective way to allow multiple users to access their devices without needing separate user licenses.
+                  </li>
+                </ul>
+              </div>
+            </div>
 
+            <div className="col-lg-12 col-md-12">
+              <div className="price-btn price-btnasd d-flex justify-content-center">
+                <p style={{padding:'20px 0px 40px 0px'}}>If you're interested in exploring the licensing and pricing options for Dynamics 365 Finance and Operations or need help analyzing which licensing option is right for you, reach out to our experts. We can help you understand the unique features and benefits of the various licensing options and guide you to the best choice for your business.</p>
+                <NavLink data-bs-toggle="modal"
+                    to="#exampleModal" className="btn-get-red">
+                  <span>Contact us today to get started</span>
+                </NavLink>
+                {/* <NavLink to="#about" className="btn-get-whit">
+                              <span>See Licensing Guide</span>
+                              </NavLink> */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="solution-faq faq">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-md-8">
+            <header className="section-header">
+            <h2>Have you got questions about Dynamics 365 Finance & Operations?</h2>
+            <p>Click through to our FAQ for the best answers!</p>
+          </header>
+            </div>
+          </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+              
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >
+                     What is included in Dynamics 365 Finance and Operations?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Dynamics 365 Finance and Operations is an ideal application for growing businesses to manage all their financing needs. It has various features, including accounting, finance, budgeting, project management, and more.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-16"
+                    >
+                    Do we need a minimum number of Dynamics 365 Finance & Operations licenses?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-16"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist16"
+                  >
+                    <div className="accordion-body">
+                      <p>There is a minimum of 20 full users for the Finance and Operations apps. Keep in mind that it must be 20 licenses for one app, and not 10 of each or any other combination.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                    What kind of system software is Dynamics 365 for F and O?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Microsoft Dynamics 365 for Finance and Operations is one of the most powerful applications to streamline all financial and operational processes. With cloud computing, it becomes more powerful, letting users connect with the operations from anywhere and anytime to gather actionable insights.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >
+                    How much is Dynamics 365 F&O?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      Generally, the full user license cost is £180/user/month. This isn't fixed for all users. The accurate cost depends on a few factors, like license type, number of users, app type, team member license, and more. However, the team at Dynamics Square can help you get an accurate amount of cost.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                      Which are the major functions managed by Dynamics 365 Finance and Operations?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>There are various functions that aid the financing and operations of an organisation. Some functions are inventory management, cost management, product information management, transportation management, and more.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >
+                     Is there any training available by Microsoft to learn D365 Finance and Operation?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Microsoft doesn't provide one-to-one training to its end users. However, there is lots of documentation and learning content available on Microsoft's official website. Also, the implementation partner or Dynamics 365 Finance and Operations support partner can help you understand this application.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-6"
+                    >
+                      What are the key features of D365 for Finance and Operation?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-6"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>When it comes to features, it is far superior to its competitors. Some of the major key features are accounts receivable, fixed assets, general ledger functionality, tax, invoices, billing, and so on.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-7"
+                    >
+                    Can I upgrade my Dynamics AX to D365 F&O?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-7"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>TYes, you can easily upgrade to D365 F&O. The Dynamics 365 Finance and Operations is evolved from <NavLink to="/products/microsoft-dynamics-ax/">Dynamics AX</NavLink> (the old version) with added functionalities to cope with the ways of modern businesses. You can contact any <NavLink to="/">Microsoft-certified gold partner</NavLink>, like Dynamics Square, to upgrade your Dynamics AX.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-8"
+                    >
+                     How do I get the trial version of D365 for F&O?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-8"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>If you are new to D365 for F&O, you can easily sign-up for a 30-day trial. However, access will be restricted as compared to a full-user license. If you are an existing customer, you can sign-up for a customer trial and create LCS (Lifecycle Service Projects) to create a development environment within it.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-9"
+                    >
+                    Does D365 for F&O support integrations?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-9"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Yes, D365 for Finance and Operations allows native as well as third-party integration using APIs. Depending on the type of integration, they can help businesses with error handling, creating and updating product information, recommending a suitable solution, checking the status of customer orders, and more.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-10"
+                    >
+                   What is D365 Finance and Operations used for?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-10"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>D365 Finance and Operations is a cloud-based ERP solution built for medium and large-sized organisations to track all processes of inventory and finance. Currently, the license is available with two different apps, which are <NavLink to="/products/microsoft-dynamics-365-finance/">Dynamics 365 Finance</NavLink> and <NavLink to="/products/dynamics-365-supply-chain-management/">Dynamics 365 Supply Chain Management</NavLink>.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-11"
+                    >
+                  Does D365 for Finance and Operations fit for my organization? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-11"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>This is the best application available to streamline all financial processes if you belong to a small or medium-sized organization. Also, it helps the users monitor day-to-day operations tasks to make informed decisions whenever required.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-12"
+                    >
+                   Does D365 for F&O enable businesses to adapt to modern compliance?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-12"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>To cope with the ways of modern business, Microsoft regularly updates the features and functionality of D365 for F&O. Generally, Microsoft releases updates two times a year and updates the cloud servers automatically without any obstruction in the current process.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-13"
+                    >
+                  Can I implement D365 F&O?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-13"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>It would not be possible unless you had intense knowledge of coding and implementing the technologies on cloud servers. However, a Microsoft support partner like Dynamics Square can easily help you implement this application. To find out more, you can <NavLink to="/contact-us/">book a demo</NavLink> with us.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-14"
+                    >
+                   How long does it take to implement Dynamics 365 Finance & Operations?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-14"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>When it comes to implementing Microsoft Dynamics 365 Finance and Operations, the average time it takes is between 6-8 months (It can go up to 1 year depending upon the complexity of the business.). This can be broken down into three phases:</p>
+                      <p><b>Planning and Design:</b> During the Planning and Design phase, you'll need to gather your requirements and create a project plan. This is where you'll also decide on your implementation methodology.</p>
+                      <p><b>Implementation and Training:</b> During the Implementation and Training phase, you'll configure the system and train your users.</p>
+                      <p><b>Go Live and Support:</b> Finally, during the GO Live and Support phase, you'll go live with the system and provide ongoing support.
+</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-15"
+                    >
+                   Which should I implement, Microsoft Dynamics 365 F and O or Dynamics Business Central?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-15"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>There isn't any determined answer to this, and it depends on the business requirement. If you need a fully-fledged <NavLink to="/products/microsoft-dynamics-erp/">ERP solution</NavLink> with fewer features like CRM, go for <NavLink to="/products/dynamics-365-business-central/">Dynamics BC</NavLink>, and if you need an application to manage finance and accounting only and already have another ERP, go for Dynamics 365 F & O.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-16"
+                    >
+                   How do I get post-installation or implementation support?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-16"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>With growing businesses, errors come, whether simple or complex. But, whatever the situation, your installation partner or implementation partner will provide the needed support to get your business back on track.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-17"
+                    >
+                   How do I find the right Dynamics Finance and Operations consultant?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-17"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>This process requires much research because the partner will help you from implementation to providing timely support. Before choosing the right consultant, you must match different parameters, like experience, availability of support, cost, service charges, previous work, industry type, and more.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-18"
+                    >
+                  What type of deployment does MS Dynamics Finance and Operations provide?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-18"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Three deployment options are available: <NavLink to="/microsoft-dynamics-365-cloud-vs-on-premise/">on-premises</NavLink>, cloud, and hybrid. The installation and service cost of on-premises deployment is much higher compared to cloud and hybrid deployment, and cloud deployment is the cheapest option.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-19"
+                    >
+                   Do I need to pay extra besides the subscription fee for the cloud deployment option?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-19"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Firstly, you must pay the application implementation cost, which totally depends on the business requirements. Besides this, you have to pay only a monthly subscription fee already decided by Microsoft and available on the website too.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-20"
+                    >
+                   Can Dynamics 365 Finance and Operations handle multi-currencies?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-20"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>This application can manage multi-currency using Electronic Messaging and Electronic reporting features. Also, it enables the business to share the data with regulatory authorities as required by the government in some countries. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="blogs-extra">
         <div className="container">
-        <div className="row justify-content-center">
-            <div className="col-lg-8 col-md-8">
           <header className="section-header">
             <h2>Explore Our Recent Blogs & Resources</h2>
             <p>Whether you are a start-up, an SMB, or an enterprise, the Dynamics Square blog is the best place to get inspired and learn more about Microsoft Business Applications.</p>
           </header>
-          </div>
-          </div>
           <div className="row top-2 gx-5">
             <Blog />
             <div className="col-lg-6 align-self-center">
@@ -407,6 +1104,7 @@ const FinanceOperations = () => {
           </div>
         </div>
       </section>
+     
     </>
   );
 };

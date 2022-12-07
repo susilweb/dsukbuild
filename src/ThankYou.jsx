@@ -22,18 +22,18 @@ const ThankYou = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/thank-you/"
+          href="https://www.dynamicssquare.co.uk/thank-you/"
         />
-        <meta property="og:locale" content="en_us" />
+        <meta property="og:locale" content="en_GB" />
       </Helmet>
       <section className="Solution-banner hero-1 custom-pd-4">
         <div className="container">
           <div className="row justify-content-center ">
             <div className="col-lg-7 align-self-center text-center custom0004">
-              <h1>Thank You!</h1>
+              <h1>Thank You !</h1>
               <h2>
-                One of our Microsoft Consultants will get in touch with you shortly!</h2>
-              <p>Please press below button to know more about us and the solutions we provide.</p>
+                Thanks for getting in touch - someone will contact you soon!
+              </h2>
               <div className="text-center">
                 <div className="">
                   <NavLink to="/" className="btn-get-started scrollto">

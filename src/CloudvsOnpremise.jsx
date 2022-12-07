@@ -6,16 +6,16 @@ const CloudvsOnpremise = () => {
   return (
     <>
       <Helmet>
-      <title>Microsoft Dynamics 365 Cloud vs On-premise [COMPARED HARD]</title>
-<meta name="description" content="Dynamics 365 Cloud Vs On-Premise, which one is best for your business? We have exclusively compared both so that you can make the right decision."/>
-<link rel="canonical" href="https://www.dynamicssquare.com/microsoft-dynamics-365-cloud-vs-on-premise/" />
+      <title>Dynamics 365 Cloud vs On-Premise Comparison | Dynamics Square</title>
+<meta name="description" content="Dynamics 365 cloud vs on-premise, which one is better for your business? Let&#039;s compare both Dynamics 365 cloud and Dynamics 365 on-premise."/>
+<link rel="canonical" href="https://www.dynamicssquare.co.uk/microsoft-dynamics-365-cloud-vs-on-premise/" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-4  align-self-center">
               <h1>
-              Microsoft Dynamics 365 Cloud Vs On-Premise Comparison
+                Microsoft Dynamics 365 Cloud Vs On-Premise Comparison
               </h1>
               <div>
                 <div className="text-center text-lg-start">
@@ -32,7 +32,7 @@ const CloudvsOnpremise = () => {
             <div className="col-lg-6 align-self-center">
               <img
                 src="/assets/img/MicrosoftTeams-image-5.png"
-                alt="MicrosoftTeams-images-5"
+                alt="MicrosoftTeams-imag-5"
               />
             </div>
           </div>
@@ -41,8 +41,8 @@ const CloudvsOnpremise = () => {
 
       <section>
         <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-9 col-md-8">
+          <div className="row">
+            <div className="col-lg-12">
               <header className="section-header">
                 <h2>Dynamics 365 Cloud Vs On-Premise</h2>
                 <p>
@@ -124,12 +124,10 @@ const CloudvsOnpremise = () => {
 
       <section>
         <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-9 col-md-8">
           <header className="section-header">
             <h2>
               Microsoft Dynamics 365
-               Deployed In-Cloud
+              <br /> Deployed In-Cloud
             </h2>
             <p>
               Presently, nearly 90% of new Dynamics 365 customers opt for an
@@ -139,7 +137,6 @@ const CloudvsOnpremise = () => {
               or to integrate more applications at anytime.
             </p>
           </header>
-          </div></div>
           <div className="row pad-90">
             <div className="col-lg-4">
               <div className="content-icons-modil-1">
@@ -315,11 +312,11 @@ const CloudvsOnpremise = () => {
 
       <section>
         <div className="container">
-        <div className="row justify-content-center">
-        <div className="col-lg-8 col-md-8">
           <header className="section-header section-header-cloud">
             <h2>
-              Microsoft Dynamics 365 On-Premise Deployment
+              Microsoft Dynamics 365
+              <br />
+              On-Premise Deployment
             </h2>
             <p>
               On-Premise Microsoft Dynamics 365 is essentially deploys on
@@ -328,7 +325,6 @@ const CloudvsOnpremise = () => {
             </p>
             <h4>Dynamics 365 On-Premise Key Features</h4>
           </header>
-          </div></div>
           <div className="row pad-90">
             <div className="col-lg-4">
               <div className="content-icons-modil-1">
@@ -440,7 +436,7 @@ const CloudvsOnpremise = () => {
       <section>
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-7">
+            <div className="col-lg-12">
               <div className="image-slide-picss">
                 <h3>
                   To make an informed decision on the right option for you,
@@ -492,11 +488,10 @@ const CloudvsOnpremise = () => {
 
       <section>
         <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-8 col-md-8">
           <header className="section-header">
             <h2>
-              Dynamics 365 Cloud Vs On-premise Comparison:
+              Dynamics 365 Cloud <br />
+              Vs On-premise Comparison:
             </h2>
             <p>
               The below comparison table will enable you to precisely understand
@@ -504,7 +499,6 @@ const CloudvsOnpremise = () => {
               on-premise -will suite your business requirements.
             </p>
           </header>
-          </div></div>
           <div className="row">
             <div className="col-lg-12">
               <div className="tabls-cloud table-responsive">
@@ -577,7 +571,7 @@ const CloudvsOnpremise = () => {
                     <tr>
                       <td>Connectivity</td>
                       <td>
-                        Reliant connectivity with 99.9% financially supported by
+                        Reliant connectivity with 99.99% Uptime SLA's supported by
                         Microsoft
                       </td>
                       <td>
@@ -619,9 +613,7 @@ const CloudvsOnpremise = () => {
                   </tbody>
                 </table>
               </div>
-              <div className="row justify-content-center">
-              <div className="col-lg-8 col-md-8">
-              <p className="extr-cont  ">
+              <p className="extr-cont">
                 We know you're facing an important decision about modernizing
                 your current Dynamics 365 On-premise solutions and potentially
                 migrating to{" "}
@@ -639,18 +631,16 @@ const CloudvsOnpremise = () => {
                 <br />
                 Are you looking to access cutting-edge technology, control costs
                 and complexity and improving overall IT productivity? Our{" "}
-                Dynamics 365 Support experts help you accelerate your journey and minimize risk.
-                <br/>
+                <NavLink to="/our-services/dynamics-365-support-services/">
+                  Dynamics 365 Support experts{" "}
+                </NavLink>
+                help you accelerate your journey and minimize risk.
                 <span>
                   <NavLink data-bs-toggle="modal" to="#exampleModal">
                     Talk to our experts today!
                   </NavLink>
                 </span>
               </p>
-              </div>
-
-              </div>
-              
             </div>
           </div>
         </div>

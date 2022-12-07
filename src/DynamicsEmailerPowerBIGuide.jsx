@@ -15,9 +15,9 @@ const DynamicsEmailerPowerBIGuide = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/emailer-power-bi/"
+          href="https://www.dynamicssquare.co.uk/emailer-power-bi/"
         />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale" content="en_GB" />
       </Helmet>
 
       <section
@@ -105,7 +105,6 @@ const DynamicsEmailerPowerBIGuide = () => {
           </div>
         </div>
       </section>
-      <section></section>
       <FooterHide />
     </>
   );

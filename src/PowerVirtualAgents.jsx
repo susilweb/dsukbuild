@@ -12,19 +12,60 @@ const PowerVirtualAgents = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-        What is Microsoft Power Virtual Agents? | Intelligent Bots
+          Microsoft Power Virtual Agents | Intelligent Virtual Agents
         </title>
         <meta
           name="description"
-          content="Power Virtual Agents is a tool to build powerful chatbots without the need to write code, and that allows you to automate communication with potential clients or employees."
+          content="Enhance customer experience and boost sales using AI enabled chatbots built with Microsoft Power Virtual Agents. Schedule a free demo today."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/products/microsoft-power-virtual-agents/"
+          href="https://www.dynamicssquare.co.uk/products/microsoft-power-virtual-agents/"
         />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
-       
+        <meta
+          property="og:title"
+          content="Microsoft Power Virtual Agents | Intelligent Virtual Agents"
+        />
+        <meta
+          property="og:description"
+          content="Enhance customer experience and boost sales using AI enabled chatbots built with Microsoft Power Virtual Agents. Schedule a free demo today."
+        />
+        <meta
+          property="og:url"
+          content="https://www.dynamicssquare.co.uk/products/microsoft-power-virtual-agents/"
+        />
+        <meta property="og:site_name" content="Dynamics Square" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/dynamicssquareuk"
+        />
+        <meta
+          property="article:author"
+          content="https://www.facebook.com/vickygururani"
+        />
+        <meta property="fb:app_id" content="2007906422699147" />
+        <meta property="og:image" content="" />
+        <meta property="og:image:secure_url" content="" />
+        <meta property="og:image:width" content="768" />
+        <meta property="og:image:height" content="450" />
+        <meta property="og:image:alt" content="power virtual agents" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Microsoft Power Virtual Agents | Intelligent Virtual Agents"
+        />
+        <meta
+          name="twitter:description"
+          content="Enhance customer experience and boost sales using AI enabled chatbots built with Microsoft Power Virtual Agents. Schedule a free demo today."
+        />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:creator" content="@dsquare_uk" />
+        <meta name="twitter:image" content="" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="4 minutes" />
       </Helmet>
       <ModalVideo
         channel="youtube"
@@ -465,32 +506,34 @@ const PowerVirtualAgents = () => {
           </header>
           <div className="row gy-4 p-9 justify-content-center">
             <div className="col-lg-4">
-              <div className="box box-99">
+              <div className="box box-66">
                 <h3>Power Virtual Agents</h3>
-                <div className="price">
-                  <sup>$</sup>200<span>Per month for 2,000 sessions(2)</span>
-                </div>
-                <p className="small-tt">
-                Run intelligent chatbots across websites and other channels.
+                <p>
+                  Run intelligent chatbots across websites and other channels.
                 </p>
+                <div className="price">
+                  <sup>£</sup>754.10<span>Per month for 2,000 sessions</span>
+                </div>
                 <ul>
-                  <li>Requires access to the Microsoft 365 admin center with global administrator or billing administrator roles.</li>
+                  <li>
+                    Only pay for two-way engagement between users and your
+                    chatbots, with sessions serving each end-to-end interaction.
+                  </li>
                 </ul>
               </div>
             </div>
 
-
             <div className="col-lg-4">
-              <div className="box box-99">
+              <div className="box box-66">
                 <h3>Sessions add-on</h3>
+                <p>
+                  Add additional sessions to your Power Virtual Agents plan.
+                </p>
                 <div className="price">
-                  <sup>$</sup>100<span>Per month for 1,000 sessions(2)</span>
+                  <sup>£</sup>339.30<span>Per month for 1,000 sessions</span>
                 </div>
-                <p className="small-tt">Add additional sessions to your Power Virtual Agents plan.</p>
                 <ul>
-                  <li>
-                  Requires a Power Virtual Agents license.
-                  </li>
+                  <li>Requires a Power Virtual Agents licence.</li>
                 </ul>
               </div>
             </div>
@@ -502,8 +545,11 @@ const PowerVirtualAgents = () => {
                   to="#exampleModal"
                   className="btn-get-red"
                 >
-                  <span>Get Power Apps Now</span>
+                  <span>Get Best Price Quotes</span>
                 </NavLink>
+                {/* <NavLink to="#about" className="btn-get-whit">
+                              <span>See Licensing Guide</span>
+                              </NavLink> */}
               </div>
             </div>
           </div>

@@ -17,13 +17,13 @@ const StartGuideOne = () => {
 
     emailjs
       .sendForm(
-        "service_cxxhqoq",
-        "template_f80fich",
+        "service_4voumj7",
+        "template_68k24ku",
         e.target,
-        "7Ae4EIVY__86NsTQD"
+        "mJ38M6WTmU7KRrtuZ"
       )
       .then((res) => {
-        history.push("/guides/download/Pdf-dynamics-finance/");
+        history.push("/guides/download/Pdf-guide-finance/");
       })
       .catch((err) => console.log(err));
   }
@@ -31,7 +31,7 @@ const StartGuideOne = () => {
     <>
       <Helmet>
         <title>
-        A Complete Guide to Dynamics 365 Finance 
+         The Extensive Guide to Dynamics 365 Finance
         </title>
         <meta
           name="description"
@@ -43,9 +43,9 @@ const StartGuideOne = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/ebook/dynamics-365-finance/"
+          href="https://www.dynamicssquare.co.uk/ebook/dynamics-365-finance/"
         />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale" content="en_GB" />
       </Helmet>
 
       <section className="Solution-banner hero-1 hero">
@@ -53,7 +53,7 @@ const StartGuideOne = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
-              A Complete Guide to Dynamics 365 Finance 
+                A Quick Start Guide To Dynamics 365 Finance
               </h1>
               <br />
               <div>
@@ -88,41 +88,41 @@ const StartGuideOne = () => {
             <div className="col-lg-3 align-self-center">
               <div className="inner-l">
                 <div className="left-let">
-                  <h3>History of Dynamics 365 Finance</h3>
+                  <h3>History of Microsoft Dynamics 365 Finance </h3>
                   <div className="shape"></div>
                 </div>
                 <div className="left-let">
-                  <h3>Need of D365 Finance in Growing Industries</h3>
+                  <h3>Need of D365 Finance for Growing Industries</h3>
                   <div className="shape"></div>
                 </div>
                 <div className="left-let">
                   <h3>
-                  Capabilities of Dynamics 365 Finance 
+                  Capabilities of Dynamic 365 Finance
                   </h3>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="text-center remove-pre">
-                <img src="/assets/img/tablet-ebook-finance.png" alt="Ebbok-1" />
+                <img src="/assets/img/tablet-ebook-finance.png" alt="tablet-ebook-finance" />
               </div>
             </div>
             <div className="col-lg-3 align-self-center">
               <div className="inner-l">
                 <div className="left-rit">
                   <h3>
-                  Top Benefits to Boost Business Growth 
+                  Top Benefits of Dynamic 365 Finance
                   </h3>
                   <div className="shape-l"></div>
                 </div>
                 <div className="left-rit">
                   <h3>
-                  How to Avail Free Trial? 
+                  Microsoft Dynamics 365 Finance Pricing
                   </h3>
                   <div className="shape-l"></div>
                 </div>
                 <div className="left-rit">
-                  <h3>What's New in 2022</h3>
+                  <h3>What's new in Dynamics 365 Finance?</h3>
                 </div>
               </div>
             </div>
@@ -145,10 +145,24 @@ const StartGuideOne = () => {
             <div className="col-lg-6 align-self-center">
               <div className="aboot-erp-content">
                 <h3>What's more about this eBook?</h3>
-                <p>Microsoft Dynamics 365 Finance is a comprehensive financial management ERP solution that can streamline and simplify your company's entire financial operations. With its powerful capabilities, it can boost profits, predict financial insights, promote collaboration across departments, maximise financial performance, provide real-time data, and much more.</p>
-                <p>Our eBook is a perfect guide for organisations who are looking for a better, more agile and highly productive ERP solution to improve and drive smooth financial operations.</p>
-                <p>If you want to automate financial processes, centralise data, streamline financial operations, get insights, make data-driven decisions using strategic innovations, and explore actionable intelligence, this guide will give you a complete overview of this powerful solution.</p>
-                <p>Microsoft Dynamics 365 Finance is a solution that is designed to understand the specific requirements of businesses, customise its capabilities to meet those needs, and offer a sustainable solution that is adaptable regardless of the size or type of business. It allows you to maximise your financial performance, enhance the growth of your company, and make it easier to scale by simplifying business processes. </p>
+                <p>
+                D365 Finance is an intelligent ERP (Enterprise Resource Planning) 
+                solution to manage finance and its various aspects smoothly. But, 
+                before the modernization of industries, people used to work on 
+                everything manually.
+                </p>
+                <p>
+                Our eBook is a perfect guide for organisations who are looking for a better, more agile and highly productive ERP solution to manage complex financial management and analysis.
+                </p>
+                <p>
+                  This eBook will clear all your concerns and it will also show
+                  you how you can improve productivity, automate processes, and
+                  enhance security and mobility, across every step of the
+                  digital transformation journey.
+                </p>
+                <p>
+                The moment you decide to get, there will be several factors you will find yourself stuck with. But with our quick start guide to Dynamics 365 Finance, you can have an understanding of why it is a cornerstone for your growing business. 
+                </p>
               </div>
             </div>
           </div>
@@ -166,7 +180,7 @@ const StartGuideOne = () => {
             <div className="col-lg-7 align-self-center">
               <div className="call_to_action-left call_to_action-lefts">
                 <h3>
-                Get started with the Ultimate Guide to Microsoft Dynamics 365 Finance 
+                  Get started with your Ultimate Guide to Dynamics 365 Finance
                 </h3>
                 <div className="m-o-t m-o-t-inde">
                   <Link
@@ -202,7 +216,7 @@ const StartGuideOne = () => {
                         aria-expanded="true"
                         aria-controls="collapseOne"
                       >
-                        Why should I choose Dynamics 365 Finance? 
+                        Why should I choose Dynamics 365 for Finance?
                       </button>
                     </h3>
                     <div
@@ -212,7 +226,7 @@ const StartGuideOne = () => {
                       data-bs-parent="#faqaccer"
                     >
                       <div className="accordion-body">
-                        <p>As your business begins to find success and climb the proverbial ladder, you'll quickly realize that your existing systems are no longer going to cut it when it comes to managing finances, accounting, and productivity. This is where an advanced ERP solution like Dynamics 365 Finance comes in to save the day by providing easy scalability and even more growth for your business.</p>
+                      When businesses start climbing the success ladder, it's obvious that their existing systems will no longer handle complexities, increased financial data, and costs. As a result, it becomes crucial to have an advanced ERP system like D365 Finance that comes with new capabilities to add more value to your organisation.
                       </div>
                     </div>
                   </div>
@@ -236,7 +250,9 @@ const StartGuideOne = () => {
                       data-bs-parent="#faqaccer"
                     >
                       <div className="accordion-body">
-                        <p>Dynamics 365 Finance is a powerful and flexible platform that enables businesses to tailor it to their specific needs or integrate it with other systems or apps to manage their entire financial operations while making actionable decisions in real-time. </p>
+                        <p>
+                        D365 Finance is a highly configurable and customizable platform that enables businesses to tailor it to their specific needs or integrate it with other systems or apps to manage their entire financial practises while making instantaneous efficient decisions to drive profitability and scalability.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -250,7 +266,7 @@ const StartGuideOne = () => {
                         aria-expanded="false"
                         aria-controls="collapseThree"
                       >
-                       How will this guide help me?
+                        How will this guide help me?
                       </button>
                     </h3>
                     <div
@@ -260,7 +276,13 @@ const StartGuideOne = () => {
                       data-bs-parent="#faqaccer"
                     >
                       <div className="accordion-body">
-                       <p>At Dynamics Square, we are dedicated to Microsoft's mission statement: "to empower every person and every organisation on the planet to achieve more." We believe that by helping others, we are able to provide them with the best possible solutions that will benefit them in a positive way. This guide contains all of the important information that you need in order to be successful.</p>
+                        At Dynamics Square, we adhere to Microsoft's Mission -
+                        “to empower every person and every organisation on the
+                        planet to achieve more." And helping people helps us
+                        provide authentic, fruitful solutions to people in the
+                        best way possible. This guide contains crisp and
+                        necessary content that you exactly need. Get in touch
+                        with us in case you have queries.
                       </div>
                     </div>
                   </div>
@@ -274,7 +296,7 @@ const StartGuideOne = () => {
                         aria-expanded="false"
                         aria-controls="collapsefour"
                       >
-                        What are the main capabilities of Dynamics 365 Finance? 
+                        What is included in dynamics 365 finance?
                       </button>
                     </h3>
                     <div
@@ -284,7 +306,7 @@ const StartGuideOne = () => {
                       data-bs-parent="#faqaccer"
                     >
                       <div className="accordion-body">
-                        <p>D365 Finance offers a lot of capabilities including, seamless automation, performance monitoring, robust integration, enhanced productivity, leveraging technologies, and customizable reports.</p>
+                      Dynamics 365 Finance contains project management, accounting, financials, and budgeting for large, complex businesses.
                       </div>
                     </div>
                   </div>
@@ -308,7 +330,18 @@ const StartGuideOne = () => {
                       data-bs-parent="#faqaccer"
                     >
                       <div className="accordion-body">
-                       <p>Your information is always kept confidential with us. The feedback you provide helps us give you a more personalized experience every time you visit our website and provides you with solutions that'll help your business succeed.</p>
+                        We keep your information confidential. The information
+                        from your end helps us serve an improved and
+                        personalised experience every time you visit our website
+                        and provide you with the best solution so that your
+                        business can make waves.
+                        <br />
+                        <br />
+                        You can read more about our{" "}
+                        <NavLink to="/privacy-policy/">
+                          privacy policy
+                        </NavLink>{" "}
+                        here.
                       </div>
                     </div>
                   </div>
@@ -348,7 +381,9 @@ const StartGuideOne = () => {
               ></button>
               <p></p>
             </div>
-            <p>Fill the form and receive it straight to your inbox.</p>
+            <p>
+              Fill the form and receive it straight to your inbox.
+            </p>
             <div className="modal-body">
               <div className="main-form-wrper">
                 <form onSubmit={sendEmail}>
@@ -356,11 +391,11 @@ const StartGuideOne = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="*Full Name"
+                      placeholder="* Full Name"
                       name="name"
                       required
                     />
-                    <input type="hidden" name="url" value={currentUrl} />
+                   <input type="hidden" name="url" value={currentUrl} />
                   </div>
 
                   <div className="mb-3">
@@ -377,8 +412,8 @@ const StartGuideOne = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="*Company Name"
-                      name="company_name"
+                      placeholder="Company Name"
+                      name="*company_name"
                       required
                     />
                   </div>
@@ -402,12 +437,20 @@ const StartGuideOne = () => {
                     />
                     <label className="form-check-label" htmlFor="exampleCheck1">
                       I agree to the
-                      <NavLink to="/privacy-policy/" target="_blank">
+                      <NavLink
+                        to="/privacy-policy/"
+                        title="/privacy-policy/"
+                        target="_blank"
+                      >
                         {" "}
                         Privacy Policy{" "}
                       </NavLink>
                       and
-                      <NavLink to="/terms-of-use/" target="_blank">
+                      <NavLink
+                        to="/terms-of-use/"
+                        title="/terms-of-use/"
+                        target="_blank"
+                      >
                         {" "}
                         Terms of Service{" "}
                       </NavLink>

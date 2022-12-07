@@ -7,18 +7,60 @@ const MicrosoftDynamics365Ai = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Microsoft Dynamics 365 AI | Dynamics Square</title>
+        <title>Microsoft Dynamics 365 AI | Artificial intelligence</title>
         <meta
           name="description"
-          content="Improve your customer's experience and your organization processes with Microsoft Dynamics 365 AI (Artificial Intelligence). Book a free consultation today."
+          content="Improve customer’s experience and organization's processes with Dynamics 365 AI (Artificial Intelligence). Schedule a free Dynamics 365 AI demo today."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/products/microsoft-dynamics-365-ai/"
+          href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-ai/"
         />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
-        
+        <meta
+          property="og:title"
+          content="Microsoft Dynamics 365 AI | Artificial intelligence"
+        />
+        <meta
+          property="og:description"
+          content="Improve customer’s experience and organization's processes with Dynamics 365 AI (Artificial Intelligence). Schedule a free Dynamics 365 AI demo today."
+        />
+        <meta
+          property="og:url"
+          content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-ai/"
+        />
+        <meta property="og:site_name" content="Dynamics Square" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/dynamicssquareuk"
+        />
+        <meta
+          property="article:author"
+          content="https://www.facebook.com/vickygururani"
+        />
+        <meta property="og:updated_time" content="2021-12-14T09:10:21+00:00" />
+        <meta property="fb:app_id" content="2007906422699147" />
+        <meta property="og:image" content="" />
+        <meta property="og:image:secure_url" content="" />
+        <meta property="og:image:width" content="790" />
+        <meta property="og:image:height" content="470" />
+        <meta property="og:image:alt" content="Dynamics 365 AI" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Microsoft Dynamics 365 AI | Artificial intelligence"
+        />
+        <meta
+          name="twitter:description"
+          content="Improve customer’s experience and organization's processes with Dynamics 365 AI (Artificial Intelligence). Schedule a free Dynamics 365 AI demo today."
+        />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:creator" content="@dsquare_uk" />
+        <meta name="twitter:image" content="" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="3 minutes" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -30,7 +72,8 @@ const MicrosoftDynamics365Ai = () => {
                 Dynamics 365 AI
               </h1>
               <p>
-              Improve Your Customer's Experience And Your Organization Processes With Dynamics 365 AI (Artificial Intelligence)
+                Improve Your Customer's Experience And Your Organization
+                Processes With Dynamics 365 Artificial Intelligence
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -53,17 +96,14 @@ const MicrosoftDynamics365Ai = () => {
 
       <section>
         <div className="container">
-            <div className="row justify-content-center">
-                <div className="col-lg-8 col-md-8">
-                    <header className="section-header">
-                    <h2>What Is Dynamics 365 Ai?</h2>
-                    <p>Accelerate processes or promote change in your industry by making Artificial Intelligence accessible to all elements of your company. With Dynamics 365 AI you have the freedom to solve problems and make informed decisions, with the help of intelligent tools</p><br/><br/>
-
-                    <h2>Dynamics 365 Ai Features</h2>
-                    <p>Widen your experience by bringing Microsoft Dynamics AI together with your Virtual Agent's solutions for <NavLink to="/products/microsoft-dynamics-365-customer-service/">Customer Service</NavLink>, Customer Insights and Fraud Protection.</p>
-                    </header>
-                </div>
-            </div>
+          <header className="section-header">
+            <h2>Dynamics 365 AI Features</h2>
+            <p>
+              Widen your experience by bringing Microsoft Dynamics AI together
+              with your Virtual Agent’s solutions for Customer Service, Customer
+              Insights and Fraud Protection.
+            </p>
+          </header>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -91,7 +131,11 @@ const MicrosoftDynamics365Ai = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Implementing Artificial Intelligence will help you in streamlining your experiences by simplifying your intuitive interface, and other applications. It offers a detailed guidance about different processes to help you attain an enhanced performance.
+                        Implementing Artificial Intelligence will help you in
+                        streamlining your experiences by simplifying your
+                        intuitive interface, and other applications. It offers a
+                        detailed guidance about different processes to help you
+                        attain an enhanced performance.
                       </div>
                     </div>
                   </div>
@@ -119,7 +163,12 @@ const MicrosoftDynamics365Ai = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      As AI helps you in understanding your processes in a better way, integrating it in all the applications and systems will benefit you in a huge way. This will make your understanding of the business models for your clients even better and will help you in creating a better proposals for them.
+                        As AI helps you in understanding your processes in a
+                        better way, integrating it in all the applications and
+                        systems will benefit you in a huge way. This will make
+                        your understanding of the business models for your
+                        clients even better and will help you in creating a
+                        better proposals for them.
                       </div>
                     </div>
                   </div>
@@ -154,7 +203,13 @@ const MicrosoftDynamics365Ai = () => {
                       data-bs-parent="#accnewadasd"
                     >
                       <div className="accordion-body">
-                      The AI system makes use of the existing data in the system to come up with insights that are extremely beneficial for you to analyse a lot of things. This can be helpful for you in not just making decisions for your organization but also in understanding the behaviours and trends of your client to act accordingly in the future.
+                        The AI system makes use of the existing data in the
+                        system to come up with insights that are extremely
+                        beneficial for you to analyse a lot of things. This can
+                        be helpful for you in not just making decisions for your
+                        organization but also in understanding the behaviours
+                        and trends of your client to act accordingly in the
+                        future.
                       </div>
                     </div>
                   </div>
@@ -185,7 +240,12 @@ const MicrosoftDynamics365Ai = () => {
                       data-bs-parent="#accnewadasd"
                     >
                       <div className="accordion-body">
-                      Today, it is extremely important to stay agile so that you can adapt to the changing market trends at the earliest. The AI systems helps you in alerting about the changing market trends at an initial stage so that you can make the necessary changes in your model and can come up with a new upgrade whenever required.
+                        Today, it is extremely important to stay agile so that
+                        you can adapt to the changing market trends at the
+                        earliest. The AI systems helps you in alerting about the
+                        changing market trends at an initial stage so that you
+                        can make the necessary changes in your model and can
+                        come up with a new upgrade whenever required.
                       </div>
                     </div>
                   </div>
@@ -327,7 +387,7 @@ const MicrosoftDynamics365Ai = () => {
                           the reliability of the customers
                         </li>
                         <li>
-                          Integrates the <NavLink to="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</NavLink> AI apps with
+                          Integrates the Microsoft Dynamics 365 AI apps with
                           other applications too to offer a detailed insight on
                           the dashboard
                         </li>

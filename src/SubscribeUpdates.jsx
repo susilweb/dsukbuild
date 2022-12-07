@@ -1,18 +1,20 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import FooterHide from "./FooterHide";
+import { Link } from "react-router-dom";
+import { ExternalLink } from "react-external-link";
 import FormSubsriber from "./FormSubsriber";
 const SubscribeUpdates = () => {
   return (
     <>
       <Helmet>
-      <title>Subscribe Updates - Dynamics Square</title>
-<meta name="description" content="Subscribe Now For Latest Updates Stay Updated With upcoming insights, Offers and More."/>
-<link rel="canonical" href="https://www.dynamicssquare.com/subscribe-updates/" />
-<meta property="og:locale" content="en_US" />
+      <title>Subscribe for Dynamics 365 Updates | Dynamics Square</title>
+<meta name="description" content="Looking for Microsoft Dynamics 365 updates? Subscribe to Dynamics Square Newsletters, Offers, Trending News, Blogs and more."/>
+<link rel="canonical" href="https://www.dynamicssquare.co.uk/subscribe-updates/" />
+<meta property="og:locale" content="en_GB" />
       </Helmet>
      
-      <section className="Solution-banner hero hero-demo-form">
+      <section className="Solution-banner hero-demo-form">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6 align-self-center text-center">
@@ -42,7 +44,6 @@ const SubscribeUpdates = () => {
           </div>
         </div>
       </section>
-      <FooterHide />
       
     </>
   );

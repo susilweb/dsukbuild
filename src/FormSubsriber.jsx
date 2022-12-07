@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 
 const FormSubsriber = () => {
   const [display, setDisplay] = useState("const2");
-  const currentUrl = window.location.href;
   const history = useHistory();
   function sendEmail(e) {
     setDisplay("spinner-border");
@@ -15,10 +14,10 @@ const FormSubsriber = () => {
 
     emailjs
       .sendForm(
-        "service_cxxhqoq",
-        "template_601riyc",
+        "service_4voumj7",
+        "template_32hvoqv",
         e.target,
-        "7Ae4EIVY__86NsTQD"
+        "mJ38M6WTmU7KRrtuZ"
       )
       .then((res) => {
         console.log(res);
@@ -41,7 +40,6 @@ const FormSubsriber = () => {
               name="name"
               required
             />
-            <input type="hidden" name="url" value={currentUrl} />
           </div>
           <div className="mb-3">
             <input
@@ -56,7 +54,7 @@ const FormSubsriber = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="*Company Name"
+              placeholder="* Company Name"
               name="company_name"
             />
           </div>
@@ -87,7 +85,7 @@ const FormSubsriber = () => {
             </label>
           </div>
           <button type="submit" className="btn btn-primary fomr-submit">
-            Subscribe Now
+            Submit
           </button>
           <div className={display} role="status">
             <span className="visually-hidden">Loading...</span>

@@ -20,11 +20,13 @@ const EmailAxToFinacnce = () => {
           name="description"
           content="Migrate from Dynamics AX to Dynamics 365 Finance and would want to ease and support your global expansion in terms of regulatory reporting and global"
         />
+        <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/email-ax-to-finance/"
+          href="https://www.dynamicssquare.co.uk/email-ax-to-finance/"
         />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale" content="en_GB" />
+        <meta property="og:type" content="article" />
       </Helmet>
 
       <section

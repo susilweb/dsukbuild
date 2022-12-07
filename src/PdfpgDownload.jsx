@@ -20,9 +20,9 @@ const PdfpgDownload = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/guides/download/power-guide-pdf/"
+          href="https://www.dynamicssquare.co.uk/guides/download/power-guide-pdf/"
         />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale" content="en_GB" />
       </Helmet>
       <section className="Solution-banner hero-1 custom-pd-4">
         <div className="container">
@@ -32,7 +32,7 @@ const PdfpgDownload = () => {
               <div className="text-center">
                 <div className="">
                   <a
-                    href="/assets/pdf/PowerBI-e-guide_En-US.pdf"
+                    href="/assets/pdf/PowerBI-e-guide.pdf"
                     className="btn-get-started scrollto"
                     download
                   >

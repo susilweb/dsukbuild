@@ -1,17 +1,17 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
-import { ExternalLink } from "react-external-link";
 import Form from "./Form";
 const ScheduleDemoForm = () => {
   return (
     <>
       <Helmet>
-      <title>Schedule a Demo for Microsoft Dynamics 365 Applications</title>
-<meta name="description" content="Schedule a demo today to get a better understanding about how Microsoft Dynamics Business Applications works. Talk to our Dynamics 365 experts today."/>
-<link rel="canonical" href="https://www.dynamicssquare.com/schedule-a-demo/" />
-<meta property="og:locale" content="en_US" />
+      <meta charSet="utf-8" />
+      <title>Schedule A Demo | Dynamics Square</title>
+      <meta name="description" content="Scale up your business productivity by implemeting Dynamics 365 Business Apps. Schedule a demo today."/>
+      <link rel="canonical" href="https://www.dynamicssquare.co.uk/schedule-a-demo/" />
+      <meta property="og:locale" content="en_GB" />
+      <meta name="robots" content="index,follow" />
+      <meta property="og:type" content="article" />
       </Helmet>
      
       <section className="Solution-banner hero-1 hero hero-demo-form">

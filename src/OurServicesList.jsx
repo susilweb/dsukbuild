@@ -6,26 +6,71 @@ const OurServicesList = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Dynamics 365 Services &amp; Consulting | Dynamics Square</title>
-        <meta name="description"/>
-          content="We deliver comprehensive Dynamics 365 services including consulting, training, upgrade and implementation of Microsoft Business Applications to grow your business fast."
+        <title>Microsoft Dynamics Services | Trusted by 300+ Clients</title>
+        <meta
+          name="description"
+          content="Power your business by our unique Microsoft Dynamics Services that includes Implementation services, cloud migration, consulting services and upgrade."
+        />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/our-services/"
+          href="https://www.dynamicssquare.co.uk/our-services/"
         />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale" content="en_GB" />
         <meta property="og:type" content="article" />
-    
+        <meta
+          property="og:title"
+          content="Microsoft Dynamics Services | Trusted by 300+ Clients"
+        />
+        <meta
+          property="og:description"
+          content="Power your business by our unique Microsoft Dynamics Services that includes Implementation services, cloud migration, consulting services and upgrade."
+        />
+        <meta
+          property="og:url"
+          content="https://www.dynamicssquare.co.uk/our-services/"
+        />
+        <meta property="og:site_name" content="Dynamics Square" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/dynamicssquareuk"
+        />
+        <meta
+          property="article:author"
+          content="https://www.facebook.com/vickygururani"
+        />
+        <meta property="fb:app_id" content="2007906422699147" />
+        <meta property="og:image" content="" />
+        <meta property="og:image:secure_url" content="" />
+        <meta property="og:image:width" content="570" />
+        <meta property="og:image:height" content="340" />
+        <meta property="og:image:alt" content="Microsoft Dynamics Services" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Microsoft Dynamics Services | Trusted by 300+ Clients"
+        />
+        <meta
+          name="twitter:description"
+          content="Power your business by our unique Microsoft Dynamics Services that includes Implementation services, cloud migration, consulting services and upgrade."
+        />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:creator" content="@dsquare_uk" />
+        <meta name="twitter:image" content="" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="1 minute" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
-              Microsoft Dynamics 365 Services
+                Microsoft <br />
+                Dynamics Services
               </h1>
               <p>
-              Take your business to the next level by our Dynamics 365 services and solutions.
+                Take your business to the next level by Dynamics Square expert
+                solutions.
               </p>
               <div className="text-center text-lg-start">
                 <NavLink
@@ -33,7 +78,7 @@ const OurServicesList = () => {
                   to="#exampleModal"
                   className="btn-get-started scrollto"
                 >
-                  <span>Request a Call Back</span>
+                  <span>Schedule a Demo</span>
                 </NavLink>
               </div>
             </div>
@@ -41,7 +86,7 @@ const OurServicesList = () => {
             <div className="col-lg-6 align-self-center">
               <img
                 src="/assets/img/dynamics-365-hero-image.svg"
-                alt="dynamics-365-hero-images.svg"
+                alt="dynamics-365-hero-image.svg"
               />
             </div>
           </div>
@@ -54,7 +99,8 @@ const OurServicesList = () => {
             <div className="col-lg-6">
               <div className="side-heading-custom-01">
                 <h2>
-                Microsoft Business Solutions
+                  Microsoft <br />
+                  Business Solutions
                 </h2>
               </div>
               <div className="custom-p-001">

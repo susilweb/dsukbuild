@@ -9,10 +9,12 @@ const NonProfitAccelerator = () => {
   return (
     <>
       <Helmet>
-      <title>Not for Profit Accelerator | Our Commitment to NFPs</title>
-<meta name="description" content="Dynamics 365 Not for Profit Accelerator is meant to empower nonprofits to achieve objectives without losing focus on delivering quality service and maintaining strong relations with donors and volunteers."/>
-<link rel="canonical" href="https://www.dynamicssquare.com/products/dynamics-365-non-profit-accelerator/" />
-<meta property="og:locale" content="en_US" />
+      <title>Dynamics 365 Nonprofit Accelerator | Dynamics for Charities</title>
+<meta name="description" content="Dynamics 365 Non-Profit Accelerator is meant to empower not-for-profit and other charitable organizations to achieve their objectives without losing focus on delivering quality service and maintaining strong relations with donors and volunteers who make achieving success possible."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://www.dynamicssquare.co.uk/products/dynamics-365-non-profit-accelerator/" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="article" />
       </Helmet>
 
       <ModalVideo
@@ -28,12 +30,15 @@ const NonProfitAccelerator = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
-              Not for Profit Accelerator
+                Microsoft <br /> Dynamics 365
+                <br />
+                Nonprofit Accelerator
               </h1>
               <p>
-              Realize Your Mission Coming True Through Secure and Reliable Microsoft Solution Microsoft Dynamics 365 Non-Profit Accelerator is meant to empower not-for-profit and other charitable organizations to achieve their objectives without losing focus on delivering quality service and maintaining strong relations with donors and volunteers who make achieving success possible.
-
-We Offer Discount for Non-profits!
+                The primary aim of Microsoft Dynamics 365 Nonprofit Accelerator
+                is to fuel not-for-profit processes such as program delivery,
+                supporter and volunteer management, impact measurement and
+                fundraising.
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -60,15 +65,25 @@ We Offer Discount for Non-profits!
       <section>
         <div className="container">
           <div className="row">
-              <div className="col-lg-12">
-                <div className="row justify-content-center">
-                        <div className="col-lg-8 col-md-8">
-                            <header className="section-header">
-                                <h2>What Is Dynamics 365 Nonprofit Accelerator?</h2>
-                                <p>The primary aim of Microsoft Dynamics 365 Non-Profit Accelerator is to fuel not-for-profit processes such as program delivery, supporter and volunteer management, impact measurement and fundraising.</p>
-                            </header>
-                      </div>
-                </div>
+            <div className="col-lg-12">
+              <header className="section-header">
+                <h2>
+                  What is Dynamics 365 Nonprofit Accelerator?
+                </h2>
+                <p>
+                  <b>
+                    Your Mission Coming True Through Secure and Reliable
+                    Microsoft Solution.
+                  </b>
+                  <br />
+                  <br />
+                  Microsoft Dynamics 365 Non-Profit Accelerator is meant to
+                  empower not-for-profit and other charitable organizations to
+                  achieve their objectives without losing focus on delivering
+                  quality service and maintaining strong relations with donors
+                  and volunteers who make achieving success possible.
+                </p>
+              </header>
             </div>
           </div>
         </div>
@@ -96,7 +111,7 @@ We Offer Discount for Non-profits!
                         aria-controls="fin1"
                       >
                         <div className="wr-in">
-                          <img src="/assets/img/icon-non-profit-volunteer-engagement.svg" alt="Increase donor and volunteer engagement" />
+                          <img src="/assets/img/Budget.svg" alt="icons" />
                         </div>
                         <span>Increase donor and volunteer engagement</span>
                       </button>
@@ -109,7 +124,11 @@ We Offer Discount for Non-profits!
                     >
                       <div className="accordion-body">
                         <p>
-                        Complete constituent profiles for individuals, households, and organizations, including biographical details, communication methods, preferences, relationships, salutations, employment and education history, donations, and awards management.
+                          Complete constituent profiles for individuals,
+                          households, and organizations, including biographical
+                          details, communication methods, preferences,
+                          relationships, salutations, employment and education
+                          history, donations, and awards management.
                         </p>
                       </div>
                     </div>
@@ -126,7 +145,7 @@ We Offer Discount for Non-profits!
                         aria-controls="fin2"
                       >
                         <div className="wr-in">
-                          <img src="/assets/img/icon-non-profit-donation-management.svg" alt="Donation management" />
+                          <img src="/assets/img/Financials-3.svg" alt="icons" />
                         </div>
                         <span>Donation management</span>
                       </button>
@@ -139,10 +158,22 @@ We Offer Discount for Non-profits!
                     >
                       <div className="accordion-body">
                         <p>
-                        The sample dashboard for donations includes gift acknowledgement, tracking of individual and organizational pledges and gifts, one-time and recurring gifts, gifts in kind, and grant disbursements. You can track and manage donations, and their relation to donors and specific campaigns. Full donation history, information on recurring donations, and pledge amounts are accessible in one easily digestible interface.
+                          The sample dashboard for donations includes gift
+                          acknowledgement, tracking of individual and
+                          organizational pledges and gifts, one-time and
+                          recurring gifts, gifts in kind, and grant
+                          disbursements. You can track and manage donations, and
+                          their relation to donors and specific campaigns. Full
+                          donation history, information on recurring donations,
+                          and pledge amounts are accessible in one easily
+                          digestible interface.
                         </p>
                         <p>
-                        The app integrates with many popular ERP systems so transactional data can be synced with external financial systems. It also connects to third-party payment solutions and gateways to process donations made across digital platforms.
+                          The app integrates with many popular ERP systems so
+                          transactional data can be synced with external
+                          financial systems. It also connects to third-party
+                          payment solutions and gateways to process donations
+                          made across digital platforms.
                         </p>
                       </div>
                     </div>
@@ -159,7 +190,7 @@ We Offer Discount for Non-profits!
                         aria-controls="fin3"
                       >
                         <div className="wr-in">
-                          <img src="/assets/img/icon-non-profit-fund-raising.svg" alt="Fundraising" />
+                          <img src="/assets/img/Financials-3.svg" alt="icons" />
                         </div>
                         <span>Fundraising</span>
                       </button>
@@ -172,7 +203,8 @@ We Offer Discount for Non-profits!
                     >
                       <div className="accordion-body">
                         <p>
-                        The nonprofit accelerator can track all major stages of high-touch fundraising.
+                          Dynamics 365 nonprofit accelerator can track all major
+                          stages of high-touch fundraising.
                         </p>
                       </div>
                     </div>
@@ -189,7 +221,7 @@ We Offer Discount for Non-profits!
                         aria-controls="fin4"
                       >
                         <div className="wr-in">
-                          <img src="/assets/img/icon-non-profit-award-management.svg" alt="Award management" />
+                          <img src="/assets/img/Financials-3.svg" alt="icons" />
                         </div>
                         <span>Award management</span>
                       </button>
@@ -202,7 +234,10 @@ We Offer Discount for Non-profits!
                     >
                       <div className="accordion-body">
                         <p>
-                        Awards management data model and sample application including dockets, inquiries, requests, awards recommendations, reviews, reports, budgets, and disbursements.
+                          Awards management data model and sample application
+                          including dockets, inquiries, requests, awards
+                          recommendations, reviews, reports, budgets, and
+                          disbursements.
                         </p>
                       </div>
                     </div>
@@ -219,7 +254,7 @@ We Offer Discount for Non-profits!
                         aria-controls="fin5"
                       >
                         <div className="wr-in">
-                          <img src="/assets/img/icon-non-profit-program-delivery.svg" alt="Program delivery" />
+                          <img src="/assets/img/Financials-3.svg" alt="icons" />
                         </div>
                         <span>Program delivery</span>
                       </button>
@@ -232,7 +267,10 @@ We Offer Discount for Non-profits!
                     >
                       <div className="accordion-body">
                         <p>
-                        Outcome and result model enables nonprofits to efficiently deliver on their missions, measure results, and communicate impact that includes aligning beneficiaries and funds to the results framework.
+                          Outcome and result model enables nonprofits to
+                          efficiently deliver on their missions, measure
+                          results, and communicate impact that includes aligning
+                          beneficiaries and funds to the results framework.
                         </p>
                       </div>
                     </div>
@@ -249,7 +287,7 @@ We Offer Discount for Non-profits!
                         aria-controls="fin6"
                       >
                         <div className="wr-in">
-                          <img src="/assets/img/icon-non-profit-volunteer-management.svg" alt="Volunteer management" />
+                          <img src="/assets/img/Financials-3.svg" alt="icons" />
                         </div>
                         <span>Volunteer management</span>
                       </button>
@@ -262,10 +300,18 @@ We Offer Discount for Non-profits!
                     >
                       <div className="accordion-body">
                         <p>
-                        Non-profits are often powered by volunteers who give their time and effort to support an organization’s cause. Track volunteer preferences, skills and availability and establish Volunteer Projects leveraging Dynamics 365 Project Service Automation.
+                          Non-profits are often powered by volunteers who give
+                          their time and effort to support an organization's
+                          cause. Track volunteer preferences, skills and
+                          availability and establish Volunteer Projects
+                          leveraging Dynamics 365 Project Service Automation.
                         </p>
                         <p>
-                        D365 NonProfit Accelerator can help organize and optimize a charity’s volunteer force, with rostering and timesheet features, and profile management that allows non-profits to assign the right volunteers to the right project.
+                          Dynamics 365 Nonprofit Accelerator can help organize
+                          and optimize a charity's volunteer force, with
+                          rostering and time-sheet features, and profile
+                          management that allows non-profits to assign the right
+                          volunteers to the right project.
                         </p>
                       </div>
                     </div>
@@ -289,7 +335,7 @@ We Offer Discount for Non-profits!
                         aria-controls="fin7"
                       >
                         <div className="wr-in">
-                          <img src="/assets/img/icon-non-profit-member-management.svg" alt="Membership management" />
+                          <img src="/assets/img/Project.svg" alt="icons" />
                         </div>
                         <span>Membership management</span>
                       </button>
@@ -302,7 +348,10 @@ We Offer Discount for Non-profits!
                     >
                       <div className="accordion-body">
                         <p>
-                        Membership Category entity that establishes membership levels and Membership entity that links Constituents to Membership Category, enabling the creation and tracking of membership over time.
+                          Membership Category entity that establishes membership
+                          levels and Membership entity that links Constituents
+                          to Membership Category, enabling the creation and
+                          tracking of membership over time.
                         </p>
                       </div>
                     </div>
@@ -320,8 +369,8 @@ We Offer Discount for Non-profits!
                       >
                         <div className="wr-in">
                           <img
-                            src="/assets/img/icon-non-profit-finance.svg"
-                            alt="Finance and CRM data integrator"
+                            src="/assets/img/International-Accounting-3.svg"
+                            alt="icons"
                           />
                         </div>
                         <span>Finance and CRM data integrator</span>
@@ -335,7 +384,9 @@ We Offer Discount for Non-profits!
                     >
                       <div className="accordion-body">
                         <p>
-                        Template data integrator tasks to connect nonprofit accelerator constituents, donations, awards, and programs to Finance and Operations.
+                          Template data integrator tasks to connect nonprofit
+                          accelerator constituents, donations, awards, and
+                          programs to Finance and Operations.
                         </p>
                       </div>
                     </div>
@@ -353,8 +404,8 @@ We Offer Discount for Non-profits!
                       >
                         <div className="wr-in">
                           <img
-                            src="/assets/img/icon-non-profit-case-management.svg"
-                            alt="Case management"
+                            src="/assets/img/International-Accounting-3.svg"
+                            alt="icons"
                           />
                         </div>
                         <span>Case management</span>
@@ -368,7 +419,9 @@ We Offer Discount for Non-profits!
                     >
                       <div className="accordion-body">
                         <p>
-                        Provides building blocks for partners to aid program staff in tracking clients and cases tying cases to specific program goals.
+                          Provides building blocks for partners to aid program
+                          staff in tracking clients and cases tying cases to
+                          specific program goals.
                         </p>
                       </div>
                     </div>
@@ -386,8 +439,8 @@ We Offer Discount for Non-profits!
                       >
                         <div className="wr-in">
                           <img
-                            src="/assets/img/icon-non-profit-project-management.svg"
-                            alt="Project management"
+                            src="/assets/img/International-Accounting-3.svg"
+                            alt="icons"
                           />
                         </div>
                         <span>Project management & program design</span>
@@ -401,7 +454,10 @@ We Offer Discount for Non-profits!
                     >
                       <div className="accordion-body">
                         <p>
-                        Build a complete delivery framework that tracks activities and progress to a theory of change assuring delivery of programs aligned to indicators and program objectives, budgets, and results.
+                          Build a complete delivery framework that tracks
+                          activities and progress to a theory of change assuring
+                          delivery of programs aligned to indicators and program
+                          objectives, budgets, and results.
                         </p>
                       </div>
                     </div>
@@ -419,8 +475,8 @@ We Offer Discount for Non-profits!
                       >
                         <div className="wr-in">
                           <img
-                            src="/assets/img/icon-non-profit-functionality.svg"
-                            alt="Functionality"
+                            src="/assets/img/International-Accounting-3.svg"
+                            alt="icons"
                           />
                         </div>
                         <span>Functionality</span>
@@ -434,13 +490,19 @@ We Offer Discount for Non-profits!
                     >
                       <div className="accordion-body">
                         <p>
-                        Program design- In order to support this application, this solution depends on nonprofit core and nonprofit measurement data schemas.
+                          Program design - In order to support this application,
+                          this solution depends on nonprofit core and nonprofit
+                          measurement data schemas.
                         </p>
                         <p>
-                        Nonprofit operations toolkit- In order to support this application, this solution depends on the nonprofit core data schema.
+                          Nonprofit operations toolkit - In order to support
+                          this application, this solution depends on the
+                          nonprofit core data schema.
                         </p>
                         <p>
-                        Common Data Model for Nonprofits sample apps- In order to support this application, this solution depends on the nonprofit core data schema.
+                          Common Data Model for Nonprofits sample apps - In
+                          order to support this application, this solution
+                          depends on the nonprofit core data schema.
                         </p>
                       </div>
                     </div>

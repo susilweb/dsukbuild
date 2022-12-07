@@ -1,18 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import { Nav } from "react-bootstrap";
 const MicrosoftDynamicsAX = () => {
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Microsoft Dynamics Ax (Axapta): Demo & Pricing - Dynamics Square</title>
-        
+        <title>Microsoft Dynamics AX Support Partner UK</title>
+        <link rel="canonical" href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-ax/" />
         <meta name="description"
-          content="Microsoft Dynamics AX (Axapta) is a accounting and sales ERP solutions. Check now Capabilities, Benefits and Pricing. Get instantly demo free!" />
-          <link rel="canonical" href="https://www.dynamicssquare.com/products/microsoft-dynamics-ax/" />
-        <meta property="og:locale" content="en_US" />
+          content="Looking for Microsoft Dynamics AX support partner in UK? Dynamics Square - trusted by over a 250+ clients in the UK. Contact us today to see how we can help you get the most out of your investment in AX!"
+        />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -24,7 +22,8 @@ const MicrosoftDynamicsAX = () => {
                 Dynamics AX
               </h1>
               <p>
-              A powerful ERP software solution specifically for Finance and Operations to automate processes and drive sales.
+                The Most Complete, Agile And Powerful ERP For The Management Of
+                Medium And Large Companies.
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -47,37 +46,64 @@ const MicrosoftDynamicsAX = () => {
       <section className="">
         <div className="container">
           <div className="row pad9x rever-1">
-            <div className="col-lg-6 align-self-center">
+            <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pic">
                 <img src="/assets/img/ax-feature1.png" alt="Microsoft AX feature" />
               </div>
             </div>
-            <div className="col-lg-6 align-self-center">
+            <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
                 <h2>What is Microsoft Dynamics AX?</h2>
-                <p>Microsoft Dynamics AX is a complete solution to manage and optimize all finance and operations processes effortlessly. It provides a centralized finance management solution with intelligence and embedded data analytics.</p>
-                <p>The Dynamics AX can manage cost administration, production control, capital management, ledgers, inventory management, and more.</p>
-                <p>With cloud and hybrid server deployment options, it is accessible for all users irrespective of the time and location boundaries.</p>
-                <p>The Microsoft Dynamics AX is a powerful solution of Microsoft Dynamics 365 for a small, mid-sized, and global organizations in terms of growth, efficiency, productivity, sustainability, and scalability.</p>
+                <p>
+                  Microsoft Dynamics AX (Axapta) is a complete business
+                  management solution for medium-sized and large organizations
+                  that work with popular Microsoft software to improve staff
+                  productivity.
+                </p>
+                <p>
+                  Dynamics AX has been created to make it easier to conduct
+                  business in different locations and countries.
+                </p>
+                <p>
+                  Microsoft Dynamics AX consolidates and standardizes processes,
+                  improving visibility across the organization and simplifying
+                  compliance.
+                </p>
+                <p>
+                  With Microsoft Dynamics AX (Axapta), you can be sure that your
+                  business management solution is, and will continue to be,
+                  relevant to the needs of your staff and to the demands of your
+                  industry and business.
+                </p>
               </div>
             </div>
           </div>
-          <br />
+
           <div className="row pad9x">
-            <div className="col-lg-6 align-self-center">
+            <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
                 <h2>Dynamics AX Features</h2>
-                  <p><b>Microsoft Dynamics AX 2012 (formerly known as Axapta)</b> is a robust tool designed to work in Service, Manufacturing, Distribution, Finance, Public, and Retail industry. It provides a unified experience to the users bringing the team together for growth and scalability.</p><p>With a user-friendly experience, it supports different languages and currencies to make it a globally acceptable software solution. It also has other features like: </p>
+                <p>
+                  <strong>Microsoft Dynamics AX 2012 (formerly Axapta )</strong>{" "}
+                  is an ERP solution designed for companies with financial
+                  management, operations management and human resources needs,
+                  providing specific integrated capabilities for sectors such as
+                  manufacturing, distribution, services or the public sector.
+                </p>
+                <p>
+                  Therefore, if you are looking for a powerful and very flexible
+                  ERP , Microsoft Dynamics AX may be your best bet.
+                </p>
+                <ul>
+                  <li>It can be used on-premise as well as on cloud</li>
+                  <li>It comes with a transparent pricing</li>
+                  <li>Simple to understand interface for everyone</li>
+                  <li>Business intelligence that is superior</li>
+                  <li>Support and commitment from the brand Microsoft</li>
+                </ul>
               </div>
-              <ul>
-                <li>Availability of on-premises, cloud, and hybrid deployment options. </li>
-                <li>Transparent and affordable pricing.</li>
-                <li>Simple user interface and data reporting.</li>
-                <li>Project and Portfolio Management.</li>
-                <li>Superior business intelligence and data insights.</li>
-              </ul>
             </div>
-            <div className="col-lg-6 align-self-center">
+            <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pic">
                 <img
                   src="/assets/img/ax-feature-1-1024x630.png"
@@ -91,17 +117,19 @@ const MicrosoftDynamicsAX = () => {
 
       <section>
         <div className="container">
-        <div className="row justify-content-center">
-        <div className="col-lg-8 col-md-8">
-          <header className="section-header">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+            <header className="section-header">
             <h2>
-            Dynamics AX Capabilities
+              Dynamics
+              <br />
+              AX Capabilities
             </h2>
             <p>
-            Microsoft Dynamics AX can help you maximize capabilities, manage collaterals and by-products, comply with legal obligations, meet changing customer demands, and continuously improve processes.
+            Microsoft Dynamics AX (Axapta) can help you manage your by-products and collateral, comply with legal obligations, meet changing customer demands, and improve your processes. 
             </p>
           </header>
-          </div>
+            </div>
           </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
@@ -134,11 +162,11 @@ const MicrosoftDynamicsAX = () => {
                     >
                       <div className="accordion-body">
                         <ul>
-                        <li>General Ledger Management</li>
-                        <li>Accounts Payable and Receivable</li>
-                        <li>Can work across several currencies</li>
-                        <li>Budgetary control</li>
-                        <li>Compliance management</li>
+                          <li>Receivable and payable of account</li>
+                          <li>Budgetary control</li>
+                          <li>Compliance management</li>
+                          <li>General Ledger</li>
+                          <li>Bank Management</li>
                         </ul>
                       </div>
                     </div>
@@ -171,48 +199,11 @@ const MicrosoftDynamicsAX = () => {
                     >
                       <div className="accordion-body">
                         <ul>
-                          <li>Supply Chain Management</li>
-                          <li>Reporting and Business Intelligence</li>
-                          <li>Sourcing and Procurement</li>
-                          <li>Accounting and Project Management</li>
-                          <li>Sales Management</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin4"
-                        aria-expanded="false"
-                        aria-controls="fin4"
-                      >
-                        <div className="wr-in">
-                          <img
-                            src="/assets/img/icons-ax-_business-intelligence.svg"
-                            alt="icons-ax-_business-intelligence"
-                          />
-                        </div>
-                        <span>Employee Management</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin4"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                        <ul>
-                          <li>Tools to assist human resources </li>
-                          <li>Payroll Management</li> 
-                          <li>Compensation Management</li> 
-                          <li>Absence Management</li> 
-                          <li>Benefits Administration</li> 
+                          <li>Receivable and payable of account</li>
+                          <li>Budgetary control</li>
+                          <li>Compliance management</li>
+                          <li>General Ledger</li>
+                          <li>Bank Management</li>
                         </ul>
                       </div>
                     </div>
@@ -234,7 +225,7 @@ const MicrosoftDynamicsAX = () => {
                             alt="icons-ax-_supply-chain"
                           />
                         </div>
-                        <span>Supply Chain Monitoring</span>
+                        <span>Supply Chain Management</span>
                       </button>
                     </h3>
                     <div
@@ -245,16 +236,56 @@ const MicrosoftDynamicsAX = () => {
                     >
                       <div className="accordion-body">
                         <ul>
-                          <li>Manages Supply Chain Operations</li> 
-                          <li>Planning and Procuring Analytics</li> 
-                          <li>Warehouse Management</li> 
-                          <li>Packaging and Shipping Management</li> 
-                          <li>Process Quality management</li> 
+                          <li>Warehouse management on multiple sites</li>
+                          <li>Order promising</li>
+                          <li>Quality management</li>
+                          <li>Inventory management</li>
+                          <li>Trade agreements</li>
+                          <li>Planning of distribution</li>
                         </ul>
                       </div>
                     </div>
                   </div>
-                
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin4"
+                        aria-expanded="false"
+                        aria-controls="fin4"
+                      >
+                        <div className="wr-in">
+                          <img
+                            src="/assets/img/icons-ax-_business-intelligence.svg"
+                            alt="icons-ax-_business-intelligence"
+                          />
+                        </div>
+                        <span>Reporting and Business Intelligence</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin4"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <ul>
+                          <li>
+                            Viewing of performance indicators on the dashboard
+                          </li>
+                          <li>Predefined data cubes</li>
+                          <li>
+                            Analytical and standard reports with the help of
+                            Server Reporting services of Microsoft SQL
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -279,7 +310,7 @@ const MicrosoftDynamicsAX = () => {
                             alt="icons-ax-_capital-management"
                           />
                         </div>
-                        <span>Project Management</span>
+                        <span>Human Capital Management</span>
                       </button>
                     </h3>
                     <div
@@ -290,11 +321,14 @@ const MicrosoftDynamicsAX = () => {
                     >
                       <div className="accordion-body">
                         <ul>
-                        <li>Billing Management</li> 
-                        <li>Expense Management</li> 
-                        <li>Tasks Reporting and Management</li> 
-                        <li>Resources Allocation</li> 
-                        <li>Adaptable as per Projects</li> 
+                          <li>Selection ad recruitment</li>
+                          <li>Self-service portal for employees</li>
+                          <li>Workforce management for the organization</li>
+                          <li>
+                            Performance management including training and
+                            development
+                          </li>
+                          <li>Expense management</li>
                         </ul>
                       </div>
                     </div>
@@ -316,7 +350,7 @@ const MicrosoftDynamicsAX = () => {
                             alt="icons-ax-_procurment"
                           />
                         </div>
-                        <span>Sales Management</span>
+                        <span>Sourcing and Procurement</span>
                       </button>
                     </h3>
                     <div
@@ -327,11 +361,10 @@ const MicrosoftDynamicsAX = () => {
                     >
                       <div className="accordion-body">
                         <ul>
-                          <li>Opportunity and lead management</li> 
-                          <li>Sales Connector</li> 
-                          <li>Marketing Automation</li>  
-                          <li>Centralize Customer Data</li> 
-                          <li>Automated Sales Campaign</li> 
+                          <li>Dispatching and service calls</li>
+                          <li>Service subscription</li>
+                          <li>Contracts and service orders</li>
+                          <li>Repair management</li>
                         </ul>
                       </div>
                     </div>
@@ -353,7 +386,7 @@ const MicrosoftDynamicsAX = () => {
                             alt="icons-ax-_accounting"
                           />
                         </div>
-                        <span>E-Commerce</span>
+                        <span>Accounting and Project Management</span>
                       </button>
                     </h3>
                     <div
@@ -364,11 +397,12 @@ const MicrosoftDynamicsAX = () => {
                     >
                       <div className="accordion-body">
                         <ul>
-                          <li>Business Operations Management</li> 
-                          <li>Conducting Business Transactions</li> 
-                          <li>Accessible to Vendors and Customers</li> 
-                          <li>Pricing and Discount Management</li> 
-                          <li>Ease of Access via Web Portals</li> 
+                          <li>Cost control of the project</li>
+                          <li>
+                            Interoperability with the projects run by Microsoft
+                          </li>
+                          <li>Invoicing and accounting of project</li>
+                          <li>Breakdown structures of work</li>
                         </ul>
                       </div>
                     </div>
@@ -390,7 +424,7 @@ const MicrosoftDynamicsAX = () => {
                             alt="icons-ax-_sales-management"
                           />
                         </div>
-                        <span>Sourcing and Procurement</span>
+                        <span>Sales Management</span>
                       </button>
                     </h3>
                     <div
@@ -401,11 +435,10 @@ const MicrosoftDynamicsAX = () => {
                     >
                       <div className="accordion-body">
                         <ul>
-                          <li>Dispatching and Service calls</li> 
-                          <li>Service Subscription</li> 
-                          <li>Contracts and Service Orders</li> 
-                          <li>Repair Management</li> 
-                          <li>Raw Material Management</li> 
+                          <li>Opportunity and lead management</li>
+                          <li>Features for Sales Connector</li>
+                          <li>Marketing automation and salesforce</li>
+                          <li>Sales management</li>
                         </ul>
                       </div>
                     </div>
@@ -422,8 +455,12 @@ const MicrosoftDynamicsAX = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Let's talk to experts</h3>
-                <p>If you are using Microsoft Dynamics AX and want to upgrade to Dynamics 365 Finance and Operations for better features and capabilities, contact Dynamics Square and let us do it efficiently.</p>
+                <h3>Let's Talk to Our Experts</h3>
+                <p>
+                  It's time to connect and share with experts at Dynamics Square
+                  to reveal business solutions defining your core business
+                  values and process flow.
+                </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <NavLink
                     data-bs-toggle="modal"
@@ -441,17 +478,19 @@ const MicrosoftDynamicsAX = () => {
 
       <section className="Solution-business-why mar-back">
         <div className="container">
-        <div className="row justify-content-center">
-        <div className="col-lg-8 col-md-8">
-          <header className="section-header">
-            <h2>
-              Benefits Of Using Dynamics AX
-            </h2>
-            <p>
-            Microsoft Dynamics AX is a perfect Finance and Operations solution for modern businesses. It has various benefits, like
-            </p>
-          </header>
-          </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+                <header className="section-header">
+                <h2>
+                  Benefits Of Using
+                  <br />
+                  Dynamics AX
+                </h2>
+                <p>
+                Streamline your financial operations and lead your business towards growth and easy scalability while implementing Dynamics AX. Check out some of the benefits to understand how it can help you achieve maximised profitability.  
+                </p>
+              </header>
+            </div>
           </div>
           <div className="row pdd1">
             <div className="col-lg-4 col-md-6">
@@ -459,7 +498,17 @@ const MicrosoftDynamicsAX = () => {
                 <div className="why-solution-wrapper-inner">
                   <h3>Flexibility</h3>
                   <div className="overlay">
-                    <p>Microsoft Dynamics AX is not only highly flexible but also adaptable to changing business needs. The features of Dynamics AX can be added, adapted, removed, and changed.</p>
+                    <p>
+                      The tool is not just easy for the purpose of customization
+                      but also is extremely flexible to use. The users do not
+                      have to be an expert in anything to use this particular
+                      tool. There are several videos and details available that
+                      will help you in understanding the functions and features
+                      of the platform well so that you can use it comfortably.
+                      Also, it is quite flexible in use as you can use it on
+                      your cloud as well as on your on-premise devices as per
+                      your requirements.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -469,7 +518,14 @@ const MicrosoftDynamicsAX = () => {
                 <div className="why-solution-wrapper-inner">
                   <h3>Customization</h3>
                   <div className="overlay">
-                    <p>Dynamics AX comes with ease of customization so that the users can customize its features, specifications, and functionalities per the business requirements. With the help of vendor partners like dynamics square, the users can even increase the capabilities of this software.</p>
+                    <p>
+                      Dynamics AX comes with ease of customization so that the
+                      users can customize its features and specifications
+                      depending upon their requirements. Every organization has
+                      got different requirements and necessities. Hence, the
+                      organizations can make the required customization in the
+                      tool to match up with their requirements.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -479,7 +535,11 @@ const MicrosoftDynamicsAX = () => {
                 <div className="why-solution-wrapper-inner">
                   <h3>Integration</h3>
                   <div className="overlay">
-                    <p>Dynamics AX allows the users to integrate with native and third-party applications to simplify the processes and operations. It supports the integrations like Outlook, Excel, PowerPoint, and more.</p>
+                    <p>
+                      Dynamics AX also allows easy integration of different
+                      tools and software options available within your
+                      organization to manage things in a much better way.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -489,7 +549,12 @@ const MicrosoftDynamicsAX = () => {
                 <div className="why-solution-wrapper-inner">
                   <h3>User Interface</h3>
                   <div className="overlay">
-                    <p>The user interface of Dynamics AX is straightforward, clean, and easy to understand for existing and new users of ERP software solutions. Also, it provides a simple yet easy user interface to mobile and web users.</p>
+                    <p>
+                      Most importantly, the user interface of the tool is
+                      extremely clean and easy to understand. Whether you are
+                      using the tool on your mobile or on any other device, it
+                      offers an interface that is simple and clean.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -499,7 +564,14 @@ const MicrosoftDynamicsAX = () => {
                 <div className="why-solution-wrapper-inner">
                   <h3>Pricing</h3>
                   <div className="overlay">
-                    <p>Pricing plays a significant role when selecting any tool or software for your organization. Dynamics AX is not going to disappoint you. It comes with affordable pricing that would not let you deny selecting this tool for your organization.</p>
+                    <p>
+                      No doubt, pricing plays a major role while selecting any
+                      tool or software for your organization. Dynamics AX is
+                      definitely not going to disappoint in this section. It
+                      comes with a much lower cost that does not offer a burden
+                      on your investments and finances even if you are a small
+                      organization or even just a startup.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -507,9 +579,17 @@ const MicrosoftDynamicsAX = () => {
             <div className="col-lg-4 col-md-6">
               <div className="why-solution-wrapper why-solution-wrapper-1">
                 <div className="why-solution-wrapper-inner">
-                  <h3>Productivity</h3>
+                  <h3>Preferred Vendor</h3>
                   <div className="overlay">
-                    <p>The simple interface enhances the productivity and efficiency of the users. Also, it helps them focus on the assigned task with accurate data reporting. With cloud deployment, users can access the tasks and the data anytime.</p>
+                    <p>
+                      When it comes to investment, the majority of clients
+                      prefer to choose the one that is well-known and has a good
+                      market reputation. Microsoft is a well-known name now and
+                      also a highly reliable one. Thus, a lot of organizations
+                      prefer to choose Microsoft and its recently released
+                      Microsoft Dynamics AX (Axapta) for solving several
+                      ERP-related instances.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -519,16 +599,59 @@ const MicrosoftDynamicsAX = () => {
       </section>
       <section className="solution-faq faq">
         <div className="container">
-        <div className="row justify-content-center">
-        <div className="col-lg-8 col-md-8">
-          <header className="section-header">
+          <div className="row justify-content-center">
+          <div className="col-lg-8">
+            <header className="section-header">
             <h2>Dynamics AX Recent Update</h2>
-            <p>Microsoft Dynamics AX is now available with its latest update that offers many extended benefits and features for the users.</p>
+            <p>
+              Microsoft Dynamics AX is now available with its latest update that
+              offers a lot of extended benefits and features for the users.
+            </p>
+              </header>
+            </div>
+          </div>
+          <div className="row">
+           
+            <div className="col-lg-4">
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Modern Interface</h3>
+                  <p>The latest interface of the tool is modern and is even more simpler in looks as well as use. Thus, a lot of time and money is saved as the organizations do not have to invest in training of the employees for the the tool. The interface is easy to understand so that the employees can go through it to understand it and just a minor knowledge can help them in starting with the operations too.</p>
+                  </div>
+                </div>
+            </div>
+            <div className="col-lg-4">
+            <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Productivity Tools</h3>
+                  <p>The latest updated tool can once again integrate semalessly with Office 365 applications and this time it is loaded with even more productivity tools to help the users in operating different functions in an even smoother way. The integration of the option Workplaces has made the integration of several applications even better.</p>
+                  </div>
+                </div>
+            </div>
+            <div className="col-lg-4">
+            <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Cortana Integration</h3>
+                  <p>The integration of Cortana feature has simplified tasks even better. The users can make use of voice command to get several tasks done. Thus, it allows the users to do two tasks together at the same time that can help in saving a lot of time and effort. With all such features and benefits, surely, Microsoft Dynamics AX is going to transform the way business organizations operate these days to have a better future ahead.</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="solution-faq faq">
+        <div className="container">
+         <div className="row justify-content-center">
+          <div className="col-lg-8">
+          <header className="section-header">
+            <h2>Have You Got
+Questions <br /> About Dynamics AX?</h2>
+<p>Click through to our FAQ for the best answers!</p>
           </header>
           </div>
-          </div>
-          <div className="row justify-content-center mar-top-7">
-            <div className="col-lg-7">
+         </div>
+         <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
               <div className="accordion accordion-flush" id="faqlist1">
                 <div className="accordion-item">
                   <h3 className="accordion-header">
@@ -538,7 +661,7 @@ const MicrosoftDynamicsAX = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-1"
                     >
-                      Modern Interface
+                      What is Microsoft Dynamics AX used for?
                     </button>
                   </h3>
                   <div
@@ -547,7 +670,7 @@ const MicrosoftDynamicsAX = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>The latest interface provides a modern and even more straightforward data presentation. Thus, it saves the organizations a lot of time and money in training employees. The interface is easy to understand, so the employees can go through it with minimum knowledge and start working instantly.</p>
+                      <p>MS Dynamics AX is an ERP (Enterprise Resource Planning) solution capable of streamlining the finances and operations of a business with full efficiency and effectiveness. It helps businesses manage almost all critical operations, organise them, and automate the recurring and manual tasks.</p>
                     </div>
                   </div>
                 </div>
@@ -559,7 +682,7 @@ const MicrosoftDynamicsAX = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
                     >
-                      Productivity Tools
+                      Is Microsoft Dynamics AX still available? 
                     </button>
                   </h3>
                   <div
@@ -568,7 +691,8 @@ const MicrosoftDynamicsAX = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>The latest updates enhance productivity by integrating the new features and apps like Office 365. Such integrations skyrocket the level of productivity, making the process more efficient and seamless.</p>
+                      <p>No, Dynamics AX is not available for new installation or implementation, but Microsoft still provides its support and upgrade services to some versions only. If you want to avail the latest capabilities to streamline your finances, you can go for <NavLink to="/products/microsoft-dynamics-365-finance/">Microsoft Dynamics 365 Finance</NavLink>, a cloud-based application for small, medium, and large organisations.</p>
+        
                     </div>
                   </div>
                 </div>
@@ -580,7 +704,7 @@ const MicrosoftDynamicsAX = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
                     >
-                      Cortana Integrations
+                     Is Dynamics 365 the same as AX?
                     </button>
                   </h3>
                   <div
@@ -589,50 +713,28 @@ const MicrosoftDynamicsAX = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Cortana integration helps the users provide voice commands to complete a task. It allows the users to perform two tasks together, resulting in saving a lot of time and effort. With such benefits, Microsoft Dynamics AX can transform the effortless management of finance and operation.</p>
-                      <p>See Also - <NavLink to="/d365-vs-dynamics-ax/">D365 Vs Dynamics Ax</NavLink></p>
+                      <p>No, <NavLink to="/products/microsoft-dynamics-365/">Dynamics 365</NavLink> is an all-in-one cloud-based business management solution capable of streamlining the entire operations of all departments, including finance, inventory, distribution, customer service, and supply chain. where MS Dynamics AX is a desktop-based <NavLink to="/products/microsoft-dynamics-erp/">ERP solution</NavLink> capable of managing financial operations only.</p>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <section className="solution-faq faq">
-        <div className="container">
-          <header className="section-header">
-            <h2>
-              Have you got
-              <br />
-              questions about Microsoft Dynamics AX?
-            </h2>
-            <p>Click through to our FAQ for the best answers!</p>
-          </header>
-          <div className="row justify-content-center mar-top-7">
-            <div className="col-lg-8">
-              <div className="accordion accordion-flush" id="faqlist2">
                 <div className="accordion-item">
                   <h3 className="accordion-header">
                     <button
                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-news-1"
+                      data-bs-target="#faq-content-4"
                     >
-                      What is the key difference between Dynamics AX and Microsoft Dynamics 365?
+                      Is Microsoft Dynamics AX free?
                     </button>
                   </h3>
                   <div
-                    id="faq-content-news-1"
+                    id="faq-content-4"
                     className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
+                    data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p><NavLink to="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</NavLink> is purely a cloud-based SaaS (software as a Service) for enterprise resource planning (ERP), while Dynamics AX is a desktop-based software application that comes with some mobile and web add-on elements.</p>
-                      <p>Moreover, the new version of Dynamics AX, that is, Dynamics 365 supports tight integration with other business apps under the Dynamics 365 family like CRM. Integration of Dynamics 365 with other apps helps you get an end-to-end business solution, which was not possible with AX.</p>
+                      <p>The cost of Microsoft Dynamics AX implementation depends on various factors, like the complexity of the system, the amount of data, the kind of deployment, the number of integrations, the type of customizations, and much more. However, the average cost of a Microsoft Dynamics AX implementation is £4000.</p>
                     </div>
                   </div>
                 </div>
@@ -642,18 +744,20 @@ const MicrosoftDynamicsAX = () => {
                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-news-2"
+                      data-bs-target="#faq-content-5"
                     >
-                      What is the difference between Dynamics AX and NAV?
+                     What is Dynamics AX called now?
                     </button>
                   </h3>
                   <div
-                    id="faq-content-news-2"
+                    id="faq-content-5"
                     className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
+                    data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    <p>Dynamics AX is an enterprise-grade <NavLink to="/products/microsoft-dynamics-erp/">ERP solution</NavLink> designed by Microsoft specifically for large organizations having complex business processes international groups and companies, while Dynamics NAV is an ERP that targets mostly small to mid-sized businesses (SMBs) with a certain degree of global presence. </p>
+                      <p>
+                      Dynamics AX has gone through a number of updates and upgrades. After the first update, Dynamics AX becomes <NavLink to="/products/microsoft-dynamics-365-finance-operations/">Microsoft Dynamics Finance and Operations</NavLink>. It was a powerful and complete package to deal with operations, supply chain management, and financial processes. Later, Microsoft understands the urge to separate this single solution into two separate applications: Microsoft Dynamics 365 Finance and <NavLink to="/products/dynamics-365-supply-chain-management/">Microsoft Dynamics 365 Supply Chain Management</NavLink>. 
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -663,18 +767,18 @@ const MicrosoftDynamicsAX = () => {
                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-news-3"
+                      data-bs-target="#faq-content-6"
                     >
-                     What is Dynamics AX used for? 
+                     What is the difference between Microsoft Dynamics NAV and AX?
                     </button>
                   </h3>
                   <div
-                    id="faq-content-news-3"
+                    id="faq-content-6"
                     className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
+                    data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Dynamics AX is a comprehensive enterprise resource planning (ERP) software suite that helps you manage your company's finances and operations. AX assists in organizing, automating, and optimizing your business operations, whether on-premises, on the cloud, or via AX's hybrid deployment.</p>
+                     <p>The basis for the difference between these two applications is that <NavLink to="/products/microsoft-dynamics-nav/">Dynamics NAV</NavLink> is an overall business management solution with few capabilities of CRM, whereas Dynamics is a complete ERP to control and supervise financial operations of an enterprise.</p>
                     </div>
                   </div>
                 </div>
@@ -684,301 +788,18 @@ const MicrosoftDynamicsAX = () => {
                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-news-4"
+                      data-bs-target="#faq-content-7"
                     >
-                     Is Dynamics AX still available?
+                     Who uses Microsoft Dynamics AX? 
                     </button>
                   </h3>
                   <div
-                    id="faq-content-news-4"
+                    id="faq-content-7"
                     className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
+                    data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>As of October 12, 2021, Dynamics AX 2012 R3 will no longer receive mainstream support. Up until January 10, 2023, extended support will only provide security hotfixes.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-news-5"
-                    >
-                      How can I purchase and license Dynamics 365?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-news-5"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
-                  >
-                    <div className="accordion-body">
-                      <p>Microsoft lets Value-Added Resellers (VARs) like Dynamics Square sell Dynamics 365. We have experience working with D365 products, and we're a Microsoft Gold Provider and a Cloud Service Provider (CSP) through Microsoft. We will help you <NavLink to="/our-services/dynamics-365-implementation-services/">implement Dynamics 365</NavLink> solutions at a reasonable cost.</p>
-                      <p>We follow a clients-first approach and can issue a license for implementing Dynamics 365, additional connected apps, and add-ons at your premises.</p>
-                      <p>Get in touch with us for immediate assistance.</p>
-                      <p><b>Note:</b> The cloud and hybrid deployment options are available for purchase now for 20 or more users. If your company prefers an on-premises solution, our team can optimize Dynamics AX On-premises for mobility. </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-news-6"
-                    >
-                     What modules do I get when I buy Dynamics 365?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-news-6"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
-                  >
-                    <div className="accordion-body">
-                      <p>You will get all the modules under Microsoft Dynamics 365. We can help you determine the Subscription License (SL) best suited for your business requirements: Enterprise, Task, or Self Service. Also, if your company grows or develops, you have the flexibility to add more Dynamics 365 features in D365.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-news-7"
-                    >
-                      Can you integrate 365 with Office 365 or Power BI?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-news-7"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
-                  >
-                    <div className="accordion-body">
-                    <p>Yes!! Dynamics 365 extremely favors integration with other Microsoft business apps such as Office 365, <NavLink to="/products/microsoft-power-bi/">Power BI</NavLink>, and other business apps and web services since it exposes and supports the Open Data Protocol (or OData) - a standard web-based protocol (HTTP and JavaScript Object Notation=JSON) for creating and consuming data and provide access to information from various programs. OData helps in providing a Representational State Transfer (REST)- protocol for Create, Read, Update, and Delete (CRUD)- style operations.</p>
-                     <p>For example, you can create and upload an Excel spreadsheet with a single trigger in any one of your ERPs (<NavLink to="/products/microsoft-dynamics-365-field-service/">field service</NavLink>, <NavLink to="/products/microsoft-dynamics-365-customer-service/">customer service</NavLink>, operations, project service automation, and <NavLink to="/products/microsoft-dynamics-365-marketing/">marketing</NavLink>) under D365 family.</p>
-                     <p><b>Benefits of OData:</b> </p>
-                     <ul>
-                      <li>Developers can freely interact with data using RESTful web services.</li>
-                      <li>Helps to uniformly share data and makes it discoverable.</li>
-                      <li>Enables integration across products through HTTP protocol stack.</li>
-                     </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-news-8"
-                    >
-                     Can you customize Dynamics 365?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-news-8"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
-                  >
-                    <div className="accordion-body">
-                     <p>Yes, we can, provided there is an app for customization. Thus, if you need a customization, AX's code could be changed by your Microsoft Partner.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-news-9"
-                    >
-                     What support is provided for Dynamics 365?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-news-9"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
-                  >
-                    <div className="accordion-body">
-                     <p>Your <NavLink to="/">Dynamics 365 CSP Partner</NavLink> and Lifecycle Services can provide you with the best support for Dynamics 365. </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-news-10"
-                    >
-                     How long does Dynamics 365 take to implement?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-news-10"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
-                  >
-                    <div className="accordion-body">
-                     <p>The Life-cycle Services in Dynamics 365 reduce implementation risk, cost, and time compared to other ERP competitors.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-news-11"
-                    >What reporting functionality is available with Dynamics 365?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-news-11"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
-                  >
-                    <div className="accordion-body">
-                     <p>Information access is crucial for any ERP software since it directly affects the user experience. The dynamics 365 platform includes all the standard reporting tools like Excel, SQL Reporting Services (SRS), and Power BI that can meet diverse information access demands for an ERP solution.</p>
-                     <p>Since Power BI has drag-and-drop reporting capabilities, we can create customized dashboards for your employees, or you can try them out yourself. It's easy!</p>
-                     <p>Moreover, Dynamics AX reporting allows users to manage reports with extensive options. Reporting is flexible and based on your organization's specific needs.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-news-12"
-                    >
-                     What is the typical Dynamics AX implementation time?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-news-12"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
-                  >
-                    <div className="accordion-body">
-                     <p>In comparison to other ERP alternatives, Dynamics AX provides a shorter than average implementation period. It takes about 10 months. Also, implementing Dynamics AX is cheaper and with fewer risks due to Life-cycle services and more customization capabilities. It allows company-wide satisfaction and user satisfaction.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-news-13"
-                    >
-                      What if I want to stay with Dynamics AX and do not wish to upgrade but also want more functionalities?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-news-13"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
-                  >
-                    <div className="accordion-body">
-                     <p>It's easy, we've been working with Dynamics AX for years and can support it by configuring all versions of Dynamics AX to the most recent edition - Microsoft Dynamics 365 Operations.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-news-14"
-                    >
-                      Can Dynamics AX import data from Excel?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-news-14"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
-                  >
-                    <div className="accordion-body">
-                     <p>Here are a few simple steps for importing data from Excel into Dynamics AX. Users will be able to access this feature based on their security settings. If you need help migrating data, Dynamics Square can help.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-news-15"
-                    >Is it possible to create Excel reports in Dynamics AX?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-news-15"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
-                  >
-                    <div className="accordion-body">
-                     <p>A pivot table and filters are two options here. If you'd like a demonstration of this feature, we can show you how powerful it is. Book a free consultation today!</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-news-16"
-                    >
-                      For establishing standards and KPIs, can Dynamics AX compare historical costing data and labor hours? 
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-news-16"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
-                  >
-                    <div className="accordion-body">
-                     <p>This information can be found in the Variance Analysis Statement within Inventory Management.  Drill-down capabilities are available in the report. </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-news-17"
-                    >
-                      In Dynamics AX, can you generate a job-specific cost analysis comparing estimated and actual costs, including drill-down capabilities, so you can see where the differences lie?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-news-17"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist2"
-                  >
-                    <div className="accordion-body">
-                     <p>Within Project Accounting, you can generate this type of report.  The general ledger is directly populated with this data using Dynamics AX.</p>
+                     <p>Generally, Microsoft Dynamics AX is used in such industries with a need to supervise and control financial transactions only. There can be two kinds of users: one for small companies with basic requirements, and another for such companies with complex financial transactions, irrespective of their size and type.</p>
                     </div>
                   </div>
                 </div>

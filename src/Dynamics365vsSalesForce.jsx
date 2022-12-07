@@ -6,10 +6,10 @@ const Dynamics365vsSalesForce = () => {
   return (
     <>
       <Helmet>
-      <title>Dynamics 365 Vs Salesforce [Must Read]</title>
-<meta name="description" content="Dynamics 365 Vs Salesforce is perhaps the most challenging CRM choice for any business. Our quick comparison guide helps you in selecting the right CRM solution."/>
-<link rel="canonical" href="https://www.dynamicssquare.com/dynamics-365-vs-salesforce/" />
-<meta property="og:locale" content="en_US" />
+      <title>Dynamics 365 vs Salesforce | Dynamics Square</title>
+<meta name="description" content="Wisely chosen Customer Relationship Management or CRM solutions not just transform the way enterprises operate, but ensure next level business intelligence"/>
+<link rel="canonical" href="https://www.dynamicssquare.co.uk/dynamics-365-vs-salesforce/" />
+<meta property="og:locale" content="en_GB" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -51,77 +51,72 @@ const Dynamics365vsSalesForce = () => {
           </div>
         </div>
       </section>
+
       <section>
         <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-10 col-md-9">
-              <header className="section-header">
-                  <h2>Are You Ready for the Big Leap?</h2>
-                  <p>Having decided to implement a <NavLink to="/products/crm/">CRM system</NavLink> is an exciting moment, especially for businesses looking to transform the ways they operate. Making the right choice, however, can at times be a daunting task. With an abundance of CRM solutions available across the modern markets, it can be a bit tricky to know from where to begin the hunt.</p>
-                  <p>There are plentiful of CRM platforms out there for every organization type, size, and niche. To find the right match, enterprises must thoroughly explore and understand individual requirements before initiating the search. For the best CRM options, businesses might start seeking assistance from an inclusive and established market leader, like Dynamics Square.</p>
-              </header>
-          </div>
-        </div>
-        </div>
-      </section>
-
-      <section className="busine_service_bottom custom06">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 align-self-center">
-              <div className="side-heading-custom-02">
-                <h2>Dynamics 365 Vs Salesforce; All that Matters is Making the Perfect Choice!
-                </h2>
-              </div>
+          <header className="section-header">
+            <h3>Are You Ready for the Big Leap?</h3>
+          </header>
+          <div className="row p-lg-6">
+            <div className="col-lg-7 align-self-center">
+              <p>
+                Having decided to implement a CRM system is an exciting moment,
+                especially for businesses looking to transform the ways they
+                operate. Making the right choice, however, can at times be a
+                daunting task. With an abundance of CRM solutions available
+                across the modern markets, it can be a bit tricky to know from
+                where to begin the hunt.
+                <br />
+                <br />
+                There are plentiful of CRM platforms out there for every
+                organization type, size, and niche. To find the right match,
+                enterprises must thoroughly explore and understand individual
+                requirements before initiating the search. For the best CRM
+                options, businesses might start seeking assistance from an
+                inclusive and established market leader, like Dynamics Square.
+              </p>
+              <p>
+                <b>All that Matters is Making the Perfect Choice!</b>
+              </p>
+              <p>
+                To assist the system managers in finding an appropriate CRM
+                system for their organization, team Dynamics Square has
+                diligently identified and compared the main features of two
+                prominent CRM applications - Dynamics 365 (D365) and Salesforce:
+              </p>
+              <p>
+                Dynamics 365 CRM suite is a web application that features
+                various other CRM platforms and focuses primarily on sales,
+                marketing, and service domains. D365 CRM suite can perform
+                either as a standalone service or in conjunction with other
+                applications across Microsoft Dynamics ecosystem.
+              </p>
+              <p>
+                <b>
+                  D365 for Sales, D365 for Customer Service, and D365 for Retail
+                  are the critical applications integrated with Dynamics 365 CRM
+                  suit.
+                </b>
+              </p>
+              <p>
+                Salesforce CRM comprises various individual modules that
+                enterprises can pick and implement, depending on their business
+                needs. The modules deliver all the basic CRM functionalities,
+                such as managing sales and marketing data, while additional
+                capabilities like marketing automation and field services are
+                available with specialized modules.
+              </p>
             </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="contd-xtr-22">
-                <p>
-                  <b>
-                  To assist the system managers in finding an appropriate CRM system for SMBs, team Dynamics Square has diligently identified and compared the main features of two prominent CRM applications Dynamics 365 (D365) and Salesforce:
-                  </b>
-                </p>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6">
-              <div className="content-box-222">
-                <img
-                  src="/assets/img/D365-logo.png"
-                  alt="D365-logo"
-                />
-                <p>
-                <NavLink to="/products/microsoft-dynamics-365/">Dynamics 365</NavLink> CRM suite is a web application that features various other CRM platforms and focuses primarily on sales, marketing, and service domains. D365 CRM suite can perform either as a standalone service or in conjunction with other applications across Microsoft Dynamics ecosystem.</p>
-                
-                <p><b>D365 for Sales, D365 for Customer Service, and D365 for Retail are the critical applications integrated with Dynamics 365 CRM suit.</b>
-                </p>
-               
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="content-box-222">
-                <img src="/assets/img/salesfoce-logo.png" alt="salesfoce-logo" />
-                <p>
-                Salesforce CRM comprises various individual modules that enterprises can pick and implement, depending on their business needs. The modules deliver all the basic CRM functionalities, such as managing sales and marketing data, while additional capabilities like marketing automation and field services are available with specialized modules.</p>
-                <p>
-                <b>Sales Cloud, Service Cloud, and Marketing Cloud are the primary components of Salesforce CRM.</b>
-
-                </p>
-              </div>
+            <div className="col-lg-1"></div>
+            <div className="col-lg-4 align-self-center">
+              <img
+                src="/assets/img/Dynamics-365-vs-Salesforce-300x143.png"
+                alt="Dynamics-365-vs-Salesforce-300x143"
+              />
             </div>
           </div>
         </div>
       </section>
-      <br/><br/>
-
-
-      
 
       <section className="call_to_action call_to_action-height pd-401">
         <div className="container">
@@ -154,16 +149,15 @@ const Dynamics365vsSalesForce = () => {
 
       <section>
         <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-8 col-md-8">
           <header className="section-header">
             <h2 className="text-center">
-              Dynamics 365 Vs Salesforce CRM Quick Comparative Review
+              <b>
+                Sales Cloud, Service Cloud, and Marketing Cloud are the primary
+                components of Salesforce CRM.
+              </b>
             </h2>
-            <p className="text-center"></p>
+            <p className="text-center">Quick Comparative Review</p>
           </header>
-          </div>
-          </div>
           <div className="row">
             <div className="col-lg-12">
               <div className="tabls-cloud table-responsive">
@@ -434,8 +428,8 @@ const Dynamics365vsSalesForce = () => {
                   </li>
                   <li>
                     Enhances productivity through seamless integrations with
-                    other Microsoft applications, like Office 365, Outlook, and 
-                    <NavLink to="/products/microsoft-power-bi/"> Power BI</NavLink>;
+                    other Microsoft applications, like Office 365, Outlook, and
+                    Power BI;
                   </li>
                   <li>Ensures 99.9% uptime through a committed SLA;</li>
                   <li>

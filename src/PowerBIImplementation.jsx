@@ -1,4 +1,4 @@
-import React, {useState } from "react";
+import React, { useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -7,17 +7,19 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import { FreeMode, Navigation, Thumbs ,Autoplay } from "swiper";
-import { Nav } from "react-bootstrap";
 
 const PowerBIImplementation = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <>
       <Helmet>
-      <title>Power BI Implementation Partners  | Dynamics Square</title>
-<meta name="description" content="Visualize data for actionable insights with Power BI. Get top-notch support and services from the leading Power BI implementation partner - Dynamics Square."/>
-<link rel="canonical" href="https://www.dynamicssquare.com/power-bi-implementation/" />
-<meta property="og:locale" content="en_US" />
+      <meta charSet="utf-8" />
+      <title>Power BI Implementation Partner in UK | Dynamics Square</title>
+      <meta name="robots" content="index,follow" />
+<meta name="description" content="Enable everyone across your organization to make data-driven decisions curated in real-time all through our Power BI Implementation plans. Get Power BI today."/>
+<link rel="canonical" href="https://www.dynamicssquare.co.uk/power-bi-implementation/" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="article" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -30,7 +32,9 @@ const PowerBIImplementation = () => {
                 Partner
               </h1>
               <p>
-              Get your organization significant value and competitive advantages with the marvellous intelligence of Power BI and drive the maximum outcome.
+                Enable everyone across your organization to make data-driven
+                decisions with self-service analytics curated in real-time all
+                through our Microsoft Power BI Implementation.
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -39,7 +43,7 @@ const PowerBIImplementation = () => {
                     to="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Let's Talk </span>
+                    <span>Schedule a Demo</span>
                   </NavLink>
                 </div>
               </div>
@@ -56,11 +60,12 @@ const PowerBIImplementation = () => {
 
       <section>
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-9">
+          <div className="row">
+            <div className="col-lg-12">
               <header className="section-header">
                 <h2>
-                Get Expert Guidance From A Microsoft Power BI Implementation Partner Since 2011 
+                  Get Expert Guidance from Microsoft Power BI Implementation
+                  Partner since 2011
                 </h2>
               </header>
             </div>
@@ -68,132 +73,42 @@ const PowerBIImplementation = () => {
         </div>
       </section>
 
-      <section className="busine_service_bottom">
+      <section className="busine_service_bottom custom05">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="side-heading-custom-01">
                 <h3>
-                An Overview of Microsoft Power BI 
+                  Microsoft <br />
+                  Power BI Overview
                 </h3>
               </div>
               <div className="custom-p-001">
                 <p>
-                <NavLink to="/products/microsoft-power-bi/">Microsoft Power BI</NavLink> is an intelligent business tool that connects data sources and generates interactive visual reports for meaningful insights on its user dashboards. Power BI helps you empower every level of employee in your organization to facilitate instant decision-making for supporting continuous business growth so that you can drive maximum productivity.
+                  <NavLink to="/products/microsoft-power-bi/">
+                    <strong>Power BI</strong>
+                  </NavLink>{" "}
+                  is a powerful tool designed to connect across your data
+                  sources and prepare powerful reports, custom data
+                  visualizations, and other interactive insights to be
+                  demonstrated on user dashboards. With Power BI implementation,
+                  you can empower every level of people in your organization to
+                  make instant decisions to support continuity and drive
+                  maximized productivity.
                 </p>
-                <p>With Power BI implementation, you can forget data security concerns, produce reports using the Power BI desktop, and share them within your organizational boundaries.</p>
+                <p>
+                  Microsoft Power BI comes with both on-premises and on-cloud
+                  facilitation. If you have data security concerns, you can
+                  prepare reports using Power BI desktop and can share the same
+                  within your organizational boundaries.
+                </p>
+                <p>
+                  Later you can publish these reports on the cloud using the
+                  Power BI report server. You can also leverage hybrid practices
+                  wherein you can keep your sensitive data on desktop and move
+                  the general data on the cloud.
+                </p>
               </div>
-              <h4 style={{fontSize:'20px',fontWeight:600,margin:'30px 0px 20px 0px',color:'#ee3442'}}>You Can Leverage 5 Key Components of Power BI</h4>
-              <div className="solution-faq faq">
-              <div className="accordion accordion-flush" id="faqlist1">
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-1"
-                    >
-                     1. Real-time Dashboard Capabilities  
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-1"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>Power BI can create live dashboards to see real-time data that interacts with different reports and visualizations, allowing you to make the right business decisions.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-2"
-                    >
-                      2. Create Visualizations
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-2"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p><NavLink to="/products/microsoft-power-bi/">Microsoft Power BI</NavLink> requires access to your data to begin analysis and visualize it so that it makes sense to you so that you can tell your story, exchange thoughts, and collaborate more with others.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-3"
-                    >
-                     3. Seamless integration with other Microsoft Business Apps  
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-3"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>Power BI's ability to integrate with other products in the Microsoft family is a valuable component and a big win for SMBs. For example, combining it with your CRM or <NavLink to="/products/dynamics-365-business-central/">ERP application</NavLink> can boost overall productivity and customer experience.  </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-4"
-                    >
-                     4. User Experience 
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-4"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>The ability to process natural language queries makes Power BI a simple and intuitive app, so users can ask questions and resolve their problems immediately.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-5"
-                    >
-                     5. Access data anywhere and on any device 
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-5"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>The Microsoft cloud helps you access data and insights at your fingertips using a web browser, whether on a mobile device, tablet, or desktop. </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              </div>
-
             </div>
             <div className="col-lg-1 align-self-center"></div>
             <div className="col-lg-5 align-self-center">
@@ -210,18 +125,18 @@ const PowerBIImplementation = () => {
 
       <section className="new-style-bg">
         <div className="container">
-         <div className="row justify-content-center">
-          <div className="col-lg-9">
           <header className="section-header">
             <h2>
-            How Power BI Implementation Can Be A Proven Milestone For Your Business
+              How Choosing Power BI Implementation
+              <br />
+              Could Be a Proven Milestone for Your Enterprises
             </h2>
             <p>
-            Power BI implementation can simplify your reporting and analytics to help you take accurate decisions in real-time and grow your business on a scale. 
+              Implementing Power BI with Dynamics Square can simplify your
+              reporting and analytics part while enabling you to roll out your
+              accurate decision-making in real-time to grow at scale.
             </p>
           </header>
-          </div>
-         </div>
           <div className="row g-5 pd-60">
             <div className="col-lg-6">
               <div className="style-grid-1">
@@ -234,7 +149,10 @@ const PowerBIImplementation = () => {
                 <div className="style-grid-content">
                   <h3>Infrastructure & Flexibility</h3>
                   <p>
-                  Hybrid implementations allow you to capture data on the cloud and connect it to an <NavLink to="/microsoft-dynamics-365-cloud-vs-on-premise/">on-premises</NavLink> system via data connectors. A quick Power BI deployment and an effective return on investment can be achieved with easy and cost-effective implementation. 
+                    In the case of Hybrid implementation, this Microsoft
+                    Business Intelligence tool can keep your general data on the
+                    cloud and configure your concerned data for an on-premises
+                    system using data connectors.
                   </p>
                 </div>
               </div>
@@ -246,7 +164,11 @@ const PowerBIImplementation = () => {
                 <div className="style-grid-content">
                   <h3>Customized Implementation</h3>
                   <p>
-                  Power BI can be customized based on business needs. By integrating your existing systems, data sources, or applications, you can prepare industry-specific visual reports with high-end capabilities.
+                    At Dynamics Square, Microsoft Power BI implementation can be
+                    done as per enterprise-specific needs. It can be configured
+                    with high-end potential to prepare your industry-specific
+                    visual reports. It allows seamless integration with your
+                    existing system, data sources, or applications.
                   </p>
                 </div>
               </div>
@@ -261,7 +183,11 @@ const PowerBIImplementation = () => {
                 <div className="style-grid-content">
                   <h3>Data Transformation</h3>
                   <p>
-                  Reporting is no longer a complex task because it is now possible to create highly customized, interactive, and visual reports. In an organization, Power BI allows employees to create, share, and publish data-driven reports that can be used to make immediate decisions.
+                    Creating highly customized, visual, and interactive reports
+                    is no longer a complex job now. Power BI makes everything
+                    possible whereby you can create, publish, share the reports
+                    within your organization and allow them to make instant
+                    data-driven decisions.
                   </p>
                 </div>
               </div>
@@ -276,7 +202,11 @@ const PowerBIImplementation = () => {
                 <div className="style-grid-content">
                   <h3>Security & Reliability</h3>
                   <p>
-                  With Power BI, you can share reports and visuals across your global reach. Furthermore, Power BI comes with an inbuilt data security feature that ensures data security and reliability.
+                    Since sharing reports and visuals leveraging Power BI
+                    happens through the cloud. When it comes to sharing data
+                    across your global outreach, it becomes inevitable to secure
+                    your data. Power BI comes with an in-built data security
+                    capability that ensures data security and reliability.
                   </p>
                 </div>
               </div>
@@ -292,7 +222,12 @@ const PowerBIImplementation = () => {
                 <div className="style-grid-content">
                   <h3>Easy to Adapt</h3>
                   <p>
-                  It is easy for end users to adapt to Power BI with the help of Dynamics Square. The drag-and-drop features in this tool allow users to create powerful visual reports and analytics. A minimal amount of training is required to use Power BI from day one.
+                    After successful implementation of Power BI via Dynamics
+                    Square, it allows easy user adaption. Users can create
+                    powerful visual reports and analytics with drag & drop sort
+                    of features, and this ensures easy user adaptation. Users
+                    can start leveraging Power BI from the very first day with
+                    minimal user training.
                   </p>
                 </div>
               </div>
@@ -305,9 +240,14 @@ const PowerBIImplementation = () => {
                   />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Transform Insights into Actions</h3>
+                  <h3>Leverage Insights into Actions</h3>
                   <p>
-                  It is possible to turn your data into actionable insights through <NavLink to="/products/microsoft-power-platform/">Microsoft Power Platforms</NavLink>. You can drive automated workflows effortlessly with Power BI in conjunction with <NavLink to="/products/microsoft-power-apps/">Power Apps</NavLink> and <NavLink to="/products/microsoft-power-automate/">Power Automate</NavLink>.
+                    Now, turn your data into insights and insights to action all
+                    through Microsoft Power Platforms. When you combine your
+                    Power BI with other Power platforms like Power Apps and
+                    Power Automate, it allows you to effortlessly create
+                    efficient business applications as well as enables you to
+                    drive automated workflows.
                   </p>
                 </div>
               </div>
@@ -321,7 +261,13 @@ const PowerBIImplementation = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Streamline Analytics in Real-Time</h3>
-                  <p>Get real-time business intelligence with Power BI and make strategic and productive decisions. From factory sensors to capacity planning to social media, Power BI can streamline your analytics and keep you up to date.</p>
+                  <p>
+                    To make strategic and productive decisions, leverage Power
+                    BI to know what's happening in your business in real-time.
+                    Implement Power BI to streamline your analytics in real-time
+                    to stay updated with every organizational move from factory
+                    sensors to capacity planning to social media sources.
+                  </p>
                 </div>
               </div>
             </div>
@@ -335,7 +281,7 @@ const PowerBIImplementation = () => {
             <div className="col-lg-8">
               <div className="call-to-action-content">
                 <h3>Thinking about implementing Power BI?</h3>
-                <p>Chat to us about your Power BI implementation project requirements.</p>
+                <p>Chat to us about your project requirements</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <NavLink
                     data-bs-toggle="modal"
@@ -382,7 +328,9 @@ const PowerBIImplementation = () => {
                         <div className="box-6-bottom">
                           <h4>Analysis Phase</h4>
                           <p>
-                          In the first step we deep-dive into your project idea and requirements, and then create a plan mirroring your specific business practices and process flows.
+                            In this phase, we deep-dive your project idea and
+                            create a project plan suited to your specific
+                            business practices and process flow.
                           </p>
                         </div>
                       </SwiperSlide>
@@ -390,7 +338,9 @@ const PowerBIImplementation = () => {
                         <div className="box-6-bottom">
                           <h4>Designing Phase</h4>
                           <p>
-                          After the project analysis step, we brainstorm to develop functional needs defining your customization, configuration, and integration requirements.
+                            Once your project analysis gets done, we come up
+                            with functional requirements defining your specific
+                            customization, configuration, and integration needs.
                           </p>
                         </div>
                       </SwiperSlide>
@@ -398,7 +348,9 @@ const PowerBIImplementation = () => {
                         <div className="box-6-bottom">
                           <h4>Development Phase</h4>
                           <p>
-                          In this step, we start with developing your project, which comprises custom coding, interface designing, system integration, data migration, and related tasks.
+                            In this phase, we start developing your project
+                            comprising custom coding, interface designing,
+                            system integration, data migration, and more.
                           </p>
                         </div>
                       </SwiperSlide>
@@ -406,14 +358,21 @@ const PowerBIImplementation = () => {
                         <div className="box-6-bottom">
                           <h4>Deployment Phase</h4>
                           <p>
-                          This step ensures your project's final deployment, including essential user training and user acceptance testing (UAT).
+                            Once the development phase gets over, we ensure the
+                            final deployment of your project that includes Key
+                            User training, User acceptance testing, etc.
                           </p>
                         </div>
                       </SwiperSlide>
                       <SwiperSlide>
                         <div className="box-6-bottom">
                           <h4>Post Go-Live Support</h4>
-                          <p>In this final step, our experts provide end-user training and technical support when required and ensure that your system works as desired.</p>
+                          <p>
+                            In this phase, we provide end-user training,
+                            technical support wherever required, and finally
+                            ensure that your system is working as you
+                            anticipated.
+                          </p>
                         </div>
                       </SwiperSlide>
                     </Swiper>
@@ -510,17 +469,13 @@ const PowerBIImplementation = () => {
 
       <section className="bg-3334">
         <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-8">
           <header className="section-header">
-          <h2>
-          Why Choose Dynamics Square as Your Power BI Implementation Partner?
+            <h2>
+              Why Choose Dynamics Square
+              <br />
+              Power BI Implementation?
             </h2>
-            <p>An experienced Power BI implementation partner has in-depth domain knowledge and understands the client's current business environment and provides uniform services and support experience. </p>
           </header>
-          </div>
-         </div>
-  
           <div className="row pad15x">
             <div className="col-lg-4 align-self-center">
               <div className="commen-box-3">
@@ -530,12 +485,16 @@ const PowerBIImplementation = () => {
                     alt="microsft-p-icons"
                   />
                   <h3>
-                  A Reliable <br /> Partner 
+                    Seamless Business
+                    <br /> Intelligence{" "}
                   </h3>
                 </div>
                 <div className="commen-boc-3-info">
                   <p>
-                  Choosing Dynamics Square as Power BI Implementation partner will help you seamlessly leverage this powerful tool's capabilities that unify your business intelligence experience with your <NavLink to="/products/microsoft-dynamics-erp/"></NavLink> so that your business can make a real impact. 
+                    Out of the business intelligence tools available worldwide,
+                    Power BI comes with seamless navigation to create AI-based
+                    reports, visual representations, and key metrics to support
+                    businesses to make productive decisions in real-time.
                   </p>
                 </div>
               </div>
@@ -545,12 +504,17 @@ const PowerBIImplementation = () => {
                 <div className="icons">
                   <img src="/assets/img/Group997.svg" alt="Group997.svg" />
                   <h3>
-                  Data Security <br /> Concerns
+                    Secure
+                    <br /> Data Analytics{" "}
                   </h3>
                 </div>
                 <div className="commen-boc-3-info">
                   <p>
-                  Microsoft is known for its advanced security features in its products. Hence, our experts implement Power BI in Microsoft's guidance and enable you to quickly and effortlessly create and share reporting visuals across global data centers with no security, compliance, or regulatory concerns.
+                    Since Power BI is a Microsoft product, it enables users to
+                    create and share reporting visuals across their own global
+                    data centers to ensure secure and reliable data analytics.
+                    It also ensures enterprises' seamless compliance and
+                    regulation needs.
                   </p>
                 </div>
               </div>
@@ -560,12 +524,18 @@ const PowerBIImplementation = () => {
                 <div className="icons">
                   <img src="/assets/img/Group772.svg" alt="Group772" />
                   <h3>
-                  Collaborative <br /> & Supportive
+                    Unified
+                    <br /> Analytics{" "}
                   </h3>
                 </div>
                 <div className="commen-boc-3-info">
                   <p>
-                  Power BI allows access to high-end semantic models, the ALM (Application Lifecycle Management) toolkit, an open connectivity framework, and pixel-perfect paginated reports. As your friendly Power BI implementation partner, we make sure you enjoy the Power BI's full potential.
+                    You can enjoy both the self-service and enterprise data
+                    analytics leveraging a single business intelligence platform
+                    i.e., Power BI. It allows access to high-end semantic
+                    models, ALM (Application Lifecycle Management) tool kit,
+                    open connectivity framework, pixel-perfect paginated
+                    reports, and more.{" "}
                   </p>
                 </div>
               </div>
@@ -576,12 +546,18 @@ const PowerBIImplementation = () => {
                 <div className="icons">
                   <img src="/assets/img/Group1003.svg" alt="Group1003" />
                   <h3>
-                  Quality <br /> Assurance
+                    Create More <br />
+                    In-Depth Insights{" "}
                   </h3>
                 </div>
                 <div className="commen-boc-3-info">
                   <p>
-                  With full quality assurance, we combinedly integrate Power BI and other <NavLink to="/products/microsoft-dynamics-365/">Microsoft Business Apps</NavLink> with Azure Data Lake (a highly scalable data storage and analytics service) for advanced insights.
+                    Dynamics Square's experts can help to convert your data into
+                    more useful insights to gain a competitive advantage by
+                    integrating your Power BI with Microsoft Azure. Further,
+                    this integration will help you to connect, collaborate, and
+                    analyze your overall vital data and reveal highly productive
+                    insights.
                   </p>
                 </div>
               </div>
@@ -595,12 +571,18 @@ const PowerBIImplementation = () => {
                     alt="proffesionalserviceicon"
                   />
                   <h3>
-                  Industry <br /> Experience 
+                    Accurate Visuals
+                    <br /> with Industry-Leading AI{" "}
                   </h3>
                 </div>
                 <div className="commen-boc-3-info">
                   <p>
-                  With over a decade of experience and knowledge gained, we ensure you embrace the data culture effectively and help reach your business new heights through Power BI's intelligence.
+                    By making effective use of Microsoft AI, users can prepare
+                    data, deploy machine learning models, and can gain
+                    actionable insights instantly fetched whether from
+                    structured data or unstructured data. Further, confidently
+                    move your data from one phase to another leveraging simple
+                    visual cues.
                   </p>
                 </div>
               </div>
@@ -611,12 +593,17 @@ const PowerBIImplementation = () => {
                 <div className="icons">
                   <img src="/assets/img/Group1000.svg" alt="Group1000" />
                   <h3>
-                  Very Responsive <br /> & Easy to Work With
+                    Excel
+                    <br /> Advantage{" "}
                   </h3>
                 </div>
                 <div className="commen-boc-3-info">
                   <p>
-                  We work with organizations in a very delightful way so that we can understand their problems and provide desired solutions right away. Our experts work like your own. You don't have to look further.
+                    Users familiar with Microsoft 365 navigation can
+                    effortlessly and promptly apply excel queries, create data
+                    models, and prepare reports being exhibited on Power BI
+                    Dashboards. It opens new potentials of analyzing,
+                    publishing, and sharing Excel-like data.
                   </p>
                 </div>
               </div>

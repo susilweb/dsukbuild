@@ -14,10 +14,52 @@ const MicrosoftAzure = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/products/microsoft-azure/"
+          href="https://www.dynamicssquare.co.uk/products/microsoft-azure/"
         />
-        <meta property="og:locale" content="en_US" />
-        
+        <meta property="og:locale" content="en_GB" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:title"
+          content="Microsoft Azure | Microsoft Azure Cloud Services"
+        />
+        <meta
+          property="og:description"
+          content="Microsoft Azure is referred to cloud computing service owned and operated by Microsoft to manage hosted applications via its Microsoft-managed data centers."
+        />
+        <meta
+          property="og:url"
+          content="https://www.dynamicssquare.co.uk/products/microsoft-azure/"
+        />
+        <meta property="og:site_name" content="Dynamics Square" />
+        <meta
+          property="article:publisher"
+          content="https://www.facebook.com/dynamicssquareuk"
+        />
+        <meta
+          property="article:author"
+          content="https://www.facebook.com/vickygururani"
+        />
+        <meta property="fb:app_id" content="2007906422699147" />
+        <meta property="og:image" content="" />
+        <meta property="og:image:secure_url" content="" />
+        <meta property="og:image:width" content="1324" />
+        <meta property="og:image:height" content="788" />
+        <meta property="og:image:alt" content="Microsoft Azure" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Microsoft Azure | Microsoft Azure Cloud Services"
+        />
+        <meta
+          name="twitter:description"
+          content="Microsoft Azure is referred to cloud computing service owned and operated by Microsoft to manage hosted applications via its Microsoft-managed data centers."
+        />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:creator" content="@dsquare_uk" />
+        <meta name="twitter:image" content="" />
+        <meta name="twitter:label1" content="Time to read" />
+        <meta name="twitter:data1" content="3 minutes" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -28,7 +70,8 @@ const MicrosoftAzure = () => {
                 <br />A Hybrid Cloud Application
               </h1>
               <p>
-              Uplift Your Process Flow and Improve Your Productivity Level with Microsoft Azure
+                Elevate Your Ideation And Business Capabilities With Microsoft
+                Azure Cloud Services
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -51,18 +94,24 @@ const MicrosoftAzure = () => {
 
       <section>
         <div className="container">
-         <div className="row justify-content-center">
-          <div className="col-lg-9">
           <header className="section-header">
             <h2>
               What Is Microsoft Azure?
             </h2>
-            <p>Drive business challenges and uplift your business caliber with highly secured and sustainable Azure cloud computing services designed owned by Microsoft to manage and drive hosted applications. These hosted applications are managed by Microsoft Data Centers that enable organizations to leverage modernized data solutions over a highly secure and reliable cloud infrastructure.</p>
-            <p>Microsoft Azure cloud solution comprises Software as a Service (SaaS), Platform as a Service (PaaS), and Infrastructure as a Service (IaaS). To drive extended experience, Microsoft Azure can be integrated or configured either with your existing system, Microsoft tools & applications, or third-party applications. Microsoft Azure cloud enables you to connect your systems, data sources, and entire devices to build a highly secure, sustainable, and efficient solution.</p>
-            
+            <p>
+              Microsoft Azure is referred to cloud computing service owned and
+              operated by Microsoft to manage hosted applications via its
+              Microsoft-managed data centers. Microsoft Azure solutions involve
+              Software as a Service (SaaS), Platform as a Service (PaaS), and
+              Infrastructure as a Service (IaaS). With Microsoft Azure,
+              enterprises can implement a highly secured next-generation
+              solution. Drive integrated experience with Microsoft Azure
+              solutions by connecting your existing system with related
+              third-party applications. Connect and bring together your system,
+              data, and devices to enable a highly secure, reliable, and
+              cost-effective solution.
+            </p>
           </header>
-          </div>
-         </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -87,7 +136,10 @@ const MicrosoftAzure = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                     <p>App Service helps to instantly develop and host cloud apps for mobile and web platforms using RESTful APIs facilitated with automated deployments from GitHub, Azure DevOps, etc.</p>
+                        App Service enables to quickly create and host
+                        data-driven cloud apps for web and mobile platforms
+                        using RESTful APIs facilitated with automated
+                        deployments from Azure DevOps, GitHub, etc.
                       </div>
                     </div>
                   </div>
@@ -112,7 +164,10 @@ const MicrosoftAzure = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                     <p>Enables to create business intelligence solutions including mobile apps, web apps, virtual bots wrapped with the capabilities such as speech recognition, NLP (Natural Language Processing), and more.</p>
+                        Azure Cognitive Services helps to create intelligent
+                        apps, web applications, and virtual bots comprising
+                        capabilities including speech recognition, natural
+                        language processing, and more.
                       </div>
                     </div>
                   </div>
@@ -137,7 +192,10 @@ const MicrosoftAzure = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>Azure Cosmo DB is referred to as NoSQL database comes with SLA speed, automatic scalability, and more which is further includes open-source APIs for cloud-based document databases.</p>
+                        Azure Cosmo DB refers to NoSQL database facilitates with
+                        SLA speed, automatic scalability, etc. wrapped with
+                        open-source APIs for cloud-native document databases
+                        such as MongoDB and Cassandra.
                       </div>
                     </div>
                   </div>
@@ -162,7 +220,10 @@ const MicrosoftAzure = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>Azure Functions enable to quickly develop and deploy Web APIs using less server code, responding to database changes, processing IoT streams, managing notification queues, etc.</p>
+                        Azure Functions facilitate with less server code and are
+                        used to develop web APIs, quickly respond to changes
+                        made to the database, process IoT streams, manage
+                        messages or notifications queues, etc.
                       </div>
                     </div>
                   </div>
@@ -187,7 +248,10 @@ const MicrosoftAzure = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>Azure Kubernetes Services allow to quickly and seamlessly deploy AKS cluster in the Azure environment. It also enables simplifying deployment, management, and operations of Kubernetes.</p>
+                        Leveraging Azure Kubernetes Services (AKS), quickly
+                        deploy production-ready AKS cluster in Azure. AKS
+                        facilitates simplifying deployment, management, and
+                        operations of Kubernetes.
                       </div>
                     </div>
                   </div>
@@ -219,7 +283,10 @@ const MicrosoftAzure = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Azure Quantum enables developers to deploy quantum programs using Python and Q# programming languages either in the Azure Portal or in a local development environment leveraging QDK kit.</p>
+                        Azure Quantum allows Python and Q# -quantum programming
+                        languages to develop and deploy quantum programs in the
+                        Azure Portal or in a local development environment using
+                        the QDK kit.
                       </div>
                     </div>
                   </div>
@@ -244,7 +311,10 @@ const MicrosoftAzure = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>Azure SQL can be defined as a modern SQL family to perform seamless migration and efficient app modernization. SQL family includes Azure SQL Database, Azure SQL Managed Instance, etc.</p>
+                        Azure SQL refers to the modern SQL family (comprising
+                        Azure SQL Database, Azure SQL Managed Instance, and SQL
+                        Server on Azure VM) to ensure seamless migration and app
+                        modernization.
                       </div>
                     </div>
                   </div>
@@ -269,7 +339,10 @@ const MicrosoftAzure = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Seamless virtual desktops and remote apps can be deployed with the help of Azure Virtual Desktop which holds control on any device delivered on Azure that ensures an improved end-user experience.</p>
+                        Azure Virtual Desktop helps to deploy virtual desktops
+                        and remote apps with maximum potential control to any
+                        device delivered on Azure to enjoy the best user
+                        experience wrapped with minimized IT costs.
                       </div>
                     </div>
                   </div>
@@ -294,7 +367,10 @@ const MicrosoftAzure = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>Linux Virtual Machines help to deploy a separate application environment on Azure that works in the form of an image. Ubuntu, Red Hat, etc., platforms can be leveraged as Linux Virtual Machines.</p>
+                        Linux Virtual Machines are designed to build and manage
+                        a separate application environment deployed on Azure.
+                        Linux Virtual Machines can provision a virtual machine
+                        for Ubuntu, Red Hat, etc.
                       </div>
                     </div>
                   </div>
@@ -319,7 +395,10 @@ const MicrosoftAzure = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>Windows Virtual Machine can be used to implement a separate and independent application environment deployed on Azure. Windows Virtual Machines can be leveraged for supportive versions.</p>
+                        The Windows Virtual Machine enables to ensure a separate
+                        application environment deployed on Azure. Windows
+                        Virtual Machine can provision virtual machines for
+                        applicable or supportive versions.
                       </div>
                     </div>
                   </div>
@@ -335,8 +414,12 @@ const MicrosoftAzure = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Take Expert Consultation</h3>
-                <p>Allow your business to leverage the highest potential by availing of our expert consultation revealing and streamlining your enterprise's flow.</p>
+                <h3>Let's Talk to Our Experts</h3>
+                <p>
+                  It's time to connect and share with experts at Dynamics Square
+                  to reveal business solutions defining your core business
+                  values and process flow.
+                </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <NavLink
                     data-bs-toggle="modal"
@@ -369,7 +452,12 @@ const MicrosoftAzure = () => {
                   </h3>
                   <div className="overlay">
                     <p>
-                    Microsoft Azure cloud can be leveraged whether on-premises, hybrid, multi-cloud, or at the edge. Enterprises can deploy high-end cloud apps to support their growth potentials and improve their entire data flow. With Microsoft Azure Solutions, integrate and configure your system, data, and apps to bring and drive a productive approach throughout your business model.
+                      Leverage intensely secured cloud facilitation with
+                      Microsoft Azure cloud services, develop highly configured
+                      cloud apps, integrate and bring closure all your apps to
+                      drive highly productive and scalable apps impacting your
+                      growth strategy and improving your business values while
+                      adhering to the global regulatory compliances.
                     </p>
                   </div>
                 </div>
@@ -379,11 +467,18 @@ const MicrosoftAzure = () => {
               <div className="why-solution-wrapper why-solution-wrapper-1">
                 <div className="why-solution-wrapper-inner">
                   <h3>
-                  Optimal <br />
-                  Security
+                    Drive <br />
+                    Improved Security
                   </h3>
                   <div className="overlay">
-                    <p>Implement a highly secured data model for your business with Microsoft Azure. Microsoft Azure cloud comes with built-in multi-layer security to be utilized across Microsoft data centers, cloud infrastructure, and connected operational data to seamlessly drive, utilize, and distribute the data over a high-end secured network.</p>
+                    <p>
+                      Ensure highly secured business model with Microsoft Azure
+                      fundamentals embedded with multi-layer security provided
+                      and rolled out across Microsoft data centers,
+                      infrastructure, and connected operations covered by
+                      security experts to protect your business assets and data
+                      you drive over the cloud network.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -392,11 +487,18 @@ const MicrosoftAzure = () => {
               <div className="why-solution-wrapper why-solution-wrapper-1">
                 <div className="why-solution-wrapper-inner">
                   <h3>
-                    Invent & <br />
-                    Innovate
+                    Accelerate <br />
+                    Invention & Innovation
                   </h3>
                   <div className="overlay">
-                    <p>Invent, innovate, and accelerate your development model, speed up your deployment strategy, and accelerate your time to market. With Azure Cloud computing services, enhance your developer velocity and abandon development barriers. Strengthen your developers' capability with improved tools, drive system collaboration, and support your changing business needs.</p>
+                    <p>
+                      Increase innovation, accelerate your development strategy,
+                      faster your time to market, maximize your developer
+                      velocity, and remove development barriers. Empower your
+                      developers with the right set of tools and skillsets,
+                      bring collaboration, and support the continuously changing
+                      needs, for instance, to manage spikes in customer demand.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -405,11 +507,19 @@ const MicrosoftAzure = () => {
               <div className="why-solution-wrapper why-solution-wrapper-1">
                 <div className="why-solution-wrapper-inner">
                   <h3>
-                  Build Your <br />
-                  Business Case
+                    Build Your <br />
+                    Business Case
                   </h3>
                   <div className="overlay">
-                    <p>Build your business case on the Microsoft Azure portal by effectively utilizing financial and technical guidance to get the maximum value of your Azure investment. Reveal your business values and efficiencies that can be optimized on the cloud data model. Addressing your modernized business needs, opt for cloud solutions to generate maximized outcomes.</p>
+                    <p>
+                      Get the maximum value out of your Azure investment by
+                      building your business case on the Microsoft Azure portal
+                      leveraging both the financial and technical guidance from
+                      Azure. Discover your brand values and business
+                      efficiencies that can be made possible on the cloud.
+                      Choose the best-suited cloud development solutions and
+                      avail of greater returns.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -418,11 +528,19 @@ const MicrosoftAzure = () => {
               <div className="why-solution-wrapper why-solution-wrapper-1">
                 <div className="why-solution-wrapper-inner">
                   <h3>
-                  Secure & Reliable <br />
-                  Migration 
+                    Reliable <br />
+                    Migration
                   </h3>
                   <div className="overlay">
-                    <p>Ensure an optimum level of data security and reliability while migrating your data on Microsoft Azure Portal. Leveraging the guidance resources, related tools, and required skill sets, move your business data, server, apps, and other eligible enterprises workloads to the Microsoft Azure Cloud with confidence and highly embedded security.</p>
+                    <p>
+                      Migrate your data with confidence and reliability on the
+                      cloud. Get guidance resources at every stage of your
+                      migration process or strategy. Leverage related tools, and
+                      skill set helping you to move your data, server, apps, or
+                      workloads to Microsoft Azure cloud. Get ready to face &
+                      drive challenges by adopting a cloud-equipped business
+                      model implemented on the IaaS model.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -431,11 +549,18 @@ const MicrosoftAzure = () => {
               <div className="why-solution-wrapper why-solution-wrapper-1">
                 <div className="why-solution-wrapper-inner">
                   <h3>
-                  Analytics at  <br />
-                  360-Degree View
+                    Real-Time <br />
+                    Data Analytics
                   </h3>
                   <div className="overlay">
-                    <p>Deploy breakthrough on-cloud analytics solutions to remodel your data into actionable data in real-time supporting your data warehousing, advanced analytics, and key reporting needs for improved decision making. With Microsoft Azure services, ensure and facilitate a secure data distribution throughout your data distribution infrastructure.</p>
+                    <p>
+                      Transform your raw data into real-time actionable insights
+                      and key analytics by building modernized cloud-based key
+                      analytics solutions to address and fulfill your AI
+                      (artificial intelligence), data warehousing, and advanced
+                      analytics needs. With Azure cloud services, enable secure
+                      data distribution across your distribution network.
+                    </p>
                   </div>
                 </div>
               </div>

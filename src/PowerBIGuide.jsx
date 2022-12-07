@@ -475,7 +475,7 @@ const listenToScroll = () => {
                     2022 Gartner Magic Quadrant for Analytics and Business
                     Intelligence Platforms
                   </ExternalLink>
-                  , Microsoft Power BI is awarded as a leader for the 15th
+                  , Microsoft is awarded as a leader for the 15th
                   consecutive year in the industry based on Ability to Execute
                   and Completeness of Vision.
                 </p>

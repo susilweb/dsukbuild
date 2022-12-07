@@ -1,15 +1,14 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { ExternalLink } from "react-external-link";
-import { NavLink } from "react-router-dom";
 const CookiePolicy = () => {
   return (
     <>
       <Helmet>
       <title>Cookie Policy | Dynamics Square</title>
-<meta name="description" content="Read Dynamics Square Cookie Policy - Our cookie policy page explains why and how cookies are used to serve the optimal website experience to our readers."/>
-<link rel="canonical" href="https://www.dynamicssquare.com/cookie-policy/" />
-<meta property="og:locale" content="en_US" />
+<meta name="description" content="For more information on Dynamics Square Cookie Policy, contact our Dynamics 365 support team. We would love to provide the best information for your perusal."/>
+<link rel="canonical" href="https://www.dynamicssquare.co.uk/cookie-policy/" />
+<meta property="og:locale" content="en_GB" />
       </Helmet>
       <section className="Solution-banner hero-1 hero custom-pd-4">
         <div className="container">
@@ -26,7 +25,7 @@ const CookiePolicy = () => {
             <div className="col-md-12 custom00004">
               <h2>Our Cookie Policy</h2>
               <p>
-                <NavLink to="/">Dynamics Square</NavLink> cookie policy page will explain all about why
+                Dynamics Square cookie policy page will explain all about why
                 and how cookies are used. What is the actual need for cookies
                 and what sort of information does it contain? How to prevent
                 cookies from being stored and what happens when you allow or
@@ -142,8 +141,8 @@ const CookiePolicy = () => {
                 users aware of how cookies work and how we leverage cookies just
                 to improve our user experience. If you have queries, please
                 write to us at{" "}
-                <ExternalLink href="mailto:info@dynamicssquare.com.">
-                <b>info@dynamicssquare.com</b>
+                <ExternalLink href="mailto:info@dynamicssquare.co.uk">
+                  info@dynamicssquare.co.uk
                 </ExternalLink>
                 .
               </p>

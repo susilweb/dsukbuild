@@ -4,7 +4,7 @@ import emailjs from "emailjs-com";
 import { useHistory, useLocation } from "react-router-dom";
 import { ExternalLink } from "react-external-link";
 import Form from "./Form";
-import FormFooterSubscriber from "./FormFooterSubscriber";
+import FooterBtoomSuscriber from "./FooterBtoomSuscriber";
 
 //import HubspotForm from "react-hubspot-form";
 
@@ -17,11 +17,17 @@ const Footer = () => {
   if (
     pathname === "/contact-us/" ||
     pathname === "/thank-you/" ||
-    pathname === "/email-dynamics365-crm/" ||
+    pathname === "/thank-you-for-registration/" ||
+    pathname === "/404" ||
+    pathname === "/thank-you/email-subscriber/" ||
+    pathname === "/not-for-profit-fundraising-engagement/" ||
     pathname === "/emailer-power-bi/" ||
+    pathname === "/email-dynamics365-crm/" ||
+    pathname === "/email-mtd-compliant/" ||
     pathname === "/subscribe-updates/" ||
     pathname === "/email-gp-to-bc/" ||
-    pathname === "/email-ax-to-finance/"
+    pathname === "/email-ax-to-finance/" ||
+    pathname === "/email-wms/"
   ) {
     //setStyle("dspn");
     return null;
@@ -33,13 +39,12 @@ const Footer = () => {
 
     emailjs
       .sendForm(
-        "service_ioc4m3m",
-        "template_gaio8jq",
+        "service_x0eo9w8",
+        "template_e2eswsj",
         e.target,
-        "Z1IXZpfjgq01m5vW7"
+        "xIFtTfBj6NR498Plv"
       )
       .then((res) => {
-        //alert("success");
         history.push("/thank-you/");
       })
       .catch((err) => console.log(err));
@@ -70,7 +75,7 @@ const Footer = () => {
             </div>
             <p>
               Please complete the form below and we will be in touch or{" "}
-              <ExternalLink href="tel:+2818990865" target="_self" rel="">
+              <ExternalLink href="tel:+442071932502" target="_self" rel="">
                 book a call
               </ExternalLink>{" "}
               with one of our Microsoft consultants.
@@ -125,7 +130,6 @@ const Footer = () => {
                       placeholder="*How Can We Help You?"
                       rows="3"
                       name="message"
-                      required
                     ></textarea>
                   </div>
                   <div className="mb-3 form-check">
@@ -202,14 +206,13 @@ const Footer = () => {
       <div className="footer-contact-s">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3">
-              <div className="const-list-name">California</div>
+            <div className="col-lg-4">
               <div className="contact-list">
                 <div className="icons-left">
                   <i className="bi bi-geo-alt"></i>
                 </div>
                 <div className="content-right">
-                  2372 Morse Ave, Ste. 310 Irvine, CA 92614
+                  Kemp House, 152-160 City Road,London, EC1V 2NX, U.K.
                 </div>
               </div>
               <div className="contact-list">
@@ -217,8 +220,8 @@ const Footer = () => {
                   <i className="bi bi-telephone"></i>
                 </div>
                 <div className="content-right">
-                  <ExternalLink target="_self" rel="" href="tel:+12137840845">
-                    +1 213 784 0845
+                  <ExternalLink target="_self" rel="" href="tel:+442071932502">
+                    +44 207 193 2502
                   </ExternalLink>
                 </div>
               </div>
@@ -226,18 +229,18 @@ const Footer = () => {
                 <div className="icons-left">
                   <i className="bi bi-envelope"></i>
                 </div>
-                <div className="content-right">info@dynamicssquare.com</div>
+                <div className="content-right">info@dynamicssquare.co.uk</div>
               </div>
             </div>
 
-            <div className="col-lg-3">
-              <div className="const-list-name">Texas</div>
+            <div className="col-lg-4">
               <div className="contact-list">
                 <div className="icons-left">
                   <i className="bi bi-geo-alt"></i>
                 </div>
                 <div className="content-right">
-                  10101 Southwest Freeway Houston, TX 77074
+                  International House 61 Mosley Street, Manchester, M2 3HZ,
+                  United Kingdom
                 </div>
               </div>
               <div className="contact-list">
@@ -245,8 +248,8 @@ const Footer = () => {
                   <i className="bi bi-telephone"></i>
                 </div>
                 <div className="content-right">
-                  <ExternalLink target="_self" rel="" href="tel:+12818990865">
-                    +1 281 899 0865
+                  <ExternalLink target="_self" rel="" href="tel:+447479273380">
+                    +44 747 927 3380
                   </ExternalLink>
                 </div>
               </div>
@@ -254,18 +257,17 @@ const Footer = () => {
                 <div className="icons-left">
                   <i className="bi bi-envelope"></i>
                 </div>
-                <div className="content-right">info@dynamicssquare.com</div>
+                <div className="content-right">info@dynamicssquare.co.uk</div>
               </div>
             </div>
 
-            <div className="col-lg-3">
-              <div className="const-list-name">British Columbia</div>
+            <div className="col-lg-4">
               <div className="contact-list">
                 <div className="icons-left">
                   <i className="bi bi-geo-alt"></i>
                 </div>
                 <div className="content-right">
-                  398-2416 Main St. Vancouver BC V5T 3E2
+                  Utrechtseweg 341, 3818 EL Amersfoort, Netherlands
                 </div>
               </div>
               <div className="contact-list">
@@ -273,8 +275,8 @@ const Footer = () => {
                   <i className="bi bi-telephone"></i>
                 </div>
                 <div className="content-right">
-                  <ExternalLink target="_self" rel="" href="tel:+17786523656">
-                    +1 778 652 3656
+                  <ExternalLink target="_self" rel="" href="tel:+3197010257044">
+                    +31 970 102 57044
                   </ExternalLink>
                 </div>
               </div>
@@ -282,34 +284,7 @@ const Footer = () => {
                 <div className="icons-left">
                   <i className="bi bi-envelope"></i>
                 </div>
-                <div className="content-right">info@dynamicssquare.com</div>
-              </div>
-            </div>
-            <div className="col-lg-3">
-              <div className="const-list-name">Ontario</div>
-              <div className="contact-list">
-                <div className="icons-left">
-                  <i className="bi bi-geo-alt"></i>
-                </div>
-                <div className="content-right">
-                  800 Steeles Ave. W. #B10155 Thornhill, ON. L4J 7L23E2
-                </div>
-              </div>
-              <div className="contact-list">
-                <div className="icons-left">
-                  <i className="bi bi-telephone"></i>
-                </div>
-                <div className="content-right">
-                  <ExternalLink target="_self" rel="" href="tel:+12898072802">
-                    +1 289 807 2802
-                  </ExternalLink>
-                </div>
-              </div>
-              <div className="contact-list">
-                <div className="icons-left">
-                  <i className="bi bi-envelope"></i>
-                </div>
-                <div className="content-right">info@dynamicssquare.com</div>
+                <div className="content-right">info@dynamicssquare.co.uk</div>
               </div>
             </div>
           </div>
@@ -328,10 +303,10 @@ const Footer = () => {
                   />
                 </NavLink>
                 <p>
-                  Dynamics Square is US leading Microsoft Gold Certified Partner
-                  that caters to the needs of orgnizations who can source
-                  next-gen Microsoft Business Apps from our highly skilled
-                  Microsoft consultants.
+                  Dynamics Square is UK's leading Microsoft Gold Certified
+                  Partner that caters to the needs of orgnizations who can
+                  source next-gen Microsoft Business Apps from our highly
+                  skilled Microsoft consultants.
                 </p>
                 <img
                   src="/assets/img/microsoft-partner.svg"
@@ -421,9 +396,9 @@ const Footer = () => {
                   <li>
                     <i className="bi bi-chevron-right"></i>
                     <ExternalLink
-                      target="_self"
-                      href="https://www.dynamicssquare.com/blog/"
+                      href="https://www.dynamicssquare.co.uk/blog/"
                       rel=""
+                      target="_self"
                     >
                       Blog
                     </ExternalLink>
@@ -441,7 +416,7 @@ const Footer = () => {
                   <ExternalLink
                     target="_blank"
                     rel=""
-                    href="https://twitter.com/dsquare_usa"
+                    href="https://twitter.com/dsquare_uk"
                     className="twitter"
                   >
                     <i className="bi bi-twitter"></i>
@@ -449,7 +424,7 @@ const Footer = () => {
                   <ExternalLink
                     target="_blank"
                     rel=""
-                    href="https://www.facebook.com/dynamicssquareusa"
+                    href="https://www.facebook.com/dynamicssquareuk/"
                     className="facebook"
                   >
                     <i className="bi bi-facebook"></i>
@@ -457,28 +432,27 @@ const Footer = () => {
                   <ExternalLink
                     target="_blank"
                     rel=""
-                    href="https://www.youtube.com/c/DynamicsSquare"
+                    href="https://www.instagram.com/dynamicssquareuk/"
                     className="instagram"
                   >
-                    <i className="bi bi-youtube"></i>
+                    <i className="bi bi-instagram"></i>
                   </ExternalLink>
                   <ExternalLink
                     target="_blank"
                     rel=""
-                    href="https://www.linkedin.com/showcase/dynamics-square-usa/"
+                    href="https://www.linkedin.com/showcase/dynamics-square-uk/"
                     className="linkedin"
                   >
                     <i className="bi bi-linkedin"></i>
                   </ExternalLink>
                 </div>
-                <br />
-                <div className="subbb">
+                <div className="footer-bottm-subscriber">
                   <p>Subscribe Newsletter</p>
                   <span>
                     Get Dynamics 365 Product Updates, Free Webinars, Blogs,
                     Offers And Much More!
                   </span>
-                  <FormFooterSubscriber />
+                  <FooterBtoomSuscriber />
                 </div>
               </div>
             </div>

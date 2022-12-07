@@ -17,10 +17,10 @@ const FormGuide = () => {
 
     emailjs
       .sendForm(
-        "service_8nlbo04",
-        "template_3b4uq29",
+        "service_4voumj7",
+        "template_68k24ku",
         e.target,
-        "6bh9sGQpzDgqfRNHH"
+        "mJ38M6WTmU7KRrtuZ"
       )
       .then((res) => {
         history.push("/guides/download/power-guide-pdf/");
@@ -59,7 +59,7 @@ const FormGuide = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="* Full Name"
+                      placeholder="*Full Name"
                       name="name"
                       required
                     />
@@ -72,7 +72,7 @@ const FormGuide = () => {
                       className="form-control"
                       placeholder="* Work Email"
                       name="email"
-                      pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
+                      pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!gmail)(?!yahoo.com)(?!yahoo)(?!hotmail.com)(?!hotmail)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
                       required
                     />
                   </div>
@@ -82,7 +82,6 @@ const FormGuide = () => {
                       className="form-control"
                       placeholder="*Company Name"
                       name="company_name"
-                      required
                     />
                   </div>
                   <div className="mb-3">
@@ -92,7 +91,6 @@ const FormGuide = () => {
                       placeholder="*Phone Number"
                       name="phone"
                       pattern="^\d{10,13}$"
-                      required
                     />
                   </div>
                   <div className="mb-3 form-check">
