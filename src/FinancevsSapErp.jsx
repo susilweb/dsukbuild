@@ -6,10 +6,10 @@ const FinancevsSapErp = () => {
   return (
     <>
       <Helmet>
-      <title>What&#039;s the Difference B/w Microsoft Business Central Vs SAP Business One?</title>
-<meta name="description" content="Are you looking for the Right ERP Solution for your Enterprise, but not sure of choosing between Microsoft Dynamics 365 Business Central and SAP Business One?"/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/dynamics-365-finance-operations-vs-sap-erp/" />
-<meta property="og:locale" content="en_GB" />
+      <title>Dynamics 365 Finance & Operations vs SAP ERP - Dynamics Square</title>
+<meta name="description" content="Dynamics 365 Finance & Operations vs SAP ERP: ERP platforms enable automation and deliver critical data insights that empower growing enterprises to make meaningful decisions while planning their future."/>
+<link rel="canonical" href="https://www.dynamicssquare.com/dynamics-365-finance-operations-vs-sap-erp/" />
+<meta property="og:locale" content="en_US" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -39,8 +39,9 @@ const FinancevsSapErp = () => {
 
       <section>
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
+          <div className="row justify-content-center">
+            <div className="col-lg-9 col-md-9">
+              <div className="row justify-content-center"></div>
               <header className="section-header">
                 <h2>Overview</h2>
                 <p>
@@ -102,8 +103,8 @@ const FinancevsSapErp = () => {
                   <NavLink to="/products/microsoft-dynamics-erp/">
                     ERP solutions{" "}
                   </NavLink>
-                  for medium and large- size organizations - Microsoft Dynamics
-                  365 Finance and Operations (or D365 F&O), and SAP ERP. The
+                  for medium and large- size organizations - <NavLink to="/products/ microsoft-dynamics-365-finance-operations/">
+                  Microsoft Dynamics 365 Finance and Operations</NavLink> (or D365 F&O), and SAP ERP. The
                   team deep- dived into the notable features of both these smart
                   ERP platforms to assist enterprises in evaluating and picking
                   the most appropriate solution for their business.

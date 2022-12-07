@@ -17,10 +17,10 @@ const StartGuide = () => {
 
     emailjs
       .sendForm(
-        "service_4voumj7",
-        "template_68k24ku",
+        "service_cxxhqoq",
+        "template_f80fich",
         e.target,
-        "mJ38M6WTmU7KRrtuZ"
+        "7Ae4EIVY__86NsTQD"
       )
       .then((res) => {
         history.push("/thank-you-for-registration/");
@@ -44,9 +44,9 @@ const StartGuide = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/e-book/upgrade-nav-to-business-central/"
+          href="https://www.dynamicssquare.com/e-book/upgrade-nav-to-business-central/"
         />
-        <meta property="og:locale" content="en_GB" />
+        <meta property="og:locale" content="en_US" />
       </Helmet>
 
       <section className="Solution-banner hero-1 hero">
@@ -440,9 +440,7 @@ const StartGuide = () => {
               ></button>
               <p></p>
             </div>
-            <p>
-              Fill the form and receive it straight to your inbox.
-            </p>
+            <p>Fill the form and receive it straight to your inbox.</p>
             <div className="modal-body">
               <div className="main-form-wrper">
                 <form onSubmit={sendEmail}>
@@ -450,18 +448,18 @@ const StartGuide = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="* Full Name"
+                      placeholder="*Full Name"
                       name="name"
                       required
                     />
-                     <input type="hidden" name="url" value={currentUrl} />
+                    <input type="hidden" name="url" value={currentUrl} />
                   </div>
 
                   <div className="mb-3">
                     <input
                       type="email"
                       className="form-control"
-                      placeholder="* Work Email"
+                      placeholder="*Work Email"
                       name="email"
                       pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
                       required
@@ -471,7 +469,7 @@ const StartGuide = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="Company Name"
+                      placeholder="*Company Name"
                       name="company_name"
                       required
                     />
@@ -480,7 +478,7 @@ const StartGuide = () => {
                     <input
                       type="tel"
                       className="form-control"
-                      placeholder="Phone Number"
+                      placeholder="*Phone Number"
                       name="phone"
                       pattern="^\d{10,13}$"
                       required
@@ -496,23 +494,15 @@ const StartGuide = () => {
                     />
                     <label className="form-check-label" htmlFor="exampleCheck1">
                       I agree to the
-                      <a
-                        href="https://www.dynamicssquare.co.uk/privacy-policy/"
-                        title="https://www.dynamicssquare.co.uk/privacy-policy/"
-                        target="_blank"
-                      >
+                      <NavLink to="/privacy-policy/" target="_blank">
                         {" "}
                         Privacy Policy{" "}
-                      </a>
+                      </NavLink>
                       and
-                      <a
-                        href="https://www.dynamicssquare.co.uk/terms-of-use/"
-                        title="https://www.dynamicssquare.co.uk/terms-of-use/"
-                        target="_blank"
-                      >
+                      <NavLink to="/terms-of-use/" target="_blank">
                         {" "}
                         Terms of Service{" "}
-                      </a>
+                      </NavLink>
                       .
                     </label>
                   </div>

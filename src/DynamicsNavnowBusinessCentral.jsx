@@ -6,10 +6,10 @@ const DynamicsNavnowBusinessCentral = () => {
   return (
     <>
       <Helmet>
-      <title>Dynamics NAV is now Dynamics 365 Business Central | Dynamics Square</title>
+      <title>Dynamics NAV is now Dynamics 365 Business Central</title>
 <meta name="description" content="Microsoft is a leading business management and ERP solutions provider. Microsoft Dynamics Navision (NAV) has ruled the business landscape ever since its"/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/dynamics-nav-is-now-dynamics-365-business-central/" />
-<meta property="og:locale" content="en_GB" />
+<link rel="canonical" href="https://www.dynamicssquare.com/dynamics-nav-is-now-dynamics-365-business-central/" />
+<meta property="og:locale" content="en_US" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -45,27 +45,24 @@ const DynamicsNavnowBusinessCentral = () => {
 
       <section>
         <div className="container">
-          <header className="section-header">
-            <h2>Dynamics 365 Business Central</h2>
-          </header>
+          <div className="row justify-content-center">
+            <div className="col-lg-8 col-md-8">
+                <header className="section-header">
+                    <h2> Dynamics 365 Business Central</h2>
+                    <p>Microsoft is a leading business management and ERP solutions provider. <NavLink to="/products/microsoft-dynamics-nav/">Microsoft Dynamics Navision</NavLink> (NAV) has ruled the business landscape ever since its launch. It is an ERP solution that smartly integrates and manages all the mission-critical processes, including sales, purchasing, accounting, and others to ensure business growth.</p>
+                </header>
+            </div>
+          </div>
           <div className="row p-lg-6">
             <div className="col-lg-6 align-self-center">
-              <p>
-                <b>
-                  Microsoft is a leading business management and ERP solutions
-                  provider. Microsoft Dynamics Navision (NAV) has ruled the
-                  business landscape ever since its launch. It is an ERP
-                  solution that smartly integrates and manages all the
-                  mission-critical processes, including sales, purchasing,
-                  accounting, and others to ensure business growth.
-                </b>
-              </p>
-              <p>
+           
+              <h4>
                 However, Microsoft Dynamics NAV is now Dynamics 365 Business
-                Central.
-              </p>
+                Central
+              </h4>
+              <p> </p>
               <p>
-                Dynamics 365 Business Central offers the same functionality as
+            <NavLink to="/products/dynamics-365-business-central/">Dynamics 365 Business Central</NavLink>{" "} offers the same functionality as
                 Dynamics NAV with added flexibility to deploy in the cloud or
                 on-premises.
               </p>
@@ -115,17 +112,15 @@ const DynamicsNavnowBusinessCentral = () => {
 
       <section>
         <div className="container">
-          <header className="section-header">
-            <h2>
-              But what does it mean for <br />
-              Dynamics NAV existing users?
-            </h2>
-            <p>
-              Microsoft has left no stone unturned to make upgrading and
-              migrating to Dynamics 365 Business Central from Dynamics NAV
-              seamless. It offers three ways to upgrade.
-            </p>
-          </header>
+        <div className="row justify-content-center">
+            <div className="col-lg-8 col-md-8">
+                <header className="section-header">
+                    <h2>But What Does It Mean For Dynamics NAV Existing Users?</h2>
+                    <p>Microsoft has left no stone unturned to make upgrading and migrating to Dynamics 365 Business Central from Dynamics NAV seamless. It offers three ways to upgrade.</p>
+                  </header>
+              </div>
+          </div>
+
           <div className="row">
             <div className="col-lg-12">
               <h3 className="text-center">
@@ -191,7 +186,7 @@ const DynamicsNavnowBusinessCentral = () => {
                 involves lesser initial investment and gives you more
                 flexibility and scalability as you can increase the number of
                 licenses as your business grows. You can further lower your
-                expenses by hosting the licenses on Microsoft Azure. Of course,
+                expenses by hosting the licenses on <NavLink to="/products/microsoft-azure/">Microsoft Azure</NavLink>. Of course,
                 it will involve Azure-hosting cost but it is usually cheaper
                 than running an on-premises server or outsourcing to a local
                 partner.
@@ -208,17 +203,17 @@ const DynamicsNavnowBusinessCentral = () => {
                   <tbody>
                     <tr>
                       <td>Premium</td>
-                      <td>£60 down to £50</td>
+                      <td>$71.63 down to $59.69</td>
                       <td>Per-user/month</td>
                     </tr>
                     <tr>
                       <td>Essentials</td>
-                      <td>£42 down to £35</td>
+                      <td>$50.14 down to $41.78</td>
                       <td>Per-user/month</td>
                     </tr>
                     <tr>
                       <td>Team Member</td>
-                      <td>£7.50 down to £5.50</td>
+                      <td>$8.95 down to $6.57</td>
                       <td>Per-user/month</td>
                     </tr>
                   </tbody>
@@ -255,17 +250,17 @@ const DynamicsNavnowBusinessCentral = () => {
                   <tbody>
                     <tr>
                       <td>Premium</td>
-                      <td>£75.40 down to £45.24</td>
+                      <td>$90.02 down to $54.01</td>
                       <td>Per-user/month</td>
                     </tr>
                     <tr>
                       <td>Essentials</td>
-                      <td>£52.80 down to £31.67</td>
+                      <td>$63.03 down to $37.81</td>
                       <td>Per-user/month</td>
                     </tr>
                     <tr>
                       <td>Team Member</td>
-                      <td>£6 down to £3.60</td>
+                      <td>$7.16 down to $4.30</td>
                       <td>Per-user/month</td>
                     </tr>
                   </tbody>
@@ -293,11 +288,11 @@ const DynamicsNavnowBusinessCentral = () => {
               <p>
                 Back pay + re-enrolment fee + future year
                 <br />
-                License List price is £10,000. Lapsed 420 days
+                License List price is $11938.35. Lapsed 420 days
                 <br />
-                £10,000 * (16% + 3%)/365 = £5.21 per day
+                $11938.35 * (16% + 3%)/365 = $6.22 per day
                 <br />
-                £5.21 * 420 days + (16% * £10,000) = £3,788.20
+                $6.22 * 420 days + (16% * $11938.35) = $4522.49
               </p>
               <p>
                 That's all we have for you about the different ways of upgrading

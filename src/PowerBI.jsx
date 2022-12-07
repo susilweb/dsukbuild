@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { ExternalLink } from "react-external-link";
 import ModalVideo from "react-modal-video";
-import Blog from "./Blog";
 import FormGuide from "./FormGuide";
+import Blog from "./Blog";
 const PowerBI = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -12,16 +12,18 @@ const PowerBI = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Microsoft Power BI Experts, Services &amp; Pricing Plans</title>
+        <title>
+          Microsoft Power BI Expert | Power BI Services &amp; Pricing
+        </title>
         <meta
           name="description"
-          content="Need Microsoft Power BI services in the UK? Hire a trusted Power BI expert to transform your data into actionable insights. Get free online consultation today."
+          content="Power BI Expert: Use Microsoft Power BI data visualization tools to transform your data into actionable insights. Contact us for a free Power BI consultation &amp; services."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/products/microsoft-power-bi/"
+          href="https://www.dynamicssquare.com/products/microsoft-power-bi/"
         />
-        <meta property="og:locale" content="en_GB" />
+        <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
       </Helmet>
       <ModalVideo
@@ -37,10 +39,9 @@ const PowerBI = () => {
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>Microsoft Power BI</h1>
               <p>
-                Our Power BI experts help to transform your data into actionable
-                insights. Get customised Power BI plans to bring more
-                scalability and flexibility to your business. Talk to our Power
-                BI consultant today.
+                Our Power BI experts helps transform your raw data into powerful
+                business insights. Strategically track and share your analytical
+                data leveraging user dashboards using cross devices.
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -49,7 +50,7 @@ const PowerBI = () => {
                     to="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Get Started</span>
+                    <span>Schedule a Demo</span>
                   </NavLink>
                 </div>
               </div>
@@ -66,16 +67,22 @@ const PowerBI = () => {
 
       <section>
         <div className="container">
-          <header className="section-header">
-            <h2>Get Microsoft Power BI Consulting Services</h2>
-            <p>
-              With our dedicated Power BI consulting services you can transform
-              and strengthen your data into actionable insights. With Microsoft
-              Power BI solution, you can visualize data, create immersive
-              reports and can share the same across their organization to
-              strengthen everyone with productive decision-making capabilities.
-            </p>
-          </header>
+          <div className="row justify-content-center">
+            <div className="col-lg-8 col-md-8">
+              <header className="section-header">
+                <h2>What Is Microsoft Power Bi?</h2>
+                <p>
+                  Convert your data into powerful decision-making insights, key
+                  metrics, and other analytical reports in visual representation
+                  to predict data and instantly make decisions. Microsoft Power
+                  BI allows to instantly create extensive reports and visualize
+                  them using dashboards. Further, these reports can be shared
+                  with people in your organization enabling them to make timely
+                  yet productive decisions.
+                </p>
+              </header>
+            </div>
+          </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -106,10 +113,12 @@ const PowerBI = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Leveraging Power BI Desktop, connect all your data
-                        sources, create data models, and finally prepare
-                        interactive visuals and key analytics to make smarter
-                        decisions with instant efficiency.
+                        <p>
+                          With Power BI Desktop, drive effective data strategy
+                          by integrating your data source. Keeping on-premises,
+                          build interactive reports and visualized analytics to
+                          make smarter and faster decisions.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -140,10 +149,12 @@ const PowerBI = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Streamline your data visualization and key analytics
-                        across your business channels so as everyone can make
-                        effective and productive decisions fulfilling the timely
-                        need.
+                        <p>
+                          Power BI Service is a powerful solution that helps to
+                          visualize data, reports, and analytics throughout your
+                          organization to empower your workforce with
+                          productivity-driven decisions in real-time.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -181,15 +192,12 @@ const PowerBI = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Stay connected to your data with mobile intelligence.
-                        With Power BI Mobile, access, view, and leverage the{" "}
-                        <ExternalLink
-                          href="https://www.dynamicssquare.co.uk/blog/power-bi-reports/"
-                          target="_self"
-                        >
-                          Power BI reports
-                        </ExternalLink>{" "}
-                        & insights whenever and wherever required.
+                        <p>
+                          Leverage mobile intelligence with Power BI Mobile. It
+                          allows people in your organization to generate custom
+                          reports and visual analytics as well as share the same
+                          instantly to encourage decision-making.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -207,7 +215,7 @@ const PowerBI = () => {
               <div className="wy-sultion-left-head">
                 <h2>Power BI Features & Capabilities</h2>
                 <h3>
-                  Why Choose Power BI as a Business Intelligence Solution?
+                  Why Choose Dynamics Square as a Your Power BI Expert Partner?
                 </h3>
               </div>
             </div>
@@ -222,10 +230,10 @@ const PowerBI = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                          Power BI can be configured and customized suited to
-                          your specific business requirements. Businesses can
-                          integrate their Power BI with existing Microsoft apps
-                          or third-party apps seamlessly.
+                          Power BI comes with flexible configuration and
+                          customization capabilities matching to your customized
+                          business context. It can be integrated seamlessly with
+                          other Microsoft apps or your existing system.
                         </p>
                       </div>
                     </div>
@@ -236,10 +244,10 @@ const PowerBI = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                          With Power BI, it becomes easy to create visual
-                          reports & analytics, publish & share the insights, and
-                          enable everyone to make data-driven decisions across
-                          the organizational boundaries.
+                          Empower your reporting and analytics capabilities with
+                          Power BI. Allows your workforce to create highly
+                          embedded visual reports & insights and publish & share
+                          the same to ensure data-driven strategies.
                         </p>
                       </div>
                     </div>
@@ -253,9 +261,10 @@ const PowerBI = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                          Power BI is a highly secured and reliable tool that
-                          meets your company's compliance and regulation needs
-                          when it comes to sharing data globally.
+                          Ensure global compliances management and regulations
+                          with highly secured and reliable Power BI
+                          implementation. Power BI is designed with inbuilt
+                          security features that drive growth and scalability.
                         </p>
                       </div>
                     </div>
@@ -266,10 +275,11 @@ const PowerBI = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                          From creating powerful visual insights to publishing &
-                          sharing with others; Power BI is built imbibing MS
-                          drag and drop features, thereby, allows easy and quick
-                          user adaption.
+                          Power BI is designed with an easy-to-use interface and
+                          drag & drop functionality that assists in quick
+                          user-adaption to instantly create decision-making
+                          reports, visual charts, and actionable data
+                          representations.
                         </p>
                       </div>
                     </div>
@@ -300,9 +310,9 @@ const PowerBI = () => {
                         Read It Now
                       </NavLink>
                       <NavLink
-                        className="bt-red-border bt-red-a"
                         data-bs-toggle="modal"
                         to="#powerBIModal"
+                        className="bt-red-border bt-red-a"
                       >
                         Download as PDF
                       </NavLink>
@@ -313,7 +323,7 @@ const PowerBI = () => {
                   <div className="all-to-power-bi-pic text-center">
                     <img
                       src="/assets/img/mask-group3x.png"
-                      alt="mask-group@3x"
+                      alt="mask-group3x"
                     />
                   </div>
                 </div>
@@ -339,10 +349,7 @@ const PowerBI = () => {
                         to="#javascript:void(0)"
                         onClick={() => setOpen(true)}
                       >
-                        <img
-                          src="/assets/img/video-Power BI.png"
-                          alt="Power BI"
-                        />
+                        <img src="/assets/img/video-Power BI.png" />
                         <span className="cente-icns">
                           <img
                             src="/assets/img/play_icons.svg"
@@ -355,13 +362,13 @@ const PowerBI = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 align-self-center">
+            <div className="col-lg-1"></div>
+            <div className="col-lg-5 align-self-center">
               <div className="side-heading">
-                <h2>Your Trusted Power BI Partner</h2>
-                <p>
-                  Uplift Your Business with our Power BI Consulting Services
-                </p>
+                <h2>Get Exclusive Power Bi Consulting Services</h2>
+                <p>Uplift Your Business with Our Power BI Services</p>
               </div>
+              <br />
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
                   <img
@@ -372,8 +379,8 @@ const PowerBI = () => {
                 <div className="card_new_content">
                   <h3>Power BI Implementation</h3>
                   <p>
-                    Get Power BI Implementation customized and configured suited
-                    to your specific business needs.
+                    Drive standard reporting and AI analytics by availing of
+                    highly customized Power BI implementation.
                   </p>
                   <div className="action-content">
                     <NavLink to="/power-bi-implementation/">
@@ -382,16 +389,7 @@ const PowerBI = () => {
                   </div>
                 </div>
               </div>
-              {/* <div className="busine_service_bottom-right">
-                        <div className="card_new_img">
-                           <img src="/assets/img/Business Central Upgrade-icons.svg" alt="Business Central Upgrade-icons" />
-                        </div>
-                        <div className="card_new_content">
-                           <h3>Upgrade</h3>
-                           <p>Bring innovation and drive agility in your financial operations all through D365 Finance Upgrade.</p>
-                           <div className="action-content"><NavLink to="#">Get Started</NavLink></div>
-                        </div>
-                     </div> */}
+
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
                   <img
@@ -402,11 +400,11 @@ const PowerBI = () => {
                 <div className="card_new_content">
                   <h3>Power BI Support</h3>
                   <p>
-                    Get our Power BI Support Services to fully meet your
-                    business needs. Contact our Power Expert Now.
+                    Stay ensured that your business operations are at their peak
+                    efficiency with our Power BI support.
                   </p>
                   <div className="action-content">
-                    <NavLink  to="/power-bi-support/">
+                    <NavLink data-bs-toggle="modal" to="#exampleModal">
                       Get Started
                     </NavLink>
                   </div>
@@ -418,13 +416,17 @@ const PowerBI = () => {
       </section>
       <section id="pricing" className="pricing">
         <div className="container">
-          <header className="section-header">
-            <h2>Microsoft Power BI Pricing</h2>
-            <p>
-              Being a trusted Power BI implementation partner, we can reveal the
-              best-suited Power BI pricing plans for your business to grow.
-            </p>
-          </header>
+          <div className="row justify-content-center">
+            <div className="col-lg-8 col-md-8">
+              <header className="section-header">
+                <h2>Power BI Pricing & Licensing</h2>
+                <p>
+                  Being a Power BI Implementation Partner, we can reveal the
+                  best-suited Power BI plan for you.
+                </p>
+              </header>
+            </div>
+          </div>
           <div className="row gy-4 p-9">
             <div className="col-lg-4">
               <div className="box power-new-price">
@@ -433,7 +435,7 @@ const PowerBI = () => {
                   Pro
                 </h3>
                 <div className="price price-power">
-                  £7.50<span>Per-User/Per Month</span>
+                  <sup>$</sup>9.99<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -494,7 +496,7 @@ const PowerBI = () => {
                   Premium
                 </h3>
                 <div className="price price-power">
-                  £15.10<span>Per-User/Per Month</span>
+                  <sup>$</sup>20<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -555,7 +557,7 @@ const PowerBI = () => {
                   Premium
                 </h3>
                 <div className="price price-power">
-                  £3,766.70<span>Per Capacity/Month</span>
+                  <sup>$</sup>4,995<span>Per Capacity/Month</span>
                 </div>
                 <ul>
                   <li>
@@ -631,289 +633,6 @@ const PowerBI = () => {
           </div>
         </div>
       </section>
-
-      <section className="solution-faq faq">
-        <div className="container">
-          <header className="section-header">
-            <h2>
-              Have you got
-              <br />
-              questions about Power BI?
-            </h2>
-            <p>Click through to our FAQ for the best answers!</p>
-          </header>
-          <div className="row justify-content-center mar-top-7">
-            <div className="col-lg-8">
-              <div className="accordion accordion-flush" id="faqlist1">
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-1"
-                    >
-                      What is Power BI?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-1"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      Power BI is Microsoft's highly embedded analytics tool to
-                      develop and share reports with people across your
-                      business. Power BI is designed that can seamlessly be
-                      configured with Microsoft's own applications as well as
-                      other well-known third-party applications so as businesses
-                      without disturbing their existing system set-up can avail
-                      of Power BI and get it configured with their existing
-                      system to work in an integrated manner.
-                      <br />
-                      <br />
-                      Power BI helps enterprises to make powerful reporting
-                      visuals, key analytics, and other graphical analysis.
-                      Users can even develop their own visuals suited to their
-                      specific business needs and can share the same within
-                      their organization to be used further by their workforce.
-                      All the Power BI reports can be published and demonstrated
-                      on user dashboards. These reports and insights available
-                      in different visualizations help businesses for better
-                      decision making. Moreover, dashboards can also be
-                      customized to address specific user needs. <br />
-                      <br />
-                      Get more insight about "
-                      <ExternalLink
-                        href="https://www.dynamicssquare.co.uk/blog/what-is-power-bi/"
-                        rel=""
-                      >
-                        What is Power BI?
-                      </ExternalLink>
-                      "
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-2"
-                    >
-                      Does Power BI produce Paginated reports?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-2"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      Yes, Power BI allows users to create pixel-perfect and
-                      highly formatted Paginated reports that can be leveraged
-                      for a printing purpose or to create a pdf version.
-                      Paginated reports are developed and available in the Power
-                      BI premium plan to fit well on multiple pages. User(s) can
-                      publish and share paginated reports through the Power BI
-                      dashboard across their workspace.
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-3"
-                    >
-                      Can I use Power BI for Budgeting & Forecasting?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-3"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      Power BI is a powerful data visualization and business
-                      analytics tool that makes effective use of the data
-                      sources you connect with and prepares your data for
-                      budgeting and forecasting insights.
-                      <br />
-                      <br />
-                      You could have data on MS Excel, Salesforce, or
-                      QuickBooks; Power BI utilizes your data sources and
-                      prepares your data for budgeting and forecasting insights.
-                      For instance, it could be sales forecasting reports,
-                      production analysis, operational budgets, Cashflow
-                      statements, asset planning, and more. To know more about
-                      how it works, you can contact{" "}
-                      <NavLink to="/">Dynamics Square</NavLink>.
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-4"
-                    >
-                      How is Power BI different from traditional BI
-                      implementations?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-4"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      When it comes to comparing Power BI with traditional BI
-                      tools, there could be several differences. Power BI is a
-                      next-generation Business Intelligence tool that is
-                      facilitated with cloud and self-service opportunities.
-                      <br />
-                      <br />
-                      The very first benefit of Power BI over a traditional one
-                      is - Power BI can be configured for on-premises as well as
-                      on-cloud i.e., Software as a Service (SaaS). Users can
-                      access their data (hosted on Microsof's Azure Server)
-                      simply using their browser. Cloud-based Power BI solution
-                      eliminates the upfront cost, hardware investment, and
-                      lowers the license pricing.
-                      <br />
-                      <br />
-                      The Next but not the least benefit of Power BI over
-                      traditional BI systems is Self-service facilitation. With
-                      Power BI, you can create custom reports, create your own
-                      visuals, and can extend the existing Power BI reports
-                      which are not possible with traditional business
-                      intelligence systems. Using traditional BI configuration,
-                      users can make decisions based on guided analytics or
-                      reports only; they can't make their own reports or perform
-                      customizations, etc. Moreover, Power BI reduces your
-                      costs, stimulates the development cycle, and accelerates
-                      user adoption.
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-5"
-                    >
-                      What is Power BI Report Server? Does this mean you are
-                      making Power BI available for on-premises systems?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-5"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      Power BI Report Server is the on-premises reporting
-                      solution wherein users can create reports today and can
-                      move to the cloud later. If you want to keep data within
-                      your organizational boundaries, you can simply create,
-                      access, and share accordingly. It is included in the Power
-                      BI premium plan. It works on your own terms.
-                      <br />
-                      <br />
-                      Report Server enables you to create interactive and
-                      intuitive reports leveraging the reporting capabilities of
-                      SSRS (SQL Server Reporting Services). You can even design
-                      pixel-perfect paginated reports configured to your
-                      business needs. Since the Power BI Report Server is an
-                      enterprise-grade platform, it also allows you to scale
-                      thousands of users.
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-6"
-                    >
-                      How is Power BI licensed? How much does the Power BI
-                      premium cost?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-6"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      In terms of Power BI licensing, Power BI Desktop is
-                      available to download for free. All you need to register
-                      your business at no cost. With this simple step, any
-                      business user can start creating their reports, but this
-                      will not allow you to share or distribute your reports to
-                      the people in your organization.
-                      <br />
-                      <br />
-                      Once you opt for the Power BI Pro license, you will be get
-                      permitted to share your reports with other users (each
-                      with a Power BI Pro license in your workspace. Rest, you
-                      can always contact Dynamics Square to enquire about Power
-                      BI licensing costs for your business.
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-8"
-                    >
-                      What if I want more functionality or change?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-8"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist8"
-                  >
-                    <div className="accordion-body">
-                      Power BI is a highly flexible business analytics solution
-                      that can be customized as per your specific business
-                      domain and contextual needs. Even post-implementation, you
-                      can ask for more functionality from your{" "}
-                      <NavLink to="/power-bi-implementation/">
-                        Power BI implementation
-                      </NavLink>{" "}
-                      provider.
-                      <br />
-                      <br />
-                      For instance, your current system is on-premises
-                      facilitated and you want cloud later or you are using
-                      Power BI Pro and want to upgrade with Power BI premium.
-                      You can even get your custom implementation for now and
-                      can ask for more functionality upgrades or customization
-                      suited to your continuously changing need. To get more
-                      information on this, simply connect with Dynamics Square.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="call-to-action-center hero-4">
         <div className="container">
           <div className="row justify-content-center">
@@ -942,14 +661,18 @@ const PowerBI = () => {
 
       <section className="blogs-extra">
         <div className="container">
-          <header className="section-header">
-            <h2>Explore Our Recent Blogs & Resources</h2>
-            <p>
-              Whether you are a start-up, an SMB, or an enterprise, the Dynamics
-              Square blog is the best place to get inspired and learn more about
-              Microsoft Business Applications.
-            </p>
-          </header>
+          <div className="row justify-content-center">
+            <div className="col-lg-8 col-md-8">
+              <header className="section-header">
+                <h2>Explore Our Recent Blogs & Resources</h2>
+                <p>
+                  Whether you are a start-up, an SMB, or an enterprise, the
+                  Dynamics Square blog is the best place to get inspired and
+                  learn more about Microsoft Business Applications.
+                </p>
+              </header>
+            </div>
+          </div>
           <div className="row top-2 gx-5">
             <Blog />
             <div className="col-lg-6">
@@ -959,16 +682,11 @@ const PowerBI = () => {
               <div className="blogs-extra-right">
                 <ul>
                   <li>
-                    <ExternalLink
-                      target="_self"
-                      rel=""
-                      href="https://www.dynamicssquare.co.uk/blog/what-is-power-bi/"
-                    >
+                    <NavLink to="/what-is-power-bi/">
                       <i className="bi bi-box-arrow-up-right"></i>What is Power
                       BI?
-                    </ExternalLink>
+                    </NavLink>
                   </li>
-
                   <li>
                     <ExternalLink
                       target="_blank"
@@ -1008,6 +726,264 @@ const PowerBI = () => {
                     </NavLink>
                   </li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="solution-faq faq">
+        <div className="container">
+          <header className="section-header">
+            <h2>
+              Have you got
+              <br />
+              questions about Power BI?
+            </h2>
+            <p>Click through to our FAQ for the best answers!</p>
+          </header>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >
+                      What is Power BI?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      Power BI is a high-end reporting and analytics tool that
+                      is used to create powerful reports, visuals, and other
+                      actionable data that can be effortlessly shared within the
+                      organization. Microsoft comes with its in-built capability
+                      that allows its seamless configuration with Microsoft’s
+                      apps and integration with third-party apps. Further,
+                      created reports can be visualized on user dashboards that
+                      encourage effective decision-making.
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                      Does Power BI produce Paginated reports?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      Yes, Microsoft Power BI is configured with the capability
+                      of creating paginated reports being used for ensuring PDF
+                      version. Paginated report feature comes and can be availed
+                      of with Power BI premium plan. Enterprises can leverage a
+                      quick and single integrated view of paginated reports by
+                      publishing them on dashboards throughout their
+                      organizational space.
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >
+                      Can I use Power BI for Budgeting & Forecasting?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      Power BI is a powerful data visualization and business
+                      analytics tool that makes effective use of the data
+                      sources you connect with and prepares your data for
+                      budgeting and forecasting insights.
+                      <br />
+                      You could have data on MS Excel, Salesforce, or
+                      QuickBooks; Power BI utilizes your data sources and
+                      prepares your data for budgeting and forecasting insights.
+                      For instance, it could be sales forecasting reports,
+                      production analysis, operational budgets, Cashflow
+                      statements, asset planning, and more. To know more about
+                      how it works, you can contact Power BI experts at Dynamics
+                      Square.{" "}
+                      <p>
+                        MS Power BI is a high-end data analytics, key reporting,
+                        and graphical analysis tool that allows creating
+                        standard AI reports whether to reveal sales insights,
+                        customer analytics, or finance metrics.
+                        <br />
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                      How is Power BI different from traditional BI
+                      implementations?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      Power BI is designed as a powerhouse of reporting &
+                      analytics capabilities (configured with AI intelligence
+                      and hosted over the cloud) considering the increasing
+                      modern business needs and rapidly changing industrial
+                      adaption. In the case of traditional BI implementations,
+                      enterprises may require compromising at some level in
+                      terms of functionality, implementation flexibility, and
+                      more.
+                      <br />
+                      <br />
+                      Power BI comes with both on-premises and on-cloud
+                      facilitation. Users can either keep their visual reports
+                      and key analytics on their on-premises systems or can
+                      access and share them leveraging on-cloud facilitation
+                      which doesn’t seem possible in the case of traditional BI.
+                      Cloud facilitation reduces upfront cost, investment in
+                      hardware part, etc.
+                      <br />
+                      <br />
+                      Power BI allows enterprises to create custom reports,
+                      visual analytics, and graphical representation. Further,
+                      all such key data can be shared and demonstrated on user
+                      dashboards to support or roll out the instant
+                      decision-making throughout the enterprise walls. With
+                      Power BI, enterprises can accelerate their process
+                      execution, improve their production line, and can faster
+                      user adaption which could not be possible in the case of
+                      traditional BI.
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >
+                      What is Power BI Report Server? Does this mean you are
+                      making Power BI available for on-premises systems?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      Power BI is a highly embedded SaaS (Software-as-a-Service)
+                      solution that allows you to create reports using your
+                      desktop or on-premises environment. These reports can be
+                      moved to the cloud later. So, it’s your choice whether you
+                      want to share your data over the cloud or just want to
+                      keep it safe in your on-premises systems with the
+                      flexibility of accessing and sharing in your own terms.
+                      <br />
+                      <br />
+                      When it comes to Report Server, it allows you to create
+                      powerful interactive reports leveraging SSRS (SQL Server
+                      Reporting Services). Report Server is designed as an
+                      enterprise-level platform that enables enterprises to
+                      scale thousands of users.
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-6"
+                    >
+                      How is Power BI licensed? How much does the Power BI
+                      premium cost?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-6"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      Initially, Power BI Desktop is freely available to
+                      download and use. Enterprises can register their business
+                      at no cost and can instantly start creating basic reports.
+                      To share these reports, you have to go with a Power BI Pro
+                      license.
+                      <br />
+                      <br />
+                      To implement Power BI, connect and consult with Dynamics
+                      Square’s Power BI experts.
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-8"
+                    >
+                      What if I want more functionality or change?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-8"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist8"
+                  >
+                    <div className="accordion-body">
+                      Power BI is a highly configurable and customizable BI
+                      reporting & Analytics platform. It can seamlessly be
+                      customized suited to your specific business model and
+                      advanced reporting & analytical needs. To support your
+                      continuously changing or increasing reporting needs, you
+                      can even update your Power BI system with more reporting
+                      capabilities post-implementation too.
+                      <br />
+                      <br />
+                      Contact us to know how our Power BI Service could be an
+                      effective deal for your enterprise now and in the future.
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

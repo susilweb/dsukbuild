@@ -7,10 +7,10 @@ const ThankYouWebinar = () => {
   return (
     <>
       <Helmet>
-      <title>Thanks Webinar Registration | Dynamics Square</title>
+      <title>Thank You for Webinar Registration - Dynamics Square</title>
 <meta name="description" content="We will send you a confirmation email shortly, with details on how to join."/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/thanks-webinar-registration/" />
-<meta property="og:locale" content="en_GB" />
+<link rel="canonical" href="https://www.dynamicssquare.com/thanks-webinar-registration/" />
+<meta property="og:locale" content="en_US" />
       </Helmet>
       <section className="Solution-banner hero-1 hero custom-pd-4">
         <div className="container">
@@ -23,7 +23,7 @@ const ThankYouWebinar = () => {
               We will send you a confirmation email shortly, with details on how to join.
               </p>
               <p><b>Until then, take a look at our:</b></p>
-              <p><ExternalLink href="https://www.dynamicssquare.co.uk/blog/" target="_blank" rel="noopener">Resources</ExternalLink> | <NavLink to="/webinars/" target="_blank" rel="noopener">Previous Webinars</NavLink></p><br />
+              <p><ExternalLink href="https://www.dynamicssquare.com/blog/" target="_blank" rel="noopener">Resources</ExternalLink> | <NavLink to="/webinars/" target="_blank" rel="noopener">Previous Webinars</NavLink></p><br />
               <div className="text-center">
                 <div className="">
                   <NavLink

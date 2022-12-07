@@ -12,12 +12,12 @@ const Blog = () => {
           <div className="blogs-extra-left-img">
             <ExternalLink
               rel=""
-              href="https://www.dynamicssquare.co.uk/blog/microsoft-dynamics-365-business-central-for-manufacturing/"
+              href="https://www.dynamicssquare.com/blog/what-are-dynamics-365-for-sales-benefits-and-capabilities/"
               target="_self"
             >
               <img
-                src="/assets/img/Business-Central-for-Manufacturing.jpg"
-                alt="img"
+                src="/assets/img/MicrosoftTeams-image-4.jpg"
+                alt="imgs"
                 width="200"
                 height="104"
               />
@@ -27,26 +27,25 @@ const Blog = () => {
             <h4>
               <ExternalLink
                 rel=""
-                href="https://www.dynamicssquare.co.uk/blog/microsoft-dynamics-365-business-central-for-manufacturing/"
+                href="https://www.dynamicssquare.com/blog/what-are-dynamics-365-for-sales-benefits-and-capabilities/"
                 target="_self"
               >
-                Microsoft Dynamics 365 Business Central for Manufacturing: One
-                Stop Solution for all Manufacturing Needs
+               What are the Benefits and Capabilities of Microsoft Dynamics 365 for Sales?
               </ExternalLink>
             </h4>
-            <span>16 June 2022</span>
+            <span>August 3, 2022</span>
           </div>
         </div>
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
             <ExternalLink
               rel=""
-              href="https://www.dynamicssquare.co.uk/blog/how-to-avail-the-dynamics-365-business-central-trial/"
+              href="https://www.dynamicssquare.com/blog/microsoft-dynamics-nav-vs-business-central/"
               target="_self"
             >
               <img
-                src="/assets/img/Business-Central-Trial.jpg"
-                alt="img"
+                src="/assets/img/Microsoft-Dynamics-NAV-and-Business-Central.jpg"
+                alt="imgs"
                 width="200"
                 height="104"
               />
@@ -56,25 +55,25 @@ const Blog = () => {
             <h4>
               <ExternalLink
                 rel=""
-                href="https://www.dynamicssquare.co.uk/blog/how-to-avail-the-dynamics-365-business-central-trial/"
+                href="https://www.dynamicssquare.com/blog/microsoft-dynamics-nav-vs-business-central/"
                 target="_self"
               >
-                How to avail Dynamics 365 Business Central Trial?
+               What is the Difference between Microsoft Dynamics NAV and Dynamics 365 Business Central?
               </ExternalLink>
             </h4>
-            <span>26 May 2022</span>
+            <span>June 28, 2022</span>
           </div>
         </div>
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
             <ExternalLink
               rel=""
-              href="https://www.dynamicssquare.co.uk/blog/what-is-business-central-implementation-methodology/"
+              href="https://www.dynamicssquare.com/blog/why-your-business-needs-power-bi/"
               target="_self"
             >
               <img
-                src="/assets/img/Business-Central-Implementation-Methodology.jpg"
-                alt="img"
+                src="/assets/img/Why-Your-Business-Needs-Power-B.jpg"
+                alt="imgas"
                 width="200"
                 height="104"
               />
@@ -84,25 +83,25 @@ const Blog = () => {
             <h4>
               <ExternalLink
                 rel=""
-                href="https://www.dynamicssquare.co.uk/blog/what-is-business-central-implementation-methodology/"
+                href="https://www.dynamicssquare.com/blog/why-your-business-needs-power-bi/"
                 target="_self"
               >
-                What is Business Central Implementation Methodology?
+                Why Your Business Needs Power BI?
               </ExternalLink>
             </h4>
-            <span>24 May 2022</span>
+            <span>June 22, 2022</span>
           </div>
         </div>
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
             <ExternalLink
               rel=""
-              href="https://www.dynamicssquare.co.uk/blog/dynamics-365-business-central-vs-dynamics-365-sales/"
+              href="https://www.dynamicssquare.com/blog/how-to-generate-interactive-reports-in-power-bi/"
               target="_self"
             >
               <img
-                src="/assets/img/Blue-White-Simple-Financial-Tips-Blog-Banner-1.png"
-                alt="img"
+                src="/assets/img/Generate-Interactive-Reports-in-Power-BI.jpg"
+                alt="imgs"
                 width="200"
                 height="104"
               />
@@ -112,13 +111,13 @@ const Blog = () => {
             <h4>
               <ExternalLink
                 rel=""
-                href="https://www.dynamicssquare.co.uk/blog/dynamics-365-business-central-vs-dynamics-365-sales/"
+                href="https://www.dynamicssquare.com/blog/how-to-generate-interactive-reports-in-power-bi/"
                 target="_self"
               >
-                Dynamics 365 Business Central Vs Dynamics 365 Sales
+               How to Generate Interactive Reports in Power BI?
               </ExternalLink>
             </h4>
-            <span>5 May 2022</span>
+            <span>June 16, 2022</span>
           </div>
         </div>
       </div>

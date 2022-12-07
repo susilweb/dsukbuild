@@ -22,9 +22,9 @@ const EmailAxToFinacnce = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/email-ax-to-finance/"
+          href="https://www.dynamicssquare.com/email-ax-to-finance/"
         />
-        <meta property="og:locale" content="en_GB" />
+        <meta property="og:locale" content="en_US" />
       </Helmet>
 
       <section

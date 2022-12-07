@@ -8,72 +8,26 @@ const Marketing = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          Dynamics 365 Marketing Automation & Implementation Partner
+        Microsoft Dynamics 365 Marketing | Dynamics Square
         </title>
         <meta
           name="description"
-          content="Whether you are a small business or a large corporation, Dynamics 365 Marketing can help you generate more customers and drive sales. Find out how you can use Dynamics 365 Marketing to make the most out of your marketing campaigns."
+          content="Microsoft Dynamics 365 Marketing is a marketing automation application that allows you to transform leads into fruitful relationships in a more efficient and profitable way."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-marketing/"
+          href="https://www.dynamicssquare.com/products/microsoft-dynamics-365-marketing/"
         />
-        <meta property="og:locale" content="en_GB" />
+        <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Dynamics 365 Marketing Automation &amp; Implementation Partner"
-        />
-        <meta
-          property="og:description"
-          content="Whether you are a small business or a large corporation, Dynamics 365 Marketing can help you generate more customers and drive sales. Find out how you can use Dynamics 365 Marketing to make the most out of your marketing campaigns."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-marketing/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:secure_url" content="" />
-        <meta property="og:image:width" content="758" />
-        <meta property="og:image:height" content="432" />
-        <meta
-          property="og:image:alt"
-          content="Dynamics 365 Marketing Dashboard"
-        />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Dynamics 365 Marketing Automation &amp; Implementation Partner"
-        />
-        <meta
-          name="twitter:description"
-          content="Whether you are a small business or a large corporation, Dynamics 365 Marketing can help you generate more customers and drive sales. Find out how you can use Dynamics 365 Marketing to make the most out of your marketing campaigns."
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="4 minutes" />
+        
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 mobile-1 align-self-center">
+            <div className="col-lg-5 mobile-1 align-self-center">
               <h1>
-                Dynamics 365
-                <br />
-                Marketing
+              Dynamics 365 Marketing
               </h1>
               <p>Automate your marketing to increase your conversion rates</p>
               <div>
@@ -88,6 +42,7 @@ const Marketing = () => {
                 </div>
               </div>
             </div>
+            <div className="col-lg-1"></div>
             <div className="col-lg-6 align-self-center">
               <img
                 src="/assets/img/marketing-banners.png"
@@ -99,21 +54,21 @@ const Marketing = () => {
       </section>
       <section>
         <div className="container">
-          <header className="section-header">
-            <h2>
-              What is dynamics 365
-              <br />
-              Marketing?
-            </h2>
-            <p>
-              Dynamics 365 Marketing is a marketing automation application that
-              allows you to transform leads into fruitful
-              relationships in a more efficient and profitable way. With
-              Dynamics 365 Marketing you will be able to tailor
-              the customer journey to your needs and transform it into a unique
-              experience until the sale is achieved, and even beyond.
-            </p>
-          </header>
+              <div className="row justify-content-center">
+                  <div className="col-lg-8 col-md-8">
+                      <header className="section-header">
+                      <h2> What Is Dynamics 365 Marketing?</h2>
+                      <p>Dynamics 365 Marketing is a marketing automation application that allows you to transform leads into fruitful relationships in a more efficient and profitable way. With Dynamics 365 Marketing you will be able to tailor the customer journey to your needs and transform it into a unique experience until the sale is achieved, and even beyond.</p> <br/>
+                      </header>
+                </div>
+          </div>
+          <div className="row justify-content-center">
+                  <div className="col-lg-8 col-md-8">
+                      <header className="section-header">
+                      <h2>Dynamics 365 Marketing Features</h2>
+                      </header>
+                </div>
+          </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -188,8 +143,7 @@ const Marketing = () => {
                         The platform offers a customized form of communication
                         for the employees. Different customers need different
                         marketing strategies depending upon the requirements and
-                        the product or service that is being marketed. Dynamic
-                        365 allows the users to customize such communication or
+                        the product or service that is being marketed. <NavLink to="/products/microsoft-dynamics-365/">Dynamics 365</NavLink> allows the users to customize such communication or
                         marketing strategy well by carefully segmenting the
                         customers in different segments according to diverse
                         factors.
@@ -344,7 +298,7 @@ const Marketing = () => {
                       <div className="accordion-body">
                         Lead scoring is an essential method as it is the basic
                         way to converted leads into potential customers.
-                        <NavLink to="/products/microsoft-dynamics-365/">Dynamics 365</NavLink> ensures to automate the process of lead
+                        Dynamics 365 ensures to automate the process of lead
                         scoring through different marketing campaigns.
                         Ultimately, it leads to a smooth and efficient mode of
                         lead scoring that also leads to welcoming of more number
@@ -499,7 +453,7 @@ const Marketing = () => {
                     >
                       <div className="accordion-body">
                         Apart from the above-mentioned functions or elements
-                        that come in package, <NavLink to="/">Microsoft Dynamics</NavLink> also have some
+                        that come in package, Microsoft Dynamics also have some
                         add-ons to offer. The first one is the option of Dynamic
                         365 portals. This is basically a platform that allows
                         all the users such as customers, clients, or the team
@@ -525,14 +479,14 @@ const Marketing = () => {
             <h2>Dynamics 365 Marketing Pricing</h2>
           </header>
           <div className="row gy-4 p-9 justify-content-center">
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-5 col-md-5">
               <div className="box box-22">
                 <h3>
                 Dynamics 365 Marketing
                 </h3>
-                <p><b>For organisations without any other Dynamics 365 application</b></p>
+                <p><b>For organizations without any other Dynamics 365 application</b></p>
                 <div className="price">
-                  <sup>£</sup>1,131.20<span>Per-User/Per Month</span>
+                  <sup>$</sup>1,500<span>Per Tenant/Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -541,14 +495,14 @@ const Marketing = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-5 col-md-5">
               <div className="box box-22">
                 <h3>
                 Dynamics 365 Marketing Attach
                 </h3>
-                <p><b>For organisations with a qualifying Dynamics 365 application<sup>3</sup></b></p>
+                <p><b>For organizations with a qualifying Dynamics 365 application<sup>3</sup></b></p>
                 <div className="price">
-                  <sup>£</sup>565.60<span>Per-User/Per Month</span>
+                  <sup>$</sup>750<span>Per Tenant/Month</span>
                 </div>
                 <ul>
                   <li className="text-center">

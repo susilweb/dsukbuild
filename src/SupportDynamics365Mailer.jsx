@@ -13,9 +13,9 @@ const SupportDynamics365Mailer = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/support-dynamics-365/"
+          href="https://www.dynamicssquare.com/support-dynamics-365/"
         />
-        <meta property="og:locale" content="en_UK" />
+        <meta property="og:locale" content="en_US" />
       </Helmet>
 
       <section
@@ -29,7 +29,7 @@ const SupportDynamics365Mailer = () => {
               Maximize your resource utilization and leverage the full potential
               </h1>
               <p>
-              To ensure process continuity, stabilize process optimization, and focus on business scope, SMBs require an optimal support system. Businesses should embrace proactive support services for NAV and D365 Business Central from a trustworthy Partner like <b>Dynamics Square.</b>
+              To ensure process continuity, stabilize process optimization, and focus on business scope, SMBs require an optimal support system. Businesses should embrace proactive support services for NAV and D365 Business Central from a trustworthy Partner like <b>Dynamics Square</b>. 
               </p>
               <p>
                 <b>Will handle every aspect of your Dynamics 365 system requirements:</b>
@@ -64,7 +64,7 @@ const SupportDynamics365Mailer = () => {
                     </div>
                     <div className="right">
                       <p>
-                      Annual Support to help you keep the system running 24X7.
+                      Annual Support to help you keep the system running 24X7. 
                       </p>
                     </div>
                   </div>
@@ -74,7 +74,7 @@ const SupportDynamics365Mailer = () => {
                     </div>
                     <div className="right">
                       <p>
-                      Allow users to help them understand the latest features & make the solution easy to access for all users.
+                      Allow users to help them understand the latest features & make the solution easy to access for all users. 
                       </p>
                     </div>
                   </div>

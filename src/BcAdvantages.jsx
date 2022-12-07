@@ -6,17 +6,19 @@ const BcAdvantages = () => {
   return (
     <>
       <Helmet>
-      <title>Dynamics 365 Business Central Advantages &amp; Capabilities</title>
-<meta name="description" content="Explore Microsoft Dynamics 365 Business Central Advantages and capabilities to scale up your end-to-end business processes to a new level."/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/advantages-capabilities/" />
+      <title>Dynamics 365 Business Central Advantages & Capabilities</title>
+<meta name="description" content="Dynamics 365 Business Central Advantages And Capabilities Business Central from Dynamics 365 is a tool that has been used by businesses from all over the world for the proper management and operations of different organizations."/>
+<link rel="canonical" href="https//www.dynamicssquare.com/products/dynamics-365-business-central/advantages-capabilities/" />
+<meta property="og:locale" content="en_US" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
               <h1>
-                Dynamics 365 Business Central Advantages And Capabilities
+              Dynamics 365 Business Central Advantages & Capabilities
               </h1>
+              <p>Dynamics 365 Business Central is a tool that has been used by small to medium businesses from all over the world for the proper management and operations of different organizations. With Microsoft Dynamics 365 Business Central, you can ensure that your company is benefited in the best way.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <NavLink
@@ -39,33 +41,6 @@ const BcAdvantages = () => {
         </div>
       </section>
 
-      <section>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <header className="section-header">
-                <h2>Dynamics 365 Business Central Advantages</h2>
-                <p>
-                  Microsoft Dynamics 365 Business Central is a cloud based,
-                  unified business management solution that empowers enterprises
-                  to transform their entry level accounting software or legacy
-                  Enterprise Resource Planning (ERP) system to a comprehensive
-                  solution to manage critical business functions, including
-                  finance, operations, sales, and customer service.
-                  <br />
-                  <br />
-                  <b>
-                    Business Central is a proven solution that has successfully
-                    served over 160,000 customers and millions of users
-                    worldwide, assisting them streamlining their processes,
-                    improve customer relations, and enable growth.
-                  </b>
-                </p>
-              </header>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="busine_service_bottom custom07 ">
         <div className="container">
@@ -80,6 +55,7 @@ const BcAdvantages = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="content-icons-modil-1">
+              <h2>Dynamics 365 Business Central Advantages</h2>
                 <div className="content-inner-moil-1">
                   <div className="icons-left">
                     <div className="ext-bord">
@@ -87,12 +63,9 @@ const BcAdvantages = () => {
                     </div>
                   </div>
                   <div className="cintent-right cintent-right-001">
-                    <h3>Business without silos</h3>
+                    <h3>Without Silos</h3>
                     <p>
-                      Connecting businesses and boosting efficiency with
-                      automated tasks and workflows, all within the familiar
-                      Microsoft interface of applications such as Word, Outlook
-                      and Excel.
+                    It helps in connecting different businesses while providing a boost to efficiency with the help of automated tasks as well as workflows in the best way. The interface of Microsoft is associated with the software along with other integrations such as Outlook, Excel, and Word.
                     </p>
                   </div>
                 </div>
@@ -105,11 +78,7 @@ const BcAdvantages = () => {
                   </div>
                   <div className="cintent-right cintent-right-001">
                     <h3>Actionable Insights</h3>
-                    <p>
-                      Achieving more and gaining a complete view of the business
-                      with connected data, business analytics and guidance
-                      delivered by Microsoft’s leading intelligent technologies.
-                    </p>
+                    <p>You can now get a full view of your business with properly connected data as well as business analytics along with Microsoft's guidance.</p>
                   </div>
                 </div>
 
@@ -120,17 +89,8 @@ const BcAdvantages = () => {
                     </div>
                   </div>
                   <div className="cintent-right cintent-right-001">
-                    <h3>Solutions built to evolve</h3>
-                    <p>
-                      Get started quickly, growing and adapting in real time
-                      with a flexible platform that makes it easy to extend
-                      beyond{" "}
-                      <NavLink to="/products/dynamics-365-business-central/">
-                        {" "}
-                        Business Central
-                      </NavLink>{" "}
-                      based on evolving business needs.
-                    </p>
+                    <h3>Evolved Solutions</h3>
+                    <p>Now you can get started with adapting and growing the business in real-time with the help of a properly flexible platform that can help in extending the company and meeting the needs that it has.</p>
                   </div>
                 </div>
               </div>
@@ -141,13 +101,16 @@ const BcAdvantages = () => {
 
       <section>
         <div className="container">
+        <div className="row justify-content-center">
+        <div className="col-lg-8 col-md-8">
           <header className="section-header">
             <h2>
-              Dynamics 365
-              <br />
-              Business Central Advantages
+            Why Dynamics 365 Business Central?
             </h2>
+            <p>Dynamics 365 Business Central is designed for SMBs and can be the perfect choice if you're looking for an all-in-one solution.</p>
           </header>
+          </div>
+        </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc finace-acc-new">
@@ -179,56 +142,7 @@ const BcAdvantages = () => {
                     >
                       <div className="accordion-body">
                         <ul>
-                          <li>
-                            <strong>General Ledger</strong>Set up a company and
-                            start posting to the general ledger, chart of
-                            accounts, general journals, VAT facilities,
-                            recurring journals and source codes.
-                          </li>
-                          <li>
-                            <strong>Budgets</strong>Work with budgets in general
-                            ledger accounts.
-                          </li>
-                          <li>
-                            <strong>Deferrals</strong>Set up deferral templates
-                            that automate the process of deferring revenues and
-                            expenses over a pre-defined schedule.
-                          </li>
-                          <li>
-                            <strong>Fixed Assets</strong>Keep track of fixed
-                            assets and related transactions such as
-                            acquisitions, depreciations, write-downs,
-                            appreciations and disposals.
-                          </li>
-                          <li>
-                            <strong>Audit Trails</strong>The system
-                            automatically assigns audit trails and posting
-                            descriptions to every transaction. In addition,
-                            users can define reason codes to create
-                            complementary audit trails.
-                          </li>
-                          <li>
-                            <strong>Bank Account Management</strong>Create,
-                            operate and manage multiple bank accounts for
-                            catering to your diverse business needs and across
-                            different currencies.
-                          </li>
-                          <li>
-                            <strong>Reconciliation</strong>Reconcile your bank
-                            statement data automatically to open bank account
-                            ledger entries and keep track of all your bank
-                            statements
-                          </li>
-                          <li>
-                            <strong>Dimensions</strong>Add unlimited dimensions
-                            to any ledger for advanced transaction analyses.
-                          </li>
-                          <li>
-                            <strong>Currencies</strong>Manage multiple
-                            currencies throughout the system, including payables
-                            and receivables, general ledger reports, resource
-                            and inventory items and bank accounts.
-                          </li>
+                        <ul><li><strong>Ledger Creation</strong> You can create a ledger for the company and start the posting process. You can also include different features such as general journals, recurring journals, VAT facilities, accounts charts, as well as source codes.</li><li><strong>Budgets</strong> You get to work with different budgets related to the ledger accounts.</li><li><strong>Deferrals</strong> Easy to set up templates available for deferrals which you can easily automate in order to find the process of deferring revenues along with the right schedule.</li><li><strong>Fixed Assets</strong> You can now keep track of related transactions as well as certain fixed assets such as depreciation, acquisitions, disposals, appreciations, write-downs, and much more.</li><li><strong>Audit Trails</strong> Your software will assign certain audit trails automatically as well as post descriptions of every single transaction that you make. There are reason codes provided for complementary trails.</li><li><strong>Management of Bank Accounts</strong> You can easily manage, create, as well as operate different bank accounts in order to cater to the needs of the business.</li><li><strong>Reconciliation</strong> This is your chance to reconcile different bank statements and data automatically to the ledger that you have created.</li><li><strong>Currencies</strong> It is easy to manage different currencies throughout different systems that include receivables and payables, resources, inventories, and much more.</li><li><strong>Dimensions</strong> You can easily add different dimensions to the ledger in order to analyze advanced transactions.</li></ul>
                         </ul>
                       </div>
                     </div>
@@ -260,54 +174,7 @@ const BcAdvantages = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <ul>
-                          <li>
-                            <strong>Production Orders</strong>Create and manage
-                            production orders and post consumption and output to
-                            the production orders.
-                          </li>
-                          <li>
-                            <strong>Version Management</strong>Create and manage
-                            different versions of the manufacturing bill of
-                            materials and routings.
-                          </li>
-                          <li>
-                            <strong>Agile Manufacturing</strong>Plan rush hours,
-                            make exceptions and handle last-minute changes to
-                            your processes with multiple planning options.
-                          </li>
-                          <li>
-                            <strong>Supply Planning</strong>Plan for material
-                            requirements based on demand, with support for
-                            master production scheduling and material
-                            requirements planning.
-                          </li>
-                          <li>
-                            <strong>Demand Forecasting</strong>Plan and create
-                            production and purchase orders, taking into
-                            consideration the demand forecast together with the
-                            level of available inventory and parameters of
-                            requirement planning.
-                          </li>
-                          <li>
-                            <strong>Capacity Planning</strong>Add capacities to
-                            the manufacturing process. Set up routings and use
-                            these routings on production orders and in material
-                            requirements planning.
-                          </li>
-                          <li>
-                            <strong>Machine Centers</strong>Manage capacity on
-                            several levels; on a more detailed level for machine
-                            centres and on a consolidated level for work
-                            centres.
-                          </li>
-                          <li>
-                            <strong>Finite Loading</strong>Take capacity
-                            constraints into account so that no more work is
-                            assigned to a work centre than the capacities can be
-                            expected to execute during a given time period.
-                          </li>
-                        </ul>
+                      <ul><li><strong>Production Orders</strong> It is easy to manage after creating different production orders as well as outputs of such orders.</li><li><strong>Version Management</strong> Manage after creating different versions of the material bill versions as well as routings.</li><li><strong>Supply Planning</strong> You can plan for different requirements of materials on the basis of the demand as well as achieve support for the scheduling and planning.</li><li><strong>Agile Manufacturing</strong> You are able to plan different rush hours, make certain exceptions as well as handle different changes made last minute to the planning and <strong>processes.</strong></li><li><strong>Demand Forecasting</strong> Create and plan different purchase and production orders, after taking the demand forecast into consideration along with the inventory availability as well as planning.</li><li><strong>Capacity Planning</strong> Add certain capacities to the process of manufacturing. You can create routings and use them for production orders.</li><li><strong>Machine Centers</strong> Capacity can be managed on different levels with the help of machine centers.</li><li><strong>Finite Loading</strong> Take certain constraints of capacity into consideration so that work is properly assigned to different work centers within the given period of time.</li></ul>
                       </div>
                     </div>
                   </div>
@@ -338,33 +205,7 @@ const BcAdvantages = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <ul>
-                          <li>
-                            <strong>Contacts</strong>Maintain an overview of
-                            your contacts and record your contact information
-                            for all business relationships.
-                          </li>
-                          <li>
-                            <strong>Campaigns</strong>Organise campaigns based
-                            on segments of your contacts that you define.
-                          </li>
-                          <li>
-                            <strong>Opportunity Management</strong>Keep track of
-                            sales opportunities, section your sales processes
-                            into different stages and use this information to
-                            manage your sales opportunities.
-                          </li>
-                          <li>
-                            <strong>Dynamics 365 for Sales Integration</strong>
-                            Integrate with
-                            <NavLink to="/products/microsoft-dynamics-365-sales/">
-                              Dynamics 365 for Sales
-                            </NavLink>
-                            in a few easy steps to synchronise your data,
-                            including sales orders, item availability, units of
-                            measure, and currencies.
-                          </li>
-                        </ul>
+                      <ul><li><strong>Campaigns</strong> Easy to create different campaigns on the basis of the contacts that you have in the company.</li><li><strong>Contacts</strong> Maintain a particular overview of different contacts and easily record different pieces of information for your business contacts and relationships.</li><li><strong>Opportunity Management</strong> You can keep a track of different sales opportunities and create processes that will help in the proper management of these.</li><li><strong>Sales Integration</strong> <NavLink to="/products/microsoft-dynamics-365/">Dynamics 365</NavLink> has integrations for Sales companies in order to properly synchronize all the data such as measurable units, sales orders, availability of items, and much more.</li></ul>
                       </div>
                     </div>
                   </div>
@@ -395,41 +236,7 @@ const BcAdvantages = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <ul>
-                          <li>
-                            <strong>Sales Order Management</strong>Manage sales
-                            orders, blanket sales orders and sales order
-                            processes.
-                          </li>
-                          <li>
-                            <strong>Receivables</strong>Post sales transactions
-                            in journals and manage receivables; register
-                            customers and manage receivables using journals
-                          </li>
-                          <li>
-                            <strong>Purchase Order Management</strong>Manage
-                            purchases, blanket orders and purchase order
-                            processes.
-                          </li>
-                          <li>
-                            <strong>Locations</strong>Manage inventory in
-                            multiple locations that may represent a production
-                            plant, distribution centre, warehouse, showroom,
-                            retail outlet or service car.
-                          </li>
-                          <li>
-                            <strong>Item Transfers</strong>Track inventory as
-                            it's moved from one location to another and account
-                            for the value of inventory in transit at various
-                            locations.
-                          </li>
-                          <li>
-                            <strong>Warehousing</strong>Manage items on a bin
-                            level. Pick and put away items in a bin and move
-                            items between bins using a report that optimises
-                            space using picking processes.
-                          </li>
-                        </ul>
+                      <ul><li><strong>Management of Sales Orders</strong> You will easily be able to manage different sales orders, processes, and others.</li><li><strong>Receivables</strong> The transactions taking place post-sales in the journals can be managed easily as receivables.</li><li><strong>Management of Purchase Order</strong> Manage all the orders of purchases and processes.</li><li><strong>Locations</strong> Inventory can be managed easily in different locations that can properly be represented with a center of the distribution, production plant, retail outlet, showroom, and warehouse.</li><li><strong>Item Transfers</strong> You can track the inventory as it can be moved from one particular location to another and then account for the entire value of your inventory in transit for different locations.</li><li><strong>Warehousing</strong> Manage your warehouse in the best way with Business Central.</li></ul>
                       </div>
                     </div>
                   </div>
@@ -440,7 +247,7 @@ const BcAdvantages = () => {
             <div className="col-lg-6">
               <div className="finace-acc finace-acc-new">
                 <hr className="mob-disp" />
-                <div className="accordion" id="accnew">
+                <div className="accordion" id="accnewsdsd">
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
                       <button
@@ -464,33 +271,10 @@ const BcAdvantages = () => {
                       id="fin5"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
+                      data-bs-parent="#accnewsdsd"
                     >
                       <div className="accordion-body">
-                        <ul>
-                          <li>
-                            <strong>Resources</strong>Register and sell
-                            resources, combine related resources into one
-                            resource group or track individual resources.
-                          </li>
-                          <li>
-                            <strong>Estimates</strong>Monitor resource usage and
-                            get a complete overview of your capacity for each
-                            resource with information about availability and
-                            planned costs on orders and quotes.
-                          </li>
-                          <li>
-                            <strong>Jobs</strong>Keep track of usage on jobs and
-                            data for invoicing the customer. Manage both
-                            fixed-price jobs and time-and-materials jobs.
-                          </li>
-                          <li>
-                            <strong>Time Sheets</strong>Time sheets are a simple
-                            and flexible solution for time registration with
-                            manager approval and integrate with Service, Jobs
-                            and Basic Resources.
-                          </li>
-                        </ul>
+                      <ul><li><strong>Resources</strong> Easy to sell and register different resources, create combinations with related resources as well as track the different resources.</li><li><strong>Estimates</strong> Monitor the usage of resources in order to get a proper view of the capacity of the company.</li><li><strong>Jobs</strong> Keep a watchful eye on the data related to jobs or the invoicing of the customer. You will be able to properly manage all kinds of jobs.</li><li><strong>Time Sheets</strong> These are pretty flexible and simple in nature for the registration of time.</li></ul>
                       </div>
                     </div>
                   </div>
@@ -515,43 +299,10 @@ const BcAdvantages = () => {
                       id="fin6"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
+                      data-bs-parent="#accnewsdsd"
                     >
                       <div className="accordion-body">
-                        <ul>
-                          <li>
-                            <strong>Service Orders</strong>Register your
-                            after-sales issues including service requests,
-                            services due, service orders and repair requests.
-                          </li>
-                          <li>
-                            <strong>Service Price Management</strong>Set up,
-                            maintain and monitor your service prices.
-                          </li>
-                          <li>
-                            <strong>Service Item Management</strong>Record and
-                            keep track of all your service items, including
-                            contract information, component management and BOM
-                            reference and warranty information.
-                          </li>
-                          <li>
-                            <strong>Service Contract Management</strong>Record
-                            details on service levels, response times and
-                            discount levels, as well as on the service history
-                            of each contract, including used service items,
-                            parts and labour hours.
-                          </li>
-                          <li>
-                            <strong>Planning</strong>Assign personnel to work
-                            orders and log details such as work order handling
-                            and work order status.
-                          </li>
-                          <li>
-                            <strong>Dispatching</strong>Manage service personnel
-                            and field technician information and filter
-                            according to availability, skills and stock items.
-                          </li>
-                        </ul>
+                      <ul><li><strong>Price Management</strong> Monitor, maintain, and set up the prices of the services.</li><li><strong>Service Orders</strong> Service requests, service orders, dues, and requests for repair.</li><li><strong>Item Management</strong> Keep a track of all the related items of services such as contract information, BOM reference, component management as well as warranty information.</li><li><strong>Contract Management</strong> Keep a record of certain details related to service levels, discount levels, and response times.</li><li><strong>Planning</strong> You can assign the personnel to different log details and work orders.</li><li><strong>Dispatching</strong> You can also manage the information related to the field technician and service personnel according to the skills, stock items, and availability.</li></ul>
                       </div>
                     </div>
                   </div>
@@ -576,39 +327,10 @@ const BcAdvantages = () => {
                       id="fin7"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
+                      data-bs-parent="#accnewsdsd"
                     >
                       <div className="accordion-body">
-                        <ul>
-                          <li>
-                            <strong>Multiple Languages</strong>Switch languages
-                            on the client in real time, provided that the
-                            desired language is available.
-                          </li>
-                          <li>
-                            <strong>Reason Codes</strong>Define a set of reason
-                            codes that can be assigned to individual
-                            transactions throughout the system, providing
-                            user-defined audit trails.
-                          </li>
-                          <li>
-                            <strong>Extended Text</strong>Set up an unlimited
-                            number of lines to describe inventory items,
-                            resources and general ledger accounts.
-                          </li>
-                          <li>
-                            <strong>Intrastat Reporting</strong>Automatically
-                            retrieve the necessary data to report Intrastat
-                            information to statistics authorities. Local customs
-                            authorities can inform you whether your company is
-                            obligated to file such a report.
-                          </li>
-                          <li>
-                            <b>Outlook Integration</b>Synchronise your to-do
-                            items and your contacts with your meetings, tasks
-                            and contacts in Outlook.
-                          </li>
-                        </ul>
+                      <ul><li><strong>Multiple Languages</strong> Talk to different clients in different languages with a long list of available languages in the software.</li><li><strong>Reason Codes</strong> Create particular reason codes for assigning to different individual transactions in the best way.</li><li><strong>Extended Texts</strong> Create different lines for providing a description of resources, inventory items, as well as accounts of the general ledger.</li><li><strong>Intrastat Reporting</strong> Retrieve data automatically for reporting Intrastat information to authorities in the statistics department.</li><li><strong>Outlook Integration</strong> You can now easily synchronize all the to-do items on the meetings, contacts, and tasks as well as something else. <strong>See Also</strong> - <NavLink to="/dynamics-365-business-central-implementation/">Dynamics 365 Business Central Implementation</NavLink></li></ul>
                       </div>
                     </div>
                   </div>
@@ -642,6 +364,61 @@ const BcAdvantages = () => {
                     <span>Talk to Expert</span>
                   </NavLink>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="why-slider">
+        <div className="container">
+          <header className="section-header">
+            <h2>Why Dynamics Square?</h2>
+            <p>
+              We employ market leading technologies, consultants, processes and
+              proven methodologies to help clients to design, implement and
+              manage their business solutions that align to business priorities,
+              maximum return on their investment and to create high performance
+              organizations.
+            </p>
+          </header>
+          <div className="row pad-3y">
+            <div className="col-lg-4 col-md-6">
+              <div className="why-slider-sec why-slider-sec-nee">
+                <h3>
+                  <i className="bi bi-check-lg"></i>{" "}
+                  <span>Years of Expertise</span>
+                </h3>
+                <p>
+                  Our years of expertise helps us to align ourselves with our
+                  customer's business needs, expectations with Microsoft
+                  Business Solutions.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="why-slider-sec why-slider-sec-nee">
+                <h3>
+                  <i className="bi bi-check-lg"></i>{" "}
+                  <span>In-depth Knowledge</span>
+                </h3>
+                <p>
+                  Our in-depth knowledge of products, technology, and Industry
+                  helps us to design the solution that align with our customer's
+                  business needs.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="why-slider-sec why-slider-sec-nee">
+                <h3>
+                  <i className="bi bi-check-lg"></i>{" "}
+                  <span>Subject Matter Experts</span>
+                </h3>
+                <p>
+                  Our highly experienced team of Professionals having the
+                  collective experience of over hundreds of successful Project
+                  implementations.
+                </p>
               </div>
             </div>
           </div>

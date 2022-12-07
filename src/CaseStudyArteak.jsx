@@ -18,27 +18,6 @@ const CaseStudyArteak = () => {
 <link rel="canonical" href="https://www.dynamicssquare.co.uk/case-studies/arteak/" />
 <meta property="og:locale" content="en_GB" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Arteak | Implement Dynamics 365 Business Central Online" />
-<meta property="og:description" content="Arteak Limited worked with Dynamics Square to implement Microsoft Dynamics 365 Business Central online. Read Arteak case story to gain insights." />
-<meta property="og:url" content="https://www.dynamicssquare.co.uk/case-studies/arteak/" />
-<meta property="og:site_name" content="Dynamics Square" />
-<meta property="article:publisher" content="https://www.facebook.com/dynamicssquareuk" />
-<meta property="article:author" content="https://www.facebook.com/vickygururani" />
-<meta property="fb:app_id" content="2007906422699147" />
-<meta property="og:image" content=" " />
-<meta property="og:image:secure_url" content="https://www.dynamicssquare.co.uk/assets/img/business-central-implementation-banner%20(1).svg" />
-<meta property="og:image:width" content="1000" />
-<meta property="og:image:height" content="750" />
-<meta property="og:image:alt" content="solutions_background-68" />
-<meta property="og:image:type" content="image/jpeg" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Arteak | Implement Dynamics 365 Business Central Online" />
-<meta name="twitter:description" content="Arteak Limited worked with Dynamics Square to implement Microsoft Dynamics 365 Business Central online. Read Arteak case story to gain insights." />
-<meta name="twitter:site" content="@dsquare_uk" />
-<meta name="twitter:creator" content="@dsquare_uk" />
-<meta name="twitter:image" content=" " />
-<meta name="twitter:label1" content="Time to read" />
-<meta name="twitter:data1" content="3 minutes" />
       </Helmet>
 
       <section className="hero-1 hero">

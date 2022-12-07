@@ -6,10 +6,10 @@ const WhyChooseBc = () => {
   return (
     <>
       <Helmet>
-      <title>Why Choose Microsoft Dynamics 365 Business Central? | Dynamics Square</title>
-<meta name="description" content="Get the details of why choose Microsoft Dynamics 365 Business Central? Use end to end your business solutions and advantages."/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/why-choose-microsoft-dynamics-365-business-central/" />
-<meta property="og:locale" content="en_GB" />
+      <title>Why Choose Microsoft Dynamics 365 Business Central?</title>
+<meta name="description" content="Microsoft Dynamics 365 Business Central is a unified business management solution for SMBs that empowers them to streamline critical business processes."/>
+<link rel="canonical" href="https://www.dynamicssquare.com/why-choose-microsoft-dynamics-365-business-central/" />
+<meta property="og:locale" content="en_US" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -44,6 +44,8 @@ const WhyChooseBc = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
+            <div class="row justify-content-center">
+              <div className="col-lg-9 col-md-9">
               <header className="section-header">
                 <h2>
                   Let's Get Familiar with Microsoft Dynamics 365 Business
@@ -53,14 +55,27 @@ const WhyChooseBc = () => {
                   <NavLink to="/products/dynamics-365-business-central/">
                     Microsoft Dynamics 365 Business Central{" "}
                   </NavLink>
-                  is a cloud-based, unified business management solution that helps enterprises transform their entry-level accounting software or legacy Enterprise Resource Planning (ERP) system into a comprehensive solution to manage critical business functions. This includes finance, operations, sales, and customer service. With Microsoft Dynamics 365 Business Central, businesses can tap into the power of the cloud to streamline their operations, improve customer service, and boost sales.
+                  is a cloud based, unified business management solution that
+                  empowers enterprises to transform their entry level accounting
+                  software or legacy Enterprise Resource Planning (ERP) system
+                  to a comprehensive solution to manage critical business
+                  functions, including finance, operations, sales, and customer
+                  service.
                   <br />
                   <br />
                   <b>
-                  Business Central is a tried-and-true solution that has helped over 160,000 customers and millions of users worldwide streamline their processes, improve customer relations, and enable growth.
+                  <NavLink to="/products/dynamics-365-business-central/">
+                  Business Central
+                  </NavLink> is a proven solution that has successfully
+                    served over 160,000 customers and millions of users
+                    worldwide, assisting them streamlining their processes,
+                    improve customer relations, and enable growth.
                   </b>
                 </p>
               </header>
+              </div>
+            </div>
+             
             </div>
           </div>
         </div>
@@ -115,13 +130,18 @@ const WhyChooseBc = () => {
 
       <section>
         <div className="container">
-          <header className="section-header">
+        <div class="row justify-content-center">
+              <div className="col-lg-9 col-md-9">
+              <header className="section-header">
             <h2>
               Dynamics 365
               <br />
               Business Central Advantages
             </h2>
           </header>
+              </div>
+            </div>
+          
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -181,7 +201,8 @@ const WhyChooseBc = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Moreover, Business Central leverages the intelligence of <NavLink to="/products/microsoft-power-bi/"> Microsoft Power BI</NavLink> (Business Intelligence) to ensure
+                        Moreover, Business Central leverages the intelligence of
+                        Microsoft Power BI (Business Intelligence) to ensure
                         in-depth organizational reporting, enabling businesses
                         to:
                         <br />
@@ -333,7 +354,7 @@ const WhyChooseBc = () => {
             <div className="col-lg-6">
               <div className="finace-acc">
                 <hr className="mob-disp" />
-                <div className="accordion" id="accnew">
+                <div className="accordion" id="accnewsd">
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
                       <button
@@ -354,7 +375,7 @@ const WhyChooseBc = () => {
                       id="fin6"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
+                      data-bs-parent="#accnewsd"
                     >
                       <div className="accordion-body">
                         Business Central is an advanced business solution,
@@ -386,7 +407,7 @@ const WhyChooseBc = () => {
                       id="fin7"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
+                      data-bs-parent="#accnewsd"
                     >
                       <div className="accordion-body">
                         Businesses with advanced accounting and reporting
@@ -416,7 +437,7 @@ const WhyChooseBc = () => {
                       id="fin8"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
+                      data-bs-parent="#accnewsd"
                     >
                       <div className="accordion-body">
                         Integrates business data and analytics through
@@ -447,7 +468,7 @@ const WhyChooseBc = () => {
                       id="fin9"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
+                      data-bs-parent="#accnewsd"
                     >
                       <div className="accordion-body">
                         Organizations are looking for a simple to set up and
@@ -480,16 +501,13 @@ const WhyChooseBc = () => {
                       id="fin10"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
+                      data-bs-parent="#accnewsd"
                     >
                       <div className="accordion-body">
                         Customizes relevant applications to adapt to the unique
                         business requirements enabling users to easily
                         re-arrange fields, re-name groups, and re-locate
                         elements.
-
-                        See Also - <NavLink to="/dynamics-365-business-central-upgrade/">Dynamics 365 Business Central Upgrade</NavLink> | <NavLink to="/dynamics-365-business-central-support/">
-Business Central Support</NavLink> | 
                       </div>
                     </div>
                   </div>

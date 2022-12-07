@@ -6,29 +6,45 @@ const Error404 = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Page not found | Dynamics Square</title>
+        <title>Microsoft Azure | Microsoft Azure Cloud Services</title>
+        <link rel="canonical" href="" />
+        <meta
+          name="description"
+          content="Microsoft Azure is referred to cloud computing service owned and operated by Microsoft to manage hosted applications via its Microsoft-managed data centers."
+        />
+        <meta content="" name="keywords" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8 mobile-1 align-self-center">
-              <h1 className="text-center">
+          <div className="row">
+            <div className="col-lg-6 mobile-1 align-self-center">
+              <h1>
                 404
+                <br />
+                page
               </h1>
-              <h2 className="text-center">
-              The Page You Were Looking For
-Couldn't Be Found
+              <h2>
+                Are you seeking an upgrade from Dynamics NAV to Business
+                Central, but unable to figure out where to start? Let us help
+                you with a smoother and stress-free NAV upgrade process.
               </h2>
-              <div className="text-center">
-                <div className="text-center">
+              <div>
+                <div className="text-center text-lg-start">
                   <NavLink
-                    to="/"
+                    data-bs-toggle="modal"
+                    to="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Back To Home</span>
+                    <span>Home</span>
                   </NavLink>
                 </div>
               </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <img
+                src="/assets/img/Microsoft-Dynamics-Partner-Leeds.png"
+                alt="Microsoft-Dynamics-Partner-Leeds"
+              />
             </div>
           </div>
         </div>

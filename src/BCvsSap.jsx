@@ -6,9 +6,10 @@ const BCvsSap = () => {
   return (
     <>
       <Helmet>
-      <title>Dynamics 365 Business Central vs SAP Business One | Dynamics Square</title>
-<meta name="description" content="Businesses looking to buy an ideal ERP (Enterprise Resource Planning) system are concerned about the total implementation cost (TCO), vendor reliability,"/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/dynamics-365-business-central-vs-sap-business-one/" />
+      <title>Dynamics 365 Business Central vs SAP Business One - Dynamics Square</title>
+<meta name="description" content="Looking for in-depth comparison between Dynamics 365 Business Central vs SAP Business One? Explore the major differences between the two."/>
+<link rel="canonical" href="https://www.dynamicssquare.com/dynamics-365-business-central-vs-sap-business-one/" />
+<meta property="og:locale" content="en_US" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -88,9 +89,8 @@ const BCvsSap = () => {
               <div className="contd-xtr-22">
                 <p>
                   <b>
-                    Are you looking for the Right ERP Solution for your
-                    Enterprise, but not sure of choosing between Microsoft
-                    Dynamics 365 Business Central and SAP Business One?
+                    Are you looking for the Right <NavLink to="/products/erp/">ERP Solution</NavLink> for your
+                    Enterprise, but not sure of choosing between Microsoft <NavLink to="/products/dynamics-365-business-central/">Dynamics 365 Business Central</NavLink> and SAP Business One?
                   </b>
                 </p>
                 <p>
@@ -117,9 +117,7 @@ const BCvsSap = () => {
                   alt="businescentrallogo"
                 />
                 <p>
-                  Microsoft Dynamics 365 Business Central (formerly Dynamics
-                  NAV) is Microsoft's recent launch as a cloud-first ERP
-                  application that focuses strongly on advanced UX (User
+                  Microsoft Dynamics 365 Business Central (formerly <NavLink to="/products/microsoft-dynamics-nav/">Dynamics NAV</NavLink>) is Microsoft's recent launch as a cloud-first ERP application that focuses strongly on advanced UX (User
                   Experience) / UI (User Interface). Businesses of every size,
                   across a wide range of industries, prefer D365 BC for its
                   smart capabilities to support a broader array of enterprise

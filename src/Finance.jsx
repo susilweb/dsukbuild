@@ -6,6 +6,7 @@ import { ExternalLink } from "react-external-link";
 import Blog from "./Blog";
 const Finance = () => {
   const [isOpen, setOpen] = useState(false);
+  const [open, setsOpen] = useState(false);
 
   return (
     <>
@@ -16,49 +17,20 @@ const Finance = () => {
           name="description"
           content="Boost your financial visibility and faster your financial decision making by implementing Microsoft Dynamics 365 Finance. Book a free consultation today."
         />
-
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-finance/"
+        <link
+          rel="canonical"
+          href="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance/"
         />
-        <meta property="og:type" content="website" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk/"
-        />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
         <meta
           property="og:title"
           content="Microsoft Dynamics 365 Finance Partner | Dynamics Square"
         />
         <meta
           property="og:description"
-          content="Boost your financial visibility and faster your financial decision making by implementing Microsoft Dynamics 365 Finance. Book a free consultation today."
+          content="Boost your financial visibility and faster your financial decision making by implementing Microsoft Dynamics 365 Finance and operations. Schedule a demo today!"
         />
-        <meta
-          property="og:image"
-          content="https://www.dynamicssquare.co.uk/assets/img/Dynamics-365-Finance-Banner.png"
-        />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="dynamicssquare.co.uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta
-          property="twitter:url"
-          content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-finance/"
-        />
-        <meta
-          name="twitter:title"
-          content="Microsoft Dynamics 365 Finance Partner | Dynamics Square"
-        />
-        <meta
-          name="twitter:description"
-          content="Boost your financial visibility and faster your financial decision making by implementing Microsoft Dynamics 365 Finance. Book a free consultation today."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.dynamicssquare.co.uk/assets/img/Dynamics-365-Finance-Banner.png"
-        />
-
       </Helmet>
 
       <ModalVideo
@@ -74,14 +46,10 @@ const Finance = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
-                Microsoft <br /> Dynamics 365
-                <br />
-                Finance
+                Microsoft <br /> Dynamics 365 Finance
               </h1>
               <p>
-                Boost your organization's ability to develop, modify and control
-                budgets, make faster financial decision making with Microsoft
-                Dynamics 365 Finance.
+              Automate Your Financial Operations, Improve Decision Making, Bring Strategic Impact on Your Finance, and Minimize Global Financial Complexities & Risks with Dynamics 365 Finance.
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -108,11 +76,13 @@ const Finance = () => {
       <section>
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-9">
-              <header className="section-header">
-                <h2>What is dynamics 365 Finance?</h2>
+            <div className="col-lg-8 col-md-8">
+                <header className="section-header">
+                <h2>
+                  What is dynamics 365 Finance?
+                </h2>
                 <p>
-                  Microsoft Dynamics 365 Finance is an enterprise-grade ERP software solution that helps organizations achieve financial accuracy and transparency. Implementing Dynamics 365 Finance enables you to track and monitor your financial operations in real-time, predict financial outcomes, and manage global risks to drive agility while maximizing growth in your business.
+                Upfit your Finance capabilities by enabling finance automation, data transparency, real-time financial analytics all through Microsoft Dynamics 365 Finance. With D365 Finance, keep monitoring your system, track & analyze your finance operations with a 360-degree view, forecast financial outcomes, and more while ensuring seamless global compliances and risk management.
                 </p>
               </header>
             </div>
@@ -134,7 +104,7 @@ const Finance = () => {
                         <div className="wr-in">
                           <img src="/assets/img/Budget.svg" alt="icons" />
                         </div>
-                        <span>Budgeting</span>
+                        <span>Forecasting & Budgeting</span>
                       </button>
                     </h3>
                     <div
@@ -144,10 +114,7 @@ const Finance = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Improve your planning and forecasting to impact your
-                        financial budgeting. Microsoft Dynamics 365 Finance
-                        enables businesses to seamlessly compare the actual
-                        budget with the allocated budget.
+                        <p>Support your production planning, forecasting, and budgeting with Microsoft Dynamics 365 Finance. Allow your Finance people to effortlessly and accurately compare actual budget with allocated budget.</p>
                       </div>
                     </div>
                   </div>
@@ -165,7 +132,7 @@ const Finance = () => {
                         <div className="wr-in">
                           <img src="/assets/img/Financials-3.svg" alt="icons" />
                         </div>
-                        <span>Financials</span>
+                        <span>Project Management</span>
                       </button>
                     </h3>
                     <div
@@ -175,9 +142,7 @@ const Finance = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Organize and manage your entire financial records using
-                        a general ledger. Manage your account payable, accounts
-                        receivable, tax management, and more with D365 Finance.
+                        <p>Keep tracking your project cycle and stay updated with your real-time project status with Microsoft Dynamics 365 Finance. Automate your project operations and accomplish project success.</p>
                       </div>
                     </div>
                   </div>
@@ -202,7 +167,7 @@ const Finance = () => {
                         <div className="wr-in">
                           <img src="/assets/img/Project.svg" alt="icons" />
                         </div>
-                        <span>Project Management</span>
+                        <span>Finance & Accounting</span>
                       </button>
                     </h3>
                     <div
@@ -212,10 +177,7 @@ const Finance = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                        Effectively plan, create, manage, and control your
-                        projects leveraging Microsoft’s finance solution. Track
-                        and monitor your project status in real-time and drive a
-                        seamless flow to ensure success.
+                       <p>Leverage D365 to effectively organize and manage your financial records from payables to accounts receivables to tax management, and more by upgrading your system with Dynamics 365 Finance.</p>
                       </div>
                     </div>
                   </div>
@@ -236,7 +198,7 @@ const Finance = () => {
                             alt="icons"
                           />
                         </div>
-                        <span>International Accounting</span>
+                        <span>Global Financial Management</span>
                       </button>
                     </h3>
                     <div
@@ -246,10 +208,7 @@ const Finance = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                        Support and enable quick adaption for your rapidly
-                        changing global accounting and financial requirements.
-                        With D365 Finance, simplify your regulatory reporting,
-                        and global accounting.
+                        <p>Enable our finance department to ease their regulatory reporting and global accounting. Enable quick user adaptation for the newly configured system to support your global accounting and financing.</p>
                       </div>
                     </div>
                   </div>
@@ -264,20 +223,16 @@ const Finance = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-5  align-self-center">
-              <div className="wy-sultion-left-head">
-                <h2>Microsoft Dynamics 365 Finance Features</h2>
-                <h3>
-                  How does Microsoft Dynamics 365 Finance help to Elevate Your
-                  Financial Capabilities?
-                  <br />
-                </h3>
+            <div className="wy-sultion-left-head">
+            <h2>Microsoft Dynamics 365 Finance Features</h2>
+              <h3>
+              How Dynamics 365 Finance Can Help to Streamline Your Finance Operations?
+                <br />
+              </h3>
               </div>
               <div className="m-o-t m-o-t-b">
-                <NavLink
-                  data-bs-toggle="modal"
-                  to="#exampleModal"
-                  className="btn-get-started scrollto"
-                >
+                <NavLink data-bs-toggle="modal"
+                    to="#exampleModal" className="btn-get-started scrollto">
                   <span>Know More</span>
                 </NavLink>
               </div>
@@ -293,29 +248,23 @@ const Finance = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Enable Informed <br />
-                        Decisions
+                      Faster Your <br />
+                      Decision Making
                       </h3>
                       <div className="overlay">
                         <p>
-                          Track your cash flow, predict & improve your margins.
-                          Develop accurate and intelligent budget proposals and
-                          simplify your global financial reporting while
-                          managing risks.
+                        Keep tracking your cash flows, predict your profit margins, create budget proposals accurately and finally improve your financial reporting capabilities by implementing Microsoft's Financial Management.
                         </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Automate Your <br />
-                        Finance Operations
+                      Bring Automation  <br />
+                      to Your Finance
                       </h3>
                       <div className="overlay">
                         <p>
-                          Automate your invoice processing, manage your credit
-                          risks, improve your cash flow, and create a unified
-                          source of intelligent information to drive
-                          cross-functional collaboration.
+                        Automate your end-to-end finance operations from invoicing to managing credit risks, bringing transparency in your cash flows, and combining your data intelligence to ensure collaborative finances.
                         </p>
                       </div>
                     </div>
@@ -325,29 +274,23 @@ const Finance = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Bring Strategic <br />
-                        Impact & Reduce Costs
+                        Accelerate <br />
+                        Productivity
                       </h3>
                       <div className="overlay">
                         <p>
-                          Seamlessly deploy new subsidiaries, enable automated
-                          recurring billing, minimize audit costing, accurately
-                          calculate your financial reports & statements, and
-                          boost your workforce productivity.{" "}
+                        Deploy new subsidiaries efficiently and allow automation in recurring billing while minimizing your audit expenses. Enable seamlessly and accurately calculating financial statements to enhance productivity.
                         </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Manage Global <br />
-                        Finance & Minimize Risks
+                      Seamless Global <br />
+                      Compliances
                       </h3>
                       <div className="overlay">
                         <p>
-                          Manage and simplify your global payments, ensure
-                          global compliance, reduce risks, improve governance,
-                          speed up your invoice delivery, comply with local tax
-                          regulations.
+                        Optimize and manage your global accounting, payment processing, invoice delivery, tax regulations, and other regulatory compliances while minimizing the risks and improving governance.
                         </p>
                       </div>
                     </div>
@@ -358,39 +301,6 @@ const Finance = () => {
           </div>
         </div>
       </section>
-      {/* <section className="call_to_action call_to_action-n call_to_action-t">
-        <div className="container">
-          <div className="swiper solution_new_callto">
-            <div className="swiper-wrapper">
-              <div className="swiper-slide">
-                <div className="row">
-                  <div className="col-lg-8 align-self-center">
-                    <div className="call_to_action-left">
-                      <h3>Dynamics NAV to Business Central Upgrade!</h3>
-                      <p>
-                        Are you looking to upgrade from Dynamics NAV to Dynamics
-                        365 BC?
-                      </p>
-                      <div className="new-btn new-btn-nn">
-                        <NavLink to="#about" className="btn-get-started-color">
-                          <span>Read More Feature</span>
-                        </NavLink>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-4 align-self-center">
-                    <div className="call_to_action-right call_to_action-right-t">
-                      <img src="/assets/img/Group-683.png" alt="image" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="swiper-pagination"></div>
-          </div>
-        </div>
-      </section> */}
       <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
@@ -432,9 +342,7 @@ const Finance = () => {
             <div className="col-lg-6 align-self-center">
               <div className="side-heading">
                 <h2>Dynamics 365 Finance Service</h2>
-                <p>
-                  Strategically Work Towards Fulfilling Your Financial Visions
-                </p>
+                <p>Drive Strategic Approach & Simplify Your Financials with Dynamics 365 Finance</p>
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
@@ -446,8 +354,7 @@ const Finance = () => {
                 <div className="card_new_content">
                   <h3>Implementation</h3>
                   <p>
-                    Get optimum D365 finance implementation services suited to
-                    your customized business needs
+                  Bring Smoother flow across your financial practices by implementing Dynamics 365 Finance.
                   </p>
                   <div className="action-content">
                     <NavLink to="/dynamics-365-finance-implementation/">
@@ -466,12 +373,10 @@ const Finance = () => {
                 <div className="card_new_content">
                   <h3>Upgrade</h3>
                   <p>
-                    Bring innovation and drive agility in your financial
-                    operations all through D365 Finance Upgrade.
+                  Upgrade your system with Dynamics 365 Finance to optimize and simplify your finance operations.
                   </p>
                   <div className="action-content">
-                    <NavLink data-bs-toggle="modal"
-                      to="#exampleModal">
+                    <NavLink to="/products/microsoft-dynamics-365-finance/">
                       Get Started
                     </NavLink>
                   </div>
@@ -487,14 +392,10 @@ const Finance = () => {
                 <div className="card_new_content">
                   <h3>Support</h3>
                   <p>
-                    Ensure smoother and uninterrupted flow in your business with
-                    our continuous support services.
+                  Keep your financial flow smoother, interrupted, and productive by our proactive support services.
                   </p>
                   <div className="action-content">
-                    <NavLink data-bs-toggle="modal"
-                      to="#exampleModal">
-                      Get Started
-                    </NavLink>
+                    <NavLink to="/products/microsoft-dynamics-365-finance/">Get Started</NavLink>
                   </div>
                 </div>
               </div>
@@ -504,71 +405,46 @@ const Finance = () => {
       </section>
       <section id="pricing" className="pricing">
         <div className="container">
-          <header className="section-header">
-            <h2>Dynamics 365 Finance Pricing</h2>
-            <p>
-              Dynamics 365 Finance implementation can help automate your financial operations, improve your decision-making using data, minimize global financial complexities, and bring strategic impact on your financial system.
-            </p>
-          </header>
+        <div className="row justify-content-center">
+          <div className="col-lg-8 col-md-8">
+            <header className="section-header">
+              <h2>Dynamics 365 Finance Pricing</h2>
+              <p>
+              Automate your financial operations, improve decision making, bring strategic impact on your finance, and minimize global financial complexities & risks with dynamics 365 finance.
+              </p>
+            </header>
+          </div>
+        </div>
+         
           <div className="row gy-4 p-9">
-            <div className="col-lg-3">
-              {/* <div className="box">
-                        <h4>Business Central<br />
-                           Essentials
-                        </h4>
-                        <div className="price"><sup>£</sup>52.80<span>Per-User/Per Month</span></div>
-                        <ul>
-                           <li> <i className="bi bi-check-lg"></i> Financial Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Inventory Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Order Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Purchase Order Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Project Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Additional Capabilities</li>
-                        </ul>
-                       
-                     </div> */}
-            </div>
             <div className="col-lg-6">
               <div className="box box-22">
-                <h3>Dynamics 365 Finance</h3>
+                <h3>
+                For First Dynamics App
+                </h3>
                 <div className="price">
-                  £135.70<span>Per-User/Per Month</span>
+                  <sup>$</sup>180<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
-                    An intelligent, automated, and trusted core financial
-                    management solution.
+                  An intelligent, automated, and trusted core financial management solution.
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3">
-              {/* <div className="box">
-                        <h3>Business Central<br />
-                           Essentials
-                        </h3>
-                        <div className="price"><sup>£</sup>52.80<span>Per-User/Per Month</span></div>
-                        <ul>
-                           <li> <i className="bi bi-check-lg"></i> Read and Approve</li>
-                           <li> <i className="bi bi-check-lg"></i> Employee Self Serve</li>
-                           <li> <i className="bi bi-check-lg"></i> Run All Reports</li>
-                        </ul>
-                       
-                     </div> */}
-            </div>
-
-            <div className="col-lg-12 col-md-12">
-              <div className="price-btn price-btnasd d-flex justify-content-center">
-                <NavLink
-                  data-bs-toggle="modal"
-                  to="#exampleModal"
-                  className="btn-get-red"
-                >
-                  <span>Get Started Now</span>
-                </NavLink>
-                {/* <NavLink to="#about" className="btn-get-whit">
-                              <span>See Licensing Guide</span>
-                              </NavLink> */}
+            <div className="col-lg-6">
+              <div className="box box-22">
+                <h3>
+                For Subsequent Dynamics App
+                </h3>
+                <div className="price">
+                  <sup>$</sup>30<span>Per-User/Per Month</span>
+                </div>
+                <ul>
+                  <li className="text-center">
+                  An intelligent, automated, and trusted core financial management solution.
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -581,7 +457,7 @@ const Finance = () => {
               <div className="call-to-action-content">
                 <h3>Looking to implement Microsoft Dynamics 365 Finance?</h3>
                 <p>
-                  Are you new to Dynamics 365 Finance, or recently moved to it, or having a problem with it, or looking to change D365 support partner? Connect with our experts, today.
+                If you’re new to Dynamics 365 Finance, already using it and have a challenge, or are looking for a new support partner. Talk to our experts.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <NavLink
@@ -597,14 +473,17 @@ const Finance = () => {
           </div>
         </div>
       </section>
+
       <section className="solution-faq faq">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
-              <header className="section-header">
-                <h2>Have you got <br /> questions about Dynamics 365 Finance?</h2>
-                <p>Click through to our FAQ for the best answers!</p>
-              </header>
+            <div className="col-lg-9 col-md-9">
+            <header className="section-header">
+            <h2>
+            Have you got questions about Dynamics 365 Finance?   
+            </h2>
+            <p>Click through to our FAQ for the best answers!</p>
+          </header>
             </div>
           </div>
           <div className="row justify-content-center mar-top-7">
@@ -628,19 +507,10 @@ const Finance = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        Microsoft Dynamics 365 Finance is an advanced analytics
-                        solution to support continuously changing or evolving
-                        business needs. It enables enterprises to seamlessly
-                        control and manage finances. Users can plan and forecast
-                        with actual and relevant information to make timely and
-                        informed decisions. &nbsp;
+                      Microsoft Dynamics 365 is an enterprise-level finance management solution to proactively manage your end-to-end finance practices. D365 Finance allows enterprises to control and manage their finances, predict sales, manage budgets, and forecast reliable and productive information to support instant yet productive financial decisions.
                       </p>
                       <p>
-                        Leveraging D365 Finance, businesses can manage their
-                        general ledger, cash &amp; bank, tax, accounts payable
-                        &amp; receivable, credits &amp; collections, budgeting,
-                        fixed assets, cost accounting, electronic invoicing, and
-                        more.&nbsp;&nbsp;
+                      With Microsoft's finance management solution, businesses can streamline their general ledger, cash & bank, payables & receivables, accounts & taxing, credit & collection management, budgeting & electronic invoice creating, and more. All such financial properties make Dynamics 365 Finance a complete financial management solution to innovate, drive, and grow.
                       </p>
                     </div>
                   </div>
@@ -653,7 +523,7 @@ const Finance = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
                     >
-                      What are the features of Dynamics 365 Finance?
+                     What are the features of Dynamics 365 Finance?
                     </button>
                   </h3>
                   <div
@@ -663,19 +533,19 @@ const Finance = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        Microsoft Dynamics 365 Finance is a cutting-edge finance management tool that will streamline your finance practices, reduce manual efforts, data redundancies, and mitigate the risk of uncertainties. The D365 Finance solution is designed to support modern enterprises that are seeking to simplify their finance operations and drive profitability and efficiency.
+                      Microsoft Dynamics 365 Finance is a modern finance management tool to simplify your finance practices while reducing manual efforts, data redundancies, and mitigating the risk of uncertainties. D365 Finance solution is designed to support modern enterprises seeking to simply their finance operations to drive profitability and efficiency.
                       </p>
-                      <p>Here are the core features list:</p>
+                      <p>Here are the core features list:Microsoft Dynamics 365 is an all-in-package designed to support the modern financial practices in today's high-equipped enterprises that deal globally while struggling with vast competition in their domain. </p>
+                      <p>Here we are revealing the list of features:</p>
                       <ol>
+                        <li>General Ledger</li>
                         <li>Accounts Payable</li>
                         <li>Accounts Receivable</li>
-                        <li>General Ledger </li>
+                        <li>Cash &amp; Bank Management</li>
                         <li>Tax Management</li>
-                        <li>Tax Management</li>
-                        <li>Cash & Bank Management</li>
-                        <li>Credit & Collections</li>
-                        <li>Fixed Assets</li>
+                        <li>Credit &amp; Collections</li>
                         <li>Budgeting</li>
+                        <li>Fixed Assets</li>
                         <li>Cost Accounting</li>
                         <li>Electronic Invoicing</li>
                       </ol>
@@ -690,8 +560,7 @@ const Finance = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
                     >
-                      How Microsoft Dynamics 365 Finance management can help
-                      your business to succeed?
+                      How Microsoft Dynamics 365 Finance management can help your business to succeed?
                     </button>
                   </h3>
                   <div
@@ -701,27 +570,10 @@ const Finance = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        To support and drive financial practices in today's
-                        modern enterprises, there is a crucial need to manage
-                        end-to-end finances using a single interface. Dynamics
-                        365 Finance boosts businesses to control their financial
-                        operations and brings transparency into their financial
-                        events in real-time. This helps and encourages the
-                        organizations to stay updated with every financial move
-                        across their organization and to support their financial
-                        decision-making.Leveraging Dynamics 365 Finance,
-                        businesses can have control over their entire financial
-                        practices. Using intelligent business insights and
-                        financial reports, enterprises can predict and control
-                        unexpected events or circumstances.
+                      With Dynamics 365 Finance, Businesses can have a 360-degree view into their practices and can proactively control & manage their finances. Since there could be several event or activities to manage being managed in your finance department and in the lack of proper finance configured system or finance embedded tool, your enterprise may lose in terms of proper budgeting, forecasting, and planning.
                       </p>
                       <p>
-                        Automation is something that reduces your efforts and
-                        allows you to drive smarter. Dynamics 365 Finance
-                        enables automated workflow across your organization
-                        wherein repetitive tasks can be automated. Greater
-                        visibility into insights helps to make strategic
-                        decisions in a timely manner.&nbsp;
+                      Dynamics 365 is designed to manage your entire financial operations by enabling automation and bringing real-time efficiency into every process along with AI intelligence that enables people in your organization to make faster and productive decisions impacting your organizational growth and future potentials.
                       </p>
                     </div>
                   </div>
@@ -734,7 +586,7 @@ const Finance = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
                     >
-                      What is included in Dynamics 365 Finance & Operations?
+                     What is included in Dynamics 365 Finance & Operations?
                     </button>
                   </h3>
                   <div
@@ -743,30 +595,7 @@ const Finance = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>
-                        Dynamics 365 Finance &amp; Operations is now for&nbsp;
-                        <NavLink to="/products/microsoft-dynamics-365-finance/">
-                          Dynamics 365 Finance&nbsp;
-                        </NavLink>
-                        and&nbsp;
-                        <NavLink to="/products/dynamics-365-supply-chain-management/">
-                          Dynamics 365 Supply Chain&nbsp;Management&nbsp;
-                        </NavLink>
-                        to manage all your financial operations in a seamless
-                        manner. This financial analytics tool is designed for
-                        SMBs&nbsp;to&nbsp;large size organizations
-                        to&nbsp;effectively roll out their financial data.
-                      </p>
-                      <p>
-                        Leveraging D365 Finance, enterprises can
-                        manage&nbsp;their core to advance financial practices
-                        including budgeting &amp; forecasting, banking,
-                        taxation, cost accounting, invoicing, credit &amp;
-                        collections, fixed assets, and more. Businesses can also
-                        empower their financial hub with predictive data and
-                        other financial statements to make smarter financial
-                        decisions.
-                      </p>
+                      <p><NavLink to="/products/microsoft-dynamics-365-finance-operations/">Dynamics 365 Finance & Operations</NavLink> have been converted into 'Dynamics 365 Finance' and 'Dynamics 365 Supply Chain'. Thereby, depending on your core or specific requirement, you can implement it accordingly. With Dynamics 365 Finance, enterprises can drive advanced finance practices including banking & taxation, budgeting & forecasting, cost accounting, invoice generating, sales prediction, credit & collections, global compliances, and more.</p>
                     </div>
                   </div>
                 </div>
@@ -778,8 +607,7 @@ const Finance = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-5"
                     >
-                      What is the Microsoft Dynamics 365 finance and operations
-                      model?
+                     What is the Microsoft Dynamics 365 finance and operations model?
                     </button>
                   </h3>
                   <div
@@ -789,16 +617,7 @@ const Finance = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        <NavLink to="/products/microsoft-dynamics-365-finance-operations/">
-                          Microsoft Dynamics 365 for Finance &amp; Operations
-                        </NavLink>{" "}
-                        has now converted to Dynamics 365 Finance and Dynamics
-                        365 Supply Chain Management. With D365 Finance,
-                        businesses can efficiently manage their entire financial
-                        events. Depending on your specific requirements, you can
-                        even integrate your Dynamics 365 Finance with other
-                        Microsoft apps, CRM, analytics, or accounting
-                        software.&nbsp;
+                      Microsoft has made updates wherein Microsoft Dynamics 365 Finance and Operations has been transformed as 'Dynamics 365 Finance' and '<NavLink to="/products/dynamics-365-supply-chain-management/">Dynamics 365 Supply Chain</NavLink>'. With Dynamics 365 Finance model, enterprises can bring a seamless yet accelerated flow in their financial practices. To strengthen business flow and manage your end-to-end practices, Dynamics 365 Finance can be configured as per your customized processes. Further, it can be integrated with whether your existing system or any other third-party applications to efficiently support your finance practices and drive smoother flow throughout your finance unit.
                       </p>
                     </div>
                   </div>
@@ -820,12 +639,7 @@ const Finance = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      It could be a smart decision when it comes to Dynamics 365
-                      Finance licensing. Users can avail of its licensing for
-                      130 pounds (approx.) for First <NavLink to="/products/microsoft-dynamics-365/">Dynamics 365</NavLink> App and
-                      further, for Subsequent qualifying Dynamics 365 Finance
-                      app, it could cost you 21 pounds per users/per month
-                      (approx.)
+                    When it comes to implementation costing, it can cost businesses $180 per user /per month for the first Dynamics 365 app and $30 for subsequent qualifying Dynamics 365 app. Connect with our team to know more about Dynamics 365 Finance licensing.
                     </div>
                   </div>
                 </div>
@@ -846,17 +660,7 @@ const Finance = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      Yes, Dynamics 365 Finance comes with flexibility wherein
-                      you can avail of customization as per your specific
-                      business domain and set of practices you drive throughout
-                      your organization. You can even integrate or configure
-                      your D365 Finance with your existing system to enhance
-                      your business capabilities. It could be Microsoft's own
-                      apps or could be a third-party application. <br />
-                      <br />
-                      If you want to get more information or how it works,
-                      contact Dynamics Square, we can suggest and implement a
-                      highly customized solution for your business.
+                     <p>Microsoft Dynamics 365 Finance is a highly configurable and customizable platform that allows enterprises whether to configure suited to their domain needs or integrate with other systems or apps to manage your entire finance practices while making instant efficient decisions to drive profitability and scalability.</p>
                     </div>
                   </div>
                 </div>
@@ -865,20 +669,13 @@ const Finance = () => {
           </div>
         </div>
       </section>
+
       <section className="blogs-extra">
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8">
-              <header className="section-header">
-                <h2>Explore Our Recent Blogs & Resources</h2>
-                <p>
-                  Whether you are a start-up, an SMB, or an enterprise, the Dynamics
-                  Square blog is the best place to get inspired and learn more about
-                  Microsoft Business Applications.
-                </p>
-              </header>
-            </div>
-          </div>
+          <header className="section-header">
+            <h2>Explore Our Recent Blogs & Resources</h2>
+            <p>Whether you are a start-up, an SMB, or an enterprise, the Dynamics Square blog is the best place to get inspired and learn more about Microsoft Business Applications.</p>
+          </header>
           <div className="row top-2 gx-5">
             <Blog />
             <div className="col-lg-6">
@@ -980,7 +777,7 @@ const Finance = () => {
           </div>
         </div>
       </section>
-
+   
     </>
   );
 };

@@ -7,59 +7,18 @@ const PowerPlatform = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Microsoft Power Platform | Dynamics Square</title>
+        <title>Microsoft Power Platform - Dynamics Square</title>
         <meta
           name="description"
-          content="Analyze data, create solutions, automate processes and create virtual agents with Microsoft Power Platform. Schedule a free power platform demo today."
+          content="Microsoft Power Platform allows you to deliver personalization, analyze data, develop better applications, automate various processes, and respond to the generated insights."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/products/microsoft-power-platform/"
+          href="https://www.dynamicssquare.com/products/microsoft-power-platform/"
         />
-        <meta property="og:locale" content="en_GB" />
+        <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Microsoft Power Platform | Dynamics Square"
-        />
-        <meta
-          property="og:description"
-          content="Analyze data, create solutions, automate processes and create virtual agents with Microsoft Power Platform. Schedule a free power platform demo today."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/products/microsoft-power-platform/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:secure_url" content="" />
-        <meta property="og:image:width" content="1024" />
-        <meta property="og:image:height" content="586" />
-        <meta property="og:image:alt" content="power-platform" />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Microsoft Power Platform | Dynamics Square"
-        />
-        <meta
-          name="twitter:description"
-          content="Analyze data, create solutions, automate processes and create virtual agents with Microsoft Power Platform. Schedule a free power platform demo today."
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="2 minutes" />
+        
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -128,7 +87,7 @@ const PowerPlatform = () => {
                   <strong>The Business Intelligence solution</strong>
                 </p>
                 <p>
-                  Power BI is a business analytics solution that enables you to
+                  <NavLink to="/products/microsoft-power-bi/">Power BI</NavLink> is a business analytics solution that enables you to
                   visualize data and share information across your organization.
                   It is a reporting tool capable of unifying data from multiple
                   sources (including Business Central) to create immersive,
@@ -151,7 +110,7 @@ const PowerPlatform = () => {
                   <strong>Create business apps without codes</strong>
                 </p>
                 <p>
-                  Microsoft Power Apps allows you to create applications without
+                <NavLink to="/products/microsoft-power-apps/">Microsoft Power Apps</NavLink> allows you to create applications without
                   the need to have knowledge of code in an agile and fast way.
                   Develop applications from scratch or using predefined
                   templates. Building applications with Power Apps helps
@@ -189,7 +148,7 @@ const PowerPlatform = () => {
                   <strong>Solution for defining workflow automations</strong>
                 </p>
                 <p>
-                  Power Automate offers the ability to efficiently automate
+                <NavLink to="/products/microsoft-power-automate/">Power Automate</NavLink> offers the ability to efficiently automate
                   workflow directly in your applications with a no-code approach
                   that connects to hundreds of the most popular applications and
                   services on the market. Connect to your data from any device
@@ -215,8 +174,7 @@ const PowerPlatform = () => {
                   </strong>
                 </p>
                 <p>
-                  Power Virtual Agents is a tool designed to create
-                  conversational experiences (chatbots) that offer support by
+                <NavLink to="/products/microsoft-power-virtual-agents/">Power Virtual Agents</NavLink> is a tool designed to create conversational experiences (chatbots) that offer support by
                   easily creating and maintaining virtual agents, without the
                   need for coding, using a guided graphical interface without
                   the need for data analysts or developers.

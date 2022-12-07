@@ -6,65 +6,12 @@ const CategoryList = () => {
   return (
     <>
       <Helmet>
-        <title>Microsoft Dynamics 365 Case Studies | Dynamics Square</title>
-        <meta
-          name="description"
-          content="Discover our client's case studies and see how we care about them from start to finish. We have worked with them to provide long lasting Dynamics 365 Support."
-        />
-        <meta
-          name="robots"
-          content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
-        />
-        <link
-          rel="canonical"
-          href="https://www.dynamicssquare.co.uk/case-studies/"
-        />
-        <meta property="og:locale" content="en_GB" />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Microsoft Dynamics 365 Case Studies | Dynamics Square"
-        />
-        <meta
-          property="og:description"
-          content="Discover our client's case studies and see how we care about them from start to finish. We have worked with them to provide long lasting Dynamics 365 Support."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/case-studies/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content=" " />
-        <meta property="og:image:width" content="735" />
-        <meta property="og:image:height" content="243" />
-        <meta property="og:image:alt" content=" " />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Microsoft Dynamics 365 Case Studies | Dynamics Square"
-        />
-        <meta
-          name="twitter:description"
-          content="Discover our client's case studies and see how we care about them from start to finish. We have worked with them to provide long lasting Dynamics 365 Support."
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta
-          name="twitter:image"
-          content="https://www.dynamicssquare.co.uk/assets/img/case-icons-list.png"
-        />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="1 minute" />
+      <title>Microsoft Dynamics 365 Case Studies | Dynamics Square</title>
+<meta name="description" content="Discover our client's case studies and see how we care about them from start to finish. We have worked with them to provide long lasting Dynamics 365 Support."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://www.dynamicssquare.com/case-studies/" />
+<meta property="og:locale" content="en_US" />
+
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -154,14 +101,14 @@ const CategoryList = () => {
             </div>
             <div className="col-lg-9">
               <div className="tab-content" id="v-pills-tabContent">
-                <div
+              <div
                   className="tab-pane fade show active"
                   id="v-pills-profiless"
                   role="tabpanel"
                   aria-labelledby="v-pills-home-tab"
                 >
                   <div className="row">
-                    <div className="col-lg-6">
+                    {/* <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
@@ -185,25 +132,23 @@ const CategoryList = () => {
                           </NavLink>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/assets/img/pasante-logo.png"
-                            alt="pasante-logo.png"
+                            src="/assets/img/cs-DMIC-logo.png"
+                            alt="cs-DMIC-logo"
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            Find out how Pasante improved accuracy and
-                            productivity by upgrading from Dynamics NAV to
-                            Business Central On-premise.
+                          Streamline Manufacturing & Accounting with D365 Business Central On-Premise
                           </p>
                         </div>
                         <div className="btn-003">
                           <NavLink
-                            to="/case-studies/pasante/"
+                            to="/case-studies/dmic/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -211,8 +156,27 @@ const CategoryList = () => {
                         </div>
                       </div>
                     </div>
-
                     <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img src="/assets/img/cs-mexiland-logo.png" alt="MexiLand_logos" />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>
+                          Mexi Land was facing issues with the working of Dynamics NAV 2009. They want to perform better, but NAV 2009 was stopping them from working on full productivity.
+                          </p>
+                        </div>
+                        <div className="btn-003">
+                          <NavLink
+                            to="/case-studies/mexi-land/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </NavLink>
+                        </div>
+                      </div>
+                    </div>
+                    {/* <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
@@ -236,25 +200,23 @@ const CategoryList = () => {
                           </NavLink>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/assets/img/cqc-logo-1-300x103-1.png"
-                            alt="cqc-logo-1-300x103-1"
+                            src="/assets/img/cs-lnl-logo.png"
+                            alt="cs-lnl-logo"
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            Discover how CQC improved accounting capabilities by
-                            implementing Microsoft Dynamics 365 Business Central
-                            online
+                          Improving Operational Efficiency by Upgrading NAV05 to NAV2018
                           </p>
                         </div>
                         <div className="btn-003">
                           <NavLink
-                            to="/case-studies/cqc/"
+                            to="/case-studies/thelandlcompany/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -266,20 +228,18 @@ const CategoryList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/assets/img/cropped-arteak-logo-2.png"
-                            alt="cropped-arteak-logo-2"
+                            src="/assets/img/cs-spectra-logo.png"
+                            alt="cs-spectra-logo"
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            See how Arteak Limited improved overall accounting
-                            and financial processes by implementing Dynamics 365
-                            Business Central.
+                          Implemented Custom EFT Module to improvise Payment Methods
                           </p>
                         </div>
                         <div className="btn-003">
                           <NavLink
-                            to="/case-studies/arteak/"
+                            to="/case-studies/spectra/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -287,7 +247,7 @@ const CategoryList = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6">
+                    {/* <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
@@ -311,22 +271,20 @@ const CategoryList = () => {
                           </NavLink>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img src="/assets/img/tea.png" alt="tea" />
+                          <img src="/assets/img/cs-shimco-logo-csg.png" alt="cs-shimco-logo" />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            Learn how Dynamics Square helped Global Tea &
-                            Commodities Limited by customizing and providing
-                            stress-free Dynamics NAV support.
+                          Implementation of Microsoft Dynamics Business Central Cloud
                           </p>
                         </div>
                         <div className="btn-003">
                           <NavLink
-                            to="/case-studies/global-tea/"
+                            to="/case-studies/shimco/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -343,7 +301,7 @@ const CategoryList = () => {
                   aria-labelledby="v-pills-home-tab"
                 >
                   <div className="row">
-                    <div className="col-lg-6">
+                    {/* <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
@@ -367,25 +325,23 @@ const CategoryList = () => {
                           </NavLink>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/assets/img/pasante-logo.png"
-                            alt="pasante-logo.png"
+                            src="/assets/img/cs-DMIC-logo.png"
+                            alt="cs-DMIC-logo"
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            Find out how Pasante improved accuracy and
-                            productivity by upgrading from Dynamics NAV to
-                            Business Central On-premise.
+                          Streamline Manufacturing & Accounting with D365 Business Central On-Premise
                           </p>
                         </div>
                         <div className="btn-003">
                           <NavLink
-                            to="/case-studies/pasante/"
+                            to="/case-studies/dmic/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -393,8 +349,27 @@ const CategoryList = () => {
                         </div>
                       </div>
                     </div>
-
                     <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img src="/assets/img/cs-mexiland-logo.png" alt="MexiLand_logos" />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>
+                          Mexi Land was facing issues with the working of Dynamics NAV 2009. They want to perform better, but NAV 2009 was stopping them from working on full productivity.
+                          </p>
+                        </div>
+                        <div className="btn-003">
+                          <NavLink
+                            to="/case-studies/mexi-land/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </NavLink>
+                        </div>
+                      </div>
+                    </div>
+                    {/* <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
@@ -418,7 +393,7 @@ const CategoryList = () => {
                           </NavLink>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div
@@ -432,20 +407,18 @@ const CategoryList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/assets/img/cqc-logo-1-300x103-1.png"
-                            alt="cqc-logo-1-300x103-1"
+                            src="/assets/img/cs-lnl-logo.png"
+                            alt="cs-lnl-logo"
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            Discover how CQC improved accounting capabilities by
-                            implementing Microsoft Dynamics 365 Business Central
-                            online
+                          Improving Operational Efficiency by Upgrading NAV05 to NAV2018
                           </p>
                         </div>
                         <div className="btn-003">
                           <NavLink
-                            to="/case-studies/cqc/"
+                            to="/case-studies/thelandlcompany/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -457,20 +430,18 @@ const CategoryList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/assets/img/cropped-arteak-logo-2.png"
-                            alt="cropped-arteak-logo-2"
+                            src="/assets/img/cs-spectra-logo.png"
+                            alt="Spectra-Aluminum-logo"
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            See how Arteak Limited improved overall accounting
-                            and financial processes by implementing Dynamics 365
-                            Business Central.
+                          Implemented Custom EFT Module to improvise Payment Methods
                           </p>
                         </div>
                         <div className="btn-003">
                           <NavLink
-                            to="/case-studies/arteak/"
+                            to="/case-studies/spectra/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -487,7 +458,7 @@ const CategoryList = () => {
                   aria-labelledby="v-pills-messages-tab"
                 >
                   <div className="row">
-                    <div className="col-lg-6">
+                    {/* <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
@@ -511,22 +482,20 @@ const CategoryList = () => {
                           </NavLink>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img src="/assets/img/tea.png" alt="tea" />
+                          <img src="/assets/img/cs-shimco-logo-csg.png" alt="cs-shimco-logo" />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                            Learn how Dynamics Square helped Global Tea &
-                            Commodities Limited by customizing and providing
-                            stress-free Dynamics NAV support.
+                          Implementation of Microsoft Dynamics Business Central Cloud
                           </p>
                         </div>
                         <div className="btn-003">
                           <NavLink
-                            to="/case-studies/global-tea/"
+                            to="/case-studies/shimco/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study

@@ -7,12 +7,32 @@ const MicrosoftDynamicsPartnerLeeds = () => {
     <>
       <Helmet>
       <title>Microsoft Dynamics Partner Leeds, UK | Dynamics Square</title>
-<meta name="description" content="Dynamics Square is Microsoft Dynamics Partner in Leeds. We help Leeds-based businesses to grow rapidly and sustainably by implementing Microsoft Dynamics Applications."/>
+<meta name="description" content="Dynamics Square is Microsoft Dynamics Partner in Leeds. We help Leeds-based businesses to grow strong and fast by implementing Microsoft Dynamics Applications."/>
 <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
 <link rel="canonical" href="https://www.dynamicssquare.co.uk/location/microsoft-dynamics-partner-leeds/" />
 <meta property="og:locale" content="en_GB" />
 <meta property="og:type" content="article" />
-
+<meta property="og:title" content="Microsoft Dynamics Partner Leeds, UK | Dynamics Square" />
+<meta property="og:description" content="Dynamics Square is Microsoft Dynamics Partner in Leeds. We help Leeds-based businesses to grow strong and fast by implementing Microsoft Dynamics Applications." />
+<meta property="og:url" content="https://www.dynamicssquare.co.uk/location/microsoft-dynamics-partner-leeds/" />
+<meta property="og:site_name" content="Dynamics Square" />
+<meta property="article:publisher" content="https://www.facebook.com/dynamicssquareuk" />
+<meta property="article:author" content="https://www.facebook.com/vickygururani" />
+<meta property="fb:app_id" content="2007906422699147" />
+<meta property="og:image" content=" " />
+<meta property="og:image:secure_url" content="https://www.dynamicssquare.co.uk/assets/img/Microsoft-Dynamics-Partner-Leeds.png" />
+<meta property="og:image:width" content="768" />
+<meta property="og:image:height" content="501" />
+<meta property="og:image:alt" content="Microsoft Dynamics Partner Leeds" />
+<meta property="og:image:type" content="image/png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Microsoft Dynamics Partner Leeds, UK | Dynamics Square" />
+<meta name="twitter:description" content="Dynamics Square is Microsoft Dynamics Partner in Leeds. We help Leeds-based businesses to grow strong and fast by implementing Microsoft Dynamics Applications." />
+<meta name="twitter:site" content="@dsquare_uk" />
+<meta name="twitter:creator" content="@dsquare_uk" />
+<meta name="twitter:image" content=" " />
+<meta name="twitter:label1" content="Time to read" />
+<meta name="twitter:data1" content="6 minutes" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -24,7 +44,7 @@ const MicrosoftDynamicsPartnerLeeds = () => {
                 Partner Leeds
               </h1>
               <p>
-              We offer a comprehensive range of services and solutions to help your business succeed as experienced Microsoft Gold Partners in Leeds.
+                We are experienced Microsoft Gold Partners based in Leeds, UK.
               </p>
             </div>
             <div className="col-lg-6 align-self-center">
@@ -74,7 +94,6 @@ const MicrosoftDynamicsPartnerLeeds = () => {
                   We've consistently performed outstandingly in several
                   examinations and demonstrated our abilities in various fields.
                 </p>
-                <h3>Why should you choose Dynamics 365 for your Leeds-based company?</h3>
                 <p>
                   We are not just partners; we are authorized Microsoft Gold
                   Partner in Leeds having domain expertise in key areas as
@@ -161,14 +180,14 @@ const MicrosoftDynamicsPartnerLeeds = () => {
                     >
                       <div className="accordion-body">
                         <p>
-                        <NavLink
+                          Boost your company's output with{" "}
+                          <NavLink
                             target="_blank"
                             to="/products/dynamics-365-business-central/"
                           >
                             Microsoft Dynamics 365 Business Central
-                          </NavLink>{" "} can help your company's production. Because we are top-tier business central partners in Leeds, we can handle your end-to-end business operations and encourage effective growth, sustainability, and scalability in your organisation.
-                          
-                          You can manage your end-to-end business operations
+                          </NavLink>
+                          . You can manage your end-to-end business operations
                           and promote effective growth, sustainability, and
                           scalability in your company with us because we are the
                           top-notch business central partners in Leeds.

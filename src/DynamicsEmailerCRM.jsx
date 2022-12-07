@@ -16,21 +16,20 @@ const DynamicsEmailerCRM = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/email-dynamics365-crm/"
+          href="https://www.dynamicssquare.com/email-dynamics365-crm/"
         />
         <meta property="og:locale" content="en_US" />
       </Helmet>
 
       <section
         className="Solution-banner hero-1 hero"
-        style={{ overflow: "hidden", paddingBottom: "160px" }}
+        style={{ overflow: "hidden" }}
       >
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center nav-to">
               <h1>
-                Drive sales higher, excellent customer service & improve
-                marketing capabilities
+              Provide value to delight customers with every interaction
               </h1>
               <p>
                 We help organizations to deepen their customer relationships,
@@ -105,6 +104,7 @@ const DynamicsEmailerCRM = () => {
           </div>
         </div>
       </section>
+      <section></section>
       <FooterHide />
     </>
   );

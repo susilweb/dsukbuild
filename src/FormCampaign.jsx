@@ -46,9 +46,9 @@ const FormCampaign = () => {
           <input
             type="email"
             className="form-control"
-            placeholder="* Work Email"
+            placeholder="*Work Email"
             name="email"
-            pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!gmail)(?!yahoo.com)(?!yahoo)(?!hotmail.com)(?!hotmail)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
+            pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
             required
           />
         </div>
@@ -56,7 +56,7 @@ const FormCampaign = () => {
           <input
             type="text"
             className="form-control"
-            placeholder="* Company Name"
+            placeholder="*Company Name"
             name="company_name"
             required
           />

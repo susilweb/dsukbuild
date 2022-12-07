@@ -6,22 +6,22 @@ const FaqsUgradingDynamics = () => {
   return (
     <>
       <Helmet>
-      <title>FAQ – UPGRADING AX TO D365 | Dynamics Square</title>
-<meta name="description" content="Upgrading from Dynamics AX 2009 and AX 2012 to Dynamics 365 for Operations brings significant new features and capabilities. Operations is available in three"/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/faqs-upgrading-dynamics-ax-to-dynamics-365/" />
-<meta property="og:locale" content="en_GB" />
+      <title>FAQ: Upgrading from AX to Dynamics 365 - AX to D365</title>
+<meta name="description" content="Upgrading from Dynamics AX 2009 and AX 2012 to Dynamics 365 for Operations brings significant new features and capabilities. Operations is available in three."/>
+<link rel="canonical" href="https://www.dynamicssquare.com/faqs-upgrading-dynamics-ax-to-dynamics-365/" />
+<meta property="og:locale" content="en_US" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
-                FAQs - Upgrading Dynamics
+               FAQ's while looking to transition from 
                 <br />
                 AX to Dynamics 365
               </h1>
               <p>
-                Upgrading from Dynamics AX 2009 and AX 2012 to Dynamics 365 for
+                Upgrading from <NavLink to="/products/microsoft-dynamics-ax/">Dynamics AX</NavLink> 2009 and AX 2012 to Dynamics 365 for
                 Operations brings significant new features and capabilities.
                 Operations is available in three deployment scenarios and three
                 types of user. This page aims to clarify the upgrade process and
@@ -58,8 +58,8 @@ const FaqsUgradingDynamics = () => {
               Dynamics 365 Similar?
             </h2>
             <p>
-              Nearly, as both MS Dynamics AX and MS Dynamics 365 have embedded
-              outstanding BI capabilities, offering an exceptional user
+              Nearly, as both MS Dynamics AX and <NavLink to="/products/microsoft-dynamics-365/">MS Dynamics 365</NavLink> have embedded
+              outstanding <NavLink to="/products/microsoft-power-bi/">BI capabilities</NavLink>, offering an exceptional user
               experience, and enabling businesses to develop interactive
               dashboards through high- end reporting features.
             </p>
@@ -126,7 +126,7 @@ const FaqsUgradingDynamics = () => {
           <div className="row">
             <div className="col-lg-5">
               <div className="call_to_action-right over-img">
-                <img src="/assets/img/MaskGroup8.png" alt="image" />
+                <img src="/assets/img/MaskGroup8.png" alt="images" />
               </div>
             </div>
             <div className="col-lg-7 align-self-center">
@@ -156,7 +156,7 @@ const FaqsUgradingDynamics = () => {
             <h2>
               Have you got
               <br />
-              questions about Finance?
+              questions about Dynamics 365 Finance?
             </h2>
             <p>Click through to our FAQ for the best answers!</p>
           </header>
@@ -181,7 +181,7 @@ const FaqsUgradingDynamics = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        D365O deployment is extremely flexible. There are three
+                      <NavLink to="/products/microsoft-dynamics-365-finance/">Dynamics 365 Finance</NavLink> deployment is extremely flexible. There are three
                         deployment options: cloud-hosted, on-premises (“local
                         business data”) and hybrid (“cloud + edge”). It is
                         possible to start on one scenario and move to another,
@@ -495,8 +495,7 @@ const FaqsUgradingDynamics = () => {
                         Our experts will carry out a code and data assessment,
                         including BI and reporting content, interfaces and, if
                         required, business processes, then offer a fixed price
-                        to upgrade your system to the latest on-premises or
-                        cloud version, including converting and migrating data.
+                        to upgrade your system to the latest <NavLink to="/microsoft-dynamics-365-cloud-vs-on-premise/">on-premises or cloud version</NavLink>, including converting and migrating data. Call us now +1 281 899 0865.
                       </p>
                     </div>
                   </div>
@@ -553,9 +552,8 @@ const FaqsUgradingDynamics = () => {
                   <span>Subject Matter Experts</span>
                 </h3>
                 <p>
-                  Our highly experienced team of Professionals having the
-                  collective experience of over hundreds of successful Project
-                  implementations.
+                  Our highly experienced team of Microsoft Professionals having the
+                  collective experience of over hundreds of successful <NavLink to="/our-services/dynamics-365-implementation-services/">Dynamics 365 implementations</NavLink>.
                 </p>
               </div>
             </div>

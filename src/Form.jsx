@@ -3,8 +3,6 @@ import emailjs from "emailjs-com";
 import { useHistory } from "react-router-dom";
 import { Link } from "react-router-dom";
 
-//import HubspotForm from "react-hubspot-form";
-
 const Form = () => {
   const [display, setDisplay] = useState("const2");
   const history = useHistory();
@@ -15,10 +13,10 @@ const Form = () => {
 
     emailjs
       .sendForm(
-        "service_x0eo9w8",
-        "template_e2eswsj",
+        "service_ioc4m3m",
+        "template_gaio8jq",
         e.target,
-        "xIFtTfBj6NR498Plv"
+        "Z1IXZpfjgq01m5vW7"
       )
       .then((res) => {
         //console.log(res);
@@ -49,7 +47,7 @@ const Form = () => {
               className="form-control"
               placeholder="*Work Email"
               name="email"
-              pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!gmail)(?!yahoo.com)(?!yahoo)(?!hotmail.com)(?!hotmail)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
+              pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
               required
             />
           </div>

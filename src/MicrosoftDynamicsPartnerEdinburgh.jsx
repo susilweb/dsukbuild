@@ -12,7 +12,27 @@ const MicrosoftDynamicsPartnerEdinburgh = () => {
 <link rel="canonical" href="https://www.dynamicssquare.co.uk/location/microsoft-dynamics-partner-edinburgh/" />
 <meta property="og:locale" content="en_GB" />
 <meta property="og:type" content="article" />
-
+<meta property="og:title" content="Microsoft Dynamics Partner Edinburgh | Dynamics Square" />
+<meta property="og:description" content="We are Microsoft Dynamics Partner in Edinburgh, helping small to medium-sized businesses to grow strong and fast by implementing Microsoft Dynamics Applications." />
+<meta property="og:url" content="https://www.dynamicssquare.co.uk/location/microsoft-dynamics-partner-edinburgh/" />
+<meta property="og:site_name" content="Dynamics Square" />
+<meta property="article:publisher" content="https://www.facebook.com/dynamicssquareuk" />
+<meta property="article:author" content="https://www.facebook.com/vickygururani" />
+<meta property="fb:app_id" content="2007906422699147" />
+<meta property="og:image" content="https://www.dynamicssquare.co.uk/assets/img/Microsoft-Dynamics-Partner-Edinburgh.png" />
+<meta property="og:image:secure_url" content=" " />
+<meta property="og:image:width" content="768" />
+<meta property="og:image:height" content="501" />
+<meta property="og:image:alt" content="Microsoft Dynamics Partner Edinburgh" />
+<meta property="og:image:type" content="image/png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Microsoft Dynamics Partner Edinburgh | Dynamics Square" />
+<meta name="twitter:description" content="We are Microsoft Dynamics Partner in Edinburgh, helping small to medium-sized businesses to grow strong and fast by implementing Microsoft Dynamics Applications." />
+<meta name="twitter:site" content="@dsquare_uk" />
+<meta name="twitter:creator" content="@dsquare_uk" />
+<meta name="twitter:image" content=" " />
+<meta name="twitter:label1" content="Time to read" />
+<meta name="twitter:data1" content="6 minutes" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -489,7 +509,7 @@ const MicrosoftDynamicsPartnerEdinburgh = () => {
       <section className="leads-sect">
         <div className="container">
           <header className="section-header">
-            <h2>Edinburgh Based Microsoft Gold Partners</h2>
+            <h2>Leeds Based Microsoft Gold Partners</h2>
             <p>
               We recognize that your company is distinct, and you require
               solutions that represent your values. We can assist you in

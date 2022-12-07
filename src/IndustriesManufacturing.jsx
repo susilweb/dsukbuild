@@ -13,10 +13,10 @@ const IndustriesManufacturing = () => {
   return (
     <>
       <Helmet>
-      <title>Dynamics 365 for Manufacturing &amp; Distribution</title>
-<meta name="description" content="Dynamics 365 For Manufacturing​ - Keep track of your production lines and bring transparency with Microsoft Dynamics 365 for Manufacturing and Distribution."/>
+      <title>Dynamics 365 for Manufacturing - Dynamics Square</title>
+<meta name="description" content="Enable Seamless Manufacturing and Drive Agile Distribution with Dynamics 365 for Manufacturing."/>
 <link rel="canonical" href="https://www.dynamicssquare.co.uk/industries/manufacturing/" />
-<meta property="og:locale" content="en_GB" />
+<meta property="og:locale" content="en_US" />
       </Helmet>
 
       <ModalVideo
@@ -32,15 +32,10 @@ const IndustriesManufacturing = () => {
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
                 <h1>
-                  Dynamics 365
-                  <br />
-                  Manufacturing
+                  Microsoft Dynamics 365 for Manufacturing 
                 </h1>
-                <p>Drive Sustainability In Your Manufacturing Operations</p>
                 <p>
-                  Keep track of your production lines and bring transparency
-                  with Microsoft Dynamics 365 for Manufacturing and
-                  Distribution.
+                Enable Seamless Manufacturing and Drive Agile Distribution with Dynamics 365 for Manufacturing.
                 </p>
                 <br />
                 <div className="text-center text-lg-start">
@@ -49,7 +44,7 @@ const IndustriesManufacturing = () => {
                     to="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
+                    <span>Get Started</span>
                   </NavLink>
                 </div>
               </div>
@@ -64,30 +59,15 @@ const IndustriesManufacturing = () => {
         </section>
         <section>
           <div className="container">
-            <header className="section-header">
-              <h2>
-                Manage it all, with Dynamics 365 <br />
-                for Manufacturing!
-              </h2>
-              <p>
-                Connect your systems and enable seamless distribution across
-                your manufacturing unit to simplify your end-to-end
-                manufacturing practices—from the production line, customer
-                management to real-time reporting insights with Manufacturing
-                ERP+ CRM solutions.
-              </p>
-              <p>
-                Microsoft Dynamics 365 Manufacturing helps elevate your
-                operations, support your manufacturing continuity, ensure
-                real-time access into the entire supply chain and distribution
-                process, and scale your business leveraging cloud facilitation.
-              </p>
-              <p>
-                With AI insights and 360-degree data view, bring transparency in
-                your field service, and enable smarter maintenance to impact the
-                overall manufacturing impact throughout your organization.
-              </p>
-            </header>
+          <div className="row justify-content-center"> 
+        <div className="col-lg-8 col-md-8"> 
+        <header className="section-header"> 
+        <h2> Manage it all, with <br />Dynamics 365 for Manufacturing</h2> 
+         <p>Create a resilient future, drive innovation, optimize operations, ensure agile distribution & manufacturing, deepen your customer relationship, and uplift your revenue with <NavLink to="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</NavLink> for Manufacturing and distribution.</p> 
+         <p>Connect your systems, processes, and data to bring seamless flow across your manufacturing & distribution operations while minimizing disruptions and maximizing time to market. With the help of Dynamics 365 for Manufacturing, build and improve your relationships with customers to maximize your business outcomes.</p>
+       </header> 
+      </div>
+      </div>
           </div>
         </section>
         <section className="Solution-business-why custom-pd-1">
@@ -95,17 +75,10 @@ const IndustriesManufacturing = () => {
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
                 <h2>
-                  Why Microsoft
-                  <br />
-                  Dynamics 365 <br />
-                  for Manufacturing?
+                Why Manufacturers Need to Implement Microsoft Dynamics 365?
                 </h2>
                 <p>
-                  Dynamics 365 Manufacturing ERP, CRM and BI solutions helps to
-                  unify manufacturing operations, enables better visibility, and
-                  boosts customer engagement while minimizing downtime and
-                  maximizing resource utilization which in turn impacts the
-                  productivity level as well as scalability.
+                By implementing <NavLink to="/industries/microsoft-cloud-for-manufacturing/">Microsoft Cloud for manufacturing</NavLink> ERP solution, orgnanisations can centralize data, unify operations, and maximize resource utilization. Leveraging AI insights, manufacturers can optimize their operations, minimize machine downtime, and drive improved customer engagement.
                 </p>
               </div>
               <div className="col-lg-6">
@@ -118,12 +91,7 @@ const IndustriesManufacturing = () => {
                     </div>
                     <div className="cintent-right">
                       <p>
-                        Centralize your product information while improving
-                        quality, safety, and quality training practices across
-                        your manufacturing unit. Effectively plan and drive
-                        seamless distribution. Even you can re-plan production
-                        and distribution to fulfill the continuously changing
-                        customer demands with timely effect.
+                      Streamline your production information while ensuring safety and quality training practices throughout your manufacturing unit. Manage and drive seamless and proactive distribution and fulfillment satisfying the dynamically changing customer needs. 
                       </p>
                     </div>
                   </div>
@@ -136,11 +104,7 @@ const IndustriesManufacturing = () => {
                     </div>
                     <div className="cintent-right">
                       <p>
-                        Forecast demand leveraging AI algorithms, simplify your
-                        procurement processes while eliminating redundant and
-                        repetitive efforts. Drive simplified and integrated
-                        warehousing to ensure high availability up to 99.9
-                        percent uptime.
+                      Predict demand using in-built AI insights, streamline procurement, and minimize repetitive tasks. Microsoft Dynamics 365 for distribution and planning can help and enable to drive integrated warehousing wrapped with 99.9 % uptime. 
                       </p>
                     </div>
                   </div>
@@ -153,12 +117,7 @@ const IndustriesManufacturing = () => {
                     </div>
                     <div className="cintent-right">
                       <p>
-                        Connect your manufacturing units leveraging AI and IoT
-                        efficiencies. Streamline sales data and enable
-                        omnichannel experience throughout your manufacturing
-                        flow. Seamlessly manage Bills of Materials, Capacity
-                        Planning, optimize stock, and keep running your
-                        production lines
+                      Take advantage of <NavLink to="/products/azure-iot-internet-of-things/">Azure IoT Capabilities</NavLink> and built-in intelligent manufacturing solutions to centralize sales data and enable omnichannel efficiency in your manufacturing and distribution operations. Effortlessly manage Bills of Materials, ensure capacity planning, and monitor inventory availability & flow, and support your production lines to drive a parallel approach. 
                       </p>
                     </div>
                   </div>
@@ -173,7 +132,7 @@ const IndustriesManufacturing = () => {
             <div className="row">
               <div className="col-lg-5">
                 <div className="call_to_action-right over-img">
-                  <img src="/assets/img/MaskGroup8.png" alt="image" />
+                  <img src="/assets/img/MaskGroup8.png" alt="images" />
                 </div>
               </div>
               <div className="col-lg-7 align-self-center">
@@ -198,157 +157,134 @@ const IndustriesManufacturing = () => {
             </div>
           </div>
         </section>
-        <section className="industry_service_bottomss">
+        <section className="industry_service_bottom">
           <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-8 col-md-8">
-              <header className="section-header">
-                <h2>Microsoft Dynamics 365 For Manufacturing Features</h2>
-                </header>
-              </div>
-            </div>
-            <div className="row position-relative g-5">
-              <div className="col-lg-6">
+            <div className="row position-relative">
+              <div className="col-lg-4">
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/assets/img/designing-icon.svg"
-                      alt="Design-and-Training"
+                      src="/assets/img/Business-Central-Implementation-icons.svg"
+                      alt="Business-Central-Implementation-icons"
                     />
                   </div>
                   <div className="card_new_content">
                     <h3>Design & Training </h3>
                     <p>
-                      Introduce new product range and service rapidly.
-                      Streamline change management while improving safety,
-                      boosting quality, and maximizing productivity.{" "}
+                    Dynamics 365 for Manufacturing strengthens manufacturing hubs to quickly introduce new products or services, stimulate change management, improve quality, and strengthen productivity.{" "}
                     </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/assets/img/planning-icon.svg"
-                      alt="Planning-and-Sourcing"
+                      src="/assets/img/Business Central Upgrade-icons.svg"
+                      alt="Business Central Upgrade-icons"
                     />
                   </div>
                   <div className="card_new_content">
                     <h3>Planning & Sourcing</h3>
                     <p>
-                      Plan production cycles and enable a seamless distribution
-                      process. Leveraging the AI-enriched insights; forecast
-                      demand and simplify the procurement process.{" "}
+                    Plan production lines and distribution models in real-time. Predict demand and streamline your procurement process leveraging intelligent manufacturing solutions.{" "}
                     </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/assets/img/Production-Mnagement.svg"
-                      alt="Production-Mnagement"
+                      src="/assets/img/Business-Central-Support-icons.svg"
+                      alt="Business-Central-Support-icons"
                     />
                   </div>
                   <div className="card_new_content">
                     <h3>Production Management</h3>
                     <p>
-                      Bring agility and sustainability in your manufacturing
-                      using IoT & AI. With intelligent manufacturing solutions,
-                      satisfy the continuously changing customers' needs.{" "}
+                    Drive agile, seamless, and scalable flow in your operations by making effective use of IoT and AI intelligence. With Microsoft Dynamics 365 for distribution, improve your customer engagement and fulfill dynamically changing needs.{" "}
                     </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/assets/img/Distribution-Delivery.svg"
+                      src="/assets/img/Business-Central-Support-icons.svg"
                       alt="Business-Central-Support-icons"
                     />
                   </div>
                   <div className="card_new_content">
                     <h3>Distribution & Delivery </h3>
                     <p>
-                      Track inventory levels, manage warehousing, and ful fill
-                      orders effectively using real-time data. Enable seamless
-                      distribution through Dynamics 365 for Distribution.{" "}
+                    Monitor and control your stock level, streamline warehousing, and ensure seamless order fulfillment in timely accordance. Bring and drive smoother distribution and delivery model across your operational unit using Microsoft Dynamics 365 for distribution.{" "}
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-4"></div>
+              <div className="col-lg-4">
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/assets/img/Asset-Management.svg"
-                      alt="Asset-Management"
+                      src="/assets/img/Business-Central-Implementation-icons.svg"
+                      alt="Business-Central-Implementation-icons"
                     />
                   </div>
                   <div className="card_new_content">
                     <h3>Asset Management</h3>
                     <p>
-                      Connect and manage your assets by Increasing resilience.
-                      Enable predictive maintenance and process automation with
-                      intelligent manufacturing solutions.{" "}
+                    Bring resilient manufacturing to connect, control, and manage your assets. Predict asset maintenance, ensure process optimization to reduce equipment downtime, and increase the efficiency throughout your manufacturing process.{" "}
                     </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/assets/img/Sales-Management.svg"
-                      alt="Sales-Management"
+                      src="/assets/img/Business Central Upgrade-icons.svg"
+                      alt="Business Central Upgrade-icons"
                     />
                   </div>
                   <div className="card_new_content">
                     <h3>Sales Management</h3>
                     <p>
-                      Accelerate lead generation and identify opportunities.
-                      Streamline & automate sales data and drive omnichannel
-                      experience to attain maximized results.
+                    Automate your sales, improve prediction capabilities, and facilitate omnichannel experience to accomplish your manufacturing goals. Dynamics 365 for Manufacturing helps to forecast sales opportunities and faster your lead generation process.{" "}
                     </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/assets/img/connect-collaborate.svg"
-                      alt="connect-collaborate"
+                      src="/assets/img/Business-Central-Support-icons.svg"
+                      alt="Business-Central-Support-icons"
                     />
                   </div>
                   <div className="card_new_content">
                     <h3>Customer Management</h3>
                     <p>
-                      Build and sustain your massive customer relationship with
-                      real-time predictive insights. Personalize your customer
-                      engagement to drive sales.{" "}
+                    Enrich your customer experience to impact your overall manufacturing and distribution flow. Build & drive high-end customer engagement with instant AI-based actionable data.
                     </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/assets/img/Service-Management.svg"
-                      alt="Service-Management"
+                      src="/assets/img/Business-Central-Support-icons.svg"
+                      alt="Business-Central-Support-icons"
                     />
                   </div>
                   <div className="card_new_content">
                     <h3>Service Management</h3>
                     <p>
-                      Implementing Dynamics 365 solutions for manufacturing
-                      companies helps to provide an exceptional customer
-                      experience while enabling proactive field service and
-                      remote support.
+                    Provide extensive customer experience with the help of proactive field service and instant remote support. Dynamics 365 for manufacturing improves the service level for their customers to impact their revenue model.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            {/* <div className="row movi-up ">
+            <div className="row movi-up ">
               <div className="col-lg-12">
                 <div className="center-pic">
                   <img src="/assets/img/Group-948.png" alt="Group-948.png" />
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </section>
 
@@ -359,9 +295,14 @@ const IndustriesManufacturing = () => {
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
                     <img
-                      src="/assets/img/manufacturing side.png"
+                      src="/assets/img/bisin_leftimg.jpg"
                       className="fix-im"
-                      alt="manufacturing side"
+                      alt="bisin_leftimg"
+                    />
+                    <img
+                      src="/assets/img/ico6.svg"
+                      className="flot-img"
+                      alt="ico6"
                     />
                     <div className="video-ytube">
                       <div className="popup-btn">
@@ -370,8 +311,8 @@ const IndustriesManufacturing = () => {
                           onClick={() => setOpen(true)}
                         >
                           <img
-                            src="/assets/img/video-Manufacturing.png"
-                            alt="video-Manufacturing"
+                            src="/assets/img/Video-Non Profit.png"
+                            alt="Video-Non Profit"
                           />
                           <span className="cente-icns">
                             <img
@@ -387,22 +328,21 @@ const IndustriesManufacturing = () => {
               </div>
               <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
-                  <h2>
-                    How Dynamics 365 for Manufacturing Can Evolve Your Business
-                    Values
-                  </h2>
+                  <h3>
+                  How Dynamics 365 Can Transform your Manufacturing Operations?
+                  </h3>
                   <p>
                     If you want to get in-depth insights on how implementing
-                    Dynamics 365 for manufacturing can help to streamline their
-                    process, request your demo today.
+                    Dynamics 365 for manufacturing can help to streamline
+                    process, request a free demo today.
                   </p>
-                  <div className="text-lg-start">
+                  <div className="text-lg-start mm-t">
                     <NavLink
                       data-bs-toggle="modal"
                       to="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Request a demo</span>
                     </NavLink>
                   </div>
                 </div>
@@ -413,19 +353,13 @@ const IndustriesManufacturing = () => {
         <section className="call-to-action-center hero-4">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-9">
+              <div className="col-lg-12">
                 <div className="call-to-action-content">
                   <h3>
-                    How To Bring A Seamless Flow <br />
-                    to your Non-profit organization?
+                  Next-gen Manufacturing ERP Solution for your Business
                   </h3>
                   <p>
-                    We can understand your specific business world and can build
-                    a solution addressing your custom business needs and
-                    considering your enterprise values. Just talk to our experts
-                    and let's come up with a specific solution for your business
-                    to impact your overall organizational practices and maximize
-                    your outcomes.
+                  Keeping your custom requirement in mind, our experts can reveal the best-potential solution to manage, drive, and control your manufacturing & distribution unit, accelerating your workflow, supporting your growth strategy, and enabling scaling opportunities.
                   </p>
                   <div className="text-center m-o-t m-o-t-hv">
                     <NavLink
@@ -455,28 +389,8 @@ const IndustriesManufacturing = () => {
                         delay: 2500,
                         disableOnInteraction: false,
                       }}
-                      breakpoints={{
-                        640: {
-                          slidesPerView: 1,
-                          spaceBetween: 20,
-                        },
-                        768: {
-                          slidesPerView: 1,
-                          spaceBetween: 40,
-                        },
-                        1024: {
-                          slidesPerView: 2,
-                          spaceBetween: 10,
-                        },
-                        1300: {
-                          slidesPerView: 3,
-                          spaceBetween: 10,
-                        },
-                        1400: {
-                          slidesPerView: 3,
-                          spaceBetween: 10,
-                        },
-                      }}
+                      slidesPerView={3}
+                      spaceBetween={30}
                       freeMode={true}
                       pagination={{
                         clickable: true,

@@ -7,50 +7,15 @@ const Career = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Career | Dynamics Square</title>
+        <title>Career at Dynamics Square | Trusted Microsoft Gold Partners</title>
         <meta
           name="description"
           content="Our effective leaders knows- their company's success depends upon not just a vision or product, but the people who carry out the vision and build the product"
         />
-        <link rel="canonical" href="https://www.dynamicssquare.co.uk/career/" />
-        <meta property="og:locale" content="en_GB" />
+        <link rel="canonical" href="https://www.dynamicssquare.com/career/" />
+        <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Career | Dynamics Square" />
-        <meta
-          property="og:description"
-          content="Our effective leaders knows- their company's success depends upon not just a vision or product, but the people who carry out the vision and build the product"
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/career/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:secure_url" content="" />
-        <meta property="og:image:width" content="570" />
-        <meta property="og:image:height" content="340" />
-        <meta property="og:image:alt" content="mo1" />
-        <meta property="og:image:type" content="image/jpeg" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Career | Dynamics Square" />
-        <meta
-          name="twitter:description"
-          content="Our effective leaders knows- their company’s success depends upon not just a vision or product, but the people who carry out the vision and build the product"
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="Less than a minute" />
+        
       </Helmet>
       <main>
         <section className="Solution-banner hero-1 hero about-banner carrer-into">
@@ -85,25 +50,19 @@ const Career = () => {
 
               <div className="col-lg-7 align-self-center">
                 <div className="commen-right-content">
-                  <h2>What Is Dynamics Square?</h2>
+                  <h2>Why Choose Dynamics Square? </h2>
                   <p>
-                    Dynamics Square is the UK trustworthy and Microsoft's
-                    Authorized Gold Partner for highly customized business
-                    solutions to bring digital transformation in businesses
-                    through Microsoft Business Applications.
+                  Our effective leaders know that their company's success depends upon not just a vision or product, but the people who carry out the vision and build the product day in and day out - their employees.
+
+
                     <br />
                     <br />
-                    Our effective leaders knows- their company’s success depends
-                    upon not just a vision or product, but the people who carry
-                    out the vision and build the product day in and day out –
-                    their employees
+                    That's why <NavLink to="/">Dynamics Square</NavLink> is a successful company that is carrying foster culture that allows its employees to thrive and grow.
                     <br />
                     <br />
-                    That’s why Dynamics Square is a successful company who is
-                    carrying foster culture that allow their employees to thrive
-                    and grow. We’ve rounded up some insights from great minds
-                    that drive home the importance of having a happy, empowered,
-                    curious and mission-driven team.
+                    We've rounded up some insights from great minds that drive home the importance of having a happy, empowered, curious and mission-driven team.
+
+
                   </p>
                 </div>
               </div>
@@ -197,25 +156,21 @@ const Career = () => {
               <p>90% of Employees on Glassdoor Recommend Dynamics Square</p>
             </div>
             <div className="row  justify-content-center">
-              <div className="col-lg-9">
-                <div className="row nn-od justify-content-center">
-                  {/* <div className="col-lg-6">
+              <div className="col-lg-10">
+                <div className="row nn-od">
+                  <div className="col-lg-6">
                     <div className="leftinf">
                       <h4>Browse our open positions.</h4>
-                      <NavLink
-                    data-bs-toggle="modal"
-                    to="#exampleModal"
-                    className="btn btn-lg  bt-cust112"
-                  >
-                    <span>Apply Now</span>
-                  </NavLink>
+                      <a href="#" className="btn btn-lg  bt-cust112">
+                        See all open positions
+                      </a>
                     </div>
-                  </div> */}
+                  </div>
                   <div className="col-lg-6">
-                    <div className="rightinfa text-center">
-                      <span>Send us your CV at: </span> <br />
-                      <a href="mailto:info@dynamicssquare.co.uk">
-                        info@dynamicssquare.co.uk
+                    <div className="rightinf">
+                      <span>Or send us Your CV at:</span>
+                      <a href="mailto:info@dynamicssquare.com">
+                        info@dynamicssquare.com
                       </a>
                     </div>
                   </div>

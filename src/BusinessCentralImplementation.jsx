@@ -1,45 +1,16 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import { ExternalLink } from "react-external-link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/navigation";
-import "swiper/css/thumbs";
-import { FreeMode, Navigation, Thumbs, Autoplay } from "swiper";
 const BusinessCentralImplementation = () => {
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <>
       <Helmet>
-      <title>Dynamics 365 Business Central Implementation | Dynamics Square</title>
-<meta name="description" content="We ensure that your Dynamics 365 Business Central implementation process goes smoothly. Explore our Business Central implementation methodology and guide."/>
+      <title>Dynamics 365 Business Central Implementation - Dynamics Square</title>
+<meta name="description" content="Dynamics 365 Business Central Implementation: Enables businesses to Automate &amp; Streamline Data, Optimize Resources, Boost Supply Chain and many more!"/>
 <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/dynamics-365-business-central-implementation/" />
-<meta property="og:locale" content="en_GB" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Dynamics 365 Business Central Implementation | Dynamics Square" />
-<meta property="og:description" content="We ensure that your Dynamics 365 Business Central implementation process goes smoothly. Explore our Business Central implementation methodology and guide." />
-<meta property="og:url" content="https://www.dynamicssquare.co.uk/dynamics-365-business-central-implementation/" />
-<meta property="og:site_name" content="Dynamics Square" />
-<meta property="article:publisher" content="https://www.facebook.com/dynamicssquareuk" />
-<meta property="article:author" content="https://www.facebook.com/vickygururani" />
-<meta property="fb:app_id" content="2007906422699147" />
-<meta property="og:image" content=" " />
-<meta property="og:image:secure_url" content="https://www.dynamicssquare.co.uk/assets/img/business-central-implementation-banner (1).svg" />
-<meta property="og:image:width" content="633" />
-<meta property="og:image:height" content="482" />
-<meta property="og:image:alt" content="Business Central Implementation features" />
-<meta property="og:image:type" content="image/png" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Dynamics 365 Business Central Implementation | Dynamics Square" />
-<meta name="twitter:description" content="We ensure that your Dynamics 365 Business Central implementation process goes smoothly. Explore our Business Central implementation methodology and guide." />
-<meta name="twitter:site" content="@dsquare_uk" />
-<meta name="twitter:creator" content="@dsquare_uk" />
-<meta name="twitter:image" content=" " />
-<meta name="twitter:label1" content="Time to read" />
-<meta name="twitter:data1" content="8 minutes" />
+<link rel="canonical" href="https://www.dynamicssquare.com/dynamics-365-business-central-implementation/" />
+<meta property="og:locale" content="en_US" />
+
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -50,7 +21,7 @@ const BusinessCentralImplementation = () => {
                 Business Central Implementation
               </h1>
               <p>
-              Bring Transparency and drive connected experience across your processes by implementing Dynamics 365 Business Central
+              Connect people, automate data, and simplify business practices to drive productivity and scalability by our Business Central Implementation packages. 
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -59,7 +30,7 @@ const BusinessCentralImplementation = () => {
                     to="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
+                    <span>Talk to Expert</span>
                   </Link>
                 </div>
               </div>
@@ -76,18 +47,14 @@ const BusinessCentralImplementation = () => {
 
       <section>
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8">
-            <header className="section-header">
-            <h2>
-            Why Choose Business Central for Implementation? 
-            </h2>
-            <p>
-            To overcome business challenges and maximize outcomes, implement Microsoft Dynamics 365 Business Central—a cloud ERP designed for SMBs to boost sales, drive customers, manage projects, improve financial visibility, optimize supply chain and warehousing, and accelerate decision-making with AI-driven insights. Our certified Business Central consultants work with you to achieve the best possible results while minimizing expenses and risks. 
-            </p>
-          </header>
-            </div>
-          </div>
+        <div className="row justify-content-center"> 
+        <div className="col-lg-8 col-md-8"> 
+        <header className="section-header"> 
+        <h2> Your Trusted<br />Business Central Implementation Partner</h2> 
+<p>With a highly proficient team and high-end customized business solutions, Dynamics Square helps small to mid-sized businesses to simplify complex processes, optimize operations, <NavLink to="/products/microsoft-dynamics-365-finance/">improve financial flow</NavLink>, manage resources, and drive customers. By implementing Business Central, we enable SMBs to connect and collaborate in real-time with instant decision-making to attain success altogether.</p> 
+        </header> 
+      </div>
+      </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -108,7 +75,7 @@ const BusinessCentralImplementation = () => {
                             alt="icons_finance"
                           />
                         </div>
-                        <span>Financial Management</span>
+                        <span>Automate Finance</span>
                       </button>
                     </h3>
                     <div
@@ -118,7 +85,7 @@ const BusinessCentralImplementation = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      With <NavLink to="/products/dynamics-365-business-central/">D365 Business Central</NavLink>, you can manage your inventory levels, forecast demand, predict future potential, and drive smarter experiences throughout your supply chain. Keep an eye on stock-out conditions and enable automatic purchase order creation with real-time insights into your entire supply chain pipeline. 
+                      Boost your financial visibility with real-time efficiency, optimize stock levels & automatically create purchase orders, analyze & predict data, forecast & plan demand, and improve your entire financial performance with <NavLink to="/products/dynamics-365-business-central/">Dynamics 365 Business Central</NavLink>{" "} Implementation.
                       </div>
                     </div>
                   </div>
@@ -139,7 +106,7 @@ const BusinessCentralImplementation = () => {
                             alt="icons_sales"
                           />
                         </div>
-                        <span>Customer Relationship Management</span>
+                        <span>Boost Sales</span>
                       </button>
                     </h3>
                     <div
@@ -149,7 +116,7 @@ const BusinessCentralImplementation = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      <NavLink to="/dynamics-365-business-central-implementation/">Implement Dynamics 365 Business Central</NavLink> to accelerate your entire sales process. Keep tracking your interactions with your customers, get real-time guidance to manage upsell and cross-sell situations, and get notified of renewal opportunities throughout your sales while improving the flow of your cash management.
+                      Faster your end-to-end sales operations by implementing Business Central. Get notified about your customer engagement and stay updated to handle upsell and cross-sell conditions along with renewal opportunities across your sales pipeline and improved cash flow management.
                       </div>
                     </div>
                   </div>
@@ -170,7 +137,7 @@ const BusinessCentralImplementation = () => {
                             alt="icons_customer"
                           />
                         </div>
-                        <span>Service Management</span>
+                        <span>Empower Customer & Team</span>
                       </button>
                     </h3>
                     <div
@@ -180,7 +147,7 @@ const BusinessCentralImplementation = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Ensure a smoother transition from sales to the service part. With centralized data, you can automatically feed your shipped items as service items, enable collaboration between sales and service teams to respond to customer inquiries quickly, track customer order returns, stay updated with service agreements, and more with D365 Business Central.
+                      Drive smoother <NavLink to="products/dynamics-365-customer-engagement/">customer engagement</NavLink> by enabling seamless collaboration between your sales team to service team. With streamline data intelligence, enable automatic item shipment, prompt response to customer queries, track & manage orders & returns, and more by implementing Dynamics 365 Business Central.
                       </div>
                     </div>
                   </div>
@@ -201,7 +168,7 @@ const BusinessCentralImplementation = () => {
                             alt="icons_project"
                           />
                         </div>
-                        <span>Project Management</span>
+                        <span>Enhance Project Management</span>
                       </button>
                     </h3>
                     <div
@@ -211,7 +178,7 @@ const BusinessCentralImplementation = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Improve your project management, from costing and accounting to job costing and reporting. Optimize resource levels. Track and manage customer invoicing for both the planned and actual order costs. Leverage real-time project insights to stay updated with project status, resource utilization key data, and profitability reports.
+                      Optimize your resources, automate your project management, and track customer invoicing & manage seamlessly. Implement Business Central in your system to analyze job costing, manage accounting, prepare reports, and enable everyone involved in the project to stay updated with real-time project status to act and manage accordingly.
                       </div>
                     </div>
                   </div>
@@ -239,7 +206,7 @@ const BusinessCentralImplementation = () => {
                             alt="icons_supply-chain"
                           />
                         </div>
-                        <span>Supply Chain Management</span>
+                        <span>Simplify Supply Chain</span>
                       </button>
                     </h3>
                     <div
@@ -249,7 +216,7 @@ const BusinessCentralImplementation = () => {
                       data-bs-parent="#accnewasd"
                     >
                       <div className="accordion-body">
-                      Drive smoother engagement with your suppliers; convert offers into orders. Ensure regulatory compliance with both internal and external policies. With transparent and built-in intelligence views into inventory levels and process flow, they can predict stock replenishment and analyze demand.
+                      Get real-time visibility into your supply chain with AI insights, smoothly manage your regulatory compliances, monitor your process flow, track & manage stock replenishment, forecast & analyze demand, and more by implementing Dynamics 365 Business Central.
                       </div>
                     </div>
                   </div>
@@ -270,7 +237,7 @@ const BusinessCentralImplementation = () => {
                             alt="icons_warehouse"
                           />
                         </div>
-                        <span>Warehouse Management</span>
+                        <span>Warehouse Mangagement</span>
                       </button>
                     </h3>
                     <div
@@ -280,7 +247,7 @@ const BusinessCentralImplementation = () => {
                       data-bs-parent="#accnewasd"
                     >
                       <div className="accordion-body">
-                      Set up and manage bins and zones along with racks and shelves in your Business Central account to view your warehousing layout. Streamline product receiving and capacity to ensure the right placement of items and faster shipments. Seamlessly optimize your warehousing practices by connecting customers and operations.
+                      Reveal the warehousing potentials and optimize across your operations with Business Central. Seamlessly allocate and manage bins including racks and shelves to improve your warehousing capacity and enable faster shipping. Connect operations, bring transparency, and start attaining efficient growth.
                       </div>
                     </div>
                   </div>
@@ -301,7 +268,7 @@ const BusinessCentralImplementation = () => {
                             alt="icons_manufacturing"
                           />
                         </div>
-                        <span>Manufacturing</span>
+                        <span>Improve Manufacturing</span>
                       </button>
                     </h3>
                     <div
@@ -311,7 +278,8 @@ const BusinessCentralImplementation = () => {
                       data-bs-parent="#accnewasd"
                     >
                       <div className="accordion-body">
-                      Manufacture according to supply and capacity. Plan your production even in an agile environment or complex situations. Determine raw materials, bills of materials, etc., that will comprise a finished product. Support assembly to order processing, register consumption output across your BOMs, and reconcile scrap in consumption and output.
+                      Boost your production line, produce matching your supply and capacity, and manage your <NavLink to="/industries/microsoft-cloud-for-manufacturing/">manufacturing</NavLink> even in complex situations. Manage the right flow of raw materials, bills of materials, etc. Ensure assembly to order process, registering consumption output for your entire Bills of Materials, and more all through this Microsoft's all-in-one Business solution package.
+
                       </div>
                     </div>
                   </div>
@@ -347,188 +315,17 @@ const BusinessCentralImplementation = () => {
         </div>
       </section>
 
-      <section className="box-6-bg">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="box-6-pic">
-                <img src="/assets/img/imp-left.svg" alt="imp-left.svg" />
-              </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="box-6">
-                <div className="box-6-top-head">
-                  <h2>Our D365 Business Central Implementation Methodology</h2>
-                  <p>
-                  We follow Microsoft's Sure Step Methodology to optimise your business operations while guaranteeing optimum security and transparency.
-                  </p>
-                </div>
-                <div className="box-6-bottom">
-                  <div className="posi-bottm">
-                    <Swiper
-                    autoplay={{
-                      delay: 3000,
-                      disableOnInteraction: true,
-                    }}
-                      loop={true}
-                      spaceBetween={10}
-                      thumbs={{ swiper: thumbsSwiper }}
-                      modules={[FreeMode, Thumbs ,Autoplay]}
-                      className="mySwiper2"
-                    >
-                      <SwiperSlide>
-                        <div className="box-6-bottom">
-                          <h4>Analysis Phase</h4>
-                          <p>
-                          In this phase, we deep-dive into your project idea and create a project plan suited to your specific business practices and process flow.
-                          </p>
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="box-6-bottom">
-                          <h4>Design Phase</h4>
-                          <p>
-                          Once your project analysis is done, we come up with functional requirements defining your specific customization, configuration, and integration needs.
-                          </p>
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="box-6-bottom">
-                          <h4>Development Phase</h4>
-                          <p>
-                          In this phase, we start developing your project, comprising custom coding, interface designing, system integration, data migration, and more.
-                          </p>
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="box-6-bottom">
-                          <h4>Deployment Phase</h4>
-                          <p>
-                          Once the development phase gets over, we ensure the final deployment of your project, which includes key user training, user acceptance testing, etc.
-                          </p>
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="box-6-bottom">
-                          <h4>Post Go-Live Support</h4>
-                          <p>
-                          In this phase, we provide end-user training, and technical support wherever required, and finally ensure that your system is working as you anticipated. For a free Business Central trial, <ExternalLink href="https://www.dynamicssquare.co.uk/blog/how-to-avail-the-dynamics-365-business-central-trial/" target="_self">click here</ExternalLink>.
-                          </p>
-                        </div>
-                      </SwiperSlide>
-                    </Swiper>
-                  </div>
-                  <div className="posi">
-                    <Swiper
-                      onSwiper={setThumbsSwiper}
-                      loop={false}
-                      spaceBetween={5}
-                      slidesPerView={5}
-                      freeMode={true}
-                      watchSlidesProgress={true}
-                      modules={[FreeMode, Navigation, Thumbs]}
-                      className="mySwiper"
-                    >
-                      <SwiperSlide>
-                        <div className="box-6-pics">
-                          <img
-                            src="/assets/img/Component-1-icons.svg"
-                            className="overmain-thumb"
-                            alt="Component-1-icons"
-                          />
-                          <img
-                            src="/assets/img/Component-1-iconss.svg"
-                            className="over"
-                            alt="Component-1-icons-red"
-                          />
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="box-6-pics">
-                          <img
-                            src="/assets/img/Component-2.svg"
-                            className="overmain-thumb-1"
-                            alt="Component-2"
-                          />
-                          <img
-                            src="/assets/img/Component-2-iconss.svg"
-                            className="over-1"
-                            alt="Component-2-icons-red"
-                          />
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="box-6-pics">
-                          <img
-                            src="/assets/img/Component-3.svg"
-                            className="overmain-thumb-2"
-                            alt="Component-3"
-                          />
-                          <img
-                            src="/assets/img/Component-3-iconss.svg"
-                            className="over-1"
-                            alt="Component-1-icons-red"
-                          />
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="box-6-pics">
-                          <img
-                            src="/assets/img/Component-4.svg"
-                            className="overmain-thumb-3"
-                            alt="Component-4"
-                          />
-                          <img
-                            src="/assets/img/Component-4-iconss.svg"
-                            className="over-1"
-                            alt="Component-1-icons-red"
-                          />
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <div className="box-6-pics">
-                          <img
-                            src="/assets/img/Component-5.svg"
-                            className="overmain-thumb-4"
-                            alt="Component-5"
-                          />
-                          <img
-                            src="/assets/img/Component-5-iconss.svg"
-                            className="over-1"
-                            alt="Component-1-icons-red"
-                          />
-                        </div>
-                      </SwiperSlide>
-                    </Swiper>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    
-
-
-
       <section className="Solution-business-why mar-back">
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-md-8">
-            <header className="section-header">
+          <header className="section-header">
             <h2>
-            Why Choose Dynamics Square As Your Implementation Partner?
+              Why Choose Dynamics Square As Your Business
+              Central Implementation Partner?
             </h2>
             <p>
-              The team at Dynamics Square provides a holistic approach to the
-              implementation process. Our primary aim is to understand your
-              business operations and deliver the best plan for a smoother and
-              stress-free Business Central implementation.
+              Being a certified Business Central implementation partner, our team helps in improving your operational flow, simplify processes, and drive efficient results through our stress-free Dynamics 365 Business Central implementation process.
             </p>
           </header>
-            </div>
-          </div>
           <div className="row pdd1">
             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="why-solution-wrapper why-solution-wrapper-1">
@@ -539,7 +336,7 @@ const BusinessCentralImplementation = () => {
                   </h3>
                   <div className="overlay">
                     <p>
-                    Make informed decisions leveraging financial data insights from customer transactions to inventory, purchasing, accounting, financial reporting & key analytics. Gain insights into accounts payable and receivables, track general ledger, predict sales, analyze budgeting, and more.
+                    Gain a 360-degree view into your financial operations from customer insights to inventory, accounting, purchasing, budget analysis to reporting & analytics. Leveraging these insights, strengthen your workforce with quick decision-making capability.
                     </p>
                   </div>
                 </div>
@@ -555,7 +352,7 @@ const BusinessCentralImplementation = () => {
                   </h3>
                   <div className="overlay">
                     <p>
-                    With Dynamics 365 Business Central Implementation, gain an in-depth overview of your customers. Effortlessly engage and serve a personalized deal to your customers. Accelerate your project flow and ensure on-time project delivery with cost-effectiveness and improved efficiency.
+                    With in-depth customer insights, drive effective customer strategy, engage & serve a customized deal to your customers. Leveraging Dynamics 365 Business Central, drive project automation and accelerate your project flow while reducing costs and maximizing profitability.
                     </p>
                   </div>
                 </div>
@@ -571,7 +368,7 @@ const BusinessCentralImplementation = () => {
                   </h3>
                   <div className="overlay">
                     <p>
-                    Manage your resources, simplify your end-to-end sales process, forecast sales, optimize planning & execution, and keep tracking your sales data in real-time via AI-based sales insights, reporting, and key analytics all through with Microsoft Dynamics 365 Business Central Implementation.
+                    Optimize resources, streamline your operations, predict sales data, forecast demand & analysis, develop key reporting analytics to make informed decisions supporting your sales campaigns with the implementation of Dynamics 365 Business Central.
                     </p>
                   </div>
                 </div>
@@ -587,7 +384,7 @@ const BusinessCentralImplementation = () => {
                   </h3>
                   <div className="overlay">
                     <p>
-                    Build improved suppliers' relationships and convert your offers into orders while ensuring compliance with both internal and external policies. Track and ensure replenishment of your inventories by leveraging built-in intelligence, sales forecasts, and automatically generated purchase orders whenever there is a stock-out. 
+                    With built-in supply chain capabilities, ensure real-time eyes into your entire supply chain pipeline to accelerate your process flow. Utilizing AI intelligence, bring smoother replenishment of your stock, predict sales data, and enable automatic purchase order generation in stock-out conditions.
                     </p>
                   </div>
                 </div>
@@ -602,7 +399,7 @@ const BusinessCentralImplementation = () => {
                   </h3>
                   <div className="overlay">
                     <p>
-                    Automate your entire workflow and processes with cloud data-driven strategies embedded with AI insights and integrated with Microsoft tools such as Microsoft Outlook and Excel. Drive continuity with real-time synchronized dashboards and KPIs as well as faster query response within Teams.
+                    With cloud implementation, automate your entire workflow, effectively leverage AI insights demonstrate on your dashboards in real-time. With the flexibility of configuring your Business Central with Microsoft tools and applications, enterprises can ensure quick response to queries within Teams.
                     </p>
                   </div>
                 </div>
@@ -617,7 +414,7 @@ const BusinessCentralImplementation = () => {
                   </h3>
                   <div className="overlay">
                     <p>
-                    Business Central is a highly embedded and secure ERP platform. With Microsoft's cloud model, it is stored, processed, and transferred securely. It ensures and protects your data from any unauthorized attempts, as your data privacy is highly protected with GDPR law compliance. 
+                    Due to high-end security and in-built configuration to support GDPR compliance, Business Central ensures secure data flow whereby you can store, process, and transfer your data securely and seamlessly. It also supports and prevents your system from unauthorized threats or attempts.
                     </p>
                   </div>
                 </div>
@@ -630,10 +427,11 @@ const BusinessCentralImplementation = () => {
       <section id="pricing" className="pricing">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8 col-md-8 col-sm-8">
+            <div className="col-lg-7 col-md-7 col-sm-7">
             <header className="section-header">
             <h2>
-            Dynamics 365 Business Central Implementation Pricing
+              Dynamics 365 Business Central
+              Implementation Pricing
             </h2>
             <p>
               As a leading Microsoft Dynamics 365 Business Central partners UK,
@@ -651,7 +449,7 @@ const BusinessCentralImplementation = () => {
                   Essentials
                 </h3>
                 <div className="price">
-                  <sup>£</sup>52.80<span>Per-User/Per Month</span>
+                  <sup>$</sup>70<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -669,7 +467,7 @@ const BusinessCentralImplementation = () => {
                   Premium
                 </h3>
                 <div className="price">
-                  <sup>£</sup>75.40<span>Per-User/Per Month</span>
+                  <sup>$</sup>100<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -689,30 +487,6 @@ const BusinessCentralImplementation = () => {
                 {/* <NavLink to="#about" className="btn-get-whit">
                               <span>See Licensing Guide</span>
                               </NavLink> */}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="call-to-action-center hero-4">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8">
-              <div className="call-to-action-content">
-                <h3>Connect With Our Experts</h3>
-                <p>
-                It's our responsibility to suggest the best possible solution for your business. Let's connect, discuss, and reveal the essentials for your business. 
-                </p>
-                <div className="text-center m-o-t new-btn-nn">
-                  <Link
-                    data-bs-toggle="modal"
-                    to="#exampleModal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Get In Touch</span>
-                  </Link>
-                </div>
               </div>
             </div>
           </div>
@@ -749,8 +523,8 @@ const BusinessCentralImplementation = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Business Central is a highly embedded ERP designed to support end-to-end enterprise practices while improving the entire workflow and accelerating the overall performance to maximize profitability. Business Central can be configured either <NavLink to="/microsoft-dynamics-365-cloud-vs-on-premise/">on-cloud or on-premises</NavLink> depending on your specific needs. Further, it can be customized as per your specific business domain or industry context.</p>
-                      <p>To drive streamlined enterprise practices, D365 Business Central can be integrated with any of your existing Microsoft apps or even any third-party applications. This helps to seamlessly manage, access, and drive your data to attain overall success. To know <NavLink to="/products/dynamics-365-business-central/advantages-capabilities/">how Business Central can help</NavLink> or work for your business, connect with <NavLink to="/contact-us/">our experts at Dynamics Square</NavLink>. We can help.</p>
+                     <p>Business central is just not an ERP, it's a complete cloud-based business solution designed for SMBs to manage and drive entire business practices smoothly and efficiently while reducing costs and maximizing turnover. Business Central is highly flexible as it can be implemented <NavLink to="/microsoft-dynamics-365-cloud-vs-on-premise/">on-cloud, on-premises or hybrid</NavLink>, the decision is purely yours.</p>
+                     <p><NavLink to="/our-services/dynamics-365-implementation-services/">implementation process</NavLink> of Business Central can be performed as per your specific business practices. Whether you want standard implementation, custom, or agile implementation, we can configure your system accordingly at cost-effective pricing. To extend your business capabilities, you can even integrate it with your existing system or application. <NavLink to="/contact-us/">Connect to us</NavLink> to get more information about Business Central.</p>
                     </div>
                   </div>
                 </div>
@@ -771,8 +545,18 @@ const BusinessCentralImplementation = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                     <p>D365 Business Central helps manage your day-to-day tasks or processes in sales, customers, finance, projects, supply chain, warehousing, <ExternalLink href="https://www.dynamicssquare.co.uk/blog/microsoft-dynamics-365-business-central-for-manufacturing/" target=
-                     "_self">manufacturing</ExternalLink>, and human resources. It helps to centralize your data and drive a collaborative data experience.</p>
+                      <p>Dynamics 365 Business Central is designed to simplify and manage your end-to-end business processes, optimize resources, make improved decisions, and eventually drive maximized revenue. Business Central comprises capabilities including:
+                        <ul>
+                          <li>Finance</li>
+                          <li>Sales</li>
+                          <li>Customer</li>
+                          <li>Projects</li>
+                          <li>Supply Chain</li>
+                          <li>Warehousing</li>
+                          <li>Manufacturing</li>
+                        </ul>
+                        Further, do not hesitate if want more information about Business Central and how it could mold your business flow. Connect with us by dialing 0281 899 0865.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -793,9 +577,11 @@ const BusinessCentralImplementation = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>When you implement a cloud-based ERP system like Business Central, it includes a complete set of business solutions, helping businesses to automate their manual processes, streamline their data-driven activities in real-time, and connect people, processes, and workflows. D365 Business Central also enables you to manage your sales, inventory, warehousing, manufacturing, and finance practices. Everyone from top management to the executive level can benefit from D365 Business Central.</p>
-                      <p>With AI-built business insights, people in your organization can forecast data and can have real-time insight into actual performance, profit or margins, and potential for improvement.</p>
-                      <p>If you are seeking more information about D365 Business Central, do not hesitate to contact our team of <NavLink to="/products/microsoft-dynamics-365/">Dynamics 365 experts</NavLink>.</p>
+                     <p>When you implement an ERP system like Business Central, it includes a complete set of business solutions helping businesses to automate their manual processes, streamline their data-driven activities in real-time, connect people, processes, and workflows. Business Central also enables you to manage your sales, inventory, warehousing, manufacturing, and finance practices. Everyone from top management to the executive level can be benefitted from Business Central.</p>  
+                     <p>With AI-built business insights, people in your organization can forecast data and can have real-time eyes into actual performance, profit or margins, and potentials for improvement, etc.</p>
+                     <p>If you are seeking more information about Business Central, do not hesitate to connect with us to book a free Business Central demo. Call{" "}
+                      <a href="tel:+12818990865">0281 899 0865</a>. 
+                      </p> 
                     </div>
                   </div>
                 </div>
@@ -817,45 +603,15 @@ const BusinessCentralImplementation = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    Dynamics 365 Business Central implementation process requires a step-by-step effort to be followed. Let's understand the implementation process flow for Business Central. Steps are given below: 
-                      <br />
-                      <br />
-                      <strong>Setup</strong>
-                      <br />
-                      <br />
-                      First you need to leverage Business Central Setup just to install the different required components. The components include Business Central production or development environment.
-                      <br />
-                      <br />
-                      Setup can be found in installation media named with setup.exe file. Once you run the installation, you will have options on whether to install the individual components or select the predefined option to install the logical set of components.
-                      <br />
-                      <br />
-                      <strong>Configuration</strong>
-                      <br />
-                      <br />
-                      During the installation phase, several configuration settings will be demonstrated wherein you can either choose to customize the settings or can go with the initial settings. Once your settings are done, you can even change the configuration settings by making use of tools like Business Central Server Administration tool and Business Central Administration Shell.
-                      <br />
-                      <br />
-                      <strong>Prerequisite Installations</strong>
-                      <br />
-                      <br />
-                      To complete the installation process, you are required to install the other software too such as database requiring SQL Server and Web client requiring IIS.
-                      <br />
-                      <br />
-                      <strong>
-                      Downloading Business Central to Install Further
-                      </strong>
-                      <br />
-                      <br />
-                      Business central is available and can be downloaded from Microsoft Support. The downloaded file will contain setup.exe file. You can find several versions to choose from. Every release is equipped even with minor updates that are published on a regular basis.
-                      <br />
-                      <br />
-                      <strong>Download Files</strong>
-                      <br />
-                      <br />
-                      Now, all you need is to go to the update page to download the release that you are willing to install. Once your download is completed, you are required to install the setup. To download the setup, follow the initial steps.
-                      <br />
-                      <br />
-                      Implementing Dynamics 365 Business Central requires expert practices, training, and support, if you need experts for Dynamics 365 Business Central Services, discuss your requirement with Dynamics Square, we can help to implement a highly customized solution suited to your exact business needs.
+                      <p>Microsoft Dynamics 365 Implementation process is seamless and can be performed by following a step-by-step implementation process. To implement so, you are required to connect with a highly authorized Microsoft Partner like Dynamics Square. Connect with us, we can help you with seamless Business Central Implementation at reasonable and competitive costs.</p>
+                      <p>Implementing Dynamics 365 Business Central requires expert
+                      practices, training, and support, if you need experts for
+                      Dynamics 365 Business Central Services, discuss your
+                      requirement with Dynamics Square, your trusted{" "}
+                      <a href="https://www.dynamicssquare.com/">
+                        Dynamics 365 implementation partner in USA
+                      </a>, America. We can help to implement a highly customized
+                      solution suited to your exact business needs.</p>
                     </div>
                   </div>
                 </div>
@@ -876,8 +632,7 @@ const BusinessCentralImplementation = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p><ExternalLink href="https://www.dynamicssquare.co.uk/blog/what-is-business-central-implementation-methodology/">D365 Business Central implementation process</ExternalLink> may vary from project to project, business to business, and industry to industry. Depending on your project complexity, customization requirements, and integration needs, it can take 3 to 9 months. If you are seeking to implement Dynamics 365 Business Central, contact Dynamics Square. By evaluating and analyzing your exact implementation needs, we can tell you how long your project implementation will take.</p>
-                      <p>You can also contact us for a <NavLink to="/free-dynamics-365-system-health-check/">free system health check</NavLink> as we are here to implement your dream project in the most productive way associated with our appropriate training and assistance.</p>
+                      <p>Dynamics 365 Business Central implementation process could be the same when you choose standard implementation. In case your requirement goes for customized implementation, it solely depends on the complexity level of your project. Usually, it takes 3-9 months to implement and configure your Business Central. If you are willing to know how long your project will take, ask our experts today.</p>
                     </div>
                   </div>
                 </div>

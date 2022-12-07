@@ -7,9 +7,9 @@ const WhyMigrade360 = () => {
     <>
       <Helmet>
       <title>Top 10 Reasons to Choose Microsoft Dynamics 365</title>
-<meta name="description" content="Here are the top 10 reasons to choose or migrate to Microsoft Dynamics 365. Get the best Dynamics 365 implementation plans from Dynamics Square."/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/10-reasons-to-choose-dynamics-365/" />
-<meta property="og:locale" content="en_GB" />
+<meta name="description" content="Microsoft Dynamics 365 can flexibly be deployed in-cloud or on-premise, enabling businesses to attune their organizational tools seamlessly with the altering business environment."/>
+<link rel="canonical" href="https://www.dynamicssquare.com/10-reasons-to-choose-dynamics-365/" />
+<meta property="og:locale" content="en_US" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -379,8 +379,8 @@ const WhyMigrade360 = () => {
                       <div className="accordion-body">
                         Facilitates a proactive service model through a robust
                         field service management solution that unifies
-                        predictive maintenance with machine learning and
-                        Internet of Things (IoT), thus minimizing operational
+                        predictive maintenance with machine learning and <NavLink to="/products/azure-iot-internet-of-things/">Internet of Things (IoT)</NavLink>
+                        , thus minimizing operational
                         downtimes.
                       </div>
                     </div>

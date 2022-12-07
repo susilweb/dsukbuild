@@ -44,7 +44,6 @@ import MicrosoftAzure from "./MicrosoftAzure";
 import MicrosoftDynamics365MixedReality from "./MicrosoftDynamics365MixedReality";
 import MicrosoftDynamics365Ai from "./MicrosoftDynamics365Ai";
 import AzureIotCentralWebinar from "./AzureIotCentralWebinar";
-import CaseStudyTimosco from "./CaseStudyTimosco";
 import CategoryList from "./CategoryList";
 import CloudvsOnpremise from "./CloudvsOnpremise";
 import WhyMigrade360 from "./WhyMigrade360";
@@ -66,13 +65,6 @@ import { Redirect } from "react-router-dom";
 import Test from "./Test";
 import DynamicsNavToBusinessCentral from "./DynamicsNavToBusinessCentral";
 
-import MicrosoftDynamicsPartnerLeeds from "./MicrosoftDynamicsPartnerLeeds";
-import MicrosoftDynamicsPartnerEdinburgh from "./MicrosoftDynamicsPartnerEdinburgh";
-import MicrosoftDynamicsPartnerGlasgow from "./MicrosoftDynamicsPartnerGlasgow";
-import MicrosoftDynamicsPartnerLiverpool from "./MicrosoftDynamicsPartnerLiverpool";
-import MicrosoftDynamicsPartnerBristol from "./MicrosoftDynamicsPartnerBristol";
-import Locations from "./Locations";
-
 import MyComponents from "./MyComponents";
 import ThankYou from "./ThankYou";
 import Howtochooserighterp from "./Howtochooserighterp";
@@ -91,7 +83,7 @@ import HealthCheck from "./HealthCheck";
 import Error404 from "./Error404";
 import BusinessCentralFeatures from "./BusinessCentralFeatures";
 import BusinessCentralPricingLicensing from "./BusinessCentralPricingLicensing";
-
+import CaseStudyMaxiLand from "./CaseStudyMaxiLand";
 import Dynamics365CustomerEngagement from "./Dynamics365CustomerEngagement";
 import FinanceOperations from "./FinanceOperations";
 import WebinarList from "./WebinarList";
@@ -114,42 +106,27 @@ import PowerBIImplementation from "./PowerBIImplementation";
 import NonProfitAccelerator from "./NonProfitAccelerator";
 import ThankYouHowToChooseRightErp from "./ThankYouHowToChooseRightErp";
 import ScrollToTop from "./ScrollToTop";
-import CrmTrading from "./CrmTrading";
-import CaseStudyPasante from "./CaseStudyPasante";
-import CaseStudyCqc from "./CaseStudyCqc";
-import CaseStudyArteak from "./CaseStudyArteak";
-import CaseStudyWiper from "./CaseStudyWiper";
-import CaseStudyGlobalTea from "./CaseStudyGlobalTea";
+import CaseStudyDmic from "./CaseStudyDmic";
+import CaseStudyTheLand from "./CaseStudyTheLand";
+import CaseStudySpectra from "./CaseStudySpectra";
+import CaseStudyShimco from "./CaseStudyShimco";
 import Form2 from "./Form2";
-import BusinessCentralFeatureComparison from "./BusinessCentralFeatureComparison";
 import StartGuide from "./StartGuide";
 import Preregistration from "./Preregistration";
-import Microsoftsustainabilitymanager from "./Microsoftsustainabilitymanager";
 import UseScript from "./UseScript";
+
 import PowerBIGuide from "./PowerBIGuide";
-import DynamicsNavNotFor from "./DynamicsNavNotFor";
+import SupportDynamics365Mailer from "./SupportDynamics365Mailer";
 import Guides from "./Guides";
 import PdfpgDownload from "./PdfpgDownload";
 import DynamicsEmailerPowerBIGuide from "./DynamicsEmailerPowerBIGuide";
-import SupportDynamics365Mailer from "./SupportDynamics365Mailer";
 import DynamicsEmailerCRM from "./DynamicsEmailerCRM";
-import StartGuideOne from "./StartGuideOne";
-import MtdCompliantEmail from "./MtdCompliantEmail";
-import PdfFinanaceDownload from "./PdfFinanaceDownload";
-import ImplementationSales from "./ImplementationSales";
-import PdfCRMDownload from "./PdfCRMDownload";
-import StartGuideTwo from "./StartGuideTwo";
-import SupplyChainImplementation from "./SupplyChainImplementation";
-import CustomerServiceImplementation from "./CustomerServiceImplementation";
-import StartGuideThree from "./StartGuideThree";
-import PdfSupplyChainDownload from "./PdfSupplyChainDownload";
-import FieldServicesImplementation from "./FieldServicesImplementation";
-import MarketingImplementation from "./MarketingImplementation";
-import ProjectOperationImplementation from "./ProjectOperationImplementation";
-import HumanResourceImplementation from "./HumanResourceImplementation";
+import SupplyChainImplementationServices from "./SupplyChainImplementationServices";
+import MicrosoftDynamicsPartnerTexas from "./MicrosoftDynamicsPartnerTexas";
 import EmailGpToBc from "./EmailGpToBc";
+import StartGuideOne from "./StartGuideOne";
+import DownloadPdfFinance from "./DownloadPdfFinance";
 import EmailAxToFinacnce from "./EmailAxToFinacnce";
-import PowerBiSupport from "./PowerBiSupport";
 const App = () => {
   return (
     <>
@@ -287,7 +264,7 @@ const App = () => {
         />
         <Route
           exact
-          path="/products/microsoft-dynamics-365-mixed-reality/"
+          path="/products/microsoft-dynamics-365/mixed-reality/"
           component={MicrosoftDynamics365MixedReality}
         />
         <Route
@@ -405,33 +382,7 @@ const App = () => {
           path="/dynamics-nav-to-business-central/"
           component={DynamicsNavToBusinessCentral}
         />
-        <Route
-          exact
-          path="/location/microsoft-dynamics-partner-leeds/"
-          component={MicrosoftDynamicsPartnerLeeds}
-        />
-        <Route
-          exact
-          path="/location/microsoft-dynamics-partner-edinburgh/"
-          component={MicrosoftDynamicsPartnerEdinburgh}
-        />
-        <Route
-          exact
-          path="/location/microsoft-dynamics-partner-glasgow/"
-          component={MicrosoftDynamicsPartnerGlasgow}
-        />
-        <Route
-          exact
-          path="/location/microsoft-dynamics-partner-liverpool/"
-          component={MicrosoftDynamicsPartnerLiverpool}
-        />
-        <Route
-          exact
-          path="/location/microsoft-dynamics-partner-bristol/"
-          component={MicrosoftDynamicsPartnerBristol}
-        />
         <Route exact path="/thank-you/" component={ThankYou} />
-        <Route exact path="/location/" component={Locations} />
         <Route
           exact
           path="/ebook/how-to-choose-right-erp/"
@@ -507,12 +458,12 @@ const App = () => {
           path="/dynamics-365-business-central-pricing-licensing/"
           component={BusinessCentralPricingLicensing}
         />
+
         <Route
           exact
-          path="/case-studies/timesco/"
-          component={CaseStudyTimosco}
+          path="/case-studies/mexi-land/"
+          component={CaseStudyMaxiLand}
         />
-
         <Route
           exact
           path="/products/dynamics-365-customer-engagement/"
@@ -572,31 +523,20 @@ const App = () => {
           path="/thank-you/how-to-choose-right-erp/"
           component={ThankYouHowToChooseRightErp}
         />
-        <Route exact path="/case-studies/crm-trading/" component={CrmTrading} />
+
+        <Route exact path="/case-studies/dmic/" component={CaseStudyDmic} />
         <Route
           exact
-          path="/case-studies/pasante/"
-          component={CaseStudyPasante}
-        />
-        <Route exact path="/case-studies/cqc/" component={CaseStudyCqc} />
-        <Route exact path="/case-studies/arteak/" component={CaseStudyArteak} />
-        <Route
-          exact
-          path="/case-studies/wiper-supply-services/"
-          component={CaseStudyWiper}
+          path="/case-studies/thelandlcompany/"
+          component={CaseStudyTheLand}
         />
         <Route
           exact
-          path="/case-studies/global-tea/"
-          component={CaseStudyGlobalTea}
+          path="/case-studies/spectra/"
+          component={CaseStudySpectra}
         />
-        <Route exact path="/components/" component={MyComponents} />
-        <Route exact path="/form2/" component={Form2} />
-        <Route
-          exact
-          path="/dynamics-365-business-central-feature-comparison/"
-          component={BusinessCentralFeatureComparison}
-        />
+
+        <Route exact path="/case-studies/shimco/" component={CaseStudyShimco} />
         <Route
           exact
           path="/ebook/upgrade-nav-to-business-central/"
@@ -609,18 +549,13 @@ const App = () => {
         />
         <Route
           exact
-          path="/products/microsoft-sustainability-manager/"
-          component={Microsoftsustainabilitymanager}
-        />
-        <Route
-          exact
           path="/guides/power-bi-guide-for-smb/"
           component={PowerBIGuide}
         />
         <Route
           exact
-          path="/not-for-profit-fundraising-engagement/"
-          component={DynamicsNavNotFor}
+          path="/support-dynamics-365/"
+          component={SupportDynamics365Mailer}
         />
         <Route exact path="/guides/" component={Guides} />
         <Route
@@ -635,13 +570,18 @@ const App = () => {
         />
         <Route
           exact
-          path="/support-dynamics-365/"
-          component={SupportDynamics365Mailer}
+          path="/email-dynamics365-crm/"
+          component={DynamicsEmailerCRM}
         />
         <Route
           exact
-          path="/email-dynamics365-crm/"
-          component={DynamicsEmailerCRM}
+          path="/dynamics-365-sales-implementation/"
+          component={SupplyChainImplementationServices}
+        />
+        <Route
+          exact
+          path="/microsoft-dynamics-365-partner-in-texas/"
+          component={MicrosoftDynamicsPartnerTexas}
         />
         <Route
           exact
@@ -650,64 +590,8 @@ const App = () => {
         />
         <Route
           exact
-          path="/email-mtd-compliant/"
-          component={MtdCompliantEmail}
-        />
-        <Route
-          exact
-          path="/guides/download/Pdf-guide-finance/"
-          component={PdfFinanaceDownload}
-        />
-        <Route
-          exact
-          path="/dynamics-365-sales-implementation/"
-          component={ImplementationSales}
-        />
-        <Route
-          exact
-          path="/guides/download/Pdf-dynamics-crm/"
-          component={PdfCRMDownload}
-        />
-        <Route exact path="/ebook/dynamics-crm/" component={StartGuideTwo} />
-        <Route
-          exact
-          path="/d365-supply-chain-management-implementation/"
-          component={SupplyChainImplementation}
-        />
-        <Route
-          exact
-          path="/dynamics-365-customer-service-implementation/"
-          component={CustomerServiceImplementation}
-        />
-        <Route
-          exact
-          path="/ebook/d365-supply-chain-management/"
-          component={StartGuideThree}
-        />
-        <Route
-          exact
-          path="/guides/download/Pdf-d365-supply-chain-management/"
-          component={PdfSupplyChainDownload}
-        />
-        <Route
-          exact
-          path="/dynamics-365-field-service-implementation/"
-          component={FieldServicesImplementation}
-        />
-        <Route
-          exact
-          path="/dynamics-365-marketing-implementation/"
-          component={MarketingImplementation}
-        />
-        <Route
-          exact
-          path="/dynamics-365-project-operations-implementation/"
-          component={ProjectOperationImplementation}
-        />
-        <Route
-          exact
-          path="/dynamics-365-human-resources-implementation/"
-          component={HumanResourceImplementation}
+          path="/guides/download/Pdf-dynamics-finance/"
+          component={DownloadPdfFinance}
         />
         <Route exact path="/email-gp-to-bc/" component={EmailGpToBc} />
         <Route
@@ -715,8 +599,9 @@ const App = () => {
           path="/email-ax-to-finance/"
           component={EmailAxToFinacnce}
         />
-         <Route exact path="/power-bi-support/" component={PowerBiSupport} />
-        <Route exact path="/404" component={Error404} />
+
+        <Route exact path="/components/" component={MyComponents} />
+        <Route exact path="/form2/" component={Form2} />
         <Redirect to="/404" component={Error404} />
         <Home />
       </Switch>

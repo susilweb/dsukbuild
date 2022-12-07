@@ -18,7 +18,7 @@ const ProjectOperationImplementation = () => {
 <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
 <link rel="canonical" href="https://www.dynamicssquare.co.uk/dynamics-365-project-operations-implementation/" />
 <meta property="og:locale" content="en_GB" />
-
+<meta property="og:type" content="article" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

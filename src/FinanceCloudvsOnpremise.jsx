@@ -6,10 +6,10 @@ const FinanceCloudvsOnpremise = () => {
   return (
     <>
       <Helmet>
-      <title>Dynamics 365 Finance - Cloud vs On-premise | Dynamics Square</title>
-<meta name="description" content="Microsoft Dynamics 365 is a highly popular application with brands, especially for its availability on both cloud and on-premise. Its range of modules helps"/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/dynamics-365-finance-cloud-vs-on-premise/" />
-<meta property="og:locale" content="en_GB" />
+      <title>Dynamics 365 Finance Cloud vs On-premise - Dynamics Square</title>
+<meta name="description" content="Dynamics 365 Finance Cloud vs On-premise: We have compared the features offered on both cloud and on-premises to help businesses make an informed decisions."/>
+<link rel="canonical" href="https://www.dynamicssquare.com/dynamics-365-finance-cloud-vs-on-premise/" />
+<meta property="og:locale" content="en_US" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -20,20 +20,6 @@ const FinanceCloudvsOnpremise = () => {
                 <br />
                 Cloud vs On-Premise
               </h1>
-              <p>
-                Microsoft Dynamics 365 is a highly popular application with
-                brands, especially for its availability on both cloud and
-                on-premise. Its range of modules helps companies cater to their
-                varied business operations. The most sought after module of
-                Microsoft Dynamics 365 - Finance and Operations - enables
-                organizations to track business performance in real-time,
-                forecast results, and make informed decisions to drive business
-                growth. Since the application is available on both cloud and
-                on-premises it becomes difficult for organizations to decide the
-                type of solution that suits their business. This page compares
-                the features offered on both cloud and on-premises to help
-                businesses make an informed decision.
-              </p>
               <br />
               <div>
                 <div className="text-center text-lg-start">
@@ -56,13 +42,33 @@ const FinanceCloudvsOnpremise = () => {
           </div>
         </div>
       </section>
+      <section>
+        <div className="container">
+        <div className="row">
+          <div className="col-lg-6 align-self-center">
+            <div className="side-heading-custom-01"><h2 >Dynamics 365 Finance Cloud vs On-Premise: Which is better for your business? </h2></div>
+          </div>
+          <div className="col-lg-6 align-self-center">
+            <p><NavLink to="/products/microsoft-dynamics-365-finance/">Microsoft Dynamics 365 Finance</NavLink> is a highly popular application with brands, especially for its availability on both cloud and on-premise. Its range of modules helps companies cater to their varied business operations.</p>
+            <p>Dynamics 365 Finance enables organizations to track business performance in real-time, forecast results, and make informed decisions to drive business growth.</p>
+            <p>Since Dynamics 365 Finance is available on both cloud and on-premises, it becomes difficult for organizations to decide the type of solution that suits their business.</p>
+            <p>This page compares the features offered on both cloud and on-premises to help businesses make an informed decisions.</p>
+          </div>
+        </div>
+          
+        </div>
+      </section>
 
       <section>
         <div className="container">
-          <header className="section-header">
-            <h2 className="text-center">Features</h2>
-            <p className="text-center">Quick Comparative Review</p>
-          </header>
+        <div className="row justify-content-center">
+        <div className="col-lg-8 col-md-8">
+        <header className="section-header">
+        <h2 className="text-center">Features</h2>
+        <p className="text-center">Quick Comparative Review</p>
+        </header>
+        </div>
+        </div>
           <div className="row">
             <div className="col-lg-12">
               <div className="tabls-cloud tabls-cloud-new table-responsive">
@@ -340,13 +346,7 @@ const FinanceCloudvsOnpremise = () => {
                   <b>Final Words</b>
                 </p>
                 <p>
-                  When selecting the type of deployment (in-cloud, on-premise)
-                  for their business, organizations need to contemplate various
-                  aspects, such as data security, system integrations, and
-                  access to critical information. A reliable partner like
-                  Dynamics Square can proficiently assist businesses in
-                  understanding which Microsoft Dynamics 365 Finance and
-                  Operations installation best suits their processes.
+                When selecting the type of deployment (in-cloud, <NavLink to="/dynamics-365-scm-cloud-vs-on-premise/">on-premise</NavLink>) for their business, organizations need to contemplate various aspects, such as data security, system integrations, and access to critical information. A reliable partner like Dynamics Square can proficiently assist businesses in understanding which Microsoft Dynamics 365 Finance and Operations installation best suits their processes.
                 </p>
               </div>
             </div>

@@ -19,9 +19,9 @@ const Preregistration = () => {
         <title>Thank You Pre-registration | Dynamics Square</title>
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/thank-you-for-registration/"
+          href="https://www.dynamicssquare.com/thank-you-for-registration/"
         />
-        <meta property="og:locale" content="en_GB" />
+        <meta property="og:locale" content="en_US" />
       </Helmet>
       <section className="Solution-banner hero-1 hero hero-demo-form">
         <div className="container">
@@ -54,7 +54,7 @@ const Preregistration = () => {
                   </div>
                   <div className="text-center text-lg-start">
                         <ExternalLink 
-                            href="/assets/pdf/Upgrade-from-Microsoft-Dynamics-NAV-to-Dynamics-365 Business-Central-En-UK.pdf" className="btn-get-started scrollto btn-mar">
+                            href="/assets/pdf/Upgrade-from-Microsoft-Dynamics-NAV-to-Dynamics-365-Business-Central-EN-US.pdf" className="btn-get-started scrollto btn-mar">
                             <span>Download the Ebook </span>
                         </ExternalLink>
                         </div>

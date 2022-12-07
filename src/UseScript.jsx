@@ -31,7 +31,7 @@ export default function SalesIQ(props = {}) {
     <React.Fragment>
       {UseScript(
         "https://salesiq.zoho.in/widget",
-        "80d0b7990b01213bbcb6d7067df9037c3daca3d2252ea722931cb3e7d3537853eb70d3dd37c1885b9dc1072623e93af5"
+        "295657a1b35e666b7021468d543019143daca3d2252ea722931cb3e7d35378538df75c738b6fc3206d566d5e6336955d"
       )}
     </React.Fragment>
   );

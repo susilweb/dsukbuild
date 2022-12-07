@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import { ExternalLink } from "react-external-link";
 const PowerBiSupport = () => {
   return (
     <>

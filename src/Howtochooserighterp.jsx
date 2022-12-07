@@ -20,10 +20,10 @@ const Howtochooserighterp = () => {
 
     emailjs
       .sendForm(
-        "service_4voumj7",
-        "template_68k24ku",
+        "service_cxxhqoq",
+        "template_f80fich",
         e.target,
-        "mJ38M6WTmU7KRrtuZ"
+        "7Ae4EIVY__86NsTQD"
       )
       .then((res) => {
         history.push("/thank-you/how-to-choose-right-erp/");
@@ -34,33 +34,21 @@ const Howtochooserighterp = () => {
   return (
     <>
       <Helmet>
-      <title>Free ERP eBook | Ultimate Guide to Choose the Right ERP</title>
-<meta name="description" content="Our guide will take you step-by-step through how to get started with ERP software, from the very beginning. Jump in and explore our free ERP eBook!"/>
-<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/ebook/how-to-choose-right-erp/" />
-<meta property="og:locale" content="en_GB" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Free ERP eBook | Ultimate Guide to Choose the Right ERP" />
-<meta property="og:description" content="Our guide will take you step-by-step through how to get started with ERP software, from the very beginning. Jump in and explore our free ERP eBook!" />
-<meta property="og:url" content="https://www.dynamicssquare.co.uk/ebook/how-to-choose-right-erp/" />
-<meta property="og:site_name" content="Dynamics Square" />
-<meta property="article:publisher" content="https://www.facebook.com/dynamicssquareuk" />
-<meta property="article:author" content="https://www.facebook.com/vickygururani" />
-<meta property="fb:app_id" content="2007906422699147" />
-<meta property="og:image" content="https://www.dynamicssquare.co.uk/assets/img/erp-banner-book.png" />
-<meta property="og:image:secure_url" content=" " />
-<meta property="og:image:width" content="711" />
-<meta property="og:image:height" content="711" />
-<meta property="og:image:alt" content="ERP eBook" />
-<meta property="og:image:type" content="image/png" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Free ERP eBook | Ultimate Guide to Choose the Right ERP" />
-<meta name="twitter:description" content="Our guide will take you step-by-step through how to get started with ERP software, from the very beginning. Jump in and explore our free ERP eBook!" />
-<meta name="twitter:site" content="@dsquare_uk" />
-<meta name="twitter:creator" content="@dsquare_uk" />
-<meta name="twitter:image" content=" " />
-<meta name="twitter:label1" content="Time to read" />
-<meta name="twitter:data1" content="2 minutes" />
+        <title>Free ERP eBook | Ultimate Guide to Choose the Right ERP</title>
+        <meta
+          name="description"
+          content="Our guide will take you step-by-step through how to get started with ERP software, from the very beginning. Jump in and explore our free ERP eBook!"
+        />
+        <meta
+          name="robots"
+          content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+        />
+        <link
+          rel="canonical"
+          href="https://www.dynamicssquare.co.US/ebook/how-to-choose-right-erp/"
+        />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
       </Helmet>
 
       <section className="Solution-banner hero-1 hero">
@@ -449,9 +437,7 @@ const Howtochooserighterp = () => {
               ></button>
               <p></p>
             </div>
-            <p>
-              Fill the form and receive it straight to your inbox.
-            </p>
+            <p>Fill the form and receive it straight to your inbox.</p>
             <div className="modal-body">
               <div className="main-form-wrper">
                 <form onSubmit={sendEmail}>
@@ -459,11 +445,11 @@ const Howtochooserighterp = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="* Full Name"
+                      placeholder="*Full Name"
                       name="name"
                       required
                     />
-                     <input type="hidden" name="url" value={currentUrl} />
+                    <input type="hidden" name="url" value={currentUrl} />
                   </div>
 
                   <div className="mb-3">
@@ -480,7 +466,7 @@ const Howtochooserighterp = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="Company Name"
+                      placeholder="*Company Name"
                       name="company_name"
                       required
                     />
@@ -505,23 +491,15 @@ const Howtochooserighterp = () => {
                     />
                     <label className="form-check-label" htmlFor="exampleCheck1">
                       I agree to the
-                      <a
-                        href="https://www.dynamicssquare.co.uk/privacy-policy/"
-                        title="https://www.dynamicssquare.co.uk/privacy-policy/"
-                        target="_blank"
-                      >
+                      <NavLink to="/privacy-policy/" target="_blank">
                         {" "}
                         Privacy Policy{" "}
-                      </a>
+                      </NavLink>
                       and
-                      <a
-                        href="https://www.dynamicssquare.co.uk/terms-of-use/"
-                        title="https://www.dynamicssquare.co.uk/terms-of-use/"
-                        target="_blank"
-                      >
+                      <NavLink to="/terms-of-use/" target="_blank">
                         {" "}
                         Terms of Service{" "}
-                      </a>
+                      </NavLink>
                       .
                     </label>
                   </div>

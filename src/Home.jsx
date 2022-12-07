@@ -7,7 +7,6 @@ import { Autoplay, FreeMode, Pagination } from "swiper";
 import AnimatedNumber from "react-animated-number";
 import { Helmet } from "react-helmet";
 import { Link, NavLink } from "react-router-dom";
-
 const Home = () => {
   return (
     <>
@@ -15,79 +14,31 @@ const Home = () => {
         <meta charSet="utf-8" />
 
         <title>
-          Microsoft Dynamics 365 Partner UK, London | Dynamics Square
+          Microsoft Dynamics Partner | CRM & ERP Solutions | Dynamics Square
         </title>
         <meta
           name="description"
-          content="Dynamics Square is UK&#039;s leading Gold Microsoft Dynamics 365 Partner helping businesses to achieve desired results with Dynamics 365 apps and services."
+          content="Dynamics Square is USA's leading Gold Microsoft Dynamics Partner helping businesses to leverage Dynamics 365 support, implementation, training and consulting services."
         />
         <meta
           name="robots"
           content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
         />
-        <link rel="canonical" href="https://www.dynamicssquare.co.uk/" />
-        <meta property="og:locale" content="en_GB" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:title"
-          content="Microsoft Dynamics 365 Partner UK, London | Dynamics Square"
-        />
-        <meta
-          name="og:description"
-          content="Dynamics Square is UK's leading Microsoft Dynamics 365 Partner. We help businesses implement Microsoft Dynamics 365 solutions. Contact us to know more."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/assets/img/about.jpg"
-        />
-        <meta
-          property="og:image"
-          content="https://www.dynamicssquare.co.uk/assets/img/about.jpg"
-        />
-
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta property="fb:app_id" content="2007906422699147" />
-
-        <meta
-          property="og:image:secure_url"
-          content="https://www.dynamicssquare.co.uk/assets/img/about.jpg"
-        />
-        <meta property="og:image:width" content="500" />
-        <meta property="og:image:height" content="500" />
-        <meta property="og:image:alt" content="DS Favicon" />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Microsoft Dynamics 365 Partner UK, London | Dynamics Square"
-        />
-        <meta
-          name="twitter:description"
-          content="Dynamics Square is UK's leading Microsoft Dynamics 365 Partner. We help businesses implement Microsoft Dynamics 365 solutions. Contact us to know more."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.dynamicssquare.co.uk/assets/img/about.jpg"
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-
-        <meta name="twitter:label1" content="Written by" />
-        <meta name="twitter:data1" content="admin" />
-        <meta name="twitter:label2" content="Time to read" />
-        <meta name="twitter:data2" content="5 minutes" />
-        <meta name="google-site-verification" content="UA-76870474-2" />
-        <meta name="msvalidate.01" content="EE56DA95B952D734B4521A0EFA1F0E8B" />
+        <link rel="canonical" href="https://www.dynamicssquare.com/" />
+        <meta property="og:locale" content="en_US" />
       </Helmet>
 
       <section id="hero" className="hero hero-1">
         <div className="container">
           <div className="row">
             <div className="col-lg-6  align-self-center">
-              <h1 data-aos="fade-up">
-              UK's Trusted <br /> Microsoft Gold Partner
+              <h1>
+                America's Leading <br /> Microsoft Dynamics <br /> Partner
               </h1>
-              <p>Simplify your end-to-end business processes to maximize ROI, agility, and growth with Microsoft cloud technology.</p>
+              <p>
+                Simplify your end-to-end business processes and maximise
+                outcomes with Microsoft Business Applications.
+              </p>
               <div>
                 <div className="text-center text-lg-start btn-welcome">
                   <Link
@@ -95,7 +46,7 @@ const Home = () => {
                     to="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Book A Free Demo Today</span>
+                    <span>Talk to an Expert </span>
                   </Link>
                 </div>
                 <div className="bnner_inline_images">
@@ -280,17 +231,17 @@ const Home = () => {
       <section id="services" className="services">
         <div className="container" data-aos="fade-up">
           <div className="row justify-content-center">
-            <div className="col-lg-9">
-            <header className="section-header">
-            <h2>
-            Microsoft Business Apps: Innovative Solutions to Boost Business Performance 
-            </h2>
-            <p>
-            Microsoft business applications offer various efficient solutions for better ROI, including ERP (Dynamics NAV, AX), CRM (Dynamics 365 CE), and Power Platform (Power BI implementation). 
-            </p>
-          </header>
+            <div className="col-lg-8 col-md-8">
+              <header className="section-header">
+                <h2>Dedicated Microsoft Dynamics Partner</h2>
+                <p>
+                  We Implement Microsoft Business Applications, so that your
+                  business can grow at scale.
+                </p>
+              </header>
             </div>
           </div>
+
           <div className="row gy-2">
             <div className="col-lg-4 col-md-6">
               <div className="service-box  service-box-blue">
@@ -305,9 +256,10 @@ const Home = () => {
                   </h3>
                 </div>
                 <p>
-                  Drive an efficient business model on the cloud while keeping
-                  real-time eyes on your sales insights, effectively manage your
-                  finance, and ensure a sound customer experience.
+                  Manage and drive end-to-end enterprise processes with a
+                  360-degree view across your sales insights, automate finance
+                  practices, and drive effective customer engagement with
+                  Business Central.
                 </p>
                 <Link
                   to="/products/dynamics-365-business-central/"
@@ -331,9 +283,10 @@ const Home = () => {
                   </h3>
                 </div>
                 <p>
-                  Simplify your finance hierarchy and boost your organization's
-                  ability to develop, modify and control budgets, make faster
-                  and more informed financial decisions.
+                  Improve your financial visibility with built-in AI-driven
+                  analytics & insights and reporting capabilities. Automate your
+                  financial practices while minimizing investment costs and
+                  global financial complexity.
                 </p>
                 <Link
                   to="/products/microsoft-dynamics-365-finance/"
@@ -357,9 +310,10 @@ const Home = () => {
                   </h3>
                 </div>
                 <p>
-                  Optimize resources, maximize operational efficiency, and
-                  accelerate time to market while keeping real-time eyes in your
-                  end-to-end supply chain operations.
+                  Automate your supply chain practices and drive smoother flow
+                  across your operational unit with real-time efficiency all
+                  through highly customized and integrated Dynamics 365 Supply
+                  Chain Solutions.
                 </p>
                 <Link
                   to="/products/dynamics-365-supply-chain-management/"
@@ -387,9 +341,10 @@ const Home = () => {
                   </h3>
                 </div>
                 <p>
-                  Boost your sales, build better customer relationships, and
-                  maximize your revenue outcomes through Microsoft Dynamics 356
-                  for Sales.
+                  Connect your sales team, customers, and vendors with
+                  omnichannel facility to drive innovation and maximize profit.
+                  Predict & manage your sales pipeline with real-time AI
+                  insights and close deals faster.
                 </p>
                 <Link
                   to="/products/microsoft-dynamics-365-sales/"
@@ -417,9 +372,10 @@ const Home = () => {
                   </h3>
                 </div>
                 <p>
-                  Steadily monitor your business activities with power-packed
-                  data visualization and real-time reporting insights to make
-                  informed decisions for better productivity ahead.
+                  Continuously monitor your overall business practices with
+                  powerful visual insights and key analytics in real-time to
+                  make improved decisions supporting your sales strategies and
+                  impacting productivity.
                 </p>
                 <Link to="/products/microsoft-power-bi/" className="read-more">
                   <span>Learn More...</span>
@@ -444,10 +400,9 @@ const Home = () => {
                   </h3>
                 </div>
                 <p>
-                  Outreach more efficient, scalable, and secure data
-                  distribution practices by simply integrating cloud-equipped,
-                  modernized, and seamless data-driven solutions with Microsoft
-                  Azure.
+                  With Integrated enterprise solutions, improve and accelerate
+                  data-exchanging practices over a secured network. Seamlessly
+                  connect your devices to ensure smoother data transformation.
                 </p>
                 <Link
                   to="/products/azure-iot-internet-of-things/"
@@ -460,79 +415,19 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-    
-      <section className="serve-more-new">
-        <div className="container">
-        <div className="row">
-          <div className="col-lg-6">
-            <div className="more-new-inner pad12">
-              <h3>Looking for a Dynamics 365 implementation partner?</h3>
-              <p>We can help you get a stress-free and cost-effective Dynamics 365 implementation to minimise efforts and maximise outcomes that bring continuous growth for your business.</p>
-              <div className="cla-brn">
-                <NavLink data-bs-toggle="modal"
-                    to="#exampleModal" className="btn btn-md btn-danger btn-custmm">Request a Demo</NavLink>
-              </div>
-            </div>
-          </div>
-          <hr className="ds-nnn-mo" />
-          <div className="col-lg-6">
-          <div className="more-new-inner pad13">
-              <h3>Want to know what more Dynamics 365 can do?</h3>
-              <p>Microsoft Dynamics 365 can be your steppingstone for rapid business growth and scalability to your business powered by Microsoft cloud technology. Want Dynamics 365 in action?</p>
-              <div className="cla-brn">
-                <NavLink to="/products/microsoft-dynamics-365/" className="btn btn-md btn-danger btn-custmm">Learn More</NavLink>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-      </section>
-
-      <section>
-        <div className="container">
-          <div className="row ns-bdd">
-          <div className="col-lg-12">
-            <div className="new-hh">
-            <h2>What Your Microsoft Partner can Deliver:</h2>
-            <p>With more than 11 years of experience, we have a proven record of scaling businesses to new <br /> heights with seamless and highly scalable services.</p>
-            </div>
-          </div>
-            <div className="col-lg-4">
-              <div className="our-serv-new-de">
-                <img src="/assets/img/imp-1.png" alt="Implementation Services" />
-                <h3>Implementation</h3>
-                <p>Our stress-free Dynamics 365 implementation services, catered by a proactive team of Microsoft consultants, offer customized solutions with superior technical expertise to scale your business.</p>
-                <NavLink to="/our-services/dynamics-365-implementation-services/">Learn More</NavLink>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="our-serv-new-de">
-                <img src="/assets/img/imp-2.png" alt="Upgrade" />
-                <h3>Upgrade</h3>
-                <p>Modernise your legacy system by leveraging new capabilities to revolutionise your business with our Dynamics 365 upgrade services. Get automatic updates, seamless integrations, and better RoI.</p>
-                <NavLink to="/our-services/dynamics-365-upgrade-services/">Learn More</NavLink>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="our-serv-new-de">
-                <img src="/assets/img/imp-3.png" alt="Support" />
-                <h3>Support</h3>
-                <p>Avail our comprehensive and adaptive remote or on-site Dynamics 365 support for all Microsoft business applications, including NAV, GP, AX, Business Central, Finance & Supply Chain, and Power BI.</p>
-                <NavLink to="/our-services/dynamics-365-support-services/">Learn More</NavLink>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
       <section id="services" className="services bg-shape">
         <div className="container" data-aos="fade-up">
-          <header className="section-header">
-            <h2>Become an Industry leader</h2>
-            <p>By implementing Dynamics 365 Business Applications</p>
-          </header>
+          <div className="row justify-content-center">
+            <div className="col-lg-8 col-md-8">
+              <header className="section-header">
+                <h2>Microsoft Dynamics 365 for Industries</h2>
+                <p>
+                  Become an Industry leader by implementing powerful Microsoft
+                  Business Apps
+                </p>
+              </header>
+            </div>
+          </div>
           <div className="row gy-4">
             <div className="col-lg-4 col-md-6">
               <div className="figer-box">
@@ -544,14 +439,14 @@ const Home = () => {
                     className="boxshadow"
                     alt="StartUp-icons"
                   />
-                  <h3>Startups</h3>
+                  <h3>Startup</h3>
                 </div>
                 <div className="over-layer-cont">
-                  <h3>Startups</h3>
+                  <h3>Startup</h3>
                   <p>
-                    With Microsoft Dynamics Business Solutions, startups can
-                    streamline their business efficiency and ensure levelling up
-                    their business in a shorter time span.
+                    Quickly boost your business capabilities and lead your
+                    business toward a productive and efficient route through
+                    Microsoft Dynamics solutions.
                   </p>
                   <Link
                     to="/industries/startups/"
@@ -578,9 +473,9 @@ const Home = () => {
                 <div className="over-layer-cont">
                   <h3>Not for Profit</h3>
                   <p>
-                    Our experienced Dynamics consultants in the UK can help to
-                    streamline your end-to-end non-profit practices across your
-                    organization or divisions.
+                    Our Dynamics 365 experts can implement an efficient and
+                    highly configured solution to support your non-profit
+                    practices across your non-profit hub.
                   </p>
                   <Link
                     to="/industries/microsoft-cloud-for-nonprofit/"
@@ -607,9 +502,9 @@ const Home = () => {
                 <div className="over-layer-cont">
                   <h3>E-Commerce</h3>
                   <p>
-                    Automate your entire e-commerce operations from ordering and
-                    inventory management to supply chain efficiency to final
-                    customer delivery with Dynamics 365 E-commerce.
+                    Drive unified e-commerce experience across your sales models
+                    to ensure seamless customer fulfillment, enable secure
+                    transactions, and meet demands.
                   </p>
                   <Link
                     to="/industries/ecommerce/"
@@ -636,9 +531,9 @@ const Home = () => {
                 <div className="over-layer-cont">
                   <h3>Manufacturing & Distribution</h3>
                   <p>
-                    By eliminating redundancies, our experts in the United
-                    Kingdom can boost efficiency in your manufacturing &
-                    distribution model through D365 Business Applications.
+                    Ensure robust manufacturing and distribution practices
+                    throughout your enterprise by implementing MS Dynamics
+                    solutions for your industry.
                   </p>
                   <Link
                     to="/industries/microsoft-cloud-for-manufacturing/"
@@ -665,9 +560,9 @@ const Home = () => {
                 <div className="over-layer-cont">
                   <h3>Professional Services</h3>
                   <p>
-                    We help to automate and streamline your professional
-                    services from managing finances, customers, and clients to
-                    projects while reducing costs and equipping efficiency.
+                    Our experienced Dynamics consultants can deploy optimal MS
+                    Dynamics solutions configured to your specific business
+                    context to maximize outcomes.
                   </p>
                   <Link
                     to="/industries/professional-services/"
@@ -694,9 +589,9 @@ const Home = () => {
                 <div className="over-layer-cont">
                   <h3>Food & Beverages</h3>
                   <p>
-                    We deep-dive your industry-specific needs and implement a
-                    next-generation Microsoft D365 Solution delivering true
-                    values to your food & beverages business domain.
+                    Understanding your root industrial requirements, our experts
+                    can develop a growth-hacking MS Dynamics solution for your
+                    food & beverages industry.
                   </p>
                   <Link
                     to="/industries/food-and-beverages/"
@@ -713,15 +608,19 @@ const Home = () => {
 
       <section className="Health-Check">
         <div className="container">
-          <header className="section-header">
-            <h2>
-              Dynamics 365 <br /> System Health Check
-            </h2>
-            <p>
-              Enlarge your business capabilities and ensure your business <br />
-              continuity with our Dynamics 365 system health check program.
-            </p>
-          </header>
+          <div className="row justify-content-center">
+            <div className="col-lg-8 col-md-8">
+              <header className="section-header">
+                <h2>Microsoft Dynamics Efficiency Audit</h2>
+                <p>
+                  Discover new business opportunities and upgrade your business
+                  capabilities to drive continuity by our Dynamics 365 system
+                  health check at no cost.
+                </p>
+              </header>
+            </div>
+          </div>
+
           <div className="row">
             <div className="col-lg-6 aos-init align-self-center">
               <img
@@ -740,9 +639,13 @@ const Home = () => {
                   </div>
                   <div className="cintent-right cintent-right-001">
                     <p>
-                      Considering your present business requirements and future
-                      business anticipations, we diagnose your real-time
-                      requirements demonstrating your future approach.
+                      Evaluating your current business needs and future
+                      considerations, we drive a system check to analyze your
+                      concurrent system{" "}
+                      <NavLink to="/our-services/dynamics-365-upgrade-services/">
+                        upgrading
+                      </NavLink>{" "}
+                      needs while supporting your future potentials.
                     </p>
                   </div>
                 </div>
@@ -754,10 +657,11 @@ const Home = () => {
                   </div>
                   <div className="cintent-right cintent-right-001">
                     <p>
-                      Consultants at Dynamics Square provide free system
-                      health-check to discover the optimum and customized
-                      Microsoft Dynamics 365 needs as per your distinct business
-                      context.
+                      Our experienced{" "}
+                      <NavLink to="/">Dynamics 365 consultants</NavLink> can
+                      diagnose your system to identify your actual system
+                      upgrading needs and suggest you the best possible solution
+                      suited to your customized business needs.
                     </p>
                   </div>
                 </div>
@@ -769,10 +673,14 @@ const Home = () => {
                   </div>
                   <div className="cintent-right cintent-right-001">
                     <p>
-                      Now, it's time to decide whether you want to stay with
-                      your existing equipped system or would love to schedule a
-                      Microsoft Dynamics Demo to implement a modern-equipped
-                      system.
+                      After performing system analysis, decision be yours
+                      whether you want to go ahead with new system
+                      configurations or would love to stay with your existing
+                      one. Further, you can schedule{" "}
+                      <NavLink to="/products/microsoft-dynamics-365/">
+                        Microsoft Dynamics 365
+                      </NavLink>{" "}
+                      Demo to upgrade your system capabilities.
                     </p>
                   </div>
                 </div>
@@ -784,36 +692,9 @@ const Home = () => {
                 data-aos="fade-left"
                 data-aos-delay="500"
               >
-                Get Free System Health Check
+                Get System Health Check
                 <i className="bi bi-long-arrow-right"></i>
               </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="busine_service_bottom custom07">
-        <div className="container">
-          <div className="row">
-            
-            <div className="col-lg-7 align-self-center">
-              <div className="side-heading-custom-01">
-              <h2>About Dynamics Square</h2>
-              </div>
-              <div className="custom-p-001 custom-p-009">
-               
-                <p>As a Gold Microsoft Dynamics Partner, we can help you revolutionize your business processes and operations while leveraging the power of the cloud, AI, and ML.</p>
-                <p>Since 2011, we have been serving our global customers, enabling them to make more profits by implementing tech-driven cloud solutions.</p>
-                <p>We are one of the trusted dynamics consultants and certified Microsoft CRM & ERP partners, helping businesses like yours to achieve exponential growth while resolving critical business problems with 100% user satisfaction. </p>
-                <NavLink to="/about-us/">Find Out Our Approach</NavLink>
-              </div>
-            </div>
-            <div className="col-lg-5 align-self-center">
-              <div className="busine_service_bottom-left custom012">
-                <img
-                  src="/assets/img/about-home-left.png"
-                  alt="about-home-left"
-                />
-              </div>
             </div>
           </div>
         </div>
@@ -939,7 +820,7 @@ const Home = () => {
             <div className="col-lg-6 align-self-center">
               <div className="sec-title">
                 <h2>
-                  What Our Clients <br /> Have To Say About Us
+                  What our clients have <br /> to say about us
                 </h2>
               </div>
               <div className="testimonials-slider swiper">
@@ -961,9 +842,9 @@ const Home = () => {
                     <SwiperSlide>
                       <div className="swiper-slide">
                         <div className="testimonial-item">
-                          <div className="profile mt-auto">
+                          <div className="profile">
                             <img
-                              src="/assets/img/testimonials/Terence-Turner.png"
+                              src="/assets/img/JVEquip_logo.png"
                               className="testimonial-img"
                               alt=""
                             />
@@ -974,13 +855,14 @@ const Home = () => {
                               />
                             </div>
                             <p>
-                              Dynamics Square Team provided us a top-level
-                              service. Well trained staff as well as excellent
-                              support when needed. Very professional and
-                              trustworthy.
+                              We selected them because their communication is
+                              excellent, their response times are outstanding,
+                              and their ability to solve our problems through
+                              various development projects has helped us
+                              leverage our ERP in a way that would have taken us
+                              much longer and with much greater expense. In my
+                              opinion I would rank them as a 5 out of 5.
                             </p>
-                            <h3>Terence Turner</h3>
-                            <h4>General Manager, Arteak</h4>
                           </div>
                         </div>
                       </div>
@@ -990,11 +872,11 @@ const Home = () => {
                       {" "}
                       <div className="swiper-slide">
                         <div className="testimonial-item">
-                          <div className="profile mt-auto">
+                          <div className="profile">
                             <img
-                              src="/assets/img/testimonials/Nicolas-Hopwood.png"
+                              src="/assets/img/Spectra-Aluminum-logo-new.png"
                               className="testimonial-img"
-                              alt="Nicolas-Hopwood"
+                              alt="Spectra-Aluminum-logo-new"
                             />
                             <div className="imginner">
                               <img
@@ -1003,13 +885,11 @@ const Home = () => {
                               />
                             </div>
                             <p>
-                              The team at Dynamics Square helped us in upgrading
-                              our erp system to the latest version of D365
-                              Business Central resulting in a successful rollout
-                              to our staff.
+                              The team at Dynamics Square are very dedicated,
+                              flexible, and attentive and will take care of all
+                              your IT needs in a very efficient and timely
+                              manner. Highly recommended!
                             </p>
-                            <h3>Nicolas Hopwood</h3>
-                            <h4>Facilities Manager, Pasante</h4>
                           </div>
                         </div>
                       </div>
@@ -1018,11 +898,11 @@ const Home = () => {
                     <SwiperSlide>
                       <div className="swiper-slide">
                         <div className="testimonial-item">
-                          <div className="profile mt-auto">
+                          <div className="profile">
                             <img
-                              src="/assets/img/testimonials/Jonathan-W.png"
+                              src="/assets/img/MexiLand_logos.png"
                               className="testimonial-img"
-                              alt="Jonathan-W.png"
+                              alt="MexiLand_logos"
                             />
                             <div className="imginner">
                               <img
@@ -1031,13 +911,11 @@ const Home = () => {
                               />
                             </div>
                             <p>
-                              We have worked with Dynamics Square since 2019.
-                              Our working relationship has built during this
-                              period, and we have found them to be very
-                              professional
+                              We probed three MS Dynamic Partners, and one of
+                              the key factors in making our decision to go ahead
+                              with Dynamics Square was the outstanding customer
+                              service experience.
                             </p>
-                            <h3>Jonathan W</h3>
-                            <h4>Technical Director, Parweld</h4>
                           </div>
                         </div>
                       </div>
@@ -1055,23 +933,6 @@ const Home = () => {
                     className="testmonial-side-pic"
                     alt=""
                   />
-                  {/* <div className="testimonials-rigt-iner-1">
-                    <img src="/assets/img/test-side-1.jpg" alt="" />
-                  </div>
-                  <div className="testimonials-rigt-iner-2">
-                    <h4>250+</h4>
-                    <span>
-                      Happy Clients
-                      <br />
-                      Worldwide
-                    </span>
-                  </div>
-                  <div className="testimonials-rigt-iner-3">
-                    <img src="/assets/img/test-side-3.jpg" alt="" />
-                  </div>
-                  <div className="testimonials-rigt-iner-4">
-                    <img src="/assets/img/test-side-2.jpg" alt="" />
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -1110,9 +971,9 @@ const Home = () => {
                 <SwiperSlide>
                   <div className="swiper-slide">
                     <img
-                      src="/assets/img/clients/client-1.png"
+                      src="/assets/img/clients/JVEquip_logo.png"
                       className="img-fluid"
-                      alt=""
+                      alt="JVEquip_logo"
                     />
                   </div>
                 </SwiperSlide>
@@ -1120,18 +981,18 @@ const Home = () => {
                   {" "}
                   <div className="swiper-slide">
                     <img
-                      src="/assets/img/clients/client-2.png"
+                      src="/assets/img/clients/Spectra-Aluminum-logo-new.png"
                       className="img-fluid"
-                      alt=""
+                      alt="Spectra-Aluminum-logo"
                     />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="swiper-slide">
                     <img
-                      src="/assets/img/clients/client-3.png"
+                      src="/assets/img/clients/MexiLand_logos.png"
                       className="img-fluid"
-                      alt=""
+                      alt="MexiLand_logos"
                     />
                   </div>
                 </SwiperSlide>
@@ -1139,27 +1000,27 @@ const Home = () => {
                   {" "}
                   <div className="swiper-slide">
                     <img
-                      src="/assets/img/clients/client-4.png"
+                      src="/assets/img/clients/VidPro_logo.png"
                       className="img-fluid"
-                      alt=""
+                      alt="VidPro_logo"
                     />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="swiper-slide">
                     <img
-                      src="/assets/img/clients/client-5.png"
+                      src="/assets/img/clients/PLASP-LOGO.png"
                       className="img-fluid"
-                      alt=""
+                      alt="PLASP-LOGO"
                     />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="swiper-slide">
                     <img
-                      src="/assets/img/clients/client-4.png"
+                      src="/assets/img/clients/SOS-MANUFACTURING-LOGO.png"
                       className="img-fluid"
-                      alt=""
+                      alt="SOS-MANUFACTURING-LOGO"
                     />
                   </div>
                 </SwiperSlide>
@@ -1202,17 +1063,15 @@ const Home = () => {
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
                       <img
-                        src="/assets/img/case-1.png"
-                        className="casestudys-slider-item-img"
+                        src="/assets/img/cs-DMIC-logo.png"
+                        className="cs-DMIC-logo"
                         alt=""
                       />
                       <p>
-                        A leading British based manufacturer of Military
-                        Equipment implemented Microsoft Dynamics 365 Business
-                        Central to streamline their finance and inventory
-                        management process.
+                        Streamline Manufacturing & Accounting with D365 Business
+                        Central On-Premise
                       </p>
-                      <div className="case-content-wrapper">
+                      {/* <div className="case-content-wrapper">
                         <div className="case-content">
                           <p>2X</p>
                           <span>Data Simplification & Processing</span>
@@ -1221,10 +1080,10 @@ const Home = () => {
                           <p>80%</p>
                           <span>Data Simplification & Processing</span>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="case-button">
                         <Link
-                          to="/case-studies/cqc/"
+                          to="/case-studies/dmic/"
                           className="btn btn-md btn-custom-1"
                         >
                           Read More
@@ -1237,17 +1096,15 @@ const Home = () => {
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
                       <img
-                        src="/assets/img/crm-trading.png"
-                        className="casestudys-slider-item-img"
+                        src="/assets/img/cs-spectra-logo.png"
+                        className="cs-spectra-logo"
                         alt="crm-trading"
                       />
                       <p>
-                        UK's leading fragrance, skincare, cosmetics, and
-                        haircare wholesaler was looking to improve its
-                        operational efficiencies with Microsoft Dynamics NAV
-                        2018. Discover now.
+                        Implemented Custom EFT Module to improvise Payment
+                        Methods
                       </p>
-                      <div className="case-content-wrapper">
+                      {/* <div className="case-content-wrapper">
                         <div className="case-content">
                           <p>4x</p>
                           <span>Improved Inventory System</span>
@@ -1256,10 +1113,10 @@ const Home = () => {
                           <p>100%</p>
                           <span>Alliance with HMRC</span>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="case-button">
                         <Link
-                          to="/case-studies/crm-trading/"
+                          to="/case-studies/spectra/"
                           className="btn btn-md btn-custom-1"
                         >
                           Read More
@@ -1272,17 +1129,15 @@ const Home = () => {
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
                       <img
-                        src="/assets/img/wipersupplywide.png"
+                        src="/assets/img/cs-shimco-logo-csg.png"
                         className="casestudys-slider-item-img"
-                        alt="wipersupplywide"
+                        alt="cs-shimco-logo-csg"
                       />
                       <p>
-                        British-based Hygienic Disposable Cleaning & Wiping
-                        Products wholesaler wanted to up and cross sell to
-                        increase the sales volume with customers. Read how they
-                        did it!
+                        Implementation of Microsoft Dynamics Business Central
+                        Cloud
                       </p>
-                      <div className="case-content-wrapper">
+                      {/* <div className="case-content-wrapper">
                         <div className="case-content">
                           <p>10x</p>
                           <span>Improved Customer Experience</span>
@@ -1291,10 +1146,10 @@ const Home = () => {
                           <p>50%</p>
                           <span>Increased Sales Revenue</span>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="case-button">
                         <Link
-                          to="/case-studies/wiper-supply-services/"
+                          to="/case-studies/shimco/"
                           className="btn btn-md btn-custom-1"
                         >
                           Read More

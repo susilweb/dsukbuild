@@ -11,59 +11,18 @@ const AzureIoT = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Microsoft Azure IoT | Connect Your Business With IoT</title>
+        <title>Microsoft Azure IoT (Internet of Things) | Dynamics Square</title>
         <meta
           name="description"
-          content="Microsoft Azure IoT (internet of things) and Dynamics 365 help enterprises to bring efficiency, maximize revenue and security in their business. Get IoT solutions today."
+          content="Build and Deploy Highly Secured Azure IoT Solutions to Drive Growth, Sustainability, and Scalability. Get Azure IoT solutions today with Dynamics Square."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/products/azure-iot-internet-of-things/"
+          href="https://www.dynamicssquare.com/products/azure-iot-internet-of-things/"
         />
-        <meta property="og:locale" content="en_GB" />
+        <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Microsoft Azure IoT | Connect Your Business With IoT"
-        />
-        <meta
-          property="og:description"
-          content="Microsoft internet of things (IoT) and Dynamics 365 help enterprises to bring efficiency, maximize revenue and security in their business. Explore IoT today."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/products/azure-iot-internet-of-things/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:secure_url" content="" />
-        <meta property="og:image:width" content="790" />
-        <meta property="og:image:height" content="470" />
-        <meta property="og:image:alt" content="Azure IoT Hero Image" />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Microsoft Azure IoT | Connect Your Business With IoT"
-        />
-        <meta
-          name="twitter:description"
-          content="Microsoft internet of things (IoT) and Dynamics 365 help enterprises to bring efficiency, maximize revenue and security in their business. Explore IoT today."
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="7 minutes" />
+        
       </Helmet>
       <ModalVideo
         channel="youtube"
@@ -77,12 +36,10 @@ const AzureIoT = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
-                Azure IoT<br />
-                (Internet Of Things)
+              Microsoft Azure IoT
               </h1>
               <p>
-                Extend Your Business Capabilities by Establishing Secure
-                Connection Between Your Devices and Azure IoT Apps.
+              Build and Deploy Highly Secured Azure IoT Solutions to Drive Growth, Sustainability, and Scalability
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -105,18 +62,18 @@ const AzureIoT = () => {
 
       <section>
         <div className="container">
+        <div className="row justify-content-center">
+        <div className="col-lg-8 col-md-8">
           <header className="section-header">
             <h2>
-              Deliver A Flexible, Scalable Solution <br />
-              That Adapts To Your Needs & Processes.
+            Explore Azure IoT Products & Services
             </h2>
             <p>
-              Streamline your supply chain, avoid production delays and
-              equipment downtime, ensure quality delivery, and remotely monitor
-              your devices & service equipment all through by implementing Azure
-              IoT intelligence in your business.
+            Securely connect your devices & IoT apps, deploy Azure Cloud Intelligence, retrieve data or analytics, monitor your devices, track equipment performance, reduce production delays, and accelerate your process optimization with Microsoft Azure Cloud solutions.
             </p>
           </header>
+          </div>
+        </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -147,15 +104,7 @@ const AzureIoT = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Connect and manage your IoT (Internet of Things) devices
-                        and drive highly secured data communications between
-                        your connected devices and IoT applications. With{" "}
-                        <Link to="/products/azure-iot-hub/" traget="_blank">
-                          &nbsp;Azure IoT hub&nbsp;
-                        </Link>
-                        solutions, connect your devices virtually in the backend
-                        and ensure a security-enabled communication channel to
-                        send and receive data leveraging IoT devices.
+                        <p>Build your own IoT hub with our secured and reliable Azure IoT Hub wherein virtually connect your IoT applications and devices over a cloud-hosted network. Enable your devices to communicate and drive two-way communication while ensuring seamless and real-time data transmission throughout your operational environment.</p>
                       </div>
                     </div>
                   </div>
@@ -186,17 +135,7 @@ const AzureIoT = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Drive highly integrated and connected experience with
-                        <Link to="/products/azure-iot-central/" traget="_blank">
-                          &nbsp;Azure IoT Central&nbsp;
-                        </Link>
-                        . Develop and deploy secure, scalable, and growth
-                        encouraging IoT solutions. Integrate your IoT solutions
-                        with your existing system or business app to drive
-                        anticipated results. Predict your investments in IoT
-                        solutions, ensure quick connectivity between your IoT
-                        devices and drive transparency between your applications
-                        and IoT data.
+                       <p>With Azure IoT Central, build highly secure, reliable, and connected experience. Seamlessly integrate your IoT solution with your existing system to ensure and drive desirable results. Leveraging connected experience with Azure IoT Central, enterprises can predict their IoT investments and can drive transparency between their IoT applications and data.</p>
                       </div>
                     </div>
                   </div>
@@ -227,16 +166,7 @@ const AzureIoT = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <Link to="/products/azure-sphere/" traget="_blank">
-                          &nbsp;Azure Sphere&nbsp;
-                        </Link>
-                        is designed to protect your data, devices, and overall
-                        involved infrastructure. It helps to enable multiple
-                        protection layers to secure your data and devices
-                        against any security threats or attempts and ensures a
-                        secure and trustworthy platform to drive new IoT
-                        experiences. Azure Sphere also helps to monitor
-                        potential threats and support ongoing servicing.
+                        <p>Azure Sphere enables enterprises to protect their data, devices, and the entire IoT embedded environment as it ensures multiple protection layers to prevent data from any security threats and unauthorized attempts. With Azure Sphere, you can continuously monitor your system performance in terms of potential threats as well as supporting current servicing.</p>
                       </div>
                     </div>
                   </div>
@@ -274,19 +204,7 @@ const AzureIoT = () => {
                       data-bs-parent="#accneww"
                     >
                       <div className="accordion-body">
-                        With
-                        <Link
-                          to="/products/azure-digital-twins/"
-                          traget="_blank"
-                        >
-                          &nbsp;Azure Digital Twins&nbsp;
-                        </Link>
-                        - an IoT platform, develop a digital demonstration of
-                        real-world things, data, people, or business processes
-                        to get valuable integrated insights helping your
-                        business to optimize operations & costs and drive better
-                        product strategy along with improved customer experience
-                        with continuity and reliability.
+                       <p>Azure Digital Twins is designed to ensure digital representation of real-world objects, data, processes, or resources that help to retrieve valuable business insights. Leveraging such insights, enterprises can optimize operations, investments costs, and more to drive improved strategy and support improved productive growth wrapped with continuity and reliability.</p>
                       </div>
                     </div>
                   </div>
@@ -317,17 +235,7 @@ const AzureIoT = () => {
                       data-bs-parent="#accneww"
                     >
                       <div className="accordion-body">
-                        Implement
-                        <Link to="/products/azure-iot-edge" traget="_blank">
-                          &nbsp;Azure IoT Edge&nbsp;
-                        </Link>
-                        on-premises to centralize data and seamlessly drive
-                        operational data in the Microsoft Azure cloud. Ensure
-                        secure and remote deployment of cloud-native processes
-                        or workloads including AI, Azure services, etc. to
-                        directly connect and process on your IoT devices.
-                        Effectively drive IoT connected approach with cloud
-                        intelligence implemented locally on IoT devices.
+                        <p>Leverage Azure IoT edge to streamline and centralize your data to drive operational efficiency on-premises. Enjoy seamless, secure, and reliable remote deployment of cloud-equipped practices or workloads comprising AI (Artificial Intelligence), Azure Services, and more whereby you can easily yet directly connect and drive your IoT devices implemented locally with cloud intelligence.</p>
                       </div>
                     </div>
                   </div>
@@ -358,19 +266,7 @@ const AzureIoT = () => {
                       data-bs-parent="#accneww"
                     >
                       <div className="accordion-body">
-                        Strengthen your development capability and equip your
-                        developers to develop, deploy, and manage high-end data
-                        models. With
-                        <Link
-                          to="/products/azure-machine-learning/"
-                          traget="_blank"
-                        >
-                          &nbsp;Azure Machine Learning&nbsp;
-                        </Link>
-                        , leverage integrated tools and ensure premium support
-                        to available open-source frameworks and libraries.
-                        Deploy data models with just a single click and manage
-                        efficiently all through Machine Learning Operations.
+                        <p>Empower your developers with high-end development strength and capability to develop, deploy and securely manage data models. With its in-built tools, Azure Machine Learning provides a premium level of support to open-source frameworks. It allows you to develop and deploy data models effortlessly via Machine Learning operations.</p>
                       </div>
                     </div>
                   </div>
@@ -386,8 +282,8 @@ const AzureIoT = () => {
           <div className="row">
             <div className="col-lg-5  align-self-center">
             <div className="wy-sultion-left-head">
-              <h2>Azure IoT (Internet of things) Features</h2>
-              <h3>How IoT Implementation help to improve your operational flow?</h3>
+              <h2>Growth Hacking Reasons</h2>
+              <h3>How can IoT Implementation help to improve your operational flow?</h3>
             </div>
             </div>
             <div className="col-lg-7 align-self-center">
@@ -401,24 +297,18 @@ const AzureIoT = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                          Optimize your supply chain by monitoring and
-                          regulating in real-time. Stay updated with inventory
-                          levels, warehousing flow, product delivery, and more
-                          to ensure continuity.
+                        Deploying Azure IoT for your supply chain can help improve the operational flow by reducing production delays, equipment downtime, and keep controlling production level and quality standards.
                         </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Improve <br />
-                        Production Flow
+                      Improved Connected <br />
+                      Field Service
                       </h3>
                       <div className="overlay">
                         <p>
-                          Get notified whenever there is a moisture or
-                          temperature imbalance, so that you can intervene in
-                          production to maintain product quality standards while
-                          minimizing waste.
+                        Dynamics 365 Field Service and IoT configuration enable you to proactively track, troubleshoot, control the issues remotely that helps to reduce downtime and improve customer service in real-time.
                         </p>
                       </div>
                     </div>
@@ -428,29 +318,23 @@ const AzureIoT = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Reduce <br />
-                        Equipment Downtime
+                      Improve <br />
+                      Production Flow
                       </h3>
                       <div className="overlay">
                         <p>
-                          With Dynamics 365 and Azure IoT, get notified whenever
-                          outage threshold gets exceeded so that to drive
-                          production rescheduling or equipment can be sent for
-                          maintenance.
+                        Get notified whenever there is a moisture or temperature imbalance, so that you can intervene in production to maintain product quality standards while minimizing waste.
                         </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Reduce <br />
-                        Production Delays
+                      Avoid Equipment <br />
+                      Downtime
                       </h3>
                       <div className="overlay">
                         <p>
-                          Compare actual production cycle time with the planned
-                          one. With Microsoft IoT Suite, get notified when your
-                          production is on schedule and when you need to
-                          interrupt production.
+                        Proactively manage your devices and get notified about your device and equipment performance to avoid equipment downtime and quickly manage the maintenance part.
                         </p>
                       </div>
                     </div>
@@ -495,9 +379,7 @@ const AzureIoT = () => {
               <div className="side-heading">
                 <h2>Microsoft Azure IoT Service</h2>
                 <p>
-                  We offer a full range of IoT services to support you on your
-                  Dynamics journey including implementation, upgrade and
-                  support.
+                We offer a full range of IoT services to support you on your Dynamics journey including implementation, upgrade and support.
                 </p>
               </div>
               <div className="busine_service_bottom-right">
@@ -510,8 +392,7 @@ const AzureIoT = () => {
                 <div className="card_new_content">
                   <h3>Implementation</h3>
                   <p>
-                    Start uplifting your business with our Dynamics 365 and
-                    Microsoft IoT implementation.
+                  Implement Azure IoT to optimize processes and improve your business capabilities.
                   </p>
                   <div className="action-content">
                     <NavLink data-bs-toggle="modal" to="#exampleModal">
@@ -530,8 +411,7 @@ const AzureIoT = () => {
                 <div className="card_new_content">
                   <h3>Upgrade</h3>
                   <p>
-                    Continuously grow and scale your business with our optimum
-                    IoT support services.
+                  Upgrade your IoT solutions to upgrade your business level with our Microsoft Azure Services.
                   </p>
                   <div className="action-content">
                     <NavLink data-bs-toggle="modal" to="#exampleModal">
@@ -550,8 +430,7 @@ const AzureIoT = () => {
                 <div className="card_new_content">
                   <h3>Support</h3>
                   <p>
-                    Integrate IoT and Dynamics 365 to upgrade and level-up your
-                    system capabilities.
+                  Drive continuation and scalability in your business with our premium support services.
                   </p>
                   <div className="action-content">
                     <NavLink data-bs-toggle="modal" to="#exampleModal">
@@ -588,10 +467,14 @@ const AzureIoT = () => {
 
       <section className="blogs-extra">
         <div className="container">
+        <div className="row justify-content-center">
+    <div className="col-lg-8 col-md-8">
           <header className="section-header">
             <h2>Explore Our Recent Blogs & Resources</h2>
             <p>Whether you are a start-up, an SMB, or an enterprise, the Dynamics Square blog is the best place to get inspired and learn more about Microsoft Business Applications.</p>
           </header>
+          </div>
+          </div>
           <div className="row top-2 gx-5">
             <Blog />
             <div className="col-lg-6">
@@ -631,6 +514,112 @@ const AzureIoT = () => {
                     </ExternalLink>
                   </li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="solution-faq faq">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9 col-md-9">
+            <header className="section-header">
+            <h2>
+            Have you got questions about Microsoft IoT?   
+            </h2>
+            <p>Click through to our FAQ for the best answers!</p>
+          </header>
+            </div>
+          </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >
+                      What is Azure IoT and how does it work?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Azure IoT refers to enterprise solutions to enhance business capabilities and extend service levels. Microsoft Azure IoT solution enables enterprises to connect their physical objects over the cloud network including devices, sensors, operational equipment, etc.</p>
+                      <p>The cloud-connected infrastructure can be leveraged to streamline information wrapped with AI to track, control, and manage devices remotely. Enterprises can also retrieve required information in real-time to serve various business purposes, for instance, to support informed decision-making, preventing system or equipment downtime. To know more, connect to our experts who can let you know how Azure IoT solutions can help your business to improve, scale, and grow.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                    How does Azure IoT Central integrate with Dynamics 365 connected Field Service?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Azure IoT Central is configured with the opportunity to seamlessly integrate with Dynamics 365 Field Service. It required no advanced cloud development skills to integrate and deploy as it allows developers to perform direct integration of Dynamics 365 and Azure IoT. When integrated with Azure IoT, it can be configured to send IoT alerts to the field service executives in real-time to assist them to serve better.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >
+                      What is Azure IoT hub?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Azure IoT Hub is used to create and connect secure connections between your equipment and IoT applications. You can remotely connect your devices with your cloud hosted IoT apps. Since it acts as a messaging hub that enables bi-directional communication between your connected devices and IoT apps to support smoother operational flow, proactively manage your devices to prevent downtime, provide timely maintenance, and more.</p>
+                      <p>To know how Azure <NavLink to="/products/dynamics-365-internet-of-things/">IoT</NavLink> could help your business to simply, monitor, and scale, connect with us today, we can help to implement as per your specific or customized needs.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                     How much does IoT hub cost?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Businesses can avail of either Basic Tier IoT Hub or Standard Tier IoT Hub as per your business requirement. Costing for your IoT Hub could vary from business to business, to know your exact cost, connect with us, we can offer you the cost-effective Azure IoT solution pricing for your business.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

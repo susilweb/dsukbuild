@@ -7,9 +7,9 @@ const SalesInsightsanOverview = () => {
     <>
       <Helmet>
       <title>Dynamics 365 Sales Insights: An Overview | Dynamics Square</title>
-<meta name="description" content="Dynamics 365 Sales Insights is a prominent add-on in Microsoft Dynamics 365. It enables sales teams to build better relationships with customers, cut down on"/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/dynamics-365-sales-insights-an-overview/" />
-<meta property="og:locale" content="en_GB" />
+<meta name="description" content="Dynamics 365 Sales Insights is a prominent add-on in Microsoft Dynamics 365. It enables sales teams to build better relationships with customers."/>
+<link rel="canonical" href="https://www.dynamicssquare.com/dynamics-365-sales-insights-an-overview/" />
+<meta property="og:locale" content="en_US" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -56,9 +56,7 @@ const SalesInsightsanOverview = () => {
               </p>
 
               <p>
-                It perfectly compliments Dynamics 365 for Sales and the Dynamics
-                365 Customer Engagement plan to augment business productivity
-                with key functionalities, including:
+                It perfectly compliments <NavLink to="/products/microsoft-dynamics-365-sales/">Dynamics 365 for Sales</NavLink> and the <NavLink to="/products/dynamics-365-customer-engagement/">Dynamics 365 Customer Engagement</NavLink> plan to augment business productivity with key functionalities, including:
               </p>
               <ul>
                 <li>
@@ -74,7 +72,7 @@ const SalesInsightsanOverview = () => {
                 <li>
                   Monitoring and nurturing customer relationships with a
                   relationship health score obtained by combining data from
-                  Dynamics 365, Office 365 and LinkedIn
+                  <NavLink to="/products/microsoft-dynamics-365/"> Dynamics 365</NavLink>, Office 365 and LinkedIn
                 </li>
                 <li>
                   Prioritising leads that are likely to convert and flag at-risk
@@ -216,7 +214,7 @@ const SalesInsightsanOverview = () => {
               <div className="call_to_action-left">
                 <h3>Take the next steps for your business</h3>
                 <p>
-                  Talk to our Dynamics 365 Expert to get the best price quotes.
+                  Talk to our <NavLink to="/contact-us/">Dynamics 365 Expert</NavLink> to get the best price quotes.
                 </p>
                 <div className="m-o-t m-o-t-inde">
                   <NavLink

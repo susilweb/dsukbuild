@@ -1,17 +1,17 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import "react-responsive-modal/styles.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Form from "./Form";
 
 const HealthCheck = () => {
   return (
     <>
       <Helmet>
-      <title>Get Free Dynamics 365 System Health Check | Dynamics Square</title>
-<meta name="description" content="Is your Dynamics CRM or ERP system running slow? Are you unhappy with your current system performance? Try our free Dynamics 365 System Health Check!"/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/free-dynamics-365-system-health-check/" />
-<meta property="og:locale" content="en_GB" />
+      <title>Dynamics 365 System Health Check - AT NO COST</title>
+<meta name="description" content="Our Microsoft Dynamics 365 System Health Check will help you to identify your current system performance and upgrading needs. Avail it at no cost."/>
+<link rel="canonical" href="https://www.dynamicssquare.com/free-dynamics-365-system-health-check/" />
+<meta property="og:locale" content="en_US" />
       </Helmet>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -22,8 +22,7 @@ const HealthCheck = () => {
                 System Health Check
               </h1>
               <p>
-                Identify your current system performance and upgrading needs
-                with our Dynamics 365 System Health Check.
+              Know your system requirements and upgrade your system performance through a free System Health Check.
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -48,28 +47,17 @@ const HealthCheck = () => {
       </section>
       <section className="new-bg">
         <div className="container">
-          <header className="section-header">
+        <div className="row justify-content-center">
+            <div className="col-lg-8 col-md-8">
+            <header className="section-header">
             <h2>
-              Why Microsoft Dynamics ERP and CRM Free Health Check is required?
-            </h2>
+            Strategic Need of  Dynamics ERP/CRM Health Check</h2>
             <p>
-              Often businesses face system failure even after getting successful
-              ERP or CRM implementation. They avail of several advanced
-              functionalities, but nothing works out since the root part is
-              ignored.We provide Dynamics 365 free health check that gives
-              insights for your current system upgrading needs as well as
-              futuristic needs to drive efficiency for the long run. Our experts
-              can help you identify your system lacks and actual upgrading needs
-              to bridge this gap.Now, let's understand, what sort of processes
-              are involved in our System Health Check.
-            </p>
-            <p>
-              <b>
-                Get to the core of your Dynamics 365 issues with our free Health
-                Check
-              </b>
-            </p>
+            Availing of advanced <NavLink to="/products/erp/">ERP/CRM implementation</NavLink> or functional configuration may not always help enterprises to support their ongoing workflow. Defining your customized business processes and current operational flow, you require your domain-specific solution to strategically operate, drive, and grow high.<p>At Dynamics Square, we provide free system health check wherein we understand your actual process flow and reveal not just your current system upgrading needs even supporting your continuously changing operational flow. Here is what we serve in terms of System Health Check.</p></p>
           </header>
+            </div>
+          </div>
+
         </div>
       </section>
 
@@ -89,33 +77,20 @@ const HealthCheck = () => {
               </div>
               <div className="custom002">
                 <p>
-                  In process performance, we review your system to figure out
-                  what sort of things are working as a proven milestone for your
-                  business and what are the lacking areas that are disabling
-                  your system to drive efficiency. In this process, we involve
-                  all your business areas and map them with existing processes.
+                Initially, we start with the process performance, wherein we identify all those things whether they are working fine for your business or downgrading your working efficiency. In this step, we consider all your specific business practices and ensure mapping the same with your existing processes. We involve across your departments to come with the pain areas that you need to overcome. Once this system review gets done, we reveal the core requirement to start working on. 
                 </p>
                 <p>
-                  We conclude all the departments to reveal the pain areas that
-                  need to be sorted out. After performing this review, we get
-                  insight into your bottom line and come up with where to begin.
-                </p>
-                <p>
-                  <b>For instance, it may reveal:</b>
+                  <b>We come up with the following:</b>
                 </p>
                 <ul>
-                  <li>Whether there is a lack of proper user training?</li>
-                  <li>How flexible your users are in new system adaption?</li>
+                  <li>Is your workspace lacking sufficient end-user training?</li>
+                  <li>Do your users are flexible to adapt to the new system?</li>
                   <li>
-                    Is your workforce aware of their processes and able to
-                    navigate the system as per their need?
+                  Whether your workforce is aware of their processes and able to navigate through the lying need?
                   </li>
                 </ul>
                 <p>
-                  At Dynamics Square, our experts can diagnose the gaps and can
-                  provide you with an actual review of your system. Moreover, we
-                  suggest how your gaps can be fulfilled and supported with the
-                  right solution and support.
+                System Audit experts at Dynamics Square can help to identify your potential gaps and how these gaps can be improved with the right system configuration or support.
                 </p>
               </div>
             </div>
@@ -154,19 +129,10 @@ const HealthCheck = () => {
               </div>
               <div className="custom002">
                 <p>
-                  There could be many features included in your existing
-                  Dynamics 365 system that you are not using anymore. As we know
-                  Microsoft comes with regular releases and updates in their
-                  products. But do you know these updates comprise improvements,
-                  customizations, and even sometimes bring full addition to
-                  their product?
+                Often, we avail of several advanced features, but we do not use all of them or there could be a possibility that your system is lacking appropriate features. Moreover, we cannot deny regular releases that are made by Microsoft that include improvements or enhancements. Sometimes they come up with full addition of any product.
                 </p>
                 <p>
-                  Dynamics Square's Team stays updated with these releases in a
-                  timely manner and leverage the same updated knowledge while
-                  performing feature review in your system. We identify the
-                  unused features lying in your system and explore the
-                  productive ones to be implemented.
+                Dynamics Square's Team stays updated with these releases in a timely manner and leverage the same updated knowledge while performing feature review in your system. We identify the unused features lying in your system and explore the productive ones to be implemented.
                 </p>
               </div>
             </div>
@@ -211,47 +177,35 @@ const HealthCheck = () => {
               <div className="commen-rit-info">
                 <h3>Code Auditing</h3>
                 <p>
-                  A good code enables your system to run smoother and in an
-                  uninterrupted way. On the other way, a bad code can ruin your
-                  system gradually or when you plan to alter your system. If you
-                  allow multiple organizations, developers, or contractors to
-                  work on your system, it could be a result of bad code.
+                A good code always plays a vital role in terms of the smoother and seamless flow of your system. When your system comprises bad coding, you may not realize it, but sooner or later, it will impact your overall system performance. Bad coding could be a result of permitting different developers, organizations, or contractors to configure your system.
                 </p>
                 <p>
-                  <b>When we perform code auditing, we ensure the following:</b>
+                  <b>Things we perform in terms of Code Auditing when you schedule free health check:</b>
                 </p>
                 <ul>
                   <li>
-                    We review your code applying standard practices including
-                    deployment practices, source control, and more.
+                  We review your system by applying our standard deployment, source control, and more.
                   </li>
                   <li>
-                    We recommend the necessary code update based on the changes
-                    applied to the SDK.
+                  We come up and suggest the necessary code update that is based on the changes made to the SDK.
                   </li>
                   <li>
-                    Suggest the best possible ways wherein your code can be
-                    streamlined to run smoother.
+                  Diagnose and suggest the best potential ways whereby your code can be enabled to run smoother.
                   </li>
                   <li>
-                    Identify and suggest if a complex code can be replaced with
-                    the simplified one.
+                  We also suggest if any sort of complex code is lying in your system that can be replaced with the simplest one to impact your system speed and performance.
                   </li>
                   <li>
-                    Suggest shifting long or time-consuming processes to the
-                    azure (if possible)
+                  We suggest shifting time-consuming processes to your Azure account (if possible). 
                   </li>
                   <li>
-                    Diagnose your system for better server specifications for
-                    your on-premises system.
+                  Suggest reframing JavaScript code instead of using soap-based web services. 
                   </li>
                   <li>
-                    Reframe JavaScript code to use Web API instead of using
-                    soap-based web services.
+                  We check your on-premises system for better server specifications. 
                   </li>
                   <li>
-                    Recommendation for removing the code which is not supported
-                    by Microsoft's products.
+                  If any code is not supported by Microsoft's products, we recommend removing the same.
                   </li>
                 </ul>
               </div>
@@ -263,20 +217,10 @@ const HealthCheck = () => {
               <div className="commen-rit-info">
                 <h3>Upgrading Analysis</h3>
                 <p>
-                  If you are not using an updated system and driving your
-                  business practices using old versions or older system
-                  configurations, your system may not run faster or even may
-                  slow down your processes.
+                If your system is lacking the necessary updates and you are driving your business using older versions, your system may not perform faster. We analyze your system to know whether the existing implementation, features, or configuration is still capable of driving ongoing processes as well as support your dynamic process change.
                 </p>
                 <p>
-                  We check whether your existing dynamics configuration, system
-                  integration, and data-driven practices are matching to your
-                  current processes and business needs. We check and determine
-                  the necessary upgrades and what sort of things are required to
-                  ensure your system is to the latest version of Dynamics. We
-                  can even let you aware whether you still need on-premises or
-                  need on-cloud configuration along with tools required to
-                  support your system upgrade.
+                We analyze and suggest you the necessary upgrades to make your system up to date. Considering your customized process flow, we can suggest whether your system still can survive with the on-premises, or you need to upgrade it on-cloud facilitation along with other integration recommendations supporting your end-to-end process flow.
                 </p>
               </div>
             </div>
@@ -303,17 +247,10 @@ const HealthCheck = () => {
               <div className="commen-rit-info">
                 <h3>Data Health Check</h3>
                 <p>
-                  Do you think that your data is reliable and is free of
-                  redundancies? If not, will occur issues or unreliability while
-                  creating analytics and reports or sharing with people in your
-                  organization.
+                To prepare quality reports and analytics, your data should be free from complexities, repetitions, or other random errors, and more. If any sort of issue is lying in your data, you may not be able to create reliable reports & analytics and can lack with right decision making.
                 </p>
                 <p>
-                  At Dynamics Square, we can suggest how to remove redundant
-                  data or drive data cleaning to ensure reliable and key data to
-                  access, process, and share that serve a purpose across your
-                  enterprise. We can also help in monitoring your system in a
-                  better way.
+                System Health Check experts at Dynamics Square can suggest the possible ways to remove unreliable data and to enable your system to create, process and share the quality reports & key analytics within your organization that serve the purpose and enable everyone in your enterprise to accurately create, analyze, and make informed decisions in real-time.
                 </p>
                 <div className="cltt-actt">
                   <Link to="/products/field-service/">Get Started</Link>
@@ -327,13 +264,7 @@ const HealthCheck = () => {
               <div className="commen-rit-info">
                 <h3>Analyzing Licensing Needs</h3>
                 <p>
-                  Depending on the different set of practices you involve, your
-                  licensing need could be different even from your competitor.
-                  You could have a different level of data sets that you need to
-                  roll out. Our experts help to identify the most cost-effective
-                  licensing plan for you. We also evaluate your current and
-                  futuristic data storage needs and suggest you the best
-                  possible and cost-effective data storage plans.
+                Your licensing need may vary depending on your customized processes, operational consistency, data sets you involve, and more. There could be a possibility that you need a different functional facilitation than your competitors are leveraging. To reveal your licensing need, our team can evaluate based on your number of processes, resources involved in every practice area, market to target, and more. When you avail of our <NavLink to="/products/microsoft-dynamics-365/">Dynamics 365</NavLink> free health check for your system, we diagnose and let you know your ongoing as well as futuristic needs and come up with the actual yet cost-effective licensing need for your enterprise.
                 </p>
               </div>
             </div>

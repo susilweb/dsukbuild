@@ -19,7 +19,7 @@ const EmailGpToBc = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/email-gp-to-bc/"
+          href="https://www.dynamicssquare.com/email-gp-to-bc/"
         />
         <meta property="og:locale" content="en_GB" />
       </Helmet>

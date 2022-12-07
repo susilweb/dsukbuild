@@ -13,10 +13,10 @@ const NonProfits = () => {
   return (
     <>
       <Helmet>
-      <title>Dynamics 365 for Nonprofits | Dynamics 365 for Charities</title>
-<meta name="description" content="Bring transparency and drive efficiency in your Nonprofit organization with Microsoft Dynamics 365 for Nonprofits. Schedule a free demo today."/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/industries/non-profits/" />
-<meta property="og:locale" content="en_GB" />
+      <title>Dynamics 365 for Nonprofits Accelerator | Dynamics Square</title>
+<meta name="description" content="Boost Your Nonprofit Operational Flow and Strategically Manage Your Donors and Volunteers with Microsoft Dynamics 365 for Nonprofits accelerator."/>
+<link rel="canonical" href="https://www.dynamicssquare.com/industries/non-profits/" />
+<meta property="og:locale" content="en_US" />
       </Helmet>
 
       <ModalVideo
@@ -37,8 +37,7 @@ const NonProfits = () => {
                   For NonProfit
                 </h1>
                 <p>
-                  Bring Transparency And Drive Efficiency In Your Non-Profit
-                  Organization With Microsoft Dynamics 365 For Charities.
+                Boost Your Nonprofit Operational Flow And Strategically Manage Your Donors And Volunteers With Microsoft Dynamics 365 For Nonprofits.
                 </p>
                 <div className="text-center text-lg-start">
                   <NavLink
@@ -61,27 +60,22 @@ const NonProfits = () => {
         </section>
         <section>
           <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9 col-md-9">
             <header className="section-header">
               <h2>
-                Grow Your Nonprofit Business <br />
-                with Dynamics 365
+              Drive Seamless Nonprofit Operations with Microsoft Dynamics 365
               </h2>
               <p>
                 <b>
-                  Engage & drive your donors and volunteers seamlessly by
-                  implementing Microsoft Dynamics 365 for Nonprofits embedded
-                  with AI-driven insights and real-time data capabilities.
-                </b>
-                <br /> <br />
-                With Dynamics 365 Nonprofit Accelerator, non-profit
-                organizations can effectively manage their donors, volunteers,
-                vendors, and more. Leveraging this all-in-one platform,
-                charity-based organizations can overcome challenges and manage
-                their end-to-end non-profit practices from sales, customer
-                service, social events & engagement, project service automation
-                to field service, awards management, impact tracking, and more.
+                Engage and manage your donors and volunteers to drive an efficient and sustainable approach. Maximize your operational excellence and effortlessly fulfill your nonprofit goals with Dynamics 365 Nonprofit Accelerator.
+                </b></p>
+                <br /> 
+                <p>Seamlessly drive your customers, vendors, donors, volunteers, and workforce with Dynamics 365 for Nonprofits. With this all-in-one integrated solution, nonprofit units can manage their entire organizational practices and can focus more on their core non-profit activities, events, or engagement programs. With automation, they can automate their projects, field service, and more.
               </p>
             </header>
+            </div>
+            </div>
           </div>
         </section>
         <section className="Solution-business-why custom-pd-1">
@@ -89,16 +83,10 @@ const NonProfits = () => {
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
                 <h2>
-                  Why Implement
-                  <br />
-                  Dynamics 365 <br />
-                  for Nonprofits
+                Why Implement Dynamics 365 for Nonprofits
                 </h2>
                 <p>
-                  Since Non-profit organizations comprise a multitude of
-                  practices being managed as an hourly need. Microsoft Dynamics
-                  365 for Charities or non-profit units helps to simplify their
-                  organizational practices to ensure a smoother flow.
+                Considering your entire Non-profit practices and desired goals, <NavLink to="/products/microsoft-dynamics-365/">Dynamics 365</NavLink> can be implemented and configured to support your day-to-day operational processes. To drive omnichannel efficiency and carry out your non-profit aims effectively, Dynamics 365 Not for profit solution can be configured accordingly.
                 </p>
               </div>
               <div className="col-lg-6">
@@ -111,12 +99,7 @@ const NonProfits = () => {
                     </div>
                     <div className="cintent-right">
                       <p>
-                        Manage your donors, customers, and vendors to impact
-                        your entire non-profit ecosystem. Microsoft Dynamics 365
-                        for Charities helps organizations to automate and
-                        streamline their organizational flow by enabling
-                        personal interaction between people and enabling
-                        real-time eyes into each process.
+                      Maximize your resource utilization, enable real-time data efficiency into every process optimization, allow process automation, streamline financial flow and analytics, and make informed decisions. To experience in-depth or visual reporting & analytics experience, integrate your Dynamics 365 account with <NavLink to="/products/microsoft-power-bi/">Power BI</NavLink>.
                       </p>
                     </div>
                   </div>
@@ -129,9 +112,7 @@ const NonProfits = () => {
                     </div>
                     <div className="cintent-right">
                       <p>
-                        Modernize your finance & operations, build & sustain a
-                        relationship with people, manage social activities, and
-                        enable data-driven decisions to bring greater impact.
+                      Strengthen your fundraising campaigns, build sustainable customer relationships, automate your event & social activities management, and bring a smoother and uninterrupted flow across your non-profit operations.
                       </p>
                     </div>
                   </div>
@@ -144,10 +125,7 @@ const NonProfits = () => {
                     </div>
                     <div className="cintent-right">
                       <p>
-                        Ensure your fund-raising campaign success, drive
-                        real-time communication, and sustain a relationship with
-                        your donors, vendors, and volunteers with a long-lasting
-                        impact to attain mission success.
+                      Connect and manage your donors, customers, vendors, and volunteers all through a single yet highly integrated Dynamics 365 Nonprofit accelerator. Make informed decisions with AI-based insights.
                       </p>
                     </div>
                   </div>
@@ -168,13 +146,11 @@ const NonProfits = () => {
               <div className="col-lg-7 align-self-center">
                 <div className="call_to_action-left">
                   <h3>
-                    Talk to <br />
-                    Our Expert Team
+                   Talk to Our Dynamics 365 Experts
                   </h3>
                   <p>
-                    Let's talk and come up with a specific solution for your
-                    non-profit organisation to drive innovation and efficiency.
-                    <br />
+                  Connect and talk to our experts. Evaluating your non-profit domain needs, they can suggest the
+optimal solution for your non-profit organization.
                   </p>
                   <div className="m-o-t m-o-t-inde">
                     <NavLink
@@ -190,80 +166,73 @@ const NonProfits = () => {
             </div>
           </div>
         </section>
-        <section className="industry_service_bottomss">
+        <section className="industry_service_bottoms">
           <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-8 col-md-8">
-              <header className="section-header">
+          <div className="row justify-content-center">
+            <div className="col-lg-9 col-md-9">
+            <header className="section-header">
               <h2>
-                Microsoft Dynamics 365 For Nonprofits Features
+              Microsoft Dynamics 365 For Nonprofits Features
               </h2>
             </header>
-              </div>
             </div>
-            <div className="row position-relative g-5">
+            </div>
+            <br />
+            <div className="row position-relative">
               <div className="col-lg-6">
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/assets/img/icons-nonprofits_Constituent-Management-1.svg"
-                      alt="icons-nonprofits_Constituent-Management-1"
+                      src="/assets/img/Business-Central-Implementation-icons.svg"
+                      alt="Business-Central-Implementation-icons"
                     />
                   </div>
                   <div className="card_new_content">
                     <h3>Constituent Management</h3>
                     <p>
-                      Seamlessly manage profiles of people involved in your
-                      non-profit campaign comprising biographical details,
-                      communication methods, relationships, and more.
+                    Manage your people and their profiles effortlessly including their biographical information, communication ways, relationships, etc.
                     </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/assets/img/icons-nonprofits_Awards-Management.svg"
-                      alt="icons-nonprofits_Awards-Management"
+                      src="/assets/img/Business Central Upgrade-icons.svg"
+                      alt="Business Central Upgrade-icons"
                     />
                   </div>
                   <div className="card_new_content">
                     <h3>Donation & Awards Management</h3>
                     <p>
-                      Have a single and real-time view of your donations and
-                      awards data and keep tracking the same with Dynamics 365
-                      for non-profits.
+                    Leverage a centralized view of your donations, awards, and more. Stay tuned and keep track of your fund-raising data through Microsoft's Dynamics 365 solution for the non-profit industry. 
                     </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/assets/img/Fundraising.svg"
-                      alt="Fundraising"
+                      src="/assets/img/Business-Central-Support-icons.svg"
+                      alt="Business-Central-Support-icons"
                     />
                   </div>
                   <div className="card_new_content">
                     <h3>Fundraising &amp; Membership Management</h3>
                     <p>
-                      With a nonprofit accelerator, track your high-end
-                      fundraising. Create membership levels and manage &amp;
-                      track the membership in real-time.
+                    Track and manage your fund-raising activities with Microsoft's non-profit solution. Create and manage membership levels seamlessly with a 360-degree view. 
                     </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/assets/img/icons-nonprofits_program-delivery-1.svg"
-                      alt="Program Delivery"
+                      src="/assets/img/Business-Central-Support-icons.svg"
+                      alt="Business-Central-Support-icons"
                     />
                   </div>
                   <div className="card_new_content">
                     <h3>Program Delivery</h3>
                     <p>
-                      Deliver dedication and efficiency to your mission, track
-                      &amp; measure results, and communicate the impact to the
-                      resulting dashboard.
+                    Organize, manage, and control your mission data. Drive mission-critical practices, measure results, demonstrate the stats on the resulting dashboard. 
                     </p>
                   </div>
                 </div>
@@ -272,64 +241,56 @@ const NonProfits = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/assets/img/IATI-Processes.svg"
-                      alt="IATI-Processes"
+                      src="/assets/img/Business-Central-Implementation-icons.svg"
+                      alt="Business-Central-Implementation-icons"
                     />
                   </div>
                   <div className="card_new_content">
                     <h3>IATI Processes </h3>
                     <p>
-                      Manage your global campaigns and bring transparency in
-                      your fundraising &amp; programmatic activities along with
-                      aid money insights.
+                    Uncover transparency and integrity while driving your global fundraising campaigns or managing social events along with aid money insights.
                     </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/assets/img/icons-nonprofits_CRM-integrator-1.svg"
-                      alt="Finance & CRM Data Integrator"
+                      src="/assets/img/Business Central Upgrade-icons.svg"
+                      alt="Business Central Upgrade-icons"
                     />
                   </div>
                   <div className="card_new_content">
                     <h3>Finance & CRM Data Integrator</h3>
                     <p>
-                      Integrate, connect, and drive your non-profit accelerator
-                      constituents, awards, donations, programs, finance, and
-                      more.
+                    To impact and drive a smoother operational flow, integrate your non-profit constituents with awards, donations, social events, finances, and more.
                     </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/assets/img/Assessment-Management.svg"
-                      alt="Assessment-Management"
+                      src="/assets/img/Business-Central-Support-icons.svg"
+                      alt="Business-Central-Support-icons"
                     />
                   </div>
                   <div className="card_new_content">
                     <h3>Case & Assessment Management</h3>
                     <p>
-                      Seamlessly and effortlessly track clients and cases
-                      related to a specific program to accomplish your goals
-                      involved in your mission.
+                    Track & manage clients, cases, and assessments for a specific project, event, or program to support process acceleration and drive mission success.
                     </p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/assets/img/Project-Management-Program-Design.svg"
-                      alt="Project-Management-Program-Design"
+                      src="/assets/img/Business-Central-Support-icons.svg"
+                      alt="Business-Central-Support-icons"
                     />
                   </div>
                   <div className="card_new_content">
                     <h3>Project Management & Program Design</h3>
                     <p>
-                      Track your project activities and progress to assure
-                      timely delivery of your programs. Impact objectives,
-                      budgets, and results.
+                    Monitor and control your social events, project activities, current progress status, and more to drive mission objectives, manage budgets, and attain results.
                     </p>
                   </div>
                 </div>
@@ -381,13 +342,10 @@ const NonProfits = () => {
               <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
                   <h2>
-                    How Microsoft Dynamics 365 for Charities can Boost Your
-                    Non-profit Flow
+                  How Microsoft Dynamics 365 for Charities can Boost Your Non-profit Flow?
                   </h2>
                   <p>
-                    Willing to know how Microsoft Dynamics 365 can help you
-                    evolve your non-profit organizational flow? Schedule your
-                    demo today.
+                  Willing to know how Microsoft Dynamics 365 can help you evolve your non-profit organizational flow? Schedule your demo today.
                   </p>
                   <div className="text-lg-start mm-t">
                     <NavLink
@@ -395,7 +353,7 @@ const NonProfits = () => {
                       to="#exampleModal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Request a Demo</span>
                     </NavLink>
                   </div>
                 </div>
@@ -406,19 +364,13 @@ const NonProfits = () => {
         <section className="call-to-action-center hero-4">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-12">
+              <div className="col-lg-9">
                 <div className="call-to-action-content">
                   <h3>
-                    How To Bring A Seamless Flow <br />
-                    to your Non-profit organization?
+                  How To Bring A Seamless Flow to your Non-profit organization?  
                   </h3>
                   <p>
-                    We can understand your specific business world and can build
-                    a solution addressing your custom business needs and
-                    considering your enterprise values. Just talk to our experts
-                    and let's come up with a specific solution for your business
-                    to impact your overall organizational practices and maximize
-                    your outcomes.
+                  We can understand your specific business world and can build a solution addressing your custom business needs and considering your enterprise values. Just talk to our experts and let's come up with a specific solution for your business to impact your overall organizational practices and maximize your outcomes.
                   </p>
                   <div className="text-center m-o-t m-o-t-hv">
                     <NavLink
@@ -437,7 +389,7 @@ const NonProfits = () => {
         <section className="industry-more-sec">
           <div className="container">
             <header className="section-header">
-              <h2>EXPLORE Other Industries</h2>
+              <h2>Explore Other Industries</h2>
             </header>
             <div className="row mobile-margin-01">
               <div className="col-lg-12">

@@ -11,66 +11,24 @@ const CustomerService = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          Microsoft Dynamics 365 Customer Service Partner | Dynamics Square
+          Microsoft Dynamics 365 Customer Service Partner - Dynamics Square
         </title>
         <meta
           name="description"
-          content="Dynamics 365 Customer Service: Get hassle free solution by Microsoft Partner. This CRM solution can be customized suited to specific business needs and domain contexts. Contact now today!"
+          content="Get any help of Microsoft Dynamics 365 Customer Service - US Leading Microsoft Partner Dynamics Square ready to help you 24X7 hours!"
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-customer-service/"
+          href="https://www.dynamicssquare.com/products/microsoft-dynamics-365-customer-service/"
         />
-        <meta property="og:locale" content="en_GB" />
+        <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Microsoft Dynamics 365 Customer Service Partner | Dynamics Square"
-        />
-        <meta
-          property="og:description"
-          content="Dynamics 365 Customer Service: Get hassle free solution by Microsoft Partner. This CRM solution can be customized suited to specific business needs and domain contexts. Contact now today!"
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-customer-service/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:secure_url" content="" />
-        <meta property="og:image:width" content="1024" />
-        <meta property="og:image:height" content="586" />
-        <meta property="og:image:alt" content="customer-service-banner" />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Microsoft Dynamics 365 Customer Service Partner | Dynamics Square"
-        />
-        <meta
-          name="twitter:description"
-          content="Dynamics 365 Customer Service: Get hassle free solution by Microsoft Partner. This CRM solution can be customized suited to specific business needs and domain contexts. Contact now today!"
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="4 minutes" />
       </Helmet>
       <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="yCJ7C1KS-Jw"
+        videoId="wVFZVajK2YI"
         onClose={() => setOpen(false)}
       />
       <section className="Solution-banner hero-1 hero">
@@ -78,13 +36,12 @@ const CustomerService = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
-                Dynamics 365
+                Microsoft Dynamics 365
                 <br />
                 Customer Service
               </h1>
               <p>
-                Transform Your Customer Experience, Empower Your Workforce With
-                Dynamics 365 Customer Service.
+              Uplift Your Customer Experience And Strengthen Your Workforce Capability With Dynamics 365 Customer Service.
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -111,26 +68,19 @@ const CustomerService = () => {
       <section>
         <div className="container">
         <div className="row justify-content-center">
-            <div class="col-lg-9">
-            <header className="section-header">
+          <div className="col-lg-9 col-md-9">
+          <header className="section-header">
             <h2>
               What is dynamics 365
               <br />
               Customer Service?
             </h2>
             <p>
-              Dynamics 365 customer service is designed to serve customizable
-              and highly flexible solutions to the enterprises seeking to
-              simplify their customer, sales, and marketing experience. This <NavLink to="/products/microsoft-dynamics-crm/">CRM
-              Solution</NavLink> can be customized suited to specific business needs and
-              domain contexts. Businesses can drive omnichannel efficiency by
-              simply integrating their existing apps or systems while
-              implementing Dynamics 365 Customer Service.
+            Optimize services, serve personalized customer service, boost your workforce productivity, and make smarter decisions by implementing Dynamics 365 customer service capabilities. With Microsoft's customer service solution, it can be configured suited to specific customer management needs with the scope of integrating it with your existing apps or system configuration to bring and drive an efficient approach.
             </p>
           </header>
-            </div>
-        </div>
-         
+          </div>
+          </div>
         </div>
       </section>
 
@@ -138,12 +88,9 @@ const CustomerService = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-5  align-self-center">
-              <div className="wy-sultion-left-head">
-                <h2>Dynamics 365 Customer Service Features</h2>
-                <h3>
-                  How Dynamics 365 Customer Service help your team handle
-                  multiple cases?
-                </h3>
+            <div className="wy-sultion-left-head">
+            <h2>Dynamics 365 Customer Service Features</h2>
+              <h3>Manage & Drive Efficient Customer-Driven Approach with Dynamics 365 Customer Service</h3>
               </div>
               {/* <div className="m-o-t m-o-t-b">
                 <NavLink to="#about" className="btn-get-started scrollto">
@@ -157,29 +104,23 @@ const CustomerService = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Simplify <br />
-                        Processes
+                      Streamline <br />
+                      Processes
                       </h3>
                       <div className="overlay">
                         <p>
-                          Simplify and streamline your customer service from
-                          setting up things to the maintenance part to the
-                          administration of customer service solutions to
-                          improve user experiences.
+                        With a Customer Service solution, uncover hidden potential to support and improve your process flow. Start driving simplified and streamlined practices to level up your customer experience.
                         </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Seamless <br />
+                        Improved <br />
                         Visibility
                       </h3>
                       <div className="overlay">
                         <p>
-                          Leveraging the AI-based data insights and recent
-                          customer interactions, quickly diagnose your
-                          customers' requirements and provide them an
-                          omnichannel experience.
+                        Utilize AI insights and data analytics in terms of overall customer behavior including recent interactions, their requested requirements, and more to predict and serve accordingly.
                         </p>
                       </div>
                     </div>
@@ -189,27 +130,20 @@ const CustomerService = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        AI-Data
-                        <br /> Driven
+                        Data <br /> Intelligence
                       </h3>
                       <div className="overlay">
                         <p>
-                          By enabling AI-powered virtual support executives,
-                          reach out to your customers' exact pain point and
-                          resolve the same in real-time and faster.
+                        AI insights can help to dive deeply into your customer requirements and deliver them their specific solution. Leverage AI-powered virtual support, track and resolve your customer issues in real-time.
                         </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
-                      <h3>
-                        Omnichannel
-                        <br /> Experience
+                      <h3>Omnichannel <br /> Efficiency
                       </h3>
                       <div className="overlay">
                         <p>
-                          Enable your system to drive an omnichannel experience
-                          and allow your customers to enjoy the personalized
-                          experience through Customer Service Automation.
+                        With Dynamics 365 Customer Service Capabilities, serve customer-specific solutions when and wherever they are in need impacting and ensuring customer satisfaction for the long run.
                         </p>
                       </div>
                     </div>
@@ -222,7 +156,7 @@ const CustomerService = () => {
       </section>
       <section className="busine_service_bottom">
         <div className="container">
-          <div className="row justify-content-center">
+          <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left">
                 <div className="busine_service_bottom-right">
@@ -238,10 +172,7 @@ const CustomerService = () => {
                         to="#javascript:void(0)"
                         onClick={() => setOpen(true)}
                       >
-                        <img
-                          src="/assets/img/video-Customer Service.png"
-                          alt="Customer-Service"
-                        />
+                        <img src="/assets/img/video-Customer Service.png" />
                         <span className="cente-icns">
                           <img
                             src="/assets/img/play_icons.svg"
@@ -258,9 +189,7 @@ const CustomerService = () => {
               <div className="side-heading">
                 <h2>Dynamics 365 Customer Service</h2>
                 <p>
-                  Dynamics 365 Customer Service enables you to bring
-                  digitalization in your business and empowers you to lead your
-                  processes your way.
+                Enable personalized customer service with a 360-degree customer view.
                 </p>
               </div>
               <div className="busine_service_bottom-right">
@@ -273,11 +202,10 @@ const CustomerService = () => {
                 <div className="card_new_content">
                   <h3>Implementation</h3>
                   <p>
-                    Improve your customer experience and maximize your sales by
-                    implementing Dynamics 365 Customer Service Automation.
+                  Modernize your customer service and boost your customer experience by implementing Microsoft's Dynamics 365 Customer Service Capabilities.
                   </p>
                   <div className="action-content">
-                    <Link to="/dynamics-365-customer-service-implementation/">
+                    <Link data-bs-toggle="modal" to="#exampleModal">
                       Get Started
                     </Link>
                   </div>
@@ -293,8 +221,7 @@ const CustomerService = () => {
                 <div className="card_new_content">
                   <h3>Upgrade</h3>
                   <p>
-                    Upgrade your system capabilities to drive a smarter customer
-                    experience with CRM <NavLink to="/products/dynamics-365-customer-engagement/">Customer Engagement</NavLink> solutions.
+                  Prepare your system to overcome business complexities and drive challenges through a Customer Service Automation upgrade.
                   </p>
                   <div className="action-content">
                     <Link data-bs-toggle="modal" to="#exampleModal">
@@ -313,9 +240,7 @@ const CustomerService = () => {
                 <div className="card_new_content">
                   <h3>Support</h3>
                   <p>
-                    Improve your customer retention rate with a long-lasting
-                    impact by embracing Dynamics 365 Customer Service
-                    Capabilities.
+                  Boost customer experience, drive customer retention, and ensure a sustainable customer relationship with seamless support services.
                   </p>
                   <div className="action-content">
                     <Link data-bs-toggle="modal" to="#exampleModal">
@@ -328,22 +253,17 @@ const CustomerService = () => {
           </div>
         </div>
       </section>
-      <section id="pricing" className="pricing">
+      {/* <section id="pricing" className="pricing">
         <div className="container">
-        <div className="row justify-content-center">
-            <div class="col-lg-9">
-            <header className="section-header">
-                    <h2>Dynamics 365 Customer Service Pricing</h2>
-                    <p>
-                      Dynamics 365 Customer Service Pricing is simple. Contact us to
-                      learn about cost effective licensing based on bundled Dynamics 365
-                      Customer Service Products for Commercial, Non-Profit or
-                      Educational Use.
-                    </p>
-                  </header>
-            </div>
-        </div>
-         
+          <header className="section-header">
+            <h2>Dynamics 365 Customer Service Pricing</h2>
+            <p>
+              Dynamics 365 Customer Service Pricing is simple. Contact us to
+              learn about cost effective licensing based on bundled Dynamics 365
+              Customer Service Products for Commercial, Non-Profit or
+              Educational Use.
+            </p>
+          </header>
           <div className="row gy-4 p-9">
             <div className="col-lg-6 col-md-6">
               <div className="box box-22">
@@ -437,23 +357,20 @@ const CustomerService = () => {
                 >
                   <span>Get Started Now</span>
                 </Link>
-                {/* <NavLink to="#about" className="btn-get-whit">
-                              <span>See Licensing Guide</span>
-                              </NavLink> */}
+                
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="call-to-action-center hero-4">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Connect Professionals at Dynamics Square</h3>
+                <h3>Leverage Our Experts Consultation at Dynamics Square</h3>
                 <p>
-                  Discuss, reveal, and implement the solution suited to your
-                  exact business needs. Talk to our experts today.
+                To improve, drive, and impact your customer experience, connect with our experts to start leveraging growth potential and drive a scalable approach
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link
@@ -469,198 +386,17 @@ const CustomerService = () => {
           </div>
         </div>
       </section>
-      <section className="solution-faq faq">
-        <div className="container">
-          <header className="section-header">
-            <h2>
-              Have you got
-              <br />
-              questions about Microsoft Dynamics Customer?
-            </h2>
-            <p>Click through to our FAQ for the best answers!</p>
-          </header>
-          <div className="row justify-content-center mar-top-7">
-            <div className="col-lg-8">
-              <div className="accordion accordion-flush" id="faqlist1">
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-1"
-                    >
-                      What is Microsoft Dynamics Customer Service?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-1"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      Microsoft Dynamics Customer Service is designed to
-                      streamline and automate the customer engagement and
-                      support system for enterprises seeking to simplify and
-                      automate their customer data and improve their customer
-                      experience while eliminating repetitive and redundant
-                      tasks. It enables businesses to serve personalized
-                      customer experience while keeping real-time eyes through
-                      an integrated dashboard.
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-2"
-                    >
-                      What is Dynamics 365 Customer Service Insights?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-2"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      Dynamics 365 customer service insights enable enterprises
-                      to access actionable data related to key analytics,
-                      operational data, and other industry-related trends. These
-                      insights help businesses to make faster and smarter
-                      decisions to support growth and profitability. Leveraging
-                      customer service insights, businesses can roll out their
-                      required changes to improve customer satisfaction,
-                      maximize operational efficiency, and more.
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-3"
-                    >
-                      How do I install Dynamics 365 Customer Service?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-3"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      Dynamics 365 Customer Service app is recommended to be
-                      installed manually in your instance and user roles should
-                      be assigned before you allow your users to access it.
-                      <br />
-                      <br />
-                      Following steps are needed while installing Dynamics 365
-                      Customer Service: <br />
-                      <br />
-                      <ul>
-                        <li>
-                          Administrators are needed to sign in Power Platform
-                          administration center.
-                        </li>
-                        <li>
-                          Now, go through the drop-down list of “Resources”, and
-                          select <NavLink to="/products/microsoft-dynamics-365/">Dynamics 365</NavLink> Apps.
-                        </li>
-                        <li>
-                          On this app list page, you will see “customer service
-                          Team member”, now, select install.
-                        </li>
-                        <li>
-                          Once you reach on “Install Customer Service Team
-                          Member” panel, simply select an environment from the
-                          list.
-                        </li>
-                        <li>
-                          Now, select “Terms of Service” to get agreed upon, and
-                          then select install.
-                        </li>
-                        <li>
-                          Now, it’s time to assign user roles in the Customer
-                          Service app.
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-4"
-                    >
-                      What are the key features of Dynamics 365 Customer
-                      Service?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-4"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      Dynamics 365 customer service comes with a number of vital
-                      features to seamlessly and effectively drive your
-                      customers, track customer behavior to serve them a
-                      personalized solution. Here is the list of Dynamics 365
-                      Customer Service key features:
-                      <br />
-                      <br />
-                      <ul>
-                        <li>Tracking customer issues and case management</li>
-                        <li>
-                          Record customer interactions pertained to a particular
-                          case
-                        </li>
-                        <li>Sharing information in the knowledge database.</li>
-                        <li>Creating queues and routing cases</li>
-                        <li>Creating and tracking service levels</li>
-                        <li>Defining service terms using entitlements</li>
-                        <li>
-                          Track and manage performance through reports and
-                          dashboards
-                        </li>
-                        <li>Creating and scheduling services</li>
-                        <li>Taking part in chats</li>
-                        <li>
-                          Managing conversations across the configured channels.
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <section className="blogs-extra">
         <div className="container">
         <div className="row justify-content-center">
-            <div class="col-lg-9">
-            <header className="section-header">
+        <div className="col-lg-8 col-md-8">
+        <header className="section-header">
             <h2>Explore Our Recent Blogs & Resources</h2>
-            <p>
-              Whether you are a start-up, an SMB, or an enterprise, the Dynamics
-              Square blog is the best place to get inspired and learn more about
-              Microsoft Business Applications.
-            </p>
-          </header>              
-            </div>
-        </div>
-         
+            <p>Whether you are a start-up, an SMB, or an enterprise, the Dynamics Square blog is the best place to get inspired and learn more about Microsoft Business Applications.</p>
+          </header>
+          </div>
+          </div>
           <div className="row top-2 gx-5">
             <Blog />
             <div className="col-lg-6">
@@ -710,7 +446,7 @@ const CustomerService = () => {
                       target="_blank"
                       to="/assets/pdf/Dynamics_365_Enterprise_edition_Licensing_Guide-3.pdf"
                     >
-                      <i className="bi bi-file-earmark-pdf"></i> Licensing Guide
+                      <i className="bi bi-file-earmark-pdf"></i>Licensing Guide
                     </NavLink>
                   </li>
                 </ul>
@@ -730,7 +466,134 @@ const CustomerService = () => {
           </div>
         </div>
       </section>
-  
+      <section className="solution-faq faq">
+        <div className="container">
+        <div className="row justify-content-center">
+        <div className="col-lg-8 col-md-8">
+          <header className="section-header">
+            <h2>
+              Have you got questions
+              <br />
+               about Microsoft Dynamics Customer Service?
+            </h2>
+            <p>Click through to our FAQ for the best answers!</p>
+          </header>
+          </div>
+          </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >
+                      What is Microsoft Dynamics Customer Service?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Microsoft Dynamics Customer Service is referred to as the high-end solution that helps to connect, engage, and drive potential customers as well as enables them to resolve their issues in real-time. This CRM Engagement solution by Microsoft helps to automate your customer data and enables you to serve them with omnichannel facilitation. Microsoft's <NavLink to="/products/crm/">CRM solution</NavLink>  is designed to automate customer service processes, streamline customer data, and serve them the timely solution they anticipate.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                     What is Dynamics 365 Customer Service Insights?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    <NavLink to="/products/microsoft-dynamics-365/">Dynamics 365</NavLink> Customer Service insights help businesses to keep their eyes on every customer-related practice in real-time, track & monitor their customer behavior to respond and resolve accordingly. These AI-based customer service insights and other key customer data analytics enable and empower the support executive in your organization to leverage the actionable data to make informed decisions to support and satisfy your customer base and eventually maximize enterprise profitability.
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >
+                      How do I install Dynamics 365 Customer Service?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>To install Dynamics 365 Customer Service, you are required to install it manually using your instance. Also, make sure to assign user roles before your users start using the newly installed and configured system.</p>
+                      <p>Here are the steps to be followed while installing Dynamics 365 Customer Service:</p>
+                      <ul>
+                        <li>Administrators need to sign in <NavLink to="/products/microsoft-power-platform/">Power Platform</NavLink>{" "} Administration Center.</li>
+                        <li>In the next step, drop-down the list of 'Resources' and then, select Dynamics 365 Apps.</li>
+                        <li>Now, select and install 'Customer Service Team Member'.</li>
+                        <li>After choosing the 'Customer Service Team Member' panel, the next step is to select an environment leveraging the list. </li>
+                        <li>Select 'Terms of Service' and then click to 'install'.</li>
+                        <li>Assign required user roles using the Customer Service App. </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                     What are the key features of Dynamics 365 Customer Service?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Dynamics 365 Customer Service is configured and facilitated with several key features to ensure a seamless customer service experience. Here is a glimpse of a few widely used yet vital features of Microsoft's Customers Service solution: </p>
+                      <ul>
+                        <li>Monitoring and controlling customer issues and ensuring case management.</li>
+                        <li>Recording customer interactions addressing the particular or related case.</li> 
+                        <li>Sharing required information using the knowledge database.</li>
+                        <li>Creating queues and routing cases.</li>
+                        <li>Creating and monitoring customer service levels.</li>
+                        <li>Leveraging entitlements, defining applicable service terms.</li>
+                        <li>Tracking performance utilizing reports and dashboards in real-time.</li>
+                        <li>Creating, managing, and scheduling required customer services.</li>
+                        <li>Participating in chats and other conversations.</li>
+                        <li>Monitoring and managing conversations through all the channels configured.</li>
+                        
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

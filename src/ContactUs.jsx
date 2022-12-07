@@ -1,18 +1,22 @@
 import React from "react";
-
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 import { Helmet } from "react-helmet";
+import { NavLink } from "react-router-dom";
 import { ExternalLink } from "react-external-link";
 import Form from "./Form";
-import CustomFooter from "./CustomFooter";
+import FormFooterSubscriber from "./FormFooterSubscriber";
 
 const ContactUs = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Dynamics Square for IT Advice</title>
+        <title>Contact Dynamics Square | Book Free Consultation</title>
         <meta
           name="description"
-          content="The IT experts from Dynamics Square are here to help provide expert cloud IT advice for your business."
+          content="Contact Dynamics Square experts for Dynamics 365 CRM/ERP implementation, Support and Upgrade benefits. Book a free online consultation to know more."
         />
         <meta
           name="robots"
@@ -20,65 +24,20 @@ const ContactUs = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/contact-us/"
+          href="https://www.dynamicssquare.com/contact-us/"
         />
-        <meta property="og:locale" content="en_GB" />
+        <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
-        <meta
-          property="og:title"
-          content="Contact Dynamics Square for IT Advice"
-        />
-        <meta
-          property="og:description"
-          content="The IT experts from Dynamics Square are here to help provide expert cloud IT advice for your business."
-        />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.co.uk/contact-us/"
-        />
-        <meta property="og:site_name" content="Dynamics Square" />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/dynamicssquareuk"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/vickygururani"
-        />
-        <meta property="fb:app_id" content="2007906422699147" />
-        <meta property="og:image" content=" " />
-        <meta
-          property="og:image:secure_url"
-          content="https://www.dynamicssquare.co.uk/assets/img/contact-us-pic.png"
-        />
-        <meta property="og:image:width" content="500" />
-        <meta property="og:image:height" content="500" />
-        <meta property="og:image:alt" content="DS Favicon" />
-        <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Contact Dynamics Square for IT Advice"
-        />
-        <meta
-          name="twitter:description"
-          content="The IT experts from Dynamics Square are here to help provide expert cloud IT advice for your business."
-        />
-        <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:creator" content="@dsquare_uk" />
-        <meta name="twitter:image" content=" " />
-        <meta name="twitter:label1" content="Time to read" />
-        <meta name="twitter:data1" content="Less than a minute" />
       </Helmet>
       <main>
         <section className="Solution-banner hero-1 hero about-banner">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6 align-self-center">
+              <div className="col-lg-6 justify-self-center">
                 <h1>Contact Us</h1>
                 <p>
-                  Our IT experts are here to help provide <br />
-                  Microsoft Business Apps support
+                  Our Microsoft consultants are here to provide dedicated
+                  support, training and consultancy
                 </p>
               </div>
               <div className="col-lg-6 align-self-center">
@@ -93,27 +52,35 @@ const ContactUs = () => {
 
         <section className="cont-into">
           <div className="container">
-            <header className="section-header">
-              <h2>Get in touch with Us</h2>
-              <p>
-                Dynamics Square assists brands in deploying Microsoft Business
-                Applications.
-                <br />
-                Let's chat if you are interested in learning more.
-              </p>
-            </header>
+            <div className="row justify-content-center">
+              <div className="col-lg-8 col-md-8">
+                <header className="section-header">
+                  <h2> Book A Slot!</h2>
+                  <p>
+                    <b>
+                      Have Questions About Microsoft Dynamics Products Or
+                      Services?
+                    </b>
+                    <br />
+                    Schedule a demo with our Microsoft Dynamics experts to
+                    resolve all your queries.
+                  </p>
+                </header>
+              </div>
+            </div>
+
             <div className="row neew-pd0 justify-content-center">
               <div className="col-lg-9">
                 <div className="row">
                   <div className="col-lg-6 col-sm-12">
                     <div className="addre-left">
                       <p>
-                        Kemp House, 152-160 City Road,
+                        10101 Southwest Freeway Houston,
                         <br />
-                        London, EC1V 2NX, U.K
+                        TX 77074
                       </p>
                       <ExternalLink
-                        href="https://g.page/dynamics-square-london?share"
+                        href="https://goo.gl/maps/ij2svGJ1tEPqGPvQ8"
                         target="_blank"
                       >
                         Locate Us on Google
@@ -124,14 +91,14 @@ const ContactUs = () => {
                     <div className="addre-rigt">
                       <div className="cont-info">
                         <i className="bi bi-telephone"></i>{" "}
-                        <span> 0207 193 2502</span>
+                        <span>+1-281-899-0865</span>
                       </div>
                       <div className="cont-info">
                         <i className="bi bi-envelope"></i>{" "}
                         <span>
                           {" "}
-                          <a href="mailto:info@dynamicssquare.co.uk">
-                            info@dynamicssquare.co.uk
+                          <a href="mailto:info@dynamicssquare.com">
+                            info@dynamicssquare.com
                           </a>
                         </span>
                       </div>
@@ -181,20 +148,6 @@ const ContactUs = () => {
                   <li className="nav-item" role="presentation">
                     <button
                       className="nav-link active"
-                      id="home-tab"
-                      data-bs-toggle="tab"
-                      data-bs-target="#home"
-                      type="button"
-                      role="tab"
-                      aria-controls="home"
-                      aria-selected="true"
-                    >
-                      UK
-                    </button>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <button
-                      className="nav-link"
                       id="profile-tab"
                       data-bs-toggle="tab"
                       data-bs-target="#profile"
@@ -207,6 +160,22 @@ const ContactUs = () => {
                       USA
                     </button>
                   </li>
+
+                  <li className="nav-item" role="presentation">
+                    <button
+                      className="nav-link"
+                      id="home-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#home"
+                      type="button"
+                      role="tab"
+                      aria-controls="home"
+                      aria-selected="true"
+                    >
+                      UK
+                    </button>
+                  </li>
+
                   <li className="nav-item" role="presentation">
                     <button
                       className="nav-link"
@@ -281,6 +250,73 @@ const ContactUs = () => {
                 <div className="tab-content" id="myTabContent">
                   <div
                     className="tab-pane fade show active"
+                    id="profile"
+                    role="tabpanel"
+                    aria-labelledby="profile-tab"
+                  >
+                    <div className="row justify-content-center">
+                      <div className="col-lg-4">
+                        <div className="cont-hh">
+                          <h3>California</h3>
+                        </div>
+                        <div className="contact-list">
+                          <div className="icons-left">
+                            <i className="bi bi-geo-alt"></i>
+                          </div>
+                          <div className="content-right">
+                            2372 Morse Ave, Ste. 310 Irvine, CA 92614
+                          </div>
+                        </div>
+                        <div className="contact-list">
+                          <div className="icons-left">
+                            <i className="bi bi-telephone"></i>
+                          </div>
+                          <div className="content-right">+1 213 784 0845</div>
+                        </div>
+                        <div className="contact-list">
+                          <div className="icons-left">
+                            <i className="bi bi-envelope"></i>
+                          </div>
+                          <div className="content-right">
+                            <a href="mailto:info@dynamicssquare.com">
+                              info@dynamicssquare.com
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-lg-4">
+                        <div className="cont-hh">
+                          <h3>Texas</h3>
+                        </div>
+                        <div className="contact-list">
+                          <div className="icons-left">
+                            <i className="bi bi-geo-alt"></i>
+                          </div>
+                          <div className="content-right">
+                            10101 Southwest Freeway Houston, TX 77074
+                          </div>
+                        </div>
+                        <div className="contact-list">
+                          <div className="icons-left">
+                            <i className="bi bi-telephone"></i>
+                          </div>
+                          <div className="content-right">+1 281 899 0865</div>
+                        </div>
+                        <div className="contact-list">
+                          <div className="icons-left">
+                            <i className="bi bi-envelope"></i>
+                          </div>
+                          <div className="content-right">
+                            <a href="mailto:info@dynamicssquare.com">
+                              info@dynamicssquare.com
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="tab-pane fade"
                     id="home"
                     role="tabpanel"
                     aria-labelledby="home-tab"
@@ -347,73 +383,7 @@ const ContactUs = () => {
                       </div>
                     </div>
                   </div>
-                  <div
-                    className="tab-pane fade"
-                    id="profile"
-                    role="tabpanel"
-                    aria-labelledby="profile-tab"
-                  >
-                    <div className="row justify-content-center">
-                      <div className="col-lg-4">
-                        <div className="cont-hh">
-                          <h3>California</h3>
-                        </div>
-                        <div className="contact-list">
-                          <div className="icons-left">
-                            <i className="bi bi-geo-alt"></i>
-                          </div>
-                          <div className="content-right">
-                            2372 Morse Ave, Ste. 310 Irvine, CA 92614
-                          </div>
-                        </div>
-                        <div className="contact-list">
-                          <div className="icons-left">
-                            <i className="bi bi-telephone"></i>
-                          </div>
-                          <div className="content-right">+1 213 784 0845</div>
-                        </div>
-                        <div className="contact-list">
-                          <div className="icons-left">
-                            <i className="bi bi-envelope"></i>
-                          </div>
-                          <div className="content-right">
-                            <a href="mailto:info@dynamicssquare.com">
-                              info@dynamicssquare.com
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-4">
-                        <div className="cont-hh">
-                          <h3>Texas</h3>
-                        </div>
-                        <div className="contact-list">
-                          <div className="icons-left">
-                            <i className="bi bi-geo-alt"></i>
-                          </div>
-                          <div className="content-right">
-                            10101 Southwest Freeway Houston, TX 77074
-                          </div>
-                        </div>
-                        <div className="contact-list">
-                          <div className="icons-left">
-                            <i className="bi bi-telephone"></i>
-                          </div>
-                          <div className="content-right">+1 281 899 0865</div>
-                        </div>
-                        <div className="contact-list">
-                          <div className="icons-left">
-                            <i className="bi bi-envelope"></i>
-                          </div>
-                          <div className="content-right">
-                            <a href="mailto:info@dynamicssquare.com">
-                              info@dynamicssquare.com
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+
                   <div
                     className="tab-pane fade"
                     id="contact-1"
@@ -733,7 +703,181 @@ const ContactUs = () => {
         </section>
       </main>
 
-      <CustomFooter />
+      <footer id="footer" className="footer">
+        <div className="footer-top">
+          <div className="container">
+            <div className="row gy-4">
+              <div className="col-lg-5 col-md-12 footer-info">
+                <NavLink to="/" className="logo d-flex align-items-center">
+                  <img
+                    src="/assets/img/dsuk-footer-logo.svg"
+                    alt="dsuk-footer-logo"
+                  />
+                </NavLink>
+                <p>
+                  Dynamics Square is US leading Microsoft Gold Certified Partner
+                  that caters to the needs of orgnizations who can source
+                  next-gen Microsoft Business Apps from our highly skilled
+                  Microsoft consultants.
+                </p>
+                <img
+                  src="/assets/img/microsoft-partner.svg"
+                  alt="microsoft-partner"
+                  className="footer-img"
+                />
+                <img
+                  src="/assets/img/Tech-For-Socil-Impact.svg"
+                  alt="Tech-For-Socil-Impact"
+                  className="footer-img"
+                />
+              </div>
+              <div className="col-lg-2 col-12 footer-links">
+                <p>BUSINESS APPS</p>
+                <ul>
+                  <li>
+                    <i className="bi bi-chevron-right"></i>
+                    <NavLink to="/products/dynamics-365-business-central/">
+                      Business Central
+                    </NavLink>
+                  </li>
+                  <li>
+                    <i className="bi bi-chevron-right"></i>
+                    <NavLink to="/products/microsoft-dynamics-365-finance/">
+                      Finance
+                    </NavLink>
+                  </li>
+                  <li>
+                    <i className="bi bi-chevron-right"></i>
+                    <NavLink to="/products/dynamics-365-supply-chain-management/">
+                      Supply Chain
+                    </NavLink>
+                  </li>
+                  <li>
+                    <i className="bi bi-chevron-right"></i>
+                    <NavLink to="/products/microsoft-dynamics-365-sales/">
+                      Sales
+                    </NavLink>
+                  </li>
+                  <li>
+                    <i className="bi bi-chevron-right"></i>
+                    <NavLink to="/products/microsoft-power-bi/">
+                      Power BI
+                    </NavLink>
+                  </li>
+                  <li>
+                    <i className="bi bi-chevron-right"></i>
+                    <NavLink to="/products/microsoft-azure/">Azure IoT</NavLink>
+                  </li>
+                  <li>
+                    <i className="bi bi-chevron-right"></i>
+                    <NavLink to="/products/microsoft-dynamics-erp/">
+                      ERP (NAV/GP/AX)
+                    </NavLink>
+                  </li>
+                  <li>
+                    <i className="bi bi-chevron-right"></i>
+                    <NavLink to="/products/microsoft-dynamics-crm/">
+                      CRM
+                    </NavLink>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-lg-2 col-12 footer-links">
+                <p>QUICK LINKS</p>
+                <ul>
+                  <li>
+                    <i className="bi bi-chevron-right"></i>
+                    <NavLink to="/about-us/">About us</NavLink>
+                  </li>
+                  <li>
+                    <i className="bi bi-chevron-right"></i>
+                    <NavLink to="/why-us/">Why Us</NavLink>
+                  </li>
+                  <li>
+                    <i className="bi bi-chevron-right"></i>
+                    <NavLink to="/our-services/">Our Services</NavLink>
+                  </li>
+                  <li>
+                    <i className="bi bi-chevron-right"></i>
+                    <NavLink to="/partner/">Our Partners</NavLink>
+                  </li>
+                  <li>
+                    <i className="bi bi-chevron-right"></i>
+                    <NavLink to="/contact-us/">Contact Us</NavLink>
+                  </li>
+                  <li>
+                    <i className="bi bi-chevron-right"></i>
+                    <ExternalLink href="/blog/" rel="">
+                      Blog
+                    </ExternalLink>
+                  </li>
+                  <li>
+                    <i className="bi bi-chevron-right"></i>
+                    <NavLink to="/privacy-policy/">Privacy policy</NavLink>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-lg-3 col-md-12 text-md-start">
+                <p>CONNECT WITH US</p>
+
+                <div className="social-links mt-3">
+                  <ExternalLink
+                    target="_blank"
+                    rel=""
+                    href="https://twitter.com/dsquare_usa"
+                    className="twitter"
+                  >
+                    <i className="bi bi-twitter"></i>
+                  </ExternalLink>
+                  <ExternalLink
+                    target="_blank"
+                    rel=""
+                    href="https://www.facebook.com/dynamicssquareusa"
+                    className="facebook"
+                  >
+                    <i className="bi bi-facebook"></i>
+                  </ExternalLink>
+                  <ExternalLink
+                    target="_blank"
+                    rel=""
+                    href="https://www.youtube.com/c/DynamicsSquare"
+                    className="instagram"
+                  >
+                    <i className="bi bi-youtube"></i>
+                  </ExternalLink>
+                  <ExternalLink
+                    target="_blank"
+                    rel=""
+                    href="https://www.linkedin.com/showcase/dynamics-square-usa/"
+                    className="linkedin"
+                  >
+                    <i className="bi bi-linkedin"></i>
+                  </ExternalLink>
+                </div>
+                <br />
+                <div className="subbb">
+                  <p>Subscribe Newsletter</p>
+                  <span>
+                    Get Dynamics 365 Product Updates, Free Webinars, Blogs,
+                    Offers And Much More!
+                  </span>
+                  <FormFooterSubscriber />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="copyright">
+            &copy; Copyright &nbsp;<span>2022 Dynamics Square.</span>
+            <div className="footer-extra-link">
+              <NavLink to="/terms-of-use/">Terms of Use </NavLink>
+              <NavLink to="/cookie-policy/">| Cookie </NavLink>
+              {/* <NavLink to="/sitemap.xml">| Sitemap</NavLink> */}
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
   );
 };

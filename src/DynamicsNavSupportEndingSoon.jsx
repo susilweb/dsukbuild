@@ -1,20 +1,20 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import FormCampaign from "./FormCampaign";
+import FormSecond from "./FormSecond";
 const DynamicsNavSupportEndingSoon = () => {
   return (
     <>
       <Helmet>
-        <title>Dynamics NAV Support Ending Soon | Dynamics Square</title>
+        <title>Dynamics NAV Support Ending Soon - Dynamics Square</title>
         <meta
           name="description"
-          content="AI &amp; Machine Learning Capabilities"
+          content="Dynamics NAV Support Ending Soon - Dynamics Square. AI &amp; Machine Learning Capabilities"
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/dynamics-nav-support-ending-soon/"
+          href="https://www.dynamicssquare.com/dynamics-nav-support-ending-soon/"
         />
-        <meta property="og:locale" content="en_GB" />
+        <meta property="og:locale" content="en_US" />
       </Helmet>
 
       <section className="Solution-banner hero-1 hero">
@@ -36,7 +36,7 @@ const DynamicsNavSupportEndingSoon = () => {
                     <div className="left">
                       <i className="bi bi-chevron-double-right"></i>
                     </div>
-                    <div className="right">
+                    <div className="right justify-self-center">
                       <p>AI & Machine Learning Capabilities</p>
                     </div>
                   </div>
@@ -109,7 +109,7 @@ const DynamicsNavSupportEndingSoon = () => {
             <div className="col-lg-5  align-self-center">
               <div className="main-form-wrper main-form-wrper-nav">
                 <h3>Let us make every effort to enter that rest!</h3>
-                <FormCampaign />
+                <FormSecond />
               </div>
             </div>
           </div>
