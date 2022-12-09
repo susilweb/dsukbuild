@@ -26,6 +26,15 @@ const MicrosoftDynamicsPartnerLiverpool = () => {
               <p>
               We are a Microsoft Gold Partner based in Liverpool, UK. We have extensive experience in helping businesses get the most out of Microsoft products and services. We can help you with anything from Microsoft Dynamics product selection and deployment to training and support.
               </p>
+              <div className="text-center text-lg-start">
+                  <NavLink
+                    data-bs-toggle="modal"
+                    to="#exampleModal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Get in Touch</span>
+                  </NavLink>
+                </div>
             </div>
             <div className="col-lg-6 align-self-center">
               <img

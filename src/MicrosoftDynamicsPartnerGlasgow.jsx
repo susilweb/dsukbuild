@@ -26,6 +26,15 @@ const MicrosoftDynamicsPartnerGlasgow = () => {
               <p>
               Get cloud solution for SMBs. We are experienced and trusted Microsoft Gold Partners based in Glasgow, Scotland, UK.
               </p>
+              <div className="text-center text-lg-start">
+                  <NavLink
+                    data-bs-toggle="modal"
+                    to="#exampleModal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Get in Touch</span>
+                  </NavLink>
+                </div>
             </div>
             <div className="col-lg-6 align-self-center">
               <img

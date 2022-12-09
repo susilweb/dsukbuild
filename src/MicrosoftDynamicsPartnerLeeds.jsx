@@ -26,6 +26,15 @@ const MicrosoftDynamicsPartnerLeeds = () => {
               <p>
               We offer a comprehensive range of services and solutions to help your business succeed as experienced Microsoft Gold Partners in Leeds.
               </p>
+              <div className="text-center text-lg-start">
+                  <NavLink
+                    data-bs-toggle="modal"
+                    to="#exampleModal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Get in Touch</span>
+                  </NavLink>
+                </div>
             </div>
             <div className="col-lg-6 align-self-center">
               <img

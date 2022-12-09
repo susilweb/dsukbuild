@@ -34,7 +34,7 @@ const PowerBIImplementation = () => {
               <p>
                 Enable everyone across your organization to make data-driven
                 decisions with self-service analytics curated in real-time all
-                through our Microsoft Power BI Implementation.
+                through our Microsoft Power BI Implementation. To learn more about how Power BI can help transform your business, get in touch with your trusted Microsoft Power BI partner.
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -43,7 +43,7 @@ const PowerBIImplementation = () => {
                     to="#exampleModal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span>
+                    <span>Get Started</span>
                   </NavLink>
                 </div>
               </div>
@@ -60,13 +60,14 @@ const PowerBIImplementation = () => {
 
       <section>
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
               <header className="section-header">
                 <h2>
                   Get Expert Guidance from Microsoft Power BI Implementation
-                  Partner since 2011
+                  Partner
                 </h2>
+                <p>Our main aim is to deliver stress-free and reliable Power BI implementation services, specifically designed as per your business needs. From training to consulting and support, we are there for you in the long run.</p>
               </header>
             </div>
           </div>

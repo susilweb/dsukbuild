@@ -25,6 +25,15 @@ const MicrosoftDynamicsPartnerLiverpool = () => {
               </h1>
               <p>
               Dynamics Square is a certified Microsoft Gold Partner located in Bristol to support nearby businesses with Microsoft Business Solutions. </p>
+              <div className="text-center text-lg-start">
+                  <NavLink
+                    data-bs-toggle="modal"
+                    to="#exampleModal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Get in Touch</span>
+                  </NavLink>
+                </div>
             </div>
             <div className="col-lg-6 align-self-center">
               <img
